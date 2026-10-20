@@ -144,6 +144,10 @@ const diagnosticsButton=document.getElementById('run-auth-diagnostics');
 if(diagnosticsButton)diagnosticsButton.addEventListener('click',renderAuthDiagnostics);
 """.strip()
 
+FORUM_UNASSIGNED_ZONE = r"""
+zones.S012={name:'Unmapped exterior transition / circulation areas',forum:'UNRESOLVED',confidence:'NONE',boundary:'LOW',basis:'These schematic gaps have not yet been tied to a defined physical subarea. The missing fact is the official as-built/site-circulation and parcel/park boundary record showing whether each patch is public pedestrian approach, park/lot circulation, landscaping, or garage-related circulation.',authority:'No legal classification should be inferred from adjacent colors until the physical function and access of these patches are established.',agency:'Need City/CCCL site plan, right-of-way/easement or circulation record, plus field confirmation of public pedestrian access.',activity:'Do not treat the gray area as a no-speech zone. It is unresolved because the physical subarea itself is not yet defined; the map-hardening task is to resolve that factual boundary.'};
+""".strip()
+
 
 def normalize_member_session(rendered: str) -> str:
     """Provide resilient same-origin member session sharing.
@@ -202,6 +206,19 @@ def add_forum_auth_diagnostics(rendered: str) -> str:
     return rendered
 
 
+def add_forum_unassigned_zone(rendered: str) -> str:
+    ground = '<rect x="0" y="0" width="900" height="620" class="map-ground"/>'
+    replacement = '<rect data-zone="S012" x="0" y="0" width="900" height="620" class="zone zone-unresolved map-ground zone-background" tabindex="0" role="button" aria-label="Unmapped exterior transition and circulation areas, unresolved forum classification"/>'
+    if ground not in rendered:
+        fail("member-forum-maps.html: map ground marker not found")
+    rendered = rendered.replace(ground, replacement, 1)
+    marker = "};\nfunction headers"
+    if marker not in rendered:
+        fail("member-forum-maps.html: zones object marker not found")
+    rendered = rendered.replace(marker, "};\n" + FORUM_UNASSIGNED_ZONE + "\nfunction headers", 1)
+    return rendered
+
+
 def render(root: Path) -> None:
     url = os.environ.get("COALITION_SUPABASE_URL", "").strip().rstrip("/")
     key = os.environ.get("COALITION_SUPABASE_PUBLISHABLE_KEY", "").strip()
@@ -217,9 +234,12 @@ def render(root: Path) -> None:
         rendered = text.replace(URL_PLACEHOLDER, url).replace(KEY_PLACEHOLDER, key)
         rendered = normalize_member_session(rendered)
         if path.name == "member-forum-maps.html":
+            rendered = add_forum_unassigned_zone(rendered)
             rendered = add_forum_auth_diagnostics(rendered)
             if "auth-diag-v1" not in rendered or "auth-diagnostics-output" not in rendered:
                 fail(f"{path}: privacy-safe authentication diagnostics were not injected")
+            if "zones.S012" not in rendered or 'data-zone="S012"' not in rendered:
+                fail(f"{path}: unassigned map ground is not explicitly unresolved")
         if "requestPeerSession" not in rendered or "BroadcastChannel" not in rendered:
             fail(f"{path}: member page is missing resilient cross-tab session handoff")
         match = SCRIPT_RE.search(rendered)
