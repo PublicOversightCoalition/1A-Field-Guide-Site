@@ -1,5 +1,5 @@
 site_name: 1A Field Guide
-site_description: Nationwide Constitution-first public photography and citizen-recording research field guide
+site_description: Practical field guides, investigations, public records, and policy research for understanding public photography, recording, access, and government accountability
 site_url: https://publicoversightcoalition.github.io/1A-Field-Guide-Site/
 docs_dir: docs
 site_dir: site-preview
@@ -9,7 +9,14 @@ theme:
   name: material
   language: en
   font: false
+  palette:
+    scheme: slate
+    primary: black
+    accent: deep purple
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
     - navigation.indexes
     - navigation.top
     - navigation.footer
@@ -32,39 +39,46 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/field-guide.css
+  - stylesheets/public-beta.css
 
 exclude_docs: |
   templates/**
 
 nav:
   - Home: index.md
-  - Constitution First: constitution-first.md
-  - National core:
-      - Complaint-driven police encounter: national-core/complaint-driven-police-encounter.md
-      - Lawful-vantage observation and recording: national-core/lawful-vantage-observation-recording.md
-  - Facility Registry:
-      - County index: registry/index.md
-      - How classifications work: registry/method.md
+  - Explore:
+      - Start here: jurisdictions/index.md
+      - California — Active: california/README.md
+      - Federal — In development: jurisdictions/federal.md
+      - Facility & policy registry: registry/index.md
+  - Field Guides:
+      - Recording public officials: california/recording-public-officials.md
+      - Police encounters: california/police-encounters.md
+      - Public libraries: california/public-libraries.md
+      - Trespass & removal: california/trespass-removal.md
+      - Lawful vantage & privacy: california/lawful-vantage-privacy.md
+      - Public meetings: california/public-meetings.md
+  - Investigations:
+      - Facility investigations: registry/index.md
+      - Concord Library: registry/concord-library.md
+      - Concord Police Department: registry/concord-police.md
+      - Healdsburg Police Department: registry/healdsburg-police.md
+  - Public Records:
+      - Start here: open-government/public-records.md
+      - California records & evidence preservation: california/public-records-evidence-preservation.md
+      - Records requests & retaliation: california/records-request-retaliation.md
+      - Federal FOIA: federal/foia.md
+  - How It Works:
+      - Constitution First: constitution-first.md
+      - National core:
+          - Complaint-driven police encounter: national-core/complaint-driven-police-encounter.md
+          - Lawful-vantage observation and recording: national-core/lawful-vantage-observation-recording.md
+      - Facility research method: registry/method.md
       - Forum map standard: registry/forum-map-method.md
       - Registry data model: registry/data-model.md
-  - Open government:
-      - Public records — start here: open-government/public-records.md
-      - Federal:
-          - FOIA: federal/foia.md
-      - State & local:
-          - California:
-              - Public meetings: california/public-meetings.md
-              - Public records and evidence preservation: california/public-records-evidence-preservation.md
-              - Records requests and retaliation: california/records-request-retaliation.md
-  - Jurisdictions:
-      - Nationwide status: jurisdictions/index.md
-      - Federal: jurisdictions/federal.md
-      - States:
-          - California: jurisdictions/california.md
-  - State handbooks:
-      - California:
-          - Overview and active status: california/README.md
+      - California research:
           - Federal baseline and California constitutional overlay: california/constitutional-foundations.md
+          - Authority index: california/AUTHORITY-INDEX.md
           - Qualification matrix: california/QUALIFICATION-MATRIX.md
           - Qualification evidence map: california/QUALIFICATION-EVIDENCE-MAP.md
           - County coverage inventory: california/COUNTY-COVERAGE-INVENTORY.md
@@ -76,13 +90,6 @@ nav:
               - Indoor public common spaces: california/indoor-public-common-spaces.md
               - Restriction audit: california/restriction-audit.md
               - What can I do in each forum?: california/forum-activity-guide.md
-              - Public libraries: california/public-libraries.md
-              - Recording public officials: california/recording-public-officials.md
-              - Lawful vantage and privacy boundaries: california/lawful-vantage-privacy.md
-              - Police encounters: california/police-encounters.md
-              - Trespass and removal: california/trespass-removal.md
               - Disorderly conduct: california/disorderly-conduct.md
               - Assemblies and emergency scenes: california/assembly-emergency-scenes.md
-  - Research map:
-      - States:
-          - California authority index: california/AUTHORITY-INDEX.md
+  - Contribute: https://github.com/PublicOversightCoalition/1A-Field-Guide-Site/blob/main/CONTRIBUTING.md
