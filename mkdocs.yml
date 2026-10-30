@@ -40,6 +40,7 @@ markdown_extensions:
 extra_css:
   - stylesheets/field-guide.css
   - stylesheets/public-beta.css
+  - stylesheets/research-reading.css
 
 exclude_docs: |
   templates/**
