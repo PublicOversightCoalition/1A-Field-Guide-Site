@@ -12,12 +12,12 @@ hide:
       <p class="beta-lede">The 1A Field Guide turns constitutional doctrine, agency policy, public records, and real-world incidents into practical research you can actually use.</p>
       <div class="beta-actions">
         <a class="beta-button beta-button--primary" href="california/README.md">Explore the California Field Guide</a>
-        <a class="beta-button beta-button--secondary" href="registry/index.md">Browse investigations</a>
+        <a class="beta-button beta-button--secondary" href="registry/index.md">Browse research & investigations</a>
       </div>
       <div class="beta-statusline">
-        <span><strong>1</strong> active jurisdiction</span>
-        <span><strong>Federal</strong> framework in development</span>
-        <span><strong>50</strong> jurisdictions queued for qualification</span>
+        <span><strong>1 Active</strong></span>
+        <span><strong>1 Field Guide Development:</strong> Federal</span>
+        <span><strong>50 Not yet qualified</strong></span>
       </div>
     </div>
     <div class="beta-hero__question">
@@ -73,13 +73,13 @@ hide:
           <div class="beta-case-card__meta"><span class="beta-live-dot"></span> RESEARCHING · CONTRA COSTA COUNTY</div>
           <h3>Concord Library</h3>
           <p>Facility rules, public-space classifications, enforcement authority, and public-records research are being reconciled against California's active framework.</p>
-          <span class="beta-link">Open case file</span>
+          <span class="beta-link">Open research file</span>
         </a>
         <a class="beta-case-card" href="registry/healdsburg-police.md">
           <div class="beta-case-card__meta"><span class="beta-live-dot"></span> RESEARCHING · SONOMA COUNTY</div>
           <h3>Healdsburg Police Department</h3>
           <p>Agency policy and facility-specific research are being tracked separately from statewide law so changes in local practice remain visible.</p>
-          <span class="beta-link">Open case file</span>
+          <span class="beta-link">Open research file</span>
         </a>
       </div>
     </div>
