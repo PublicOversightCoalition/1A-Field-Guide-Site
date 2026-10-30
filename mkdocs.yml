@@ -41,6 +41,10 @@ extra_css:
   - stylesheets/field-guide.css
   - stylesheets/public-beta.css
   - stylesheets/research-reading.css
+  - stylesheets/public-beta-motion.css
+
+extra_javascript:
+  - javascripts/public-beta-motion.js
 
 exclude_docs: |
   templates/**
