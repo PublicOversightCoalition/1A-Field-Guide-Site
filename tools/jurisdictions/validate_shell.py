@@ -141,13 +141,18 @@ def main()->None:
     index_snapshot=f"{active} Active · {development} Field Guide Development · {inactive} Not yet qualified"
     if index_snapshot not in index:
         fail("nationwide index snapshot counts do not match canonical dataset")
-    for expected in (
-        f"**{active} Active**",
-        f"**{development} Field Guide Development:**",
-        f"**{inactive} Not yet qualified**",
-    ):
-        if expected not in home:
-            fail(f"home-page status summary does not match canonical dataset: {expected}")
+
+    # The homepage may present canonical counts using Markdown or HTML.
+    # Validate the visible text, not one specific source-formatting syntax.
+    home_status_options=(
+        (f"**{active} Active**", f"<strong>{active} Active</strong>"),
+        (f"**{development} Field Guide Development:**", f"<strong>{development} Field Guide Development:</strong>"),
+        (f"**{inactive} Not yet qualified**", f"<strong>{inactive} Not yet qualified</strong>"),
+    )
+    for options in home_status_options:
+        if not any(expected in home for expected in options):
+            fail(f"home-page status summary does not match canonical dataset: expected one of {options}")
+
     for row in rows:
         if f'href="{row["slug"]}/"' not in index: fail(f"{row['code']}: nationwide index missing jurisdiction link")
     generated={p.stem for p in JUR_DIR.glob("*.md") if p.name!="index.md"}
