@@ -1,0 +1,396 @@
+/* Public Beta editorial identity pass v0.3 — homepage only */
+
+body:has([data-motion-home]) {
+  --editorial-ink: #080b0e;
+  --editorial-panel: #0f141a;
+  --editorial-green: #b7ff5a;
+  --editorial-blue: #6b8cff;
+  --editorial-violet: #aa74ff;
+  --editorial-cyan: #72e6ff;
+}
+
+/* Persistent live research ticker */
+.beta-newswire {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  min-height: 2.35rem;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(183,255,90,.28);
+  background: #080b0e;
+  box-shadow: 0 .55rem 1.6rem rgba(0,0,0,.2);
+}
+
+.beta-newswire__label {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  padding: 0 .9rem;
+  color: #080b0e;
+  background: var(--editorial-green);
+  font-size: .63rem;
+  font-weight: 950;
+  letter-spacing: .14em;
+  white-space: nowrap;
+}
+
+.beta-newswire__viewport {
+  flex: 1;
+  overflow: hidden;
+}
+
+.beta-newswire__track {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  animation: beta-newswire-scroll 38s linear infinite;
+}
+
+.beta-newswire:hover .beta-newswire__track {
+  animation-play-state: paused;
+}
+
+.beta-newswire__item {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  min-height: 2.35rem;
+  padding: 0 1.15rem;
+  color: #dce4ed !important;
+  font-size: .67rem;
+  font-weight: 760;
+  letter-spacing: .035em;
+  white-space: nowrap;
+}
+
+.beta-newswire__item::after {
+  content: "";
+  width: .32rem;
+  height: .32rem;
+  margin-left: .7rem;
+  border-radius: 50%;
+  background: var(--editorial-green);
+  box-shadow: 0 0 .8rem rgba(183,255,90,.6);
+}
+
+.beta-newswire__item strong {
+  color: var(--editorial-green) !important;
+  font-size: .6rem;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+}
+
+@keyframes beta-newswire-scroll {
+  to { transform: translateX(-50%); }
+}
+
+/* Give the homepage its own visual canvas */
+body:has([data-motion-home]) .md-main {
+  background:
+    linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.018) 1px, transparent 1px),
+    radial-gradient(circle at 16% 12%, rgba(107,140,255,.11), transparent 24rem),
+    radial-gradient(circle at 84% 28%, rgba(170,116,255,.08), transparent 28rem),
+    #080b0e;
+  background-size: 5rem 5rem, 5rem 5rem, auto, auto, auto;
+}
+
+/* Hero: less giant, more editorial */
+.beta-hero {
+  border-radius: .45rem;
+  border-color: rgba(255,255,255,.12);
+  background:
+    linear-gradient(120deg, rgba(107,140,255,.13), transparent 38%),
+    radial-gradient(circle at 92% 18%, rgba(183,255,90,.11), transparent 19rem),
+    #0d1117;
+}
+
+.beta-hero::before {
+  height: 3px;
+  width: min(20rem, 34vw);
+  background: linear-gradient(90deg, var(--editorial-green), var(--editorial-cyan), transparent);
+  box-shadow: 0 0 1.4rem rgba(183,255,90,.3);
+}
+
+.beta-hero h1 {
+  max-width: 13.5ch;
+  font-weight: 640;
+  letter-spacing: -.06em;
+}
+
+.beta-kicker {
+  color: var(--editorial-green);
+}
+
+.beta-hero__question {
+  border-radius: .25rem;
+  border-left: 3px solid var(--editorial-green);
+  background: rgba(7,10,13,.8);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.2);
+}
+
+/* Situation section: asymmetric magazine layout instead of six equal boxes */
+.beta-situation .beta-topic-grid {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-auto-rows: minmax(7.4rem, auto);
+  gap: .75rem;
+}
+
+.beta-situation .beta-topic-card {
+  min-height: 0;
+  border-radius: .18rem;
+  overflow: hidden;
+  background:
+    linear-gradient(150deg, rgba(107,140,255,.08), transparent 58%),
+    #10161e;
+}
+
+.beta-situation .beta-topic-card:nth-child(1) {
+  grid-column: span 7;
+  grid-row: span 2;
+  padding: 1.5rem;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(183,255,90,.13), transparent 15rem),
+    linear-gradient(135deg, rgba(107,140,255,.13), transparent 48%),
+    #10161e;
+}
+
+.beta-situation .beta-topic-card:nth-child(1) strong {
+  max-width: 17ch;
+  font-size: clamp(1.6rem, 3vw, 2.55rem);
+  line-height: 1.03;
+  letter-spacing: -.045em;
+}
+
+.beta-situation .beta-topic-card:nth-child(2) { grid-column: span 5; grid-row: span 1; }
+.beta-situation .beta-topic-card:nth-child(3) { grid-column: span 5; grid-row: span 1; }
+.beta-situation .beta-topic-card:nth-child(4) { grid-column: span 4; }
+.beta-situation .beta-topic-card:nth-child(5) { grid-column: span 4; }
+.beta-situation .beta-topic-card:nth-child(6) { grid-column: span 4; }
+
+.beta-topic-card span {
+  color: var(--editorial-green);
+}
+
+.beta-topic-card:hover {
+  transform: translateY(-4px) rotate(-.15deg);
+  border-color: rgba(183,255,90,.65);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.26), 0 0 2rem rgba(183,255,90,.07);
+}
+
+/* Active research: one real lead story + secondary feed */
+.beta-research {
+  grid-template-columns: minmax(0, 1.8fr) minmax(18rem, .7fr);
+  gap: 1.2rem;
+}
+
+.beta-research .beta-case-stack {
+  grid-template-columns: minmax(0, 1.55fr) minmax(14rem, .7fr);
+  align-items: stretch;
+}
+
+.beta-research .beta-case-card {
+  border-radius: .2rem;
+}
+
+.beta-research .beta-case-card:first-child {
+  min-height: 23rem;
+  padding: clamp(1.4rem, 3vw, 2.15rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background:
+    linear-gradient(to top, rgba(6,9,12,.98), rgba(6,9,12,.42)),
+    radial-gradient(circle at 92% 8%, rgba(183,255,90,.18), transparent 13rem),
+    linear-gradient(135deg, rgba(107,140,255,.17), rgba(170,116,255,.07)),
+    #10161d;
+}
+
+.beta-research .beta-case-card:first-child h3 {
+  max-width: 13ch;
+  font-size: clamp(2.2rem, 4.2vw, 4rem);
+  line-height: .98;
+  letter-spacing: -.055em;
+}
+
+.beta-research .beta-case-card:first-child p {
+  max-width: 43rem !important;
+  font-size: 1rem;
+}
+
+.beta-research .beta-case-card:nth-child(2) {
+  min-height: 23rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 3px solid var(--editorial-violet);
+  background: #11151c;
+}
+
+.beta-research .beta-evidence-panel {
+  border-radius: .2rem;
+  border-color: rgba(183,255,90,.23);
+  box-shadow: inset 3px 0 0 rgba(183,255,90,.42);
+}
+
+/* Editorial manifesto / proof band injected between research and records */
+.beta-manifesto {
+  position: relative;
+  left: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  margin-top: clamp(4rem, 8vw, 7rem);
+  padding: clamp(2.3rem, 5vw, 4.2rem) max(1.2rem, calc((100vw - 88rem) / 2));
+  overflow: hidden;
+  border-top: 1px solid rgba(183,255,90,.23);
+  border-bottom: 1px solid rgba(183,255,90,.23);
+  background:
+    linear-gradient(rgba(183,255,90,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(183,255,90,.06) 1px, transparent 1px),
+    linear-gradient(115deg, #10150e, #17101d 68%, #0c1118);
+  background-size: 3.2rem 3.2rem, 3.2rem 3.2rem, auto;
+}
+
+.beta-manifesto__headline {
+  margin: 0;
+  max-width: 15ch;
+  color: var(--editorial-green) !important;
+  font-size: clamp(2.7rem, 6vw, 6.2rem);
+  font-weight: 900;
+  font-style: italic;
+  line-height: .9;
+  letter-spacing: -.065em;
+  text-transform: uppercase;
+  text-shadow: 0 0 2.4rem rgba(183,255,90,.08);
+}
+
+.beta-manifesto__sub {
+  max-width: 44rem !important;
+  margin: 1rem 0 2rem;
+  color: #b7c0ca;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.beta-manifesto__stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0,1fr));
+  gap: .8rem;
+}
+
+.beta-manifesto__stat {
+  padding-top: .8rem;
+  border-top: 2px solid var(--editorial-green);
+}
+
+.beta-manifesto__stat strong,
+.beta-manifesto__stat span {
+  display: block;
+}
+
+.beta-manifesto__stat strong {
+  color: #fff !important;
+  font-size: clamp(1.8rem, 3vw, 3rem);
+  line-height: 1;
+  letter-spacing: -.055em;
+}
+
+.beta-manifesto__stat span {
+  margin-top: .35rem;
+  color: #92a0ad;
+  font-size: .64rem;
+  font-weight: 800;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+}
+
+/* Records: break the equal-card rhythm */
+.beta-records .beta-feature-grid {
+  grid-template-columns: minmax(0, 1.35fr) repeat(2, minmax(0, .8fr));
+}
+
+.beta-records .beta-feature-card {
+  border-radius: .2rem;
+}
+
+.beta-records .beta-feature-card:first-child {
+  min-height: 18rem;
+  padding: 1.6rem;
+  background:
+    linear-gradient(150deg, rgba(183,255,90,.1), transparent 45%),
+    #10161e;
+}
+
+.beta-records .beta-feature-card:first-child h3 {
+  max-width: 14ch;
+  font-size: clamp(1.6rem, 3vw, 2.6rem);
+  line-height: 1.02;
+  letter-spacing: -.045em;
+}
+
+/* California block as a visual finish, not another card */
+.beta-california {
+  border-radius: .2rem;
+  border-color: rgba(183,255,90,.28);
+  background:
+    radial-gradient(circle at 84% 20%, rgba(183,255,90,.13), transparent 16rem),
+    linear-gradient(125deg, rgba(107,140,255,.1), transparent 48%),
+    #0e141b;
+}
+
+.beta-california__stats div {
+  border-radius: .12rem;
+  border-color: rgba(255,255,255,.1);
+}
+
+.beta-california__stats strong {
+  color: var(--editorial-green) !important;
+}
+
+/* Stronger section labels and divider language */
+.beta-label,
+.beta-feature-card__eyebrow,
+.beta-case-card__meta {
+  letter-spacing: .14em;
+}
+
+.beta-section__heading {
+  position: relative;
+}
+
+.beta-section__heading::after {
+  content: "";
+  display: block;
+  width: min(15rem, 40vw);
+  height: 2px;
+  margin-top: 1rem;
+  background: linear-gradient(90deg, var(--editorial-green), var(--editorial-blue), transparent);
+  opacity: .72;
+}
+
+/* Mobile */
+@media (max-width: 76em) {
+  .beta-newswire { top: 0; }
+  .beta-research,
+  .beta-research .beta-case-stack,
+  .beta-records .beta-feature-grid { grid-template-columns: 1fr; }
+  .beta-situation .beta-topic-grid { grid-template-columns: 1fr 1fr; }
+  .beta-situation .beta-topic-card:nth-child(n) { grid-column: auto; grid-row: auto; }
+  .beta-situation .beta-topic-card:nth-child(1) { grid-column: 1 / -1; }
+  .beta-manifesto__stats { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 48em) {
+  .beta-newswire__label { padding: 0 .55rem; }
+  .beta-situation .beta-topic-grid,
+  .beta-manifesto__stats { grid-template-columns: 1fr; }
+  .beta-manifesto__headline { font-size: clamp(2.6rem, 15vw, 4.7rem); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .beta-newswire__track { animation: none; }
+}
