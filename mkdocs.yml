@@ -42,9 +42,11 @@ extra_css:
   - stylesheets/public-beta.css
   - stylesheets/research-reading.css
   - stylesheets/public-beta-motion.css
+  - stylesheets/public-beta-editorial.css
 
 extra_javascript:
   - javascripts/public-beta-motion.js
+  - javascripts/public-beta-editorial.js
 
 exclude_docs: |
   templates/**
