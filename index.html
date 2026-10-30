@@ -51,6 +51,8 @@
     
       <link rel="stylesheet" href="stylesheets/research-reading.css">
     
+      <link rel="stylesheet" href="stylesheets/public-beta-motion.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -337,7 +339,7 @@
               
                 
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -2187,8 +2189,10 @@
 
 
 
-<div class="beta-home">
-  <section class="beta-hero">
+<div class="beta-home" data-motion-home>
+  <div class="beta-scroll-rail" aria-hidden="true"><span></span></div>
+
+  <section class="beta-hero beta-motion-section" data-motion-section="hero">
     <div class="beta-hero__content">
       <p class="beta-kicker">PUBLIC BETA · CALIFORNIA ACTIVE</p>
       <h1>Know the rules. See the evidence. Hold public power accountable.</h1>
@@ -2203,62 +2207,62 @@
         <span><strong>50 Not yet qualified</strong></span>
       </div>
     </div>
-    <div class="beta-hero__question">
+    <div class="beta-hero__question" data-motion-reveal>
       <span class="beta-label">THE QUESTION WE KEEP ASKING</span>
-      <p>What legal rule actually applies to this activity, in this exact place, under this specific government response?</p>
+      <p>What legal authority actually controls here — for this protected activity, in this exact place, under these specific conditions?</p>
       <a href="constitution-first.md">See how we test that question</a>
     </div>
   </section>
 
-  <section class="beta-section">
-    <div class="beta-section__heading">
+  <section class="beta-section beta-motion-section beta-situation" data-motion-section="situations">
+    <div class="beta-section__heading beta-sticky-heading">
       <span class="beta-label">START WITH THE SITUATION</span>
       <h2>What are you trying to understand?</h2>
       <p>Skip the legal taxonomy. Start with what happened, where it happened, and what government actor is involved.</p>
     </div>
-    <div class="beta-topic-grid">
-      <a class="beta-topic-card" href="california/recording-public-officials.md">
+    <div class="beta-topic-grid" data-motion-grid>
+      <a class="beta-topic-card" href="california/recording-public-officials.md" data-motion-card>
         <span>Recording in public</span>
         <strong>Officials, public activity, and lawful observation</strong>
       </a>
-      <a class="beta-topic-card" href="california/police-encounters.md">
+      <a class="beta-topic-card" href="california/police-encounters.md" data-motion-card>
         <span>Police encounters</span>
         <strong>Consensual contact, detention, identification, and escalation</strong>
       </a>
-      <a class="beta-topic-card" href="california/public-libraries.md">
+      <a class="beta-topic-card" href="california/public-libraries.md" data-motion-card>
         <span>Public buildings</span>
         <strong>Libraries, common spaces, access rules, and forum analysis</strong>
       </a>
-      <a class="beta-topic-card" href="california/trespass-removal.md">
+      <a class="beta-topic-card" href="california/trespass-removal.md" data-motion-card>
         <span>Trespass & removal</span>
         <strong>Authority to exclude, warnings, orders to leave, and enforcement</strong>
       </a>
-      <a class="beta-topic-card" href="open-government/public-records.md">
+      <a class="beta-topic-card" href="open-government/public-records.md" data-motion-card>
         <span>Public records</span>
         <strong>Requests, evidence preservation, agency responses, and follow-up</strong>
       </a>
-      <a class="beta-topic-card" href="registry/index.md">
+      <a class="beta-topic-card" href="registry/index.md" data-motion-card>
         <span>Policies & facilities</span>
         <strong>What agencies say, what buildings allow, and where questions remain</strong>
       </a>
     </div>
   </section>
 
-  <section class="beta-section beta-section--split">
+  <section class="beta-section beta-section--split beta-motion-section beta-research" data-motion-section="research">
     <div>
-      <div class="beta-section__heading">
+      <div class="beta-section__heading beta-sticky-heading">
         <span class="beta-label beta-label--green">ACTIVE RESEARCH</span>
         <h2>Follow the work while it is happening.</h2>
         <p>The project is not just a static legal guide. Facility research, policy collection, records requests, and incident analysis are used to test whether the written rules match real-world government practice.</p>
       </div>
       <div class="beta-case-stack">
-        <a class="beta-case-card" href="registry/concord-library.md">
+        <a class="beta-case-card" href="registry/concord-library.md" data-motion-card>
           <div class="beta-case-card__meta"><span class="beta-live-dot"></span> RESEARCHING · CONTRA COSTA COUNTY</div>
           <h3>Concord Library</h3>
           <p>Facility rules, public-space classifications, enforcement authority, and public-records research are being reconciled against California's active framework.</p>
           <span class="beta-link">Open research file</span>
         </a>
-        <a class="beta-case-card" href="registry/healdsburg-police.md">
+        <a class="beta-case-card" href="registry/healdsburg-police.md" data-motion-card>
           <div class="beta-case-card__meta"><span class="beta-live-dot"></span> RESEARCHING · SONOMA COUNTY</div>
           <h3>Healdsburg Police Department</h3>
           <p>Agency policy and facility-specific research are being tracked separately from statewide law so changes in local practice remain visible.</p>
@@ -2266,38 +2270,38 @@
         </a>
       </div>
     </div>
-    <aside class="beta-evidence-panel">
+    <aside class="beta-evidence-panel" data-motion-evidence>
       <span class="beta-label">EVIDENCE, NOT HOT TAKES</span>
       <h3>Every conclusion should be traceable.</h3>
       <div class="beta-evidence-list">
-        <div><strong>Law</strong><span>Constitution, statutes, regulations, controlling cases</span></div>
-        <div><strong>Policy</strong><span>Agency manuals, facility rules, directives, posted restrictions</span></div>
-        <div><strong>Records</strong><span>Public-records responses, reports, data, correspondence</span></div>
-        <div><strong>Incidents</strong><span>Observed conduct, allegations, footage, timelines, disputed facts</span></div>
-        <div><strong>Unresolved</strong><span>Questions stay visibly open when the evidence is not enough</span></div>
+        <div data-evidence-step><strong>Law</strong><span>Constitution, statutes, regulations, controlling cases</span></div>
+        <div data-evidence-step><strong>Policy</strong><span>Agency manuals, facility rules, directives, posted restrictions</span></div>
+        <div data-evidence-step><strong>Records</strong><span>Public-records responses, reports, data, correspondence</span></div>
+        <div data-evidence-step><strong>Incidents</strong><span>Observed conduct, allegations, footage, timelines, disputed facts</span></div>
+        <div data-evidence-step><strong>Unresolved</strong><span>Questions stay visibly open when the evidence is not enough</span></div>
       </div>
       <a class="beta-text-link" href="constitution-first.md">Read the Constitution First method</a>
     </aside>
   </section>
 
-  <section class="beta-section">
+  <section class="beta-section beta-motion-section beta-records" data-motion-section="records">
     <div class="beta-section__heading">
       <span class="beta-label">PUBLIC RECORDS</span>
       <h2>The source material matters.</h2>
       <p>Records are not just citations in the background. They are part of the public evidence layer: what was requested, what was produced, what appears incomplete, and what questions the records create next.</p>
     </div>
     <div class="beta-feature-grid beta-feature-grid--three">
-      <a class="beta-feature-card" href="open-government/public-records.md">
+      <a class="beta-feature-card" href="open-government/public-records.md" data-motion-card>
         <span class="beta-feature-card__eyebrow">START HERE</span>
         <h3>Public records field guide</h3>
         <p>Build requests around the information you actually need, preserve evidence, and separate a denial from a production that simply raises more questions.</p>
       </a>
-      <a class="beta-feature-card" href="california/public-records-evidence-preservation.md">
+      <a class="beta-feature-card" href="california/public-records-evidence-preservation.md" data-motion-card>
         <span class="beta-feature-card__eyebrow">CALIFORNIA</span>
         <h3>Records & evidence preservation</h3>
         <p>California-specific research for obtaining and preserving records before video, logs, or other time-sensitive evidence disappears.</p>
       </a>
-      <a class="beta-feature-card" href="federal/foia.md">
+      <a class="beta-feature-card" href="federal/foia.md" data-motion-card>
         <span class="beta-feature-card__eyebrow">FEDERAL</span>
         <h3>FOIA development track</h3>
         <p>The federal framework is being developed separately so federal premises and federal records law are not accidentally treated as state-law problems.</p>
@@ -2305,7 +2309,7 @@
     </div>
   </section>
 
-  <section class="beta-section beta-california">
+  <section class="beta-section beta-california beta-motion-section" data-motion-section="california">
     <div>
       <span class="beta-label beta-label--green">ACTIVE JURISDICTION</span>
       <h2>California is the first full reference implementation.</h2>
@@ -2316,14 +2320,14 @@
       </div>
     </div>
     <div class="beta-california__stats">
-      <div><strong>69</strong><span>supported qualification rows</span></div>
-      <div><strong>4</strong><span>researched-unresolved rows</span></div>
-      <div><strong>0</strong><span>gap rows at activation</span></div>
-      <div><strong>58</strong><span>counties inventoried</span></div>
+      <div data-motion-card><strong>69</strong><span>supported qualification rows</span></div>
+      <div data-motion-card><strong>4</strong><span>researched-unresolved rows</span></div>
+      <div data-motion-card><strong>0</strong><span>gap rows at activation</span></div>
+      <div data-motion-card><strong>58</strong><span>counties inventoried</span></div>
     </div>
   </section>
 
-  <section class="beta-section beta-contribute">
+  <section class="beta-section beta-contribute beta-motion-section" data-motion-section="contribute">
     <div>
       <span class="beta-label">BUILD THE GUIDE WITH US</span>
       <h2>This gets stronger when the evidence gets broader.</h2>
@@ -2426,6 +2430,8 @@
     
     
       <script src="assets/javascripts/bundle.c21346df.min.js"></script>
+      
+        <script src="javascripts/public-beta-motion.js"></script>
       
     
   </body>
