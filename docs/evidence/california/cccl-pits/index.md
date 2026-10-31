@@ -18,26 +18,30 @@ title: Contra Costa County Library — PITS evidence
 
 ## Integrity and publication method
 
-The original agency-produced files are retained exactly as received and identified below by SHA-256. The public site currently serves **search-friendly derivatives** for the text-bearing PDFs and the incident spreadsheet.
+The original agency-produced files are retained exactly as received and identified by SHA-256 in the [machine-readable manifest](manifest.json).
 
-PDF derivatives were produced by text extraction for search and accessibility. Screenshots, layout, and image-only material can be incomplete in those derivatives. The incident spreadsheet derivative is a CSV with the original columns preserved and Excel serial dates normalized to ISO dates.
+The public site does **not** automatically mirror every original file. Instead, records can have one of three public treatments:
 
-The original-source files remain the integrity reference. A derivative should never be cited as though it were the original PDF or XLSX.
+- **Searchable derivative** — project-generated text derived from an agency-authored source for accessibility/search.
+- **Evidence note** — project-authored summary of investigation-relevant capabilities from a source, used where republishing the source itself is unnecessary or inappropriate.
+- **Source retained** — the original is preserved and cryptographically identified, but no public copy is being served yet.
+
+A derivative or evidence note is never a substitute for the preserved original.
 
 ## Incident dataset snapshot
 
-The first-production spreadsheet contains **1,749 incident rows** spanning **2015-04-17 through 2026-09-22**:
+`CCCL-PITS-001` is the first-production Concord/Walnut Creek incident spreadsheet. It contains **1,749 incident rows** spanning **2015-04-17 through 2026-09-22**:
 
 | Branch | Rows |
 | --- | ---: |
 | Walnut Creek Library | 930 |
 | Concord Library | 819 |
 
-The export contains **1,700 `Submitted`** rows and **49 `Created`** rows. Its structured fields include incident date/time, location, infraction categories and infractions, status, follow-up, victim/witness flags, and several support-call fields.
+The export contains **1,700 `Submitted`** rows and **49 `Created`** rows. It includes incident date/time, location, infraction categories and infractions, status, follow-up, victim/witness flags, and support-call fields.
 
 The first-production export does **not** contain the narrative descriptions needed to independently test many incident classifications against what the patron and staff actually did or said. That missing narrative is one reason the follow-up request seeks description-inclusive records.
 
-[Download the public CSV derivative](extracts/pits-incidents-concord-walnut-creek.csv)
+The original XLSX remains source-retained while the project completes publication/privacy review. A reproducible aggregate profile is public now: [dataset profile](dataset-profile.json).
 
 ## What the system guidance adds
 
@@ -47,7 +51,7 @@ The supporting records make the spreadsheet more interpretable:
 - Training says reports are routed to managers/leadership and can help identify patterns across branches.
 - Manager guidance tells staff to use objective observations rather than speculation and says a PITS report should be created when staff ask a patron to leave, even for a day.
 - Earlier training states that PITS and associated documents are public records subject to the California Public Records Act.
-- The user guides show that incidents can be created, reviewed/edited, browsed, reported, and connected to restricted-data and person-detail functions.
+- The review/edit guide documents editable narratives, support-call fields, follow-up actions, deletion/edit capability, and incident-history functions.
 - The production includes both older and current infraction-category material, plus separate instructions for adding perceived-race descriptors.
 
 Those facts support investigation questions about completeness, lifecycle history, classification changes, suspension links, restricted records, and whether a flat export represents the full operational record.
@@ -56,45 +60,43 @@ Those facts support investigation questions about completeness, lifecycle histor
 
 ### Dataset
 
-| Evidence ID | Source | Public access | Integrity |
+| Evidence ID | Source | Why it matters | Public access |
 | --- | --- | --- | --- |
-| `CCCL-PITS-001` | `PITS_ListIncidentsWCLandCON.xlsx` | [CSV derivative](extracts/pits-incidents-concord-walnut-creek.csv) | SHA-256 `22cd40a5731ffd589f812e779d20edb9d87cbd7cdb972a5743693b1cc5b2e3a0` |
+| `CCCL-PITS-001` | `PITS_ListIncidentsWCLandCON.xlsx` | Branch-level incident metadata; basis for pattern and completeness testing. | [Dataset profile](dataset-profile.json); original source retained |
 
 ### System reference and training
 
 | Evidence ID | Source | Why it matters | Public access |
 | --- | --- | --- | --- |
-| `CCCL-PITS-002` | PITS Glossary | Defines PITS terminology and fields. | [Text derivative](extracts/pits-glossary.txt) |
-| `CCCL-PITS-003` | PITS Best Practices for Managers 2025 | Objective-reporting guidance, report triggers, suspension authority. | [Text derivative](extracts/pits-best-practices-managers-2025.txt) |
-| `CCCL-PITS-004` | PITS Training prior to March 2026 | Earlier system goals, routing, reporting expectations, public-record statement. | [Text derivative](extracts/pits-training-prior-to-march-2026.txt) |
-| `CCCL-PITS-005` | PITS Training updated March 2026 | Updated PITS/suspension training and later policy structure. | [Text derivative](extracts/pits-training-updated-march-2026.txt) |
+| `CCCL-PITS-002` | PITS Glossary | Defines PITS terminology and fields. | Source retained |
+| `CCCL-PITS-003` | PITS Best Practices for Managers 2025 | Objective-reporting guidance, report triggers, suspension authority, leadership review. | [Searchable derivative](extracts/pits-best-practices-managers-2025.txt) |
+| `CCCL-PITS-004` | PITS Training prior to March 2026 | Earlier system goals, routing, factual-reporting guidance, public-record statement. | [Searchable derivative](extracts/pits-training-prior-to-march-2026.txt) |
+| `CCCL-PITS-005` | PITS Training updated March 2026 | Updated PITS/suspension training and later policy structure. | Source retained |
 
 ### System mechanics
 
 | Evidence ID | Source | Why it matters | Public access |
 | --- | --- | --- | --- |
-| `CCCL-PITS-006` | User Guide — Browse Incidents | Shows browse/filter functionality. | [Text derivative](extracts/pits-user-guide-browse-incidents.txt) |
-| `CCCL-PITS-007` | User Guide — Create Incident Report | Shows how staff create incident records and enter information. | [Text derivative](extracts/pits-user-guide-create-incident-report.txt) |
-| `CCCL-PITS-008` | User Guide — Review/Edit Incident Report | Establishes post-creation review/edit functionality. | [Text derivative](extracts/pits-user-guide-review-edit-incident-report.txt) |
-| `CCCL-PITS-009` | User Guide — Perpetrator Details | Documents person-detail fields and handling. | [Text derivative](extracts/pits-user-guide-perpetrator-details.txt) |
-| `CCCL-PITS-010` | User Guide — PITS Dashboard | Documents dashboard access/functions. | [Text derivative](extracts/pits-user-guide-dashboard.txt) |
-| `CCCL-PITS-011` | User Guide — Reports | Documents reporting functions and available report paths. | [Text derivative](extracts/pits-user-guide-reports.txt) |
-| `CCCL-PITS-012` | User Guide — Restricted Data | Documents restricted-data features and access handling. | [Text derivative](extracts/pits-user-guide-restricted-data.txt) |
-| `CCCL-PITS-013` | User Guide — Recent Changes and Additions July 2025 | Provides a dated change record for PITS functionality. | [Text derivative](extracts/pits-user-guide-recent-changes-july-2025.txt) |
+| `CCCL-PITS-006` | User Guide — Browse Incidents | Shows browse/filter functionality. | Source retained |
+| `CCCL-PITS-007` | User Guide — Create Incident Report | Shows how staff create incident records and enter information. | Source retained |
+| `CCCL-PITS-008` | User Guide — Review/Edit Incident Report | Establishes editable narratives, support fields, follow-up edits/deletions, and incident history. | [Evidence note](notes/review-edit-capabilities.md) |
+| `CCCL-PITS-009` | User Guide — Perpetrator Details | Documents person-detail fields and handling. | Source retained |
+| `CCCL-PITS-010` | User Guide — PITS Dashboard | Documents dashboard access/functions. | Source retained |
+| `CCCL-PITS-011` | User Guide — Reports | Documents reporting functions and report paths. | Source retained |
+| `CCCL-PITS-012` | User Guide — Restricted Data | Documents restricted-data features and access handling. | Source retained |
+| `CCCL-PITS-013` | User Guide — Recent Changes and Additions July 2025 | Provides a dated change record for PITS functionality. | Source retained |
 
 ### Classification and taxonomy
 
 | Evidence ID | Source | Why it matters | Public access |
 | --- | --- | --- | --- |
-| `CCCL-PITS-014` | Instructions for Race in PITS 2025 | Adds perceived-race descriptors and states intended data uses. | [Text derivative](extracts/instructions-race-pits-2025.txt) |
+| `CCCL-PITS-014` | Instructions for Race in PITS 2025 | Adds perceived-race descriptors and states intended data uses. | [Searchable derivative](extracts/instructions-race-pits-2025.txt) |
 | `CCCL-PITS-015` | Current PITS Infractions Categories | Current taxonomy used to classify conduct. | Source retained; image-only PDF |
 | `CCCL-PITS-016` | PITS Infraction Categories prior to March 2026 | Earlier taxonomy used to compare classification changes. | Source retained; image-heavy PDF |
 
-[Machine-readable collection manifest](manifest.json)
-
 ## Source integrity hashes
 
-The manifest records the exact byte size and SHA-256 for all 16 original files, including sources that do not yet have a public derivative. This lets later publications, redactions, or direct-download copies be checked against the preserved production.
+The [manifest](manifest.json) records the exact byte size and SHA-256 for all 16 original files. This allows later direct-source publications, redacted copies, or re-productions to be compared against the preserved first production without changing the evidence IDs.
 
 ## What this collection does not establish
 
