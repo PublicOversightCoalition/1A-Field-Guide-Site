@@ -1,24 +1,12 @@
-/* Public Beta v0.3.1 — sticky heading readability fix */
+/* Public Beta v0.3.2 — transparent sticky heading fix */
 
 body:has([data-motion-home]) .beta-sticky-heading {
-  background: #080b0e;
+  background: transparent;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
-  box-shadow: 0 .8rem 1.5rem rgba(0,0,0,.28), inset 0 -1px 0 rgba(183,255,90,.14);
+  box-shadow: none;
 }
 
 body:has([data-motion-home]) .beta-sticky-heading::before {
-  content: "";
-  position: absolute;
-  inset: 0 -1rem;
-  z-index: -1;
-  background: #080b0e;
-}
-
-@media (max-width: 76em) {
-  body:has([data-motion-home]) .beta-sticky-heading,
-  body:has([data-motion-home]) .beta-sticky-heading::before {
-    background: transparent;
-    box-shadow: none;
-  }
+  content: none;
 }
