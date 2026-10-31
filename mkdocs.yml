@@ -50,6 +50,7 @@ extra_css:
   - stylesheets/public-beta-math-field.css
   - stylesheets/sitewide-editorial.css
   - stylesheets/investigations.css
+  - stylesheets/evidence-library.css
 
 extra_javascript:
   - javascripts/public-beta-motion.js
@@ -75,9 +76,11 @@ nav:
       - Public meetings: california/public-meetings.md
   - Research & Investigations:
       - Browse all: investigations/index.md
+      - Evidence library: evidence/index.md
       - California:
           - California investigations: california/investigations/index.md
           - Contra Costa County Library — PITS: california/investigations/contra-costa-library-pits.md
+          - CCCL PITS evidence: evidence/california/cccl-pits/index.md
           - Concord Library facility record: registry/concord-library.md
           - Concord Police Department: registry/concord-police.md
           - Healdsburg Police Department: registry/healdsburg-police.md
