@@ -46,6 +46,7 @@ extra_css:
   - stylesheets/public-beta-sticky-fix.css
   - stylesheets/public-beta-manifesto-ribbon.css
   - stylesheets/public-beta-card-mask.css
+  - stylesheets/public-beta-sticky-boundary.css
 
 extra_javascript:
   - javascripts/public-beta-motion.js
