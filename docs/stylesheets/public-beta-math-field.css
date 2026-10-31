@@ -1,0 +1,57 @@
+/* Homepage mathematical field — subtle geometry instead of square graph paper. */
+
+body:has([data-motion-home]) .md-main {
+  background:
+    radial-gradient(circle at 18% 22%, transparent 0 10.8rem, rgba(107,140,255,.028) 10.9rem 11rem, transparent 11.1rem 20.8rem, rgba(107,140,255,.018) 20.9rem 21rem, transparent 21.1rem),
+    radial-gradient(circle at 78% 62%, transparent 0 15.8rem, rgba(170,116,255,.026) 15.9rem 16rem, transparent 16.1rem 29.8rem, rgba(170,116,255,.015) 29.9rem 30rem, transparent 30.1rem),
+    linear-gradient(27deg, transparent 49.88%, rgba(183,255,90,.024) 49.94%, rgba(183,255,90,.024) 50.06%, transparent 50.12%),
+    linear-gradient(151deg, transparent 49.9%, rgba(114,230,255,.018) 49.96%, rgba(114,230,255,.018) 50.04%, transparent 50.1%),
+    radial-gradient(circle at 16% 12%, rgba(107,140,255,.10), transparent 24rem),
+    radial-gradient(circle at 84% 28%, rgba(170,116,255,.07), transparent 28rem),
+    #080b0e;
+}
+
+/* Tiny coordinate nodes: intentionally sparse and low contrast. */
+body:has([data-motion-home]) .md-main::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 12% 31%, rgba(183,255,90,.22) 0 .08rem, transparent .11rem),
+    radial-gradient(circle at 36% 68%, rgba(107,140,255,.18) 0 .07rem, transparent .1rem),
+    radial-gradient(circle at 67% 18%, rgba(114,230,255,.15) 0 .07rem, transparent .1rem),
+    radial-gradient(circle at 88% 74%, rgba(170,116,255,.18) 0 .08rem, transparent .11rem);
+  opacity: .7;
+}
+
+body:has([data-motion-home]) .md-main {
+  position: relative;
+}
+
+body:has([data-motion-home]) .md-main > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Manifesto band: use orbit geometry instead of a repeated square lattice. */
+.beta-manifesto {
+  background:
+    radial-gradient(circle at 8% 118%, transparent 0 15rem, rgba(183,255,90,.055) 15.1rem 15.22rem, transparent 15.32rem 25rem, rgba(183,255,90,.028) 25.1rem 25.2rem, transparent 25.3rem),
+    radial-gradient(circle at 92% -28%, transparent 0 17rem, rgba(170,116,255,.05) 17.1rem 17.22rem, transparent 17.32rem 29rem, rgba(107,140,255,.025) 29.1rem 29.2rem, transparent 29.3rem),
+    linear-gradient(21deg, transparent 49.9%, rgba(183,255,90,.026) 49.96%, rgba(183,255,90,.026) 50.04%, transparent 50.1%),
+    linear-gradient(115deg, #10150e, #17101d 68%, #0c1118);
+}
+
+@media (max-width: 48em) {
+  body:has([data-motion-home]) .md-main {
+    background:
+      radial-gradient(circle at 15% 20%, transparent 0 8.8rem, rgba(107,140,255,.025) 8.9rem 9rem, transparent 9.1rem),
+      radial-gradient(circle at 85% 64%, transparent 0 12.8rem, rgba(170,116,255,.022) 12.9rem 13rem, transparent 13.1rem),
+      #080b0e;
+  }
+
+  body:has([data-motion-home]) .md-main::before {
+    display: none;
+  }
+}
