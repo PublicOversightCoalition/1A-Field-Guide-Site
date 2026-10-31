@@ -1,0 +1,87 @@
+/* Public Beta v0.3.3 — distinctive manifesto metric ribbon */
+
+body:has([data-motion-home]) .beta-manifesto__stats {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: .55rem;
+  align-items: stretch;
+  margin-top: 2.25rem;
+}
+
+body:has([data-motion-home]) .beta-manifesto__stat {
+  position: relative;
+  min-height: 8.5rem;
+  padding: 1rem 1.25rem 1.05rem;
+  border: 0;
+  background:
+    linear-gradient(135deg, rgba(183,255,90,.09), transparent 46%),
+    rgba(9,13,17,.78);
+  clip-path: polygon(0 0, calc(100% - 1.3rem) 0, 100% 50%, calc(100% - 1.3rem) 100%, 0 100%, .75rem 50%);
+  box-shadow: inset 0 1px 0 rgba(183,255,90,.5);
+}
+
+body:has([data-motion-home]) .beta-manifesto__stat::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(107,140,255,.12), transparent 38%, rgba(170,116,255,.08));
+}
+
+body:has([data-motion-home]) .beta-manifesto__stat:nth-child(1) {
+  grid-column: span 4;
+  transform: translateY(.7rem);
+}
+
+body:has([data-motion-home]) .beta-manifesto__stat:nth-child(2) {
+  grid-column: span 3;
+  transform: translateY(-.35rem);
+}
+
+body:has([data-motion-home]) .beta-manifesto__stat:nth-child(3) {
+  grid-column: span 3;
+  transform: translateY(.35rem);
+}
+
+body:has([data-motion-home]) .beta-manifesto__stat:nth-child(4) {
+  grid-column: span 2;
+  transform: translateY(-.75rem);
+}
+
+body:has([data-motion-home]) .beta-manifesto__stat strong,
+body:has([data-motion-home]) .beta-manifesto__stat span {
+  position: relative;
+  z-index: 1;
+}
+
+body:has([data-motion-home]) .beta-manifesto__stat strong {
+  font-size: clamp(2.4rem, 4vw, 4.7rem);
+  line-height: .9;
+}
+
+body:has([data-motion-home]) .beta-manifesto__stat span {
+  max-width: 17rem;
+  margin-top: .7rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 76em) {
+  body:has([data-motion-home]) .beta-manifesto__stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body:has([data-motion-home]) .beta-manifesto__stat:nth-child(n) {
+    grid-column: auto;
+    transform: none;
+  }
+}
+
+@media (max-width: 48em) {
+  body:has([data-motion-home]) .beta-manifesto__stats {
+    grid-template-columns: 1fr;
+  }
+
+  body:has([data-motion-home]) .beta-manifesto__stat {
+    clip-path: polygon(0 0, calc(100% - 1rem) 0, 100% 50%, calc(100% - 1rem) 100%, 0 100%);
+  }
+}
