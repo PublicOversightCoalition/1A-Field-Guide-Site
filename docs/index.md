@@ -37,30 +37,12 @@ hide:
       <p>Skip the legal taxonomy. Start with what happened, where it happened, and what government actor is involved.</p>
     </div>
     <div class="beta-topic-grid" data-motion-grid>
-      <a class="beta-topic-card" href="california/recording-public-officials/" data-motion-card>
-        <span>Recording in public</span>
-        <strong>Officials, public activity, and lawful observation</strong>
-      </a>
-      <a class="beta-topic-card" href="california/police-encounters/" data-motion-card>
-        <span>Police encounters</span>
-        <strong>Consensual contact, detention, identification, and escalation</strong>
-      </a>
-      <a class="beta-topic-card" href="california/public-libraries/" data-motion-card>
-        <span>Public buildings</span>
-        <strong>Libraries, common spaces, access rules, and forum analysis</strong>
-      </a>
-      <a class="beta-topic-card" href="california/trespass-removal/" data-motion-card>
-        <span>Trespass & removal</span>
-        <strong>Authority to exclude, warnings, orders to leave, and enforcement</strong>
-      </a>
-      <a class="beta-topic-card" href="open-government/public-records/" data-motion-card>
-        <span>Public records</span>
-        <strong>Requests, evidence preservation, agency responses, and follow-up</strong>
-      </a>
-      <a class="beta-topic-card" href="registry/" data-motion-card>
-        <span>Policies & facilities</span>
-        <strong>What agencies say, what buildings allow, and where questions remain</strong>
-      </a>
+      <a class="beta-topic-card" href="california/recording-public-officials/" data-motion-card><span>Recording in public</span><strong>Officials, public activity, and lawful observation</strong></a>
+      <a class="beta-topic-card" href="california/police-encounters/" data-motion-card><span>Police encounters</span><strong>Consensual contact, detention, identification, and escalation</strong></a>
+      <a class="beta-topic-card" href="california/public-libraries/" data-motion-card><span>Public buildings</span><strong>Libraries, common spaces, access rules, and forum analysis</strong></a>
+      <a class="beta-topic-card" href="california/trespass-removal/" data-motion-card><span>Trespass & removal</span><strong>Authority to exclude, warnings, orders to leave, and enforcement</strong></a>
+      <a class="beta-topic-card" href="open-government/public-records/" data-motion-card><span>Public records</span><strong>Requests, evidence preservation, agency responses, and follow-up</strong></a>
+      <a class="beta-topic-card" href="registry/" data-motion-card><span>Policies & facilities</span><strong>What agencies say, what buildings allow, and where questions remain</strong></a>
     </div>
   </section>
 
@@ -72,18 +54,8 @@ hide:
         <p>The project is not just a static legal guide. Facility research, policy collection, records requests, and incident analysis are used to test whether the written rules match real-world government practice.</p>
       </div>
       <div class="beta-case-stack">
-        <a class="beta-case-card" href="california/investigations/contra-costa-library-pits/" data-motion-card>
-          <div class="beta-case-card__meta"><span class="beta-live-dot"></span> ACTIVE · CONTRA COSTA COUNTY</div>
-          <h3>Contra Costa County Library — PITS</h3>
-          <p>PITS incident data, system guidance, classifications, lifecycle questions, and follow-up public-records research are being reconciled against California's active framework.</p>
-          <span class="beta-link">Open investigation</span>
-        </a>
-        <a class="beta-case-card" href="registry/healdsburg-police/" data-motion-card>
-          <div class="beta-case-card__meta"><span class="beta-live-dot"></span> RESEARCHING · SONOMA COUNTY</div>
-          <h3>Healdsburg Police Department</h3>
-          <p>Agency policy and facility-specific research are being tracked separately from statewide law so changes in local practice remain visible.</p>
-          <span class="beta-link">Open research file</span>
-        </a>
+        <a class="beta-case-card" href="california/investigations/contra-costa-library-pits/" data-motion-card><div class="beta-case-card__meta"><span class="beta-live-dot"></span> ACTIVE · CONTRA COSTA COUNTY</div><h3>Contra Costa County Library — PITS</h3><p>PITS incident data, system guidance, classifications, lifecycle questions, and follow-up public-records research are being reconciled against California's active framework.</p><span class="beta-link">Open investigation</span></a>
+        <a class="beta-case-card" href="registry/healdsburg-police/" data-motion-card><div class="beta-case-card__meta"><span class="beta-live-dot"></span> RESEARCHING · SONOMA COUNTY</div><h3>Healdsburg Police Department</h3><p>Agency policy and facility-specific research are being tracked separately from statewide law so changes in local practice remain visible.</p><span class="beta-link">Open research file</span></a>
       </div>
     </div>
     <aside class="beta-evidence-panel" data-motion-evidence>
@@ -101,58 +73,23 @@ hide:
   </section>
 
   <section class="beta-section beta-motion-section beta-records" data-motion-section="records">
-    <div class="beta-section__heading">
-      <span class="beta-label">PUBLIC RECORDS</span>
-      <h2>The source material matters.</h2>
-      <p>Records are not just citations in the background. They are part of the public evidence layer: what was requested, what was produced, what appears incomplete, and what questions the records create next.</p>
-    </div>
+    <div class="beta-section__heading"><span class="beta-label">PUBLIC RECORDS</span><h2>The source material matters.</h2><p>Records are not just citations in the background. They are part of the public evidence layer: what was requested, what was produced, what appears incomplete, and what questions the records create next.</p></div>
     <div class="beta-feature-grid beta-feature-grid--three">
-      <a class="beta-feature-card" href="open-government/public-records/" data-motion-card>
-        <span class="beta-feature-card__eyebrow">START HERE</span>
-        <h3>Public records field guide</h3>
-        <p>Build requests around the information you actually need, preserve evidence, and separate a denial from a production that simply raises more questions.</p>
-      </a>
-      <a class="beta-feature-card" href="california/public-records-evidence-preservation/" data-motion-card>
-        <span class="beta-feature-card__eyebrow">CALIFORNIA</span>
-        <h3>Records & evidence preservation</h3>
-        <p>California-specific research for obtaining and preserving records before video, logs, or other time-sensitive evidence disappears.</p>
-      </a>
-      <a class="beta-feature-card" href="federal/foia/" data-motion-card>
-        <span class="beta-feature-card__eyebrow">FEDERAL</span>
-        <h3>FOIA development track</h3>
-        <p>The federal framework is being developed separately so federal premises and federal records law are not accidentally treated as state-law problems.</p>
-      </a>
+      <a class="beta-feature-card" href="open-government/public-records/" data-motion-card><span class="beta-feature-card__eyebrow">START HERE</span><h3>Public records field guide</h3><p>Build requests around the information you actually need, preserve evidence, and separate a denial from a production that simply raises more questions.</p></a>
+      <a class="beta-feature-card" href="california/public-records-evidence-preservation/" data-motion-card><span class="beta-feature-card__eyebrow">CALIFORNIA</span><h3>Records & evidence preservation</h3><p>California-specific research for obtaining and preserving records before video, logs, or other time-sensitive evidence disappears.</p></a>
+      <a class="beta-feature-card" href="federal/foia/" data-motion-card><span class="beta-feature-card__eyebrow">FEDERAL</span><h3>FOIA development track</h3><p>The federal framework is being developed separately so federal premises and federal records law are not accidentally treated as state-law problems.</p></a>
     </div>
   </section>
 
   <section class="beta-section beta-california beta-motion-section" data-motion-section="california">
-    <div>
-      <span class="beta-label beta-label--green">ACTIVE JURISDICTION</span>
-      <h2>California is the first full reference implementation.</h2>
-      <p>The California handbook has passed the project's qualification and activation process. That makes it the first place where statewide doctrine, local facility research, public records, and field verification can be connected into one working system.</p>
-      <div class="beta-actions">
-        <a class="beta-button beta-button--primary" href="california/">Open California</a>
-        <a class="beta-button beta-button--secondary" href="jurisdictions/">See nationwide status</a>
-      </div>
-    </div>
-    <div class="beta-california__stats">
-      <div data-motion-card><strong>69</strong><span>supported qualification rows</span></div>
-      <div data-motion-card><strong>4</strong><span>researched-unresolved rows</span></div>
-      <div data-motion-card><strong>0</strong><span>gap rows at activation</span></div>
-      <div data-motion-card><strong>58</strong><span>counties inventoried</span></div>
-    </div>
+    <div><span class="beta-label beta-label--green">ACTIVE JURISDICTION</span><h2>California is the first full reference implementation.</h2><p>The California handbook has passed the project's qualification and activation process. That makes it the first place where statewide doctrine, local facility research, public records, and field verification can be connected into one working system.</p><div class="beta-actions"><a class="beta-button beta-button--primary" href="california/">Open California</a><a class="beta-button beta-button--secondary" href="jurisdictions/">See nationwide status</a></div></div>
+    <div class="beta-california__stats"><div data-motion-card><strong>69</strong><span>supported qualification rows</span></div><div data-motion-card><strong>4</strong><span>researched-unresolved rows</span></div><div data-motion-card><strong>0</strong><span>gap rows at activation</span></div><div data-motion-card><strong>58</strong><span>counties inventoried</span></div></div>
   </section>
 
   <section class="beta-section beta-contribute beta-motion-section" data-motion-section="contribute">
-    <div>
-      <span class="beta-label">BUILD THE GUIDE WITH US</span>
-      <h2>This gets stronger when the evidence gets broader.</h2>
-      <p>Contribute policy research, identify a useful lead, improve a jurisdiction, document a facility, or help turn raw records into reusable public knowledge.</p>
-    </div>
-    <a class="beta-button beta-button--primary" href="https://github.com/PublicOversightCoalition/1A-Field-Guide-Site/blob/main/CONTRIBUTING.md">See how to contribute</a>
+    <div><span class="beta-label">BUILD THE GUIDE WITH US</span><h2>This gets stronger when the evidence gets broader.</h2><p>Contribute policy research, identify a useful lead, improve a jurisdiction, document a facility, or help turn raw records into reusable public knowledge.</p></div>
+    <a class="beta-button beta-button--primary" href="contribute/">See how to contribute</a>
   </section>
 
-  <footer class="beta-home__footer">
-    <p><strong>Public Beta.</strong> This project is research and educational material, not legal advice. Laws, policies, and factual circumstances change. Check verification dates and primary sources before relying on a rule.</p>
-  </footer>
+  <footer class="beta-home__footer"><p><strong>Public Beta.</strong> This project is research and educational material, not legal advice. Laws, policies, and factual circumstances change. Check verification dates and primary sources before relying on a rule.</p></footer>
 </div>
