@@ -1,9 +1,9 @@
-/* Public Beta v0.3.2 — heading overlap fix */
+/* Public Beta v0.3.3 — sticky heading surface fix */
 
 body:has([data-motion-home]) .beta-sticky-heading {
-  position: static;
-  top: auto;
-  z-index: auto;
+  position: sticky;
+  top: 8rem;
+  z-index: 4;
   background: transparent;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
