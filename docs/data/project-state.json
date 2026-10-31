@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-30",
+  "jurisdictions": {
+    "active": 1,
+    "development": 1,
+    "not_yet_qualified": 50,
+    "active_name": "California",
+    "development_name": "Federal"
+  },
+  "california": {
+    "counties_inventoried": 58,
+    "supported_qualification_rows": 69,
+    "researched_unresolved_rows": 4,
+    "gap_rows_at_activation": 0
+  },
+  "research": [
+    {
+      "id": "concord-library",
+      "title": "Concord Library",
+      "status": "ACTIVE",
+      "region": "CONTRA COSTA COUNTY",
+      "href": "registry/concord-library/",
+      "lead": true,
+      "summary": "Facility rules, PITS incident data, public-space classifications, enforcement authority, and follow-up public-records research are being reconciled against California's active framework.",
+      "wire": "PITS records follow-up and incident-system analysis"
+    },
+    {
+      "id": "healdsburg-police",
+      "title": "Healdsburg Police Department",
+      "status": "RESEARCHING",
+      "region": "SONOMA COUNTY",
+      "href": "registry/healdsburg-police/",
+      "lead": false,
+      "summary": "Agency identification policy and facility-specific research are being tracked against observed officer conduct and statewide law.",
+      "wire": "policy and identification-rule research"
+    }
+  ],
+  "public_records": {
+    "href": "open-government/public-records/",
+    "wire": "Evidence preservation and records-request field guide"
+  },
+  "next": [
+    {
+      "label": "NEXT",
+      "text": "Public evidence library and investigation-page system"
+    }
+  ]
+}
