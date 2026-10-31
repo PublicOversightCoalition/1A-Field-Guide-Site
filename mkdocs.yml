@@ -48,6 +48,7 @@ extra_css:
   - stylesheets/public-beta-card-mask.css
   - stylesheets/public-beta-sticky-boundary.css
   - stylesheets/public-beta-math-field.css
+  - stylesheets/sitewide-editorial.css
 
 extra_javascript:
   - javascripts/public-beta-motion.js
