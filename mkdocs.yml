@@ -44,6 +44,7 @@ extra_css:
   - stylesheets/public-beta-motion.css
   - stylesheets/public-beta-editorial.css
   - stylesheets/public-beta-sticky-fix.css
+  - stylesheets/public-beta-manifesto-ribbon.css
 
 extra_javascript:
   - javascripts/public-beta-motion.js
