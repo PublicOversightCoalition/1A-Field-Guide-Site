@@ -1,0 +1,21 @@
+/* Public Beta v0.3.5 — hide sticky headings beneath entire card regions */
+
+body:has([data-motion-home]) .beta-topic-grid,
+body:has([data-motion-home]) .beta-case-stack {
+  position: relative;
+  z-index: 3;
+  background: #080b0e;
+}
+
+body:has([data-motion-home]) .beta-topic-card,
+body:has([data-motion-home]) .beta-case-card {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 76em) {
+  body:has([data-motion-home]) .beta-topic-grid,
+  body:has([data-motion-home]) .beta-case-stack {
+    background: transparent;
+  }
+}
