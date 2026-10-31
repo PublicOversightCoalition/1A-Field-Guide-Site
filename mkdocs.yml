@@ -49,10 +49,12 @@ extra_css:
   - stylesheets/public-beta-sticky-boundary.css
   - stylesheets/public-beta-math-field.css
   - stylesheets/sitewide-editorial.css
+  - stylesheets/investigations.css
 
 extra_javascript:
   - javascripts/public-beta-motion.js
   - javascripts/public-beta-editorial.js
+  - javascripts/investigations-index.js
 
 exclude_docs: |
   templates/**
@@ -72,10 +74,14 @@ nav:
       - Lawful vantage & privacy: california/lawful-vantage-privacy.md
       - Public meetings: california/public-meetings.md
   - Research & Investigations:
+      - Browse all: investigations/index.md
+      - California:
+          - California investigations: california/investigations/index.md
+          - Contra Costa County Library — PITS: california/investigations/contra-costa-library-pits.md
+          - Concord Library facility record: registry/concord-library.md
+          - Concord Police Department: registry/concord-police.md
+          - Healdsburg Police Department: registry/healdsburg-police.md
       - Facility research: registry/index.md
-      - Concord Library: registry/concord-library.md
-      - Concord Police Department: registry/concord-police.md
-      - Healdsburg Police Department: registry/healdsburg-police.md
   - Public Records:
       - Start here: open-government/public-records.md
       - California records & evidence preservation: california/public-records-evidence-preservation.md
