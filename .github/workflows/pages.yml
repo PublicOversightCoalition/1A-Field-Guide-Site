@@ -36,6 +36,9 @@ jobs:
       - name: Validate nationwide jurisdiction shell
         run: python tools/jurisdictions/validate_shell.py
 
+      - name: Validate public project state
+        run: python tools/public_state/validate_project_state.py
+
       - name: Generate and validate Registry
         run: |
           python tools/registry/validate_restriction_corpus.py
