@@ -43,6 +43,7 @@ extra_css:
   - stylesheets/research-reading.css
   - stylesheets/public-beta-motion.css
   - stylesheets/public-beta-editorial.css
+  - stylesheets/public-beta-sticky-fix.css
 
 extra_javascript:
   - javascripts/public-beta-motion.js
