@@ -16,22 +16,31 @@
   },
   "research": [
     {
-      "id": "concord-library",
-      "title": "Concord Library",
+      "id": "cccl-pits",
+      "title": "Contra Costa County Library — PITS",
       "status": "ACTIVE",
+      "phase": "RECORDS PENDING",
+      "jurisdiction": "California",
       "region": "CONTRA COSTA COUNTY",
-      "href": "registry/concord-library/",
+      "href": "california/investigations/contra-costa-library-pits/",
+      "facility_href": "registry/concord-library/",
       "lead": true,
-      "summary": "Facility rules, PITS incident data, public-space classifications, enforcement authority, and follow-up public-records research are being reconciled against California's active framework.",
-      "wire": "PITS records follow-up and incident-system analysis"
+      "last_updated": "2026-10-30",
+      "question": "What does PITS actually preserve about patron conduct, staff response, classification, suspension, deletion, and outside-agency involvement?",
+      "summary": "PITS incident data, system guidance, classifications, lifecycle questions, and follow-up public-records research are being reconciled against California's active framework.",
+      "wire": "PITS follow-up records due November 6 absent extension"
     },
     {
       "id": "healdsburg-police",
       "title": "Healdsburg Police Department",
       "status": "RESEARCHING",
+      "phase": "POLICY REVIEW",
+      "jurisdiction": "California",
       "region": "SONOMA COUNTY",
       "href": "registry/healdsburg-police/",
       "lead": false,
+      "last_updated": "2026-10-30",
+      "question": "How does the department's officer-identification policy compare with observed refusal to provide name or badge information?",
       "summary": "Agency identification policy and facility-specific research are being tracked against observed officer conduct and statewide law.",
       "wire": "policy and identification-rule research"
     }
@@ -43,7 +52,7 @@
   "next": [
     {
       "label": "NEXT",
-      "text": "Public evidence library and investigation-page system"
+      "text": "Public evidence library for investigation source records"
     }
   ]
 }
