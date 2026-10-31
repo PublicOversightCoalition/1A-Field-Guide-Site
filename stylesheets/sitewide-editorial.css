@@ -1,0 +1,261 @@
+/* Site-wide editorial identity for non-homepage pages.
+   Keeps deep-reading structure while extending the homepage visual language. */
+
+body:not(:has(.beta-home)) {
+  --fg-ink: #eef3f7;
+  --fg-muted: #9aa8b6;
+  --fg-line: rgba(255,255,255,.12);
+  --fg-paper: #080b0e;
+  --fg-panel: #10161d;
+  --fg-accent: #b7ff5a;
+  --fg-accent-soft: rgba(183,255,90,.07);
+  --md-default-bg-color: #080b0e;
+  --md-default-fg-color: #eef3f7;
+  --md-default-fg-color--light: #9aa8b6;
+  --md-default-fg-color--lighter: #6f7c89;
+  --md-typeset-a-color: #8da4ff;
+  --md-code-bg-color: #0d1319;
+  --md-code-fg-color: #dfe8ef;
+
+  background:
+    radial-gradient(circle at 15% 12%, rgba(107,140,255,.08), transparent 28rem),
+    radial-gradient(circle at 85% 32%, rgba(170,116,255,.06), transparent 30rem),
+    radial-gradient(circle at 72% 78%, rgba(183,255,90,.035), transparent 26rem),
+    linear-gradient(16deg, transparent 0 48%, rgba(114,230,255,.028) 48.1% 48.22%, transparent 48.32% 100%),
+    linear-gradient(163deg, transparent 0 61%, rgba(183,255,90,.022) 61.08% 61.18%, transparent 61.28% 100%),
+    #080b0e;
+  color: #eef3f7;
+}
+
+/* Quiet mathematical field: large arcs and sparse coordinate nodes. */
+body:not(:has(.beta-home)) .md-main {
+  position: relative;
+  isolation: isolate;
+  background: transparent;
+}
+
+body:not(:has(.beta-home)) .md-main::before,
+body:not(:has(.beta-home)) .md-main::after {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  pointer-events: none;
+  border-radius: 50%;
+  opacity: .55;
+}
+
+body:not(:has(.beta-home)) .md-main::before {
+  width: 54rem;
+  height: 54rem;
+  right: -28rem;
+  top: 16rem;
+  border: 1px solid rgba(107,140,255,.055);
+  box-shadow:
+    0 0 0 8rem rgba(107,140,255,.012),
+    0 0 0 16rem rgba(170,116,255,.009);
+}
+
+body:not(:has(.beta-home)) .md-main::after {
+  width: 32rem;
+  height: 32rem;
+  left: -17rem;
+  bottom: 10rem;
+  border: 1px solid rgba(183,255,90,.045);
+  box-shadow: 0 0 0 7rem rgba(183,255,90,.008);
+}
+
+body:not(:has(.beta-home)) .md-content__inner {
+  position: relative;
+  max-width: 56rem;
+  margin-top: 1.2rem;
+  padding: clamp(1.2rem, 2.4vw, 2rem);
+  border: 1px solid rgba(255,255,255,.08);
+  border-top-color: rgba(183,255,90,.34);
+  border-radius: .25rem;
+  background:
+    linear-gradient(135deg, rgba(107,140,255,.045), transparent 28%),
+    rgba(10,14,18,.92);
+  box-shadow: 0 1.4rem 4rem rgba(0,0,0,.22);
+  color: #dfe7ee;
+}
+
+body:not(:has(.beta-home)) .md-content__inner::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: min(16rem, 38%);
+  height: 2px;
+  background: linear-gradient(90deg, #b7ff5a, #72e6ff, transparent);
+  box-shadow: 0 0 1rem rgba(183,255,90,.2);
+}
+
+body:not(:has(.beta-home)) .md-content__inner h1,
+body:not(:has(.beta-home)) .md-content__inner h2,
+body:not(:has(.beta-home)) .md-content__inner h3,
+body:not(:has(.beta-home)) .md-content__inner h4 {
+  color: #f5f7f9;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body:not(:has(.beta-home)) .md-content__inner h1 {
+  margin-bottom: 1.2rem;
+  font-size: clamp(2.25rem, 5vw, 3.8rem);
+  font-weight: 590;
+  line-height: 1.02;
+  letter-spacing: -.055em;
+}
+
+body:not(:has(.beta-home)) .md-content__inner h2 {
+  margin-top: 2.7rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid rgba(183,255,90,.16);
+  font-size: clamp(1.45rem, 2.4vw, 2rem);
+  letter-spacing: -.025em;
+}
+
+body:not(:has(.beta-home)) .md-content__inner h3 {
+  color: #cbd7e0;
+}
+
+body:not(:has(.beta-home)) .md-content__inner strong {
+  color: #f4f7f9;
+}
+
+body:not(:has(.beta-home)) .md-content__inner a {
+  text-decoration-color: rgba(141,164,255,.35);
+  text-underline-offset: .16em;
+}
+
+body:not(:has(.beta-home)) .md-content__inner a:hover {
+  color: #b7ff5a;
+  text-decoration-color: rgba(183,255,90,.65);
+}
+
+body:not(:has(.beta-home)) .md-content__inner blockquote,
+body:not(:has(.beta-home)) .registry-bottom-line {
+  color: #dfe7ee;
+  border-left-color: #b7ff5a;
+  background: linear-gradient(90deg, rgba(183,255,90,.07), rgba(107,140,255,.035));
+}
+
+body:not(:has(.beta-home)) .md-typeset table:not([class]) {
+  border: 1px solid rgba(255,255,255,.1);
+  background: rgba(10,14,18,.7);
+}
+
+body:not(:has(.beta-home)) .md-typeset table:not([class]) th {
+  color: #f2f5f7;
+  background: #111821;
+  border-bottom-color: rgba(183,255,90,.25);
+}
+
+body:not(:has(.beta-home)) .md-typeset table:not([class]) td {
+  border-top-color: rgba(255,255,255,.07);
+}
+
+body:not(:has(.beta-home)) .md-typeset code {
+  border: 1px solid rgba(255,255,255,.06);
+  background: #0c1218;
+}
+
+body:not(:has(.beta-home)) .md-typeset pre > code {
+  border-left: 2px solid rgba(107,140,255,.55);
+}
+
+body:not(:has(.beta-home)) .admonition,
+body:not(:has(.beta-home)) details {
+  color: #dfe7ee;
+  border-color: rgba(255,255,255,.11);
+  background: rgba(15,21,28,.92);
+  box-shadow: none;
+}
+
+body:not(:has(.beta-home)) .admonition-title,
+body:not(:has(.beta-home)) summary {
+  background: rgba(107,140,255,.07);
+}
+
+body:not(:has(.beta-home)) .registry-hero,
+body:not(:has(.beta-home)) .registry-card,
+body:not(:has(.beta-home)) .registry-row,
+body:not(:has(.beta-home)) .jurisdiction-hero,
+body:not(:has(.beta-home)) .jurisdiction-card,
+body:not(:has(.beta-home)) .jurisdiction-status {
+  color: #dfe7ee;
+  border-color: rgba(255,255,255,.1);
+  border-radius: .2rem;
+  background:
+    linear-gradient(145deg, rgba(107,140,255,.055), transparent 42%),
+    #10161d;
+  box-shadow: none;
+}
+
+body:not(:has(.beta-home)) .registry-hero,
+body:not(:has(.beta-home)) .jurisdiction-hero {
+  border-top-color: rgba(183,255,90,.32);
+  background:
+    radial-gradient(circle at 92% 12%, rgba(183,255,90,.08), transparent 13rem),
+    linear-gradient(135deg, rgba(107,140,255,.07), transparent 45%),
+    #0f151c;
+}
+
+body:not(:has(.beta-home)) .registry-card h3,
+body:not(:has(.beta-home)) .registry-row h3,
+body:not(:has(.beta-home)) .jurisdiction-card__name {
+  color: #f4f7f9;
+}
+
+body:not(:has(.beta-home)) .jurisdiction-card:hover,
+body:not(:has(.beta-home)) .registry-card:hover,
+body:not(:has(.beta-home)) .registry-row:hover {
+  border-color: rgba(183,255,90,.45);
+  transform: translateY(-2px);
+  box-shadow: 0 .8rem 2rem rgba(0,0,0,.18);
+}
+
+body:not(:has(.beta-home)) .md-sidebar--primary,
+body:not(:has(.beta-home)) .md-sidebar--secondary {
+  border-color: rgba(255,255,255,.06);
+}
+
+body:not(:has(.beta-home)) .md-nav__title,
+body:not(:has(.beta-home)) .md-nav__link {
+  color: #9eabb7;
+}
+
+body:not(:has(.beta-home)) .md-nav__link:hover,
+body:not(:has(.beta-home)) .md-nav__link--active {
+  color: #b7ff5a;
+}
+
+body:not(:has(.beta-home)) .md-footer {
+  border-top: 1px solid rgba(255,255,255,.08);
+  background: #080b0e;
+}
+
+@media (max-width: 59.984375em) {
+  body:not(:has(.beta-home)) .md-content__inner {
+    margin-top: .5rem;
+    padding: 1rem;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+  }
+}
+
+@media print {
+  body:not(:has(.beta-home)),
+  body:not(:has(.beta-home)) .md-main,
+  body:not(:has(.beta-home)) .md-content__inner {
+    background: #fff !important;
+    color: #000 !important;
+    box-shadow: none !important;
+  }
+
+  body:not(:has(.beta-home)) .md-main::before,
+  body:not(:has(.beta-home)) .md-main::after,
+  body:not(:has(.beta-home)) .md-content__inner::before {
+    display: none !important;
+  }
+}
