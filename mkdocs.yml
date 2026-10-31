@@ -76,6 +76,7 @@ nav:
   - Research & Investigations:
       - Browse all: investigations/index.md
       - California:
+          - California investigations: california/investigations/index.md
           - Contra Costa County Library — PITS: california/investigations/contra-costa-library-pits.md
           - Concord Library facility record: registry/concord-library.md
           - Concord Police Department: registry/concord-police.md
