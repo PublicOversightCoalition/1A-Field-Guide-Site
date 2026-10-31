@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "collection_id": "cccl-pits-2026-10-19",
+  "title": "Contra Costa County Library PITS — first production",
+  "received": "2026-10-19",
+  "record_count": 16,
+  "records": [
+    {"id":"CCCL-PITS-001","source_filename":"PITS_ListIncidentsWCLandCON.xlsx","kind":"dataset","bytes":150131,"sha256":"22cd40a5731ffd589f812e779d20edb9d87cbd7cdb972a5743693b1cc5b2e3a0","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-002","source_filename":"PITS Glossary.pdf","kind":"system-reference","bytes":157346,"sha256":"936904f3f3c9b9ccf7ed774ef48669b4548c5dcf0f87d83c4d1f55932b472e4a","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-003","source_filename":"PITS Best Practices for Managers 2025.pdf","kind":"training-guidance","bytes":75255,"sha256":"7f7bce37b5c06b00a93a60d826651b77f20515240f5c470e42f6d14db87ad122","public_derivative":"extracts/pits-best-practices-managers-2025.txt","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-004","source_filename":"PITS Training prior to March 2026.pdf","kind":"training-guidance","bytes":381095,"sha256":"99dc919df12ca1ed83b5af229bfc817eefa8b72086db4aeaf8d43ea28247b45f","public_derivative":"extracts/pits-training-prior-to-march-2026.txt","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-005","source_filename":"PITS Training updated March 2026.pdf","kind":"training-guidance","bytes":1500897,"sha256":"918e935a9d935b15564d73abb7520bc8ea462cf5770e6127c06ddfb6c729a668","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-006","source_filename":"PITS User Guide - Browse Incidents.pdf","kind":"system-guide","bytes":919594,"sha256":"ab5a7cad0c522889f4a506d19881ac5a0b3fecf6b9d4b636bf4292c9962fe7b4","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-007","source_filename":"PITS User Guide - Create Incident Report.pdf","kind":"system-guide","bytes":539050,"sha256":"7465c083dddb7616241f002241121173302ffc6e68c2c76abd0aeb7359a79bf3","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-008","source_filename":"PITS User Guide - Review Edit Incident Report.pdf","kind":"system-guide","bytes":1334845,"sha256":"beac7e096b230d378406616e1cbe77bd2886b831e9a4798bdd432165ff74dd2f","public_derivative":"notes/review-edit-capabilities.md","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-009","source_filename":"PITS User Guide - Perpetrator Details.pdf","kind":"system-guide","bytes":1054819,"sha256":"90f8e1b9fbe2c76e62d36d5e8bf223502a9ec22ed9d73928d03a9a3aeae6e938","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-010","source_filename":"PITS User Guide - PITS Dashboard.pdf","kind":"system-guide","bytes":1503542,"sha256":"9e4831597dc7134bbe9bf15dbae8bcefc5dd4e75219efa744c80c79986d0bbf6","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-011","source_filename":"PITS User Guide - Reports.pdf","kind":"system-guide","bytes":2131688,"sha256":"998b23001700e0712979538ab62c3e4b14216954c8bc855a12be185e40bad49b","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-012","source_filename":"PITS User Guide - Restricted Data.pdf","kind":"system-guide","bytes":833507,"sha256":"e2e425c504cccc4287c0517242fd3248c8b5879f45c973e48fb242e640c491ac","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-013","source_filename":"PITS User Guide - Recent Changes and Additions July 2025.pdf","kind":"change-log","bytes":3305615,"sha256":"d2d495648695b4982e2c3552bc36b56aa7717dbd61a9c60eb2ced050f51abd92","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-014","source_filename":"Instructions for Race in PITS 2025.pdf","kind":"classification-guidance","bytes":256851,"sha256":"b3e06dea43a99cd7cc09c9d8427a49750d99cfc39ea61ed32f857cb96d079d01","public_derivative":"extracts/instructions-race-pits-2025.txt","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-015","source_filename":"Current PITS Infractions Categories.pdf","kind":"classification-reference","bytes":158090,"sha256":"d3c8bb41759d033e3664b34de162a54bdf8e278c8bed0905053e6b103d21fa5a","source_publication":"source-retained"},
+    {"id":"CCCL-PITS-016","source_filename":"PITS Infraction Categories prior to March 2026.pdf","kind":"classification-reference","bytes":128813,"sha256":"52a92ee8a45898a5dd70d28ab6bc816d489176c16ec93d52736fa0f0fd97c81d","source_publication":"source-retained"}
+  ]
+}

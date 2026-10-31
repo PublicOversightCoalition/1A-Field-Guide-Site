@@ -39,6 +39,9 @@ jobs:
       - name: Validate public project state
         run: python tools/public_state/validate_project_state.py
 
+      - name: Validate public evidence manifests
+        run: python tools/public_state/validate_evidence_manifest.py
+
       - name: Generate and validate Registry
         run: |
           python tools/registry/validate_restriction_corpus.py

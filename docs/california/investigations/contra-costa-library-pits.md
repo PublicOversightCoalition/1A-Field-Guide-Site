@@ -7,7 +7,7 @@ title: Contra Costa County Library — PITS investigation
 **Jurisdiction:** California · Contra Costa County  
 **Agencies / facilities:** Contra Costa County Library; Concord Library; Walnut Creek Library  
 **Status:** ACTIVE · RECORDS PENDING  
-**Last updated:** 2026-10-30
+**Last updated:** 2026-10-31
 
 <div class="registry-bottom-line" markdown>
 
@@ -15,7 +15,7 @@ title: Contra Costa County Library — PITS investigation
 
 </div>
 
-[Back to Research & Investigations](../../investigations/index.md) · [Concord Library facility record](../../registry/concord-library.md) · [California public-records framework](../public-records-evidence-preservation.md)
+[Back to Research & Investigations](../../investigations/index.md) · [Open evidence collection](../../evidence/california/cccl-pits/index.md) · [Concord Library facility record](../../registry/concord-library.md) · [California public-records framework](../public-records-evidence-preservation.md)
 
 ## What happened and why we opened this
 
@@ -96,9 +96,9 @@ The current record does not yet answer several material questions:
 
 ### First production — completed October 19, 2026
 
-The first production currently serves as the evidence base for system structure and terminology. It includes PITS documentation, training, incident categories, report/user guides, policy material, and the Concord/Walnut Creek incident list.
+The first production now has a dedicated [public evidence collection](../../evidence/california/cccl-pits/index.md). The collection assigns stable evidence IDs to all 16 original files, records source byte sizes and SHA-256 hashes, publishes selected searchable derivatives or evidence notes, and keeps source-retained files distinct from public derivatives.
 
-A public evidence-library layer is still being built. Until that layer is ready, this page summarizes what each record set contributes rather than dumping every source file into the investigation narrative.
+The incident spreadsheet contains 1,749 rows across Concord and Walnut Creek from April 2015 through September 2026. The evidence collection publishes a reproducible aggregate profile while the original XLSX remains source-retained pending the project's publication/privacy review.
 
 ### Follow-up production — pending
 
@@ -121,6 +121,7 @@ The October 27 follow-up requests:
 | 2026-10-05 | Library issued extension notice | Initial response period extended. |
 | 2026-10-19 | First request completed | Produced PITS documentation, reports, categories, policies/training, and incident-list data. |
 | 2026-10-27 | Follow-up request acknowledged | Targeted the gaps exposed by the first production. |
+| 2026-10-31 | First evidence collection published | Established stable evidence IDs, integrity hashes, and publication states for the first production. |
 | 2026-11-06 | Stated response deadline | Current deadline absent a further lawful extension. |
 
 ## Applicable law and policy
@@ -162,7 +163,7 @@ These are **interim findings about the records and system**, not conclusions tha
 - Determine whether restricted incidents alter branch-level patterns.
 - Reconcile 2026 training changes against earlier entries.
 - Select only the highest-value incidents for police/911/EMS follow-up where outside records could materially confirm or contradict the PITS account.
-- Build the public evidence-library layer with project-side privacy review and redaction where appropriate.
+- Expand the evidence collection as new records arrive, preserving stable evidence IDs and source/derivative separation.
 
 ## Reusable Field Guide lessons
 
