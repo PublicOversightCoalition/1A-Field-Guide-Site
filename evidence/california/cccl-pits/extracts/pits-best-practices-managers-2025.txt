@@ -1,0 +1,91 @@
+PUBLIC ACCESS TEXT EXTRACTION
+Source: Contra Costa County Library first PITS records production, completed 2026-10-19.
+Derivative: text extracted from agency-produced PDF for search/accessibility. Layout, screenshots, and image-only content may be incomplete.
+This derivative is not a substitute for the original source file; the source SHA-256 is recorded in the evidence manifest.
+
+PITS Best Practices for Managers
+Managers are responsible for PITS reports submitted by their staff.
+Always read all PITS reports submitted by your staff.
+Common Issues in PITS reports:
+   •   Library Card numbers should not be anywhere in a PITS report
+   •   Do not speculate about a patron’s housing status, intoxication, or other personal
+       circumstances. Focus on objective observations (behaviors, appearance, etc.)
+       rather than assumptions or interpretations.
+   •   Please remember to fill out all relevant fields, including Infractions and People
+   •   Do not include any photos of people
+   •   PITS reports should be clear, factual, and concise.
+
+“Should I do a PITS on that...?”
+Frequently we get questions about what necessitates a PITS report. Remember:
+
+   •   Leadership can’t suspend a patron for very long if there is no pattern or previously
+       documented behavior
+   •   In the past, PITS has connected patrons who cause issues in multiple branches and
+       lead to longer suspensions
+   •   Patterns seen in PITS can alert Leadership if there are recuring issues in your branch
+       that can be addressed
+   •   PITS reports will support measures increasing staff and patron safety
+   •   If staff must ask a patron to leave the library, even just for a day, a PITS report should
+       always be created to document the incident.
+
+One Day up to One Week Suspensions
+   •   Any staff person who is not a Library Aide can suspend for one day.
+   •   Only Managers and Leadership can suspend patrons for two days up to one week.
+   •   Only Leadership can suspend patrons for more than one week.
+
+Race Drop Down in PITS
+Additional required field being added to PITS
+
+After much discussion, the Anti-racism Committee has recommended, and Leadership
+has decided to include racial descriptors in PITS. The following categories have been added
+as drop-down options to the “Race” field in the “Perpetrator Info” section of PITS:
+       Black/African American
+       Asian
+       Latina/o/x
+       Middle Eastern and North African (MENA)
+       Native American/Indigenous
+       Pacific Islander
+       South Asian
+       No person visible (Phone call/chat/email)
+       White
+
+Instructions:
+Staff reporting incidents must select the drop-down option based on their perception of
+the perpetrator’s race. The field may be later updated and/or corrected if additional
+information about how the person racially identifies becomes known. Staff should
+continue to use the free-text description field to add nuance and details about the
+perpetrator’s physical description.
+Why are we adding this field in now and how will we use this information?
+Collecting data about race in incident reports serves two purposes:
+   1. Help us to better identify people involved in incidents in our libraries
+   2. Helps identify and address potential patterns within our responses to incidents. (For
+      example, is Leadership and Management being consistent across racial groups in
+      our suspension lengths or is additional antibias training needed?)
+Data Use:
+
+   •   Information will be tracked using the reporting features in PITS
+   •   Data will not be used to draw conclusions about the criminality of any groups of
+       library patrons
+   •   Data may be used to inform future updates to Library policies, procedures, and
+       practices
+
+Leadership Response and Awareness of Incidents:
+In response to concerns that all members of the Leadership team have not been aware of
+important incidents at some branches, we are clarifying how Leadership reviews and
+responds to incidents. The steps below are what we have agreed upon:
+
+   1. Public services leadership staff receive all PITS and routinely review them.
+         a. HR staff also review all PITS to screen for incidents that may involve
+             workplace violence and follow up directly with affected staff when
+             appropriate
+
+   2. When an urgent or particularly concerning incident happens (e.g., one that warrants
+      a suspension of longer than one week or is particularly egregious in nature) the
+      Manager or staff should contact Leadership so that they are immediately aware of
+      the situation and can advise how to respond.
+
+   3. Leadership staff may reach out directly to Managers or affected staff to offer
+      support
+
+   4. For the aforementioned incidents and situations, the LSM for the branch in question
+      will ensure that other leadership members are aware of the situation

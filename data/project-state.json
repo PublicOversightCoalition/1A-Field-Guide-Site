@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "jurisdictions": {
     "active": 1,
     "development": 1,
@@ -19,16 +19,17 @@
       "id": "cccl-pits",
       "title": "Contra Costa County Library — PITS",
       "status": "ACTIVE",
-      "phase": "RECORDS PENDING",
+      "phase": "EVIDENCE PUBLISHED · RECORDS PENDING",
       "jurisdiction": "California",
       "region": "CONTRA COSTA COUNTY",
       "href": "california/investigations/contra-costa-library-pits/",
       "facility_href": "registry/concord-library/",
+      "evidence_href": "evidence/california/cccl-pits/",
       "lead": true,
-      "last_updated": "2026-10-30",
+      "last_updated": "2026-10-31",
       "question": "What does PITS actually preserve about patron conduct, staff response, classification, suspension, deletion, and outside-agency involvement?",
-      "summary": "PITS incident data, system guidance, classifications, lifecycle questions, and follow-up public-records research are being reconciled against California's active framework.",
-      "wire": "PITS follow-up records due November 6 absent extension"
+      "summary": "The first PITS production now has a public evidence collection with stable source IDs and integrity hashes while follow-up records remain pending.",
+      "wire": "first evidence collection published; follow-up records due November 6 absent extension"
     },
     {
       "id": "healdsburg-police",
@@ -52,7 +53,8 @@
   "next": [
     {
       "label": "NEXT",
-      "text": "Public evidence library for investigation source records"
+      "text": "CCCL follow-up production and evidence reconciliation",
+      "href": "california/investigations/contra-costa-library-pits/"
     }
   ]
 }
