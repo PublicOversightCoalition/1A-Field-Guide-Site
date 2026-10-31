@@ -19,10 +19,14 @@ def main() -> None:
     for path in DOCS.rglob("*.md"):
         text = path.read_text(encoding="utf-8")
         for match in RAW_HREF_RE.finditer(text):
-            href = match.group(1).split("#", 1)[0].split("?", 1)[0]
+            raw_href = match.group(1)
+            if raw_href.startswith(("http://", "https://", "mailto:", "tel:")):
+                continue
+
+            href = raw_href.split("#", 1)[0].split("?", 1)[0]
             if href.lower().endswith(BAD_SUFFIXES):
                 line = text.count("\n", 0, match.start()) + 1
-                problems.append(f"{path.relative_to(ROOT)}:{line}: {match.group(1)}")
+                problems.append(f"{path.relative_to(ROOT)}:{line}: {raw_href}")
 
     if problems:
         fail("raw HTML links must use deployed URLs, not Markdown source paths:\n  " + "\n  ".join(problems))
