@@ -240,11 +240,9 @@ body:has([data-motion-home]) .md-main {
 /* Editorial manifesto / proof band injected between research and records */
 .beta-manifesto {
   position: relative;
-  left: 50%;
-  width: 100vw;
-  margin-left: -50vw;
+  /* Keep the band inside .beta-home, which clips overflow. */
   margin-top: clamp(4rem, 8vw, 7rem);
-  padding: clamp(2.3rem, 5vw, 4.2rem) max(1.2rem, calc((100vw - 88rem) / 2));
+  padding: clamp(2.3rem, 5vw, 4.2rem) max(1.2rem, calc((100% - 88rem) / 2));
   overflow: hidden;
   border-top: 1px solid rgba(183,255,90,.23);
   border-bottom: 1px solid rgba(183,255,90,.23);
