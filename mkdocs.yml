@@ -51,6 +51,7 @@ extra_css:
   - stylesheets/sitewide-editorial.css
   - stylesheets/investigations.css
   - stylesheets/evidence-library.css
+  - stylesheets/accessibility.css
 
 extra_javascript:
   - javascripts/public-beta-motion.js
