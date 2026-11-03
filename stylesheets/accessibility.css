@@ -1,0 +1,127 @@
+/* Accessibility refinements — preserve the editorial identity while improving legibility and interaction. */
+
+:root {
+  --a11y-focus: #85ff97;
+}
+
+/* Updated accent palette selected during the accessibility/design review. */
+body:has([data-motion-home]) {
+  --editorial-green: #85ff97;
+  --editorial-violet: #6a00f5;
+}
+
+.beta-home {
+  --beta-green: #85ff97;
+  --beta-violet: #6a00f5;
+  --beta-green-soft: rgba(133, 255, 151, .12);
+  --beta-violet-soft: rgba(106, 0, 245, .13);
+}
+
+/* Keep the display voice, but reduce unusually tight tracking. */
+.beta-hero h1,
+.beta-manifesto__headline {
+  letter-spacing: -.025em;
+}
+
+.beta-section__heading h2,
+.beta-california h2,
+.beta-contribute h2,
+.beta-research .beta-case-card:first-child h3,
+.beta-records .beta-feature-card:first-child h3 {
+  letter-spacing: -.015em;
+}
+
+.md-content__inner h1,
+.md-content__inner h2,
+.md-content__inner h3,
+.md-content__inner h4 {
+  letter-spacing: -.01em;
+}
+
+/* Preserve uppercase labels without excessive character spacing. */
+.beta-kicker,
+.beta-label,
+.beta-feature-card__eyebrow,
+.beta-case-card__meta,
+.beta-newswire__label,
+.beta-newswire__item strong,
+.beta-manifesto__stat span {
+  letter-spacing: .08em;
+}
+
+/* Strong, consistent keyboard focus on the public site. */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--a11y-focus) !important;
+  outline-offset: 3px !important;
+  border-radius: .2rem;
+}
+
+/* Links in prose should not rely on color alone. */
+.md-typeset p a,
+.md-typeset li a,
+.md-typeset blockquote a,
+.beta-lede a,
+.beta-section__heading p a,
+.beta-california p a,
+.beta-contribute p a {
+  text-decoration: underline;
+  text-decoration-thickness: .09em;
+  text-underline-offset: .16em;
+}
+
+/* Interactive card/button affordances stay visually distinct. */
+.beta-button,
+.beta-topic-card,
+.beta-feature-card,
+.beta-case-card,
+.jurisdiction-card {
+  text-decoration: none !important;
+}
+
+/* Avoid hover-only motion when users request less movement. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+
+  .beta-topic-card:hover,
+  .beta-feature-card:hover,
+  .beta-case-card:hover,
+  .beta-button:hover {
+    transform: none !important;
+  }
+}
+
+/* Make the scrolling research ticker pause for keyboard users as well as mouse users. */
+.beta-newswire:focus-within .beta-newswire__track {
+  animation-play-state: paused;
+}
+
+/* Allow WCAG text-spacing overrides to grow without forced clipping. */
+.beta-home,
+.beta-section,
+.beta-topic-card,
+.beta-feature-card,
+.beta-case-card,
+.beta-california,
+.beta-contribute,
+.md-content__inner {
+  overflow-wrap: anywhere;
+}
+
+.beta-hero,
+.beta-manifesto {
+  min-width: 0;
+}
+
+@media (max-width: 48em) {
+  .beta-hero h1,
+  .beta-manifesto__headline {
+    line-height: 1;
+  }
+}
