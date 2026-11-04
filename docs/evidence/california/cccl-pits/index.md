@@ -1,12 +1,12 @@
 ---
-title: Contra Costa County Library — PITS evidence
+title: Contra Costa County Library: PITS evidence
 ---
 
-# Contra Costa County Library — PITS evidence
+# Contra Costa County Library: PITS evidence
 
 **Collection:** `cccl-pits-2026-10-19`  
 **Jurisdiction:** California · Contra Costa County  
-**Investigation:** [Contra Costa County Library — PITS](../../../california/investigations/contra-costa-library-pits.md)  
+**Investigation:** [Contra Costa County Library: PITS](../../../california/investigations/contra-costa-library-pits.md)  
 **Production completed:** 2026-10-19  
 **Source records:** 16
 
