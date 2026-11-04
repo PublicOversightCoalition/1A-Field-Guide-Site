@@ -231,3 +231,46 @@ body:has([data-motion-home]) {
 .beta-home {
   --beta-violet-text: #c6a7ff;
 }
+
+
+/* Mobile Material navigation must stack above the sticky research ticker.
+   Material drawer and scrim use z-index 5; ticker previously used 40. */
+@media (max-width: 76em) {
+  body:has([data-motion-home]) .beta-newswire {
+    z-index: 2;
+  }
+  body:has([data-motion-home]) .md-header {
+    z-index: 4;
+  }
+  body:has([data-motion-home]) .md-sidebar--primary,
+  body:has([data-motion-home]) .md-overlay {
+    z-index: 5;
+  }
+}
+
+
+/* The interior page .md-main uses isolation:isolate, trapping the mobile
+   sidebar below Material's global screen overlay. Restore the drawer's
+   normal stacking context and place it above the overlay. */
+@media (max-width: 76em) {
+  body:not(:has([data-motion-home])) .md-main {
+    isolation: auto;
+  }
+  .md-sidebar--primary {
+    z-index: 8 !important;
+  }
+  .md-overlay {
+    z-index: 5 !important;
+  }
+}
+
+
+/* Material's dimming overlay can win the hit test over the open
+   sidebar even when the sidebar has a higher computed z-index.
+   Exclude the open drawer's own width from the overlay's hit region,
+   while keeping outside-tap-to-close working. */
+@media (max-width: 76em) {
+  body:has(#__drawer:checked) .md-overlay {
+    clip-path: inset(0 0 0 12.1rem);
+  }
+}
