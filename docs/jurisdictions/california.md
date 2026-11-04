@@ -7,7 +7,7 @@ title: California
 # California
 
 <div class="jurisdiction-status jurisdiction-status--active">
-  <strong>Field Guide active — Researching</strong>
+  <strong>Field Guide active: Researching</strong>
   <span>Verified 2026-09-30</span>
 </div>
 
