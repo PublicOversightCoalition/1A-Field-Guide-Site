@@ -274,3 +274,11 @@ body:has([data-motion-home]) {
     clip-path: inset(0 0 0 12.1rem);
   }
 }
+
+
+/* Search must remain interactive above the homepage research ticker.
+   Keeping the ticker below Material's header/search layer prevents
+   research-update links from intercepting search result clicks. */
+body:has([data-motion-home]) .beta-newswire {
+  z-index: 2;
+}
