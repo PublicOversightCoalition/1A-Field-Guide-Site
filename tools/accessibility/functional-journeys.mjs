@@ -217,6 +217,51 @@ for (const width of [390, 1440]) {
   }, { route: 'california/police-encounters/' });
 }
 
+// Reported mobile readability regressions: full update text and non-bleeding headings.
+for (const width of [320, 390]) {
+  await test('Mobile ticker starts paused with readable swipeable updates', width, async page => {
+    const ticker = page.locator('.beta-newswire');
+    await ticker.waitFor({ state: 'visible', timeout: 8000 });
+    const metrics = await ticker.evaluate(el => {
+      const viewport = el.querySelector('.beta-newswire__viewport');
+      const item = el.querySelector('.beta-newswire__originals .beta-newswire__item');
+      const style = getComputedStyle(item);
+      return {
+        paused: el.classList.contains('is-paused'),
+        overflowX: getComputedStyle(viewport).overflowX,
+        itemWidth: item.getBoundingClientRect().width,
+        viewportWidth: viewport.getBoundingClientRect().width,
+        whiteSpace: style.whiteSpace,
+        animationName: getComputedStyle(el.querySelector('.beta-newswire__track')).animationName
+      };
+    });
+    assert(metrics.paused, 'Mobile ticker starts moving without user choice');
+    assert(metrics.overflowX === 'auto', 'Mobile updates cannot be swiped');
+    assert(metrics.whiteSpace !== 'nowrap', 'Mobile update text cannot wrap');
+    assert(metrics.itemWidth >= width - 35, 'Mobile ticker update is too narrow: ' + JSON.stringify(metrics));
+    assert(metrics.animationName === 'none', 'Paused ticker is still animating');
+    await page.locator('.beta-newswire__pause').click();
+    assert(await page.locator('.beta-newswire__pause').getAttribute('aria-pressed') === 'false',
+      'Resume updates does not reactivate scrolling');
+  }, { reducedMotion: 'no-preference' });
+
+  await test('Mobile section headings do not remain sticky behind cards', width, async page => {
+    const headings = await page.locator('.beta-sticky-heading').evaluateAll(nodes =>
+      nodes.map(el => ({ position: getComputedStyle(el).position, text: el.textContent.trim().slice(0, 65) }))
+    );
+    assert(headings.length >= 2, 'Expected homepage section headings not found');
+    assert(headings.every(h => h.position === 'static'),
+      'Mobile heading may bleed through card gaps: ' + JSON.stringify(headings));
+  }, { reducedMotion: 'no-preference' });
+}
+
+await test('Desktop sticky heading treatment remains unchanged', 1440, async page => {
+  const headings = await page.locator('.beta-sticky-heading').evaluateAll(nodes =>
+    nodes.map(el => getComputedStyle(el).position));
+  assert(headings.length >= 2 && headings.every(value => value === 'sticky'),
+    'Desktop editorial sticky headings changed: ' + JSON.stringify(headings));
+}, { reducedMotion: 'no-preference' });
+
 const textSpacingRoutes = [
   '', 'california/', 'investigations/', 'evidence/', 'contribute/',
   'california/recording-public-officials/', 'california/police-encounters/',
