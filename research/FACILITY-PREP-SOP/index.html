@@ -494,7 +494,7 @@
   <span class="md-ellipsis">
     
   
-    California — Active
+    California: Active
   
 
     
@@ -522,7 +522,7 @@
   <span class="md-ellipsis">
     
   
-    Federal — In development
+    Federal: In development
   
 
     
@@ -1039,7 +1039,7 @@
   <span class="md-ellipsis">
     
   
-    Contra Costa County Library — PITS
+    Contra Costa County Library: PITS
   
 
     
@@ -2914,9 +2914,9 @@
 <p>Before generalizing a Facility Prep component statewide, test it against at least two facilities in the same category and then a materially different facility type.</p>
 <p>Validation sequence completed to date:</p>
 <ol>
-<li>Concord Library — first parcel/boundary prototype;</li>
-<li>Walnut Creek Library — same-category reproducibility test and modular-adapter validation;</li>
-<li>Concord DMV — first cross-category test against a State administrative-service facility.</li>
+<li>Concord Library, first parcel/boundary prototype;</li>
+<li>Walnut Creek Library, same-category reproducibility test and modular-adapter validation;</li>
+<li>Concord DMV, first cross-category test against a State administrative-service facility.</li>
 </ol>
 <p>The Concord DMV test validates the reusable evidence-acquisition method across categories, but it does <strong>not</strong> make every source adapter, physical-area inference, or legal anchor universal. The next architecture tests should deliberately choose materially different access/control regimes rather than repeat a parcel pattern that has already been validated.</p>
 <p>Only patterns that survive the relevant source coverage, physical configuration, and legal-purpose tests should become generalized Registry automation.</p>
@@ -2945,17 +2945,17 @@
 </ol>
 <p>The reviewed facility evidence manifest should distinguish:</p>
 <ul>
-<li><strong>machine-resolved fact</strong> — for example, the official API returned APN <code>111-240-006</code>;</li>
-<li><strong>map observation</strong> — for example, the assessor sheet labels parcel <code>06</code> as <code>LIBRARY</code>;</li>
-<li><strong>record-reference lead</strong> — for example, the map prints an unexplained <code>OR</code> notation;</li>
-<li><strong>legal conclusion</strong> — which remains outside Facility Prep until the underlying authority and Field Guide analysis support it.</li>
+<li><strong>machine-resolved fact</strong>: for example, the official API returned APN <code>111-240-006</code>;</li>
+<li><strong>map observation</strong>: for example, the assessor sheet labels parcel <code>06</code> as <code>LIBRARY</code>;</li>
+<li><strong>record-reference lead</strong>: for example, the map prints an unexplained <code>OR</code> notation;</li>
+<li><strong>legal conclusion</strong>: which remains outside Facility Prep until the underlying authority and Field Guide analysis support it.</li>
 </ul>
 <h2 id="12-facility-prep-output-stages">12. Facility Prep output stages<a class="headerlink" href="#12-facility-prep-output-stages" title="Permanent link">&para;</a></h2>
 <p>A mature parcel/boundary adapter should strive to produce three layers of output:</p>
 <ol>
-<li><strong>raw evidence</strong> — untouched JSON/GeoJSON/PDF or equivalent source material;</li>
-<li><strong>normalized evidence</strong> — APN, owner fields, acreage, address, map URL, adjacent candidates, hashes, confidence and unresolved-task fields;</li>
-<li><strong>review note</strong> — human-confirmed observations suitable for promotion into the facility evidence manifest.</li>
+<li><strong>raw evidence</strong>, untouched JSON/GeoJSON/PDF or equivalent source material;</li>
+<li><strong>normalized evidence</strong>, APN, owner fields, acreage, address, map URL, adjacent candidates, hashes, confidence and unresolved-task fields;</li>
+<li><strong>review note</strong>, human-confirmed observations suitable for promotion into the facility evidence manifest.</li>
 </ol>
 <p>The Registry should consume the reviewed layer, while retaining links to the raw and normalized evidence so a later reviewer can reproduce the chain.</p>
 <h2 id="13-street-right-of-way-research-leads">13. Street / right-of-way research leads<a class="headerlink" href="#13-street-right-of-way-research-leads" title="Permanent link">&para;</a></h2>
@@ -3033,10 +3033,10 @@
 <p>Search results must be screened for <strong>facility relevance</strong> before promotion. A same-street or same-road-vicinity hit is not enough by itself. Compare returned APN/parcel metadata, subdivision/tract information, map date, geography, and any available geometry against the facility evidence already established.</p>
 <p>Use these states:</p>
 <ul>
-<li><code>FACILITY-RELEVANT</code> — independent evidence ties the returned map to the facility/current-adjacent parcel;</li>
-<li><code>HISTORICAL-CHAIN-RELEVANT</code> — the map is tied to a predecessor tract or historical chain but does not establish the current boundary;</li>
-<li><code>BROAD-GEOGRAPHIC-HIT / NOT-PROMOTED</code> — a road/name query returned the record, but parcel or geographic evidence does not tie it to the facility;</li>
-<li><code>RELEVANCE-UNRESOLVED</code> — metadata are insufficient to decide.</li>
+<li><code>FACILITY-RELEVANT</code>, independent evidence ties the returned map to the facility/current-adjacent parcel;</li>
+<li><code>HISTORICAL-CHAIN-RELEVANT</code>, the map is tied to a predecessor tract or historical chain but does not establish the current boundary;</li>
+<li><code>BROAD-GEOGRAPHIC-HIT / NOT-PROMOTED</code>, a road/name query returned the record, but parcel or geographic evidence does not tie it to the facility;</li>
+<li><code>RELEVANCE-UNRESOLVED</code>, metadata are insufficient to decide.</li>
 </ul>
 <p>Do not retrieve and interpret every road-name hit merely because the search engine returned it. Preserve broad-result metadata when useful, but prioritize records whose identifiers or geography actually intersect the facility research question.</p>
 <p>If:</p>
@@ -3164,12 +3164,12 @@
 <p>A forum classification answers <strong>what constitutional standard governs a restriction</strong>. It does not, by itself, prove that a restriction exists.</p>
 <p>For every facility-area/activity analysis, keep these questions separate:</p>
 <ol>
-<li><strong>Where is the person?</strong> — exact subarea, access condition, property/control and forum classification;</li>
-<li><strong>What activity is occurring?</strong> — filming, audio recording, leafleting, petitioning, observing, speaking, soliciting, attending, etc.;</li>
-<li><strong>What or who is the activity directed at?</strong> — for recording, for example, an officer performing a public-facing duty, an uninvolved patron, a victim report, a computer screen, a confidential document, or a restricted/security feature;</li>
-<li><strong>What actual restriction exists?</strong> — statute, regulation, ordinance, adopted policy, posted rule, order, security condition, or conduct-based direction;</li>
-<li><strong>What authority governs the specific activity?</strong> — activity-specific constitutional/statutory/case authority may differ from the best forum-classification authority;</li>
-<li><strong>What enforcement bridge is being asserted?</strong> — removal, trespass, obstruction, detention, arrest, or another consequence must be separately supported.</li>
+<li><strong>Where is the person?</strong>, exact subarea, access condition, property/control and forum classification;</li>
+<li><strong>What activity is occurring?</strong>, filming, audio recording, leafleting, petitioning, observing, speaking, soliciting, attending, etc.;</li>
+<li><strong>What or who is the activity directed at?</strong>, for recording, for example, an officer performing a public-facing duty, an uninvolved patron, a victim report, a computer screen, a confidential document, or a restricted/security feature;</li>
+<li><strong>What actual restriction exists?</strong>, statute, regulation, ordinance, adopted policy, posted rule, order, security condition, or conduct-based direction;</li>
+<li><strong>What authority governs the specific activity?</strong>, activity-specific constitutional/statutory/case authority may differ from the best forum-classification authority;</li>
+<li><strong>What enforcement bridge is being asserted?</strong>, removal, trespass, obstruction, detention, arrest, or another consequence must be separately supported.</li>
 </ol>
 <p>Do not infer:</p>
 <p><code>nonpublic forum → recording prohibited</code></p>
@@ -3180,8 +3180,8 @@
 <h3 id="dual-anchor-method">Dual-anchor method<a class="headerlink" href="#dual-anchor-method" title="Permanent link">&para;</a></h3>
 <p>The closest authority for <strong>forum/access classification</strong> may not be the closest authority for the <strong>specific expressive activity</strong>. Facility Prep and the Registry may therefore use two distinct anchors:</p>
 <ul>
-<li><strong>forum/access anchor</strong> — the best controlling/persuasive authority for the physical area/channel and governmental purpose;</li>
-<li><strong>activity anchor</strong> — the best controlling/persuasive authority, statute, or agency rule addressing the actual activity at issue.</li>
+<li><strong>forum/access anchor</strong>: the best controlling/persuasive authority for the physical area/channel and governmental purpose;</li>
+<li><strong>activity anchor</strong>: the best controlling/persuasive authority, statute, or agency rule addressing the actual activity at issue.</li>
 </ul>
 <p>The Concord Police Headquarters sweep established this refinement. General forum authorities such as <em>Cornelius</em> and <em>Sammartano</em> are stronger for classifying a purpose-limited public police lobby, while <em>Fordyce</em>, Penal Code § 148(g), CPD Policy 423, and the highly fact-specific local district-court decision <em>Wilson v. County of Contra Costa</em> are more directly relevant to recording officers while lawfully present.</p>
 <p>One case need not perform both analytical jobs.</p>

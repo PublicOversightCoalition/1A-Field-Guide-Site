@@ -494,7 +494,7 @@
   <span class="md-ellipsis">
     
   
-    California — Active
+    California: Active
   
 
     
@@ -522,7 +522,7 @@
   <span class="md-ellipsis">
     
   
-    Federal — In development
+    Federal: In development
   
 
     
@@ -1039,7 +1039,7 @@
   <span class="md-ellipsis">
     
   
-    Contra Costa County Library — PITS
+    Contra Costa County Library: PITS
   
 
     
@@ -2507,7 +2507,7 @@
   <a href="#phase-1-issue-only-preparation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Phase 1 — issue-only preparation
+        Phase 1: issue-only preparation
       
     </span>
   </a>
@@ -2518,7 +2518,7 @@
   <a href="#phase-2-branch-draft-pull-request-preparation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Phase 2 — branch + draft pull request preparation
+        Phase 2: branch + draft pull request preparation
       
     </span>
   </a>
@@ -2761,7 +2761,7 @@
   <a href="#stage-a-datacontrol-plane" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Stage A — data/control plane
+        Stage A: data/control plane
       
     </span>
   </a>
@@ -2772,7 +2772,7 @@
   <a href="#stage-b-issue-only-github-integration" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Stage B — issue-only GitHub integration
+        Stage B: issue-only GitHub integration
       
     </span>
   </a>
@@ -2783,7 +2783,7 @@
   <a href="#stage-c-protected-branchdraft-pr-integration" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Stage C — protected branch/draft-PR integration
+        Stage C: protected branch/draft-PR integration
       
     </span>
   </a>
@@ -2794,7 +2794,7 @@
   <a href="#stage-d-deployment-reconciliation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Stage D — deployment reconciliation
+        Stage D: deployment reconciliation
       
     </span>
   </a>
@@ -2955,7 +2955,7 @@ service_principal_id       -&gt; non-human GitHub execution identity
 </ul>
 <p>There is no <code>merge pull request</code>, <code>update default branch</code>, <code>delete repository</code>, <code>manage secrets</code>, <code>manage workflows</code>, or <code>change repository settings</code> operation in the export worker.</p>
 <h2 id="two-deployment-phases">Two deployment phases<a class="headerlink" href="#two-deployment-phases" title="Permanent link">&para;</a></h2>
-<h3 id="phase-1-issue-only-preparation">Phase 1 — issue-only preparation<a class="headerlink" href="#phase-1-issue-only-preparation" title="Permanent link">&para;</a></h3>
+<h3 id="phase-1-issue-only-preparation">Phase 1: issue-only preparation<a class="headerlink" href="#phase-1-issue-only-preparation" title="Permanent link">&para;</a></h3>
 <p>Phase 1 is the safe default when the authoritative default branch cannot be technically protected from the integration identity.</p>
 <p>GitHub permissions should be limited to the smallest set needed to create/read approved issues. The integration receives <strong>no Contents write permission</strong> and therefore cannot create or update repository branches or files.</p>
 <p>Issue export is appropriate for:</p>
@@ -2967,7 +2967,7 @@ service_principal_id       -&gt; non-human GitHub execution identity
 <li>another explicitly approved public-safe tracking artifact.</li>
 </ul>
 <p>Issue export is not a way to dump internal research into GitHub. The issue title, body, labels, filenames, links, and attachments must themselves be safe for the GitHub boundary.</p>
-<h3 id="phase-2-branch-draft-pull-request-preparation">Phase 2 — branch + draft pull request preparation<a class="headerlink" href="#phase-2-branch-draft-pull-request-preparation" title="Permanent link">&para;</a></h3>
+<h3 id="phase-2-branch-draft-pull-request-preparation">Phase 2: branch + draft pull request preparation<a class="headerlink" href="#phase-2-branch-draft-pull-request-preparation" title="Permanent link">&para;</a></h3>
 <p>Phase 2 may be enabled only after the authoritative repository has a technically enforceable default-branch protection that prevents the integration identity from directly updating or merging the authoritative branch.</p>
 <p>The intended GitHub repository permission set is narrowly bounded to the functions needed to:</p>
 <ul>
@@ -2982,9 +2982,9 @@ service_principal_id       -&gt; non-human GitHub execution identity
 <p>The project has chosen a public/private repository split rather than paying to make the private research repository the authoritative publication target.</p>
 <p>The intended steady state is:</p>
 <ul>
-<li><code>GitHubChrisRice/1A-Field-Guide</code> — <strong>private internal workspace</strong> for investigations, unpublished/raw evidence, requester or member-sensitive material, internal Coalition operations, and pre-publication work;</li>
-<li><code>GitHubChrisRice/1A-Field-Guide-Site</code> <code>main</code> — <strong>public authoritative source</strong> containing only deliberately publishable Field Guide source, public Registry material, public methodology, licensing/origin notices, and build configuration;</li>
-<li><code>GitHubChrisRice/1A-Field-Guide-Site</code> <code>gh-pages</code> — <strong>generated website output</strong> served by GitHub Pages.</li>
+<li><code>GitHubChrisRice/1A-Field-Guide</code>, <strong>private internal workspace</strong> for investigations, unpublished/raw evidence, requester or member-sensitive material, internal Coalition operations, and pre-publication work;</li>
+<li><code>GitHubChrisRice/1A-Field-Guide-Site</code> <code>main</code>, <strong>public authoritative source</strong> containing only deliberately publishable Field Guide source, public Registry material, public methodology, licensing/origin notices, and build configuration;</li>
+<li><code>GitHubChrisRice/1A-Field-Guide-Site</code> <code>gh-pages</code>, <strong>generated website output</strong> served by GitHub Pages.</li>
 </ul>
 <p>Because the authoritative source repository is public, GitHub Free can provide the branch/ruleset protection needed for Phase 2. The blocker is therefore configuration/migration, not a paid-plan requirement.</p>
 <p>At the time of this design, <code>1A-Field-Guide-Site/main</code> still contains generated site output and the current integration connection cannot create refs in that repository. Phase 2 must remain disabled until a human repository operator has:</p>
@@ -3295,7 +3295,7 @@ gh-pages / GitHub Pages
 </code></pre></div>
 <p>Where separate credentials are used, they must remain separate. Where GitHub Actions can use an ephemeral workflow token for deployment, scope that token only to the deployment operation. Compromise or revocation of the export identity must not imply permission to alter deployed site output directly, and deployment authority must not grant access to private research records.</p>
 <h2 id="implementation-sequence">Implementation sequence<a class="headerlink" href="#implementation-sequence" title="Permanent link">&para;</a></h2>
-<h3 id="stage-a-datacontrol-plane">Stage A — data/control plane<a class="headerlink" href="#stage-a-datacontrol-plane" title="Permanent link">&para;</a></h3>
+<h3 id="stage-a-datacontrol-plane">Stage A: data/control plane<a class="headerlink" href="#stage-a-datacontrol-plane" title="Permanent link">&para;</a></h3>
 <p>Implement:</p>
 <ul>
 <li><code>RepositoryExport</code>;</li>
@@ -3308,7 +3308,7 @@ gh-pages / GitHub Pages
 <li>candidate/hash/privacy precondition checks.</li>
 </ul>
 <p>No GitHub write credential is needed to test this stage.</p>
-<h3 id="stage-b-issue-only-github-integration">Stage B — issue-only GitHub integration<a class="headerlink" href="#stage-b-issue-only-github-integration" title="Permanent link">&para;</a></h3>
+<h3 id="stage-b-issue-only-github-integration">Stage B: issue-only GitHub integration<a class="headerlink" href="#stage-b-issue-only-github-integration" title="Permanent link">&para;</a></h3>
 <p>Create the dedicated GitHub integration with issue-only minimum permissions.</p>
 <p>Implement:</p>
 <ul>
@@ -3319,7 +3319,7 @@ gh-pages / GitHub Pages
 <li>external reference/audit capture.</li>
 </ul>
 <p>This is the first production-capable automated GitHub mode under the current repository constraints.</p>
-<h3 id="stage-c-protected-branchdraft-pr-integration">Stage C — protected branch/draft-PR integration<a class="headerlink" href="#stage-c-protected-branchdraft-pr-integration" title="Permanent link">&para;</a></h3>
+<h3 id="stage-c-protected-branchdraft-pr-integration">Stage C: protected branch/draft-PR integration<a class="headerlink" href="#stage-c-protected-branchdraft-pr-integration" title="Permanent link">&para;</a></h3>
 <p>Only after the repository operator verifies the authoritative branch protection prerequisite:</p>
 <ul>
 <li>grant the integration the additional minimum contents/PR permissions;</li>
@@ -3330,7 +3330,7 @@ gh-pages / GitHub Pages
 <li>detect divergence;</li>
 <li>confirm that the integration cannot directly update/merge the authoritative branch.</li>
 </ul>
-<h3 id="stage-d-deployment-reconciliation">Stage D — deployment reconciliation<a class="headerlink" href="#stage-d-deployment-reconciliation" title="Permanent link">&para;</a></h3>
+<h3 id="stage-d-deployment-reconciliation">Stage D: deployment reconciliation<a class="headerlink" href="#stage-d-deployment-reconciliation" title="Permanent link">&para;</a></h3>
 <p>Optionally reconcile the existing site-build/publish workflow so a conforming source merge can later be marked <code>published</code> after successful public deployment.</p>
 <h2 id="required-invariants">Required invariants<a class="headerlink" href="#required-invariants" title="Permanent link">&para;</a></h2>
 <p>Where technically practical:</p>
