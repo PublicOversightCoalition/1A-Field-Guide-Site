@@ -1,12 +1,18 @@
 /* Functional visitor-journey checks. Complements axe checks; not WCAG certification. */
-import { chromium } from 'playwright';
+import { chromium, firefox, webkit } from 'playwright';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const base = process.env.AUDIT_URL || 'http://127.0.0.1:8765/1A-Field-Guide-Site/';
 const output = process.env.AUDIT_OUTPUT || 'audit-results';
 mkdirSync(output, { recursive: true });
-const browser = await chromium.launch({ headless: true, args: ['--no-sandbox'] });
+const engine = process.env.PLAYWRIGHT_BROWSER || 'chromium';
+const browsers = { chromium, firefox, webkit };
+if (!Object.hasOwn(browsers, engine)) throw new Error('Unsupported browser engine: ' + engine);
+const browser = await browsers[engine].launch({
+  headless: true,
+  ...(engine === 'chromium' ? { args: ['--no-sandbox'] } : {})
+});
 const results = [];
 
 async function test(name, width, journey, { route = '', reducedMotion = 'reduce' } = {}) {
@@ -371,8 +377,8 @@ for (const route of textSpacingRoutes) {
 await browser.close();
 const failed = results.filter(r => r.outcome === 'fail');
 writeFileSync(join(output, 'functional-journeys.json'), JSON.stringify({
-  generated: new Date().toISOString(), scope: 'Browser functional smoke tests, not a screen-reader certification',
+  generated: new Date().toISOString(), scope: 'Browser functional smoke tests, not a screen-reader certification', browser: engine,
   total: results.length, passed: results.length - failed.length, failed: failed.length, results
 }, null, 2));
-console.log('Functional journeys: ' + (results.length - failed.length) + '/' + results.length + ' passed');
+console.log(engine + ' functional journeys: ' + (results.length - failed.length) + '/' + results.length + ' passed');
 if (failed.length) process.exitCode = 1;
