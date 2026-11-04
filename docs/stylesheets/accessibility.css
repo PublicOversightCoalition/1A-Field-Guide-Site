@@ -220,3 +220,14 @@ body:has([data-motion-home]) {
     padding-inline: .5rem;
   }
 }
+
+
+/* Small footer/legal text failed 4.5:1 on the homepage charcoal surface
+   (#69778a on #090b10 measured ~4.32:1). */
+.beta-home__footer p {
+  color: #a6b2c1;
+}
+/* Prevent low-contrast accent purple being used as a text color. */
+.beta-home {
+  --beta-violet-text: #c6a7ff;
+}
