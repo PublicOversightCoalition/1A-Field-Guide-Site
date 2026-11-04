@@ -35,8 +35,8 @@
     track.className = 'beta-newswire__track';
 
     const items = [
-      ...state.research.map((item) => [item.status, `${item.title} — ${item.wire}`, item.href]),
-      ['CALIFORNIA', `Active jurisdiction — ${state.california.counties_inventoried} counties inventoried`, 'california/'],
+      ...state.research.map((item) => [item.status, `${item.title}; ${item.wire}`, item.href]),
+      ['CALIFORNIA', `Active jurisdiction; ${state.california.counties_inventoried} counties inventoried`, 'california/'],
       ['PUBLIC RECORDS', state.public_records.wire, state.public_records.href],
       ['FEDERAL', 'Field Guide development track continues', 'jurisdictions/federal/'],
       ...state.next.map((item) => [item.label, item.text, item.href || null]),
