@@ -282,3 +282,16 @@ body:has([data-motion-home]) {
 body:has([data-motion-home]) .beta-newswire {
   z-index: 2;
 }
+
+
+/* Material mobile search must open as a usable viewport-height panel.
+   In the current sticky header context, its percentage height resolves
+   to the 48px header, collapsing the result list to zero height. */
+@media (max-width: 59.984375em) {
+  body:has(#__search:checked) .md-search__inner {
+    height: 100dvh !important;
+  }
+  body:has(#__search:checked) .md-search__output {
+    bottom: 0;
+  }
+}
