@@ -114,6 +114,11 @@ for (const p of report) {
     p.error || (p.violations?.length ? p.violations.map(v => v.id).join(', ') : 'axe clear'),
     p.reflowIssue ? 'horizontal overflow' : ''].filter(Boolean);
   process.stdout.write(summary.join(' | ') + '\n');
+  for (const violation of p.violations || []) {
+    for (const node of violation.nodes.slice(0, 2)) {
+      process.stdout.write('  ' + violation.id + ' ' + JSON.stringify(node.target) + ' ' + String(node.summary).slice(0, 160).replace(/\\n/g, ' ') + '\n');
+    }
+  }
 }
 process.stdout.write('Flagged checks: ' + errorCount + '\n');
 // Report first. Do not block deployment until findings are triaged.
