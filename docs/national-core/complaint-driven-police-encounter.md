@@ -394,7 +394,7 @@ A person can identify:
 4. its immediate availability; and
 5. the limited scope of the offer.
 
-### General field formulation
+## General field formulation
 
 When the recording actually covers the relevant period and supports the statement, use the disputed **factual predicate** as X rather than merely repeating a legal label:
 
