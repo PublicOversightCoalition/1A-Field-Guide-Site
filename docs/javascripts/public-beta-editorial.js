@@ -83,11 +83,11 @@
     });
 
     // Deliberate card-by-card movement on narrow screens, not continuous text
-    // crawling. Each update is stationary for nine seconds before advancing.
+    // crawling. Each update is stationary for three seconds before advancing.
     // Users can swipe at any time. Focus, an open menu, or a backgrounded page
     // suspends automatic advancement without changing their pause preference.
     const mobileItems = [...originals.querySelectorAll('.beta-newswire__item')];
-    const reelDelay = 9000;
+    const reelDelay = 3000;
     wire.dataset.mobileReelInterval = String(reelDelay);
     const advanceMobileReel = () => {
       if (!compactViewport.matches || wire.classList.contains('is-paused') ||
