@@ -144,6 +144,39 @@ for (const width of [390, 1440]) {
   });
 }
 
+// Follow-up keyboard review: verify visible focus and remove decorative ticker duplicates from navigation.
+for (const width of [390, 1440]) {
+  await test('Homepage action retains visible keyboard focus', width, async page => {
+    const action = page.locator('.beta-actions .beta-button--primary').first();
+    await action.focus();
+    const focus = await action.evaluate(el => {
+      const css = getComputedStyle(el);
+      return {
+        active: document.activeElement === el,
+        visible: el.getClientRects().length > 0,
+        outlineStyle: css.outlineStyle,
+        outlineWidth: parseFloat(css.outlineWidth)
+      };
+    });
+    assert(focus.active && focus.visible, 'Primary action cannot receive visible focus');
+    assert(focus.outlineStyle !== 'none' && focus.outlineWidth >= 2,
+      'Primary action lacks a substantial visible focus outline: ' + JSON.stringify(focus));
+  });
+
+  await test('Decorative ticker copies are absent from keyboard sequence', width, async page => {
+    await page.locator('.beta-newswire__duplicate').waitFor({ state: 'attached', timeout: 8000 });
+    const duplicates = await page.locator('.beta-newswire__duplicate a').evaluateAll(links =>
+      links.map(link => ({
+        tabIndex: link.tabIndex,
+        ariaHidden: link.closest('[aria-hidden="true"]') !== null
+      }))
+    );
+    assert(duplicates.length > 0, 'Ticker duplicates were not rendered');
+    assert(duplicates.every(link => link.tabIndex === -1 && link.ariaHidden),
+      'Decorative ticker link entered keyboard or screen-reader navigation');
+  });
+}
+
 const textSpacingRoutes = [
   '', 'california/', 'investigations/', 'evidence/', 'contribute/',
   'california/recording-public-officials/', 'california/police-encounters/',
