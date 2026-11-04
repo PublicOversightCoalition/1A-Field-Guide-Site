@@ -502,7 +502,7 @@ https://law.justia.com/cases/california/court-of-appeal/2023/a165888.html
 
 ## Project rule
 
-> **Treat § 832.7(b) as an affirmative statutory disclosure command with its own redaction/delay scheme—not as a suggestion layered beneath the older blanket confidentiality rule.**
+> **Treat § 832.7(b) as an affirmative statutory disclosure command with its own redaction/delay scheme, not as a suggestion layered beneath the older blanket confidentiality rule.**
 
 ---
 

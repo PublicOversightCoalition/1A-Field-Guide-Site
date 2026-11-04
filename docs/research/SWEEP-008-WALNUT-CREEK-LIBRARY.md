@@ -360,7 +360,7 @@ The room is opened to organizations, businesses or groups, supports advance rese
 
 Current forum posture:
 
-`LIMITED PUBLIC FORUM — STRONGLY SUPPORTED UNDER FAITH CENTER COMPARATOR / PRACTICE VERIFICATION PENDING`
+`LIMITED PUBLIC FORUM: STRONGLY SUPPORTED UNDER FAITH CENTER COMPARATOR / PRACTICE VERIFICATION PENDING`
 
 ### Booking-control discrepancy
 

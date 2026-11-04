@@ -276,7 +276,7 @@ The current federal authorities nevertheless strongly support applying a **purpo
 
 Working federal posture:
 
-`ORDINARY POLICE LOBBY — LIMITED/NONPUBLIC-FORUM STANDARD STRONGLY SUPPORTED / EXACT LABEL NOT YET NECESSARY TO EVERY RESTRICTION QUESTION / NO PUBLISHED NINTH-CIRCUIT POLICE-LOBBY FILMING HOLDING LOCATED`
+`ORDINARY POLICE LOBBY: LIMITED/NONPUBLIC-FORUM STANDARD STRONGLY SUPPORTED / EXACT LABEL NOT YET NECESSARY TO EVERY RESTRICTION QUESTION / NO PUBLISHED NINTH-CIRCUIT POLICE-LOBBY FILMING HOLDING LOCATED`
 
 For the issue most likely to matter, limited and nonpublic forums use the same core restriction standard: a restriction must be reasonable in light of the forum's purpose and viewpoint neutral.
 

@@ -291,7 +291,7 @@ The ordinary line is not:
 
 The better rule is:
 
-> **protected verbal challenge does not become § 148 merely because it is annoying or inconvenient, but conduct—including conduct accompanied by words—can violate § 148 when it actually resists, delays, or obstructs an officer's lawful performance.**
+> **protected verbal challenge does not become § 148 merely because it is annoying or inconvenient, but conduct, including conduct accompanied by words, can violate § 148 when it actually resists, delays, or obstructs an officer's lawful performance.**
 
 Always preserve the lawfulness-of-officer-duty element.
 
@@ -523,7 +523,7 @@ A person can begin with protected recording/criticism and later commit an indepe
 
 ### "You're harassing customers."
 
-> **Identify the conduct. For § 602.1(b), the question is intentional interference by obstruction or intimidation plus the qualifying refusal—not the label "harassment."**
+> **Identify the conduct. For § 602.1(b), the question is intentional interference by obstruction or intimidation plus the qualifying refusal, not the label "harassment."**
 
 ### "You can't talk to the officer like that."
 

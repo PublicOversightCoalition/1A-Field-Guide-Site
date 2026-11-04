@@ -49,7 +49,7 @@ Human review found:
 - parcel 14 also fronts Salvio Street;
 - `40` dimension callouts on each side of the depicted Salvio centerline;
 - a `50'` dimension near the Parkside strip;
-- revision entry `10/10/96 — CREATE 013 & 014`.
+- revision entry the 10/10/96 revision entry recording creation of parcels 013 and 014.
 
 These are assessor-map observations and record leads, not a final survey-grade boundary determination.
 

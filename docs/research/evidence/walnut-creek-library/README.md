@@ -238,7 +238,7 @@ The current live policy opens the room to organizations, businesses or groups an
 
 Current forum posture:
 
-`LIMITED PUBLIC FORUM — STRONGLY SUPPORTED UNDER FAITH CENTER COMPARATOR / PRACTICE VERIFICATION PENDING`
+`LIMITED PUBLIC FORUM: STRONGLY SUPPORTED UNDER FAITH CENTER COMPARATOR / PRACTICE VERIFICATION PENDING`
 
 An older 2025-revised system Room Use PDF says both Oak View and Las Trampas arrangements are through City Facility Rentals. The current City Oak View page now expressly states that smaller rooms such as Las Trampas are reserved directly through CCCL.
 

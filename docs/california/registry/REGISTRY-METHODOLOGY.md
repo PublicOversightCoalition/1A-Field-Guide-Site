@@ -267,9 +267,9 @@ Current status should not erase significant historical events.
 
 A scoped issue may improve from Yellow or Red to Green after clarification or corrective action while retaining a visible status history, for example:
 
-- `2026-09-16 — RED: documented removal during peaceful recording.`
-- `2026-10-12 — agency reports outdated sign removed and policy corrected.`
-- `2026-10-15 — GREEN: correction independently verified.`
+- `2026-09-16: RED: documented removal during peaceful recording.`
+- `2026-10-12: agency reports outdated sign removed and policy corrected.`
+- `2026-10-15: GREEN: correction independently verified.`
 
 Similarly, a currently stale issue may be Gray while retaining a historical Red or Yellow event. The project should distinguish each issue's **current scoped status** from its **status history**.
 
@@ -582,9 +582,9 @@ The project should not erase prior history merely because a rule changed.
 
 Example:
 
-- `2026-09-10 — No-recording sign documented.`
-- `2026-10-12 — Agency states sign was obsolete and has been removed.`
-- `2026-10-15 — Removal independently verified.`
+- `2026-09-10: No-recording sign documented.`
+- `2026-10-12: Agency states sign was obsolete and has been removed.`
+- `2026-10-15: Removal independently verified.`
 
 A scoped issue's current status or any future rubric treatment may improve when an agency corrects a problem, while the historical record remains visible.
 

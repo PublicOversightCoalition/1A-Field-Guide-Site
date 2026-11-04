@@ -524,7 +524,7 @@ If an observer is treated as a participant:
 
 At a perimeter:
 
-> **What authority is this closure under—§409.5, a crime-scene order, another statute, or something else?**
+> **What authority is this closure under, §409.5, a crime-scene order, another statute, or something else?**
 
 For a qualifying news representative:
 

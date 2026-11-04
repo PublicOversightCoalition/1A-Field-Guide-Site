@@ -1,6 +1,6 @@
 # Out-of-State Case Study: Reyes / Fahey (Connecticut)
 
-> **ILLUSTRATIVE ONLY — NOT CALIFORNIA AUTHORITY**
+> **ILLUSTRATIVE ONLY: NOT CALIFORNIA AUTHORITY**
 
 **Status:** Open research note; primary sentencing/protective-order documents pending  
 **Last reviewed:** September 24, 2026

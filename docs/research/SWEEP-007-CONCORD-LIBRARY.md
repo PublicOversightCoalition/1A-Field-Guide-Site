@@ -142,7 +142,7 @@ Human review confirms:
 - parcel 14 also fronts Salvio;
 - `40` dimension callouts appear on each side of the depicted Salvio centerline;
 - a `50'` callout appears near the Parkside strip;
-- the revision table includes `10/10/96 — CREATE 013 & 014`.
+- the revision table includes the 10/10/96 revision entry recording creation of parcels 013 and 014.
 
 Canonical review:
 
