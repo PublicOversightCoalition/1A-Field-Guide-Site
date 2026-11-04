@@ -803,7 +803,7 @@ https://law.justia.com/cases/federal/appellate-courts/F3/383/905/495139/
 
 # 12. Practical encounter script: evidence-preserving, not magic words
 
-### Initial contact
+## Initial contact
 
 > **Am I free to leave?**
 
