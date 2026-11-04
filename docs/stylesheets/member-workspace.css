@@ -1,4 +1,4 @@
-/* Authenticated workspace identity — member dashboard, administration, and community. */
+/* Authenticated workspace identity: member dashboard, administration, and community. */
 :root{color-scheme:dark}
 body{
   --mw-bg:#080b0e;--mw-panel:#10161d;--mw-panel-2:#0c1218;--mw-text:#e8eef3;--mw-muted:#91a0ad;

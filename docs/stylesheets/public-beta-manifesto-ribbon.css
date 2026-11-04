@@ -1,4 +1,4 @@
-/* Public Beta v0.3.3 — distinctive manifesto metric ribbon */
+/* Public Beta v0.3.3: distinctive manifesto metric ribbon */
 
 body:has([data-motion-home]) .beta-manifesto__stats {
   display: grid;

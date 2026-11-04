@@ -279,7 +279,7 @@ body {
 }
 
 
-/* Facility Registry v2 — county-scale index + detail pages */
+/* Facility Registry v2: county-scale index + detail pages */
 .md-content__inner:has(.registry-list),
 .md-content__inner:has(.registry-bottom-line) {
   max-width: 82rem;

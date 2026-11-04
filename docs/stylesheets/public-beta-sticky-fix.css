@@ -1,4 +1,4 @@
-/* Public Beta v0.3.4 — sticky headings pass behind content cards */
+/* Public Beta v0.3.4: sticky headings pass behind content cards */
 
 body:has([data-motion-home]) .beta-sticky-heading {
   position: sticky;

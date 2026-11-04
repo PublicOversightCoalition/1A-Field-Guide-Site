@@ -235,7 +235,7 @@ Bad field rule:
 
 Better field rule:
 
-> Government Code § 7923.625's specialized timeline applies to recordings depicting a defined critical incident—officer firearm discharge at a person or force causing death/GBI. Other BWC footage follows other CPRA rules, and retention under Penal Code § 832.18 is a separate question.
+> Government Code § 7923.625's specialized timeline applies to recordings depicting a defined critical incident: officer firearm discharge at a person or force causing death/GBI. Other BWC footage follows other CPRA rules, and retention under Penal Code § 832.18 is a separate question.
 
 Bad field rule:
 
