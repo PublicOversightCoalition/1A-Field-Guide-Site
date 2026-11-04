@@ -39,10 +39,10 @@ The controlling substantive review record is `CA-FINAL-ADVERSARIAL-QUALIFICATION
 
 The following four rows remain expressly unresolved and are not promoted merely because the bootstrap path is being used:
 
-1. **CA-F4.5** — individualized prior-ban / Penal Code § 602(o) edge;
-2. **CA-F5.8** — affirmative identification consequences during an otherwise-lawful detention;
-3. **NC-COMPLAINT-01.D** — prospective no-entry notice combined with a claimed identification duty; and
-4. **NC-COMPLAINT-01.I** — effect of immediately available offered-but-unreviewed exculpatory recording.
+1. **CA-F4.5**, individualized prior-ban / Penal Code § 602(o) edge;
+2. **CA-F5.8**, affirmative identification consequences during an otherwise-lawful detention;
+3. **NC-COMPLAINT-01.D**, prospective no-entry notice combined with a claimed identification duty; and
+4. **NC-COMPLAINT-01.I**, effect of immediately available offered-but-unreviewed exculpatory recording.
 
 These remain visible changed-fact/specialized warnings in the California overlay.
 

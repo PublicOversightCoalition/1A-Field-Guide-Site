@@ -1,11 +1,11 @@
 ---
-title: Registry Classification Hardening — Four Pilot Facilities
+title: "Registry Classification Hardening: Four Pilot Facilities"
 jurisdiction: California
 last_verified: 2026-09-23
 status: current-registry-method
 ---
 
-# Registry Classification Hardening — Four Pilot Facilities
+# Registry Classification Hardening: Four Pilot Facilities
 
 ## Purpose
 
@@ -57,9 +57,9 @@ The ordinary interior is no longer shown as wholly forum-unresolved. *Prigmore* 
 | Oak View Room | LPF | HIGH | Event-specific rules / contract |
 | Las Trampas Conference Room | LPF | HIGH | Current booking practice |
 | Group study rooms | LPF for study/collaboration purpose | MEDIUM | Exact rule application |
-| Underground public garage | NPF — federal | MEDIUM | California Speech Clause treatment |
-| Garage pedestrian circulation | NPF — federal | MEDIUM | Exact subarea / California treatment |
-| Cafe | UNRESOLVED | — | Operator/control/access facts |
+| Underground public garage | NPF, federal | MEDIUM | California Speech Clause treatment |
+| Garage pedestrian circulation | NPF, federal | MEDIUM | Exact subarea / California treatment |
+| Cafe | UNRESOLVED | Not listed | Operator/control/access facts |
 
 The garage classification is hardened federally because it is an enclosed, purpose-built vehicle-storage/circulation facility with no evidence of an expressive opening. California treatment remains unresolved because the state Speech Clause can diverge for freely accessible exterior spaces and no close garage authority was located.
 
@@ -68,12 +68,12 @@ The garage classification is hardened federally because it is an enclosed, purpo
 | Subarea | Project classification | Confidence | Remaining issue |
 | --- | --- | --- | --- |
 | Actual Diamond / Meridian Park ordinary municipal sidewalk | TPF | HIGH | Establish exact physical strip |
-| Facility-specific access drive / walk | NPF — federal | MEDIUM | Current legal geometry/control |
-| Customer parking | NPF — federal | MEDIUM | California treatment / exact use |
-| Exterior customer queue / immediate approach | NPF — federal | MEDIUM | Exact footprint / California treatment |
-| Ordinary lobby / waiting | NPF — federal | HIGH | California Speech Clause unresolved |
-| Customer service counters | NPF — federal | HIGH | Privacy / exact restriction |
-| Knowledge-test stations | NPF — federal | HIGH | Activity-specific device rule already verified |
+| Facility-specific access drive / walk | NPF, federal | MEDIUM | Current legal geometry/control |
+| Customer parking | NPF, federal | MEDIUM | California treatment / exact use |
+| Exterior customer queue / immediate approach | NPF, federal | MEDIUM | Exact footprint / California treatment |
+| Ordinary lobby / waiting | NPF, federal | HIGH | California Speech Clause unresolved |
+| Customer service counters | NPF, federal | HIGH | Privacy / exact restriction |
+| Knowledge-test stations | NPF, federal | HIGH | Activity-specific device rule already verified |
 | Employee / secure areas | NOT PUBLICLY ACCESSIBLE | HIGH | Exact boundary only |
 
 The federal lobby classification is hardened from “strongly supported” to **NPF / HIGH** as a project classification. *Sammartano* is published Ninth Circuit authority treating a public government-business complex as nonpublic; *Freedom Foundation* is a close, though unpublished, state-agency-lobby comparator. No exact California DMV filming holding is implied.
@@ -83,9 +83,9 @@ The federal lobby classification is hardened from “strongly supported” to **
 | Subarea | Project classification | Confidence | Remaining issue |
 | --- | --- | --- | --- |
 | Ordinary Galindo municipal sidewalk | TPF | HIGH | Exact physical strip if disputed |
-| Facility-controlled front approach / parking | NPF — federal | MEDIUM | Confirm footprint/control |
-| Ordinary public lobby / Community Service Desk | NPF — federal | HIGH | California Speech Clause unresolved |
-| Records counter | NPF — federal | HIGH | Privacy / confidentiality / actual rule |
+| Facility-controlled front approach / parking | NPF, federal | MEDIUM | Confirm footprint/control |
+| Ordinary public lobby / Community Service Desk | NPF, federal | HIGH | California Speech Clause unresolved |
+| Records counter | NPF, federal | HIGH | Privacy / confidentiality / actual rule |
 | Community Meeting Room | LPF | HIGH | Contract details / current practice |
 | Controlled / operational areas | NOT PUBLICLY ACCESSIBLE | HIGH | Exact boundaries |
 

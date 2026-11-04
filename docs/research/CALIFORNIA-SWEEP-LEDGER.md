@@ -6,11 +6,11 @@ This ledger records source ranges that have actually been reviewed, what was ret
 
 ## Classification labels
 
-- `RETAINED` — materially relevant to the standing peaceful/public-property audit scenario or to a recurring facility chapter.
-- `CONTEXT` — does not independently create the principal field rule but materially explains authority, definitions, procedure, or limits.
-- `SPECIALIZED` — relevant only to a distinct facility/event type and should be handled in that chapter.
-- `N/A-STANDING-SCOPE` — reviewed but ordinarily requires conduct excluded by the project's standing assumptions or concerns a setting outside the project's ordinary public-facility scope.
-- `REVIEW-LATER` — text identified, but case law or related provisions must be reviewed before final classification.
+- `RETAINED`, materially relevant to the standing peaceful/public-property audit scenario or to a recurring facility chapter.
+- `CONTEXT`, does not independently create the principal field rule but materially explains authority, definitions, procedure, or limits.
+- `SPECIALIZED`, relevant only to a distinct facility/event type and should be handled in that chapter.
+- `N/A-STANDING-SCOPE`, reviewed but ordinarily requires conduct excluded by the project's standing assumptions or concerns a setting outside the project's ordinary public-facility scope.
+- `REVIEW-LATER`, text identified, but case law or related provisions must be reviewed before final classification.
 
 For handbook/index status terminology, `PRIMARY-TEXT-VERIFIED` means current primary text was checked and an initial entry exists. It does **not** mean the controlling case-law layer is complete. `DOCTRINE-REVIEWED` is reserved for narrow propositions whose controlling doctrine/material case law have also been reviewed. `DOCTRINE-REVIEWED-IN-PART` means a narrow part of a broader statutory family has reached that stage while other applications remain unresolved.
 
@@ -20,7 +20,7 @@ Every retained authority should ultimately have a direct primary-source link, na
 
 ---
 
-# Sweep 001 — Constitutional foundations and Penal Code public-peace title
+# Sweep 001: Constitutional foundations and Penal Code public-peace title
 
 **Initial review:** September 16, 2026  
 **Review corrections:** September 17, 2026  
@@ -36,7 +36,7 @@ Every retained authority should ultimately have a direct primary-source link, na
 
 This is a **slice-level completeness claim only**. It does not represent a completed sweep of the entire Penal Code, Government Code, Civil Code, Education Code, Vehicle Code, California Code of Regulations, Rules of Court, or case law.
 
-## California Constitution — Article I
+## California Constitution: Article I
 
 ### Retained or specialized
 
@@ -69,7 +69,7 @@ This is a **slice-level completeness claim only**. It does not represent a compl
 
 The retained constitutional provisions are summarized in `docs/california/constitutional-foundations.md`.
 
-## Penal Code — Part 1, Title 11: Crimes Against the Public Peace
+## Penal Code: Part 1, Title 11: Crimes Against the Public Peace
 
 ### Retained or specialized
 
@@ -104,7 +104,7 @@ The retained provisions are summarized in `docs/california/assembly-emergency-sc
 
 ---
 
-# Targeted verification A — core public-meeting provisions
+# Targeted verification A: core public-meeting provisions
 
 **Initial review:** September 16, 2026  
 **Review corrections:** September 17, 2026  
@@ -120,7 +120,7 @@ Remaining work includes complete ranges, teleconference/remote provisions, close
 
 ---
 
-# Jurisdiction boundary — federal premises located in California
+# Jurisdiction boundary: federal premises located in California
 
 Federal premises are tracked separately under `docs/federal/` and are **not** treated as another California-code sweep merely because the property is geographically located in California.
 
@@ -143,7 +143,7 @@ The sweep/review process added or corrected, among other things:
 
 ---
 
-# Sweep 002 — Trespass and property-access family
+# Sweep 002: Trespass and property-access family
 
 **Review date:** September 17, 2026  
 **Detailed ledger:** `SWEEP-002-TRESPASS-PROPERTY.md`
@@ -154,13 +154,13 @@ The sweep produced the complete § 602 matrix and a practical removal decision t
 
 ## Final controlling-case review incorporated before merge
 
-The final PR #6 review promoted **narrow propositions**—not entire statutes—to doctrine-reviewed status:
+The final PR #6 review promoted **narrow propositions**, not entire statutes, to doctrine-reviewed status:
 
-- **In re Catalano, 29 Cal.3d 1 (1981)** and **Edgerly v. City & County of San Francisco, 599 F.3d 946 (9th Cir. 2010)** — § 602(m) occupation requires nontransient, continuous possession; transient/minutes-long presence did not establish that element in *Edgerly*.
-- **Parrish v. Municipal Court, 258 Cal.App.2d 497 (1968)** — predecessor of § 602(q) is a public-building closing-hours rule; apparent-lawful-business inquiry is objective.
-- **Dubner v. City & County of San Francisco, 266 F.3d 959 (9th Cir. 2001)** — refusal alone does not supply § 602.1 intentional interference/obstruction facts.
-- **Hamburg v. Wal-Mart Stores, Inc., 116 Cal.App.4th 497 (2004)** — rule/policy enforcement and satisfaction of § 602.1 criminal elements remain separate; private-property facts limit its government-facility use.
-- **People v. Hsiung (2026)** — § 602(o) First Amendment discussion is in an expressly unpublished portion and is not relied on as precedent.
+- **In re Catalano, 29 Cal.3d 1 (1981)** and **Edgerly v. City & County of San Francisco, 599 F.3d 946 (9th Cir. 2010)**: § 602(m) occupation requires nontransient, continuous possession; transient/minutes-long presence did not establish that element in *Edgerly*.
+- **Parrish v. Municipal Court, 258 Cal.App.2d 497 (1968)**: predecessor of § 602(q) is a public-building closing-hours rule; apparent-lawful-business inquiry is objective.
+- **Dubner v. City & County of San Francisco, 266 F.3d 959 (9th Cir. 2001)**: refusal alone does not supply § 602.1 intentional interference/obstruction facts.
+- **Hamburg v. Wal-Mart Stores, Inc., 116 Cal.App.4th 497 (2004)**: rule/policy enforcement and satisfaction of § 602.1 criminal elements remain separate; private-property facts limit its government-facility use.
+- **People v. Hsiung (2026)**: § 602(o) First Amendment discussion is in an expressly unpublished portion and is not relied on as precedent.
 
 The final refinement also distinguishes **specific-area public access, forum classification, security screening, visitor sign-in/ID policy, and criminal trespass authority**. Section 602(y) is not treated as a generic visitor-log/ID statute.
 
@@ -168,7 +168,7 @@ The final refinement also distinguishes **specific-area public access, forum cla
 
 ---
 
-# Sweep 003 — California Public Records Act / evidence preservation
+# Sweep 003: California Public Records Act / evidence preservation
 
 **Review date:** September 17, 2026  
 **Detailed ledger:** `SWEEP-003-CPRA-EVIDENCE-PRESERVATION.md`  
@@ -178,13 +178,13 @@ The final refinement also distinguishes **specific-area public access, forum cla
 
 ## Core statutory layer reviewed
 
-- Gov. Code §§ 7920.530 and 7920.545 — public-record and writing definitions;
-- §§ 7921.000, 7921.010, 7921.300 — access, anti-evasion/lawful-destruction context, and purpose-neutral access;
-- § 7922.000 — justification for withholding;
-- §§ 7922.500-7922.605 — core request, inspection, copying, determination, denial, electronic-record, and duty-to-assist provisions;
-- §§ 7922.630-7922.640 — agency regulations/guidelines context;
-- §§ 7922.680, 7922.700-7922.725 — internet/enterprise-system provisions identified as contextual and queued for deeper relevance review;
-- § 7923.000 — enforcement/declaratory relief;
+- Gov. Code §§ 7920.530 and 7920.545, public-record and writing definitions;
+- §§ 7921.000, 7921.010, 7921.300, access, anti-evasion/lawful-destruction context, and purpose-neutral access;
+- § 7922.000, justification for withholding;
+- §§ 7922.500-7922.605, core request, inspection, copying, determination, denial, electronic-record, and duty-to-assist provisions;
+- §§ 7922.630-7922.640, agency regulations/guidelines context;
+- §§ 7922.680, 7922.700-7922.725, internet/enterprise-system provisions identified as contextual and queued for deeper relevance review;
+- § 7923.000, enforcement/declaratory relief;
 - representative retention/destruction frameworks: Gov. Code §§ 12270-12279, 12275, 34090, 34090.6, 26202, 6200-6201.
 
 ## Controlling doctrine
@@ -239,7 +239,7 @@ The new chapter includes an auditor workflow for `employee records me back`:
 
 ---
 
-# Sweep 004 — Police Encounters: Fourth Amendment + Self-Incrimination
+# Sweep 004: Police Encounters: Fourth Amendment + Self-Incrimination
 
 **Review date:** September 21, 2026  
 **Detailed ledger:** `SWEEP-004-POLICE-ENCOUNTERS.md`  
@@ -268,20 +268,20 @@ Federal controlling authorities include *Terry v. Ohio*, *Berkemer v. McCarty*, 
 
 California/Ninth Circuit anchors include:
 
-- **People v. Tacardon, 14 Cal.5th 235 (2022)** — totality-of-circumstances consensual-contact/seizure analysis; directed police attention does not itself establish a detention;
-- **People v. Flores, 15 Cal.5th 1032 (2024)** — particularized/objective reasonable suspicion required; high-crime-area context and the conduct there were insufficient in totality;
-- **United States v. Landeros, 913 F.3d 862 (9th Cir. 2019)** — passenger refusal to identify, without reasonable suspicion of an offense, did not supply reasonable suspicion and did not justify prolonging the traffic stop;
-- **People v. Valle, A169080 (Cal. Ct. App. Sept. 18, 2024)** — published California authority recognizing Vehicle Code § 2806.5's stop-reason notice requirement while keeping the federal objective Fourth Amendment justification inquiry separate.
+- **People v. Tacardon, 14 Cal.5th 235 (2022)**: totality-of-circumstances consensual-contact/seizure analysis; directed police attention does not itself establish a detention;
+- **People v. Flores, 15 Cal.5th 1032 (2024)**: particularized/objective reasonable suspicion required; high-crime-area context and the conduct there were insufficient in totality;
+- **United States v. Landeros, 913 F.3d 862 (9th Cir. 2019)**: passenger refusal to identify, without reasonable suspicion of an offense, did not supply reasonable suspicion and did not justify prolonging the traffic stop;
+- **People v. Valle, A169080 (Cal. Ct. App. Sept. 18, 2024)**: published California authority recognizing Vehicle Code § 2806.5's stop-reason notice requirement while keeping the federal objective Fourth Amendment justification inquiry separate.
 
 ## California identification findings
 
 Primary text reviewed:
 
-- Penal Code § 148.9 — false/fictitious identity during qualifying lawful detention/arrest;
-- Penal Code § 853.5 — identity/thumbprint procedures in specified infraction-arrest citation context;
-- Vehicle Code § 2806.5 — for current project purposes, a pedestrian stop requires the reason to be stated before covered questioning, subject to the statute's imminent-threat exception;
-- Vehicle Code § 12951 — driver-specific license possession/presentation rule;
-- Vehicle Code § 40302 — specified custody/magistrate rules following nonfelony Vehicle Code arrest.
+- Penal Code § 148.9, false/fictitious identity during qualifying lawful detention/arrest;
+- Penal Code § 853.5, identity/thumbprint procedures in specified infraction-arrest citation context;
+- Vehicle Code § 2806.5, for current project purposes, a pedestrian stop requires the reason to be stated before covered questioning, subject to the statute's imminent-threat exception;
+- Vehicle Code § 12951, driver-specific license possession/presentation rule;
+- Vehicle Code § 40302, specified custody/magistrate rules following nonfelony Vehicle Code arrest.
 
 **Bounded research conclusion:** this targeted sweep has not identified a current general California pedestrian carry-ID statute or general statutory stop-and-identify law equivalent to the Nevada statute upheld in *Hiibel*. That does not mean identification or production of possessed identification can never be required. Older published California identification-production/search cases, including *People v. Long*, *People v. Loudermilk*, and *People v. Garcia*, still require a dedicated reconciliation, and specialized statutory contexts remain independently controlling.
 
@@ -324,7 +324,7 @@ Those issues remain explicitly queued rather than converted into field slogans.
 
 ---
 
-# Sweep 005 — Public-forum doctrine
+# Sweep 005: Public-forum doctrine
 
 **Review date:** September 17, 2026  
 **Detailed ledger:** `SWEEP-005-PUBLIC-FORUM-DOCTRINE.md`  
@@ -334,14 +334,14 @@ Those issues remain explicitly queued rather than converted into field slogans.
 
 ## Core federal layer reviewed
 
-- *Perry Education Association v. Perry Local Educators' Association* — traditional/designated/nonpublic architecture;
-- *Cornelius v. NAACP Legal Defense & Educational Fund* — define the forum by the access sought; intentional opening; nonpublic reasonableness/viewpoint neutrality;
-- *United States v. Grace* and *United States v. Kokinda* — ordinary perimeter sidewalk versus special-purpose walkway distinctions;
-- *Ward v. Rock Against Racism* — public-forum content-neutral time/place/manner test;
-- *International Society for Krishna Consciousness v. Lee* — airport-terminal/separated-area context;
-- *Rosenberger* — viewpoint-discrimination principle;
-- *Christian Legal Society* / *Wright* / *Hopper* — limited-forum doctrine and terminology;
-- *Minnesota Voters Alliance v. Mansky* — a nonpublic forum still requires a reasonable, workable speech rule.
+- *Perry Education Association v. Perry Local Educators' Association*, traditional/designated/nonpublic architecture;
+- *Cornelius v. NAACP Legal Defense & Educational Fund*, define the forum by the access sought; intentional opening; nonpublic reasonableness/viewpoint neutrality;
+- *United States v. Grace* and *United States v. Kokinda*, ordinary perimeter sidewalk versus special-purpose walkway distinctions;
+- *Ward v. Rock Against Racism*, public-forum content-neutral time/place/manner test;
+- *International Society for Krishna Consciousness v. Lee*, airport-terminal/separated-area context;
+- *Rosenberger*, viewpoint-discrimination principle;
+- *Christian Legal Society* / *Wright* / *Hopper*, limited-forum doctrine and terminology;
+- *Minnesota Voters Alliance v. Mansky*, a nonpublic forum still requires a reasonable, workable speech rule.
 
 ## Ninth Circuit California-facing layer
 
@@ -409,7 +409,7 @@ Still separately queued: police/sheriff lobbies, administrative-service faciliti
 
 ---
 
-# Sweep 006 — Contra Costa County Public Libraries
+# Sweep 006: Contra Costa County Public Libraries
 
 **Review date:** September 21, 2026  
 **Detailed ledger:** `SWEEP-006-CONTRA-COSTA-LIBRARIES.md`  
@@ -475,11 +475,11 @@ The February 10, 2026 Board record confirms formal approval of the amended Patro
 
 ## Persuasive library cases retained with limits
 
-- *Kreimer v. Bureau of Police*, 958 F.2d 1242 (3d Cir. 1992) — persuasive library-purpose/compatible-use analysis and close analogue to a library-activity requirement.
-- *Neinast v. Board of Trustees*, 346 F.3d 585 (6th Cir. 2003) — persuasive short-eviction due-process analysis on its facts.
-- *Doe v. City of Albuquerque*, 667 F.3d 1111 (10th Cir. 2012) — persuasive right-to-receive-information/access analysis; different forum terminology cautions against importing categorical labels.
-- *Spiehs v. Morgan*, No. 25-3174 (10th Cir. Sept. 8, 2026) — persuasive sign-restriction/library-purpose analysis; not a filming case and not controlling in California.
-- *Van Den Heuvel v. Dorothy*, No. 2:21-cv-02176 (E.D. Cal. 2022) — nonbinding screening-stage context for longer countywide library exclusions.
+- *Kreimer v. Bureau of Police*, 958 F.2d 1242 (3d Cir. 1992), persuasive library-purpose/compatible-use analysis and close analogue to a library-activity requirement.
+- *Neinast v. Board of Trustees*, 346 F.3d 585 (6th Cir. 2003), persuasive short-eviction due-process analysis on its facts.
+- *Doe v. City of Albuquerque*, 667 F.3d 1111 (10th Cir. 2012), persuasive right-to-receive-information/access analysis; different forum terminology cautions against importing categorical labels.
+- *Spiehs v. Morgan*, No. 25-3174 (10th Cir. Sept. 8, 2026), persuasive sign-restriction/library-purpose analysis; not a filming case and not controlling in California.
+- *Van Den Heuvel v. Dorothy*, No. 2:21-cv-02176 (E.D. Cal. 2022), nonbinding screening-stage context for longer countywide library exclusions.
 
 ## Practical output
 
@@ -505,7 +505,7 @@ Still queued:
 
 ---
 
-# Sweep 007 — Concord Library Branch
+# Sweep 007: Concord Library Branch
 
 **Research dates:** September 21–22, 2026  
 **Detailed ledger:** `SWEEP-007-CONCORD-LIBRARY.md`  
@@ -532,7 +532,7 @@ Current branch posture: **Gray / unresolved overall**, but the property research
 
 ---
 
-# Sweep 008 — Walnut Creek Library Branch
+# Sweep 008: Walnut Creek Library Branch
 
 **Research date:** September 22, 2026  
 **Detailed ledger:** `SWEEP-008-WALNUT-CREEK-LIBRARY.md`  
@@ -555,7 +555,7 @@ Facility Prep consequence: the same-category prototype gate was satisfied. Reusa
 
 ---
 
-# Sweep 009 — Concord DMV Field Office
+# Sweep 009: Concord DMV Field Office
 
 **Research date:** September 22, 2026  
 **Detailed ledger:** `SWEEP-009-CONCORD-DMV.md`  
@@ -578,7 +578,7 @@ Facility Prep consequence: the cross-category validation succeeded, but the reus
 
 ---
 
-# Sweep 010 — Concord Police Headquarters Public Lobby
+# Sweep 010: Concord Police Headquarters Public Lobby
 
 **Research date:** September 22, 2026  
 **Detailed ledger:** `SWEEP-010-CONCORD-POLICE.md`  
@@ -600,13 +600,13 @@ Key retained results:
 - the Police Department Community Meeting Room is a separate opened discussion channel; the public page references a Community Room Contract, but the contract itself was not located online;
 - narrow CPD records/protected-information/confidentiality policies support protection of actual sensitive information but are not converted into a public lobby-wide visitor camera ban.
 
-Methodology consequence: Sweep 010 adds a **dual-anchor** model—forum/access authority and activity-specific authority may be different—and requires recording analyses to preserve both the recorder's location and the subject being recorded. It also formalizes the rule that forum classification establishes the standard for a restriction rather than proving that a restriction exists.
+Methodology consequence: Sweep 010 adds a **dual-anchor** model, forum/access authority and activity-specific authority may be different, and requires recording analyses to preserve both the recorder's location and the subject being recorded. It also formalizes the rule that forum classification establishes the standard for a restriction rather than proving that a restriction exists.
 
 Current highest-value remaining facts are physical/current: entrance/lobby signage, counter/privacy configuration, controlled doors, restroom/public-area boundaries, and the parking/pedestrian approach.
 
 ---
 
-# Sweep 011 — Lawful Vantage, Visual Privacy, and Exposed Information
+# Sweep 011: Lawful Vantage, Visual Privacy, and Exposed Information
 
 **Research date:** September 28, 2026  
 **Detailed ledger:** `SWEEP-011-LAWFUL-VANTAGE-PRIVACY.md`  
@@ -629,7 +629,7 @@ Qualification consequence: Sweep 011 supplies an ordinary California analytical 
 
 ---
 
-# Sweep 012 — Conditional Access, Removal, and Derivative Trespass
+# Sweep 012: Conditional Access, Removal, and Derivative Trespass
 
 **Research date:** September 28, 2026  
 **Detailed ledger:** `SWEEP-012-CONDITIONAL-EXCLUSION-DERIVATIVE-TRESPASS.md`  
@@ -654,7 +654,7 @@ Qualification consequence at Sweep 012: the sweep supplied the ordinary Californ
 
 ---
 
-# Sweep 013 — Delegated Authority and Preemption
+# Sweep 013: Delegated Authority and Preemption
 
 **Research date:** September 29, 2026  
 **Detailed ledger:** `SWEEP-013-DELEGATED-AUTHORITY-PREEMPTION.md`  
@@ -680,7 +680,7 @@ Qualification consequence: Sweep 013 supplies the ordinary statewide framework f
 
 ---
 
-# Sweep 014 — Public-Agency Exclusion, Prospective Trespass, and Identification
+# Sweep 014: Public-Agency Exclusion, Prospective Trespass, and Identification
 
 **Research date:** September 29, 2026  
 **Detailed ledger:** `SWEEP-014-PUBLIC-EXCLUSION-PROSPECTIVE-TRESPASS-ID.md`  
@@ -718,7 +718,7 @@ After Sweep 014, the provisional California totals are **60 Supported / 4 Resear
 
 ---
 
-# Sweep 015 — Recording-Device Seizure, Retention, Search, and Compelled Access
+# Sweep 015: Recording-Device Seizure, Retention, Search, and Compelled Access
 
 **Research date:** September 29, 2026  
 **Detailed ledger:** `SWEEP-015-DEVICE-SEIZURE-RETENTION-SEARCH.md`  
@@ -756,7 +756,7 @@ After Sweep 015, provisional California totals are **61 Supported / 4 Researched
 
 ---
 
-# Sweep 016 — Disorder, Unreasonable Noise, Fighting Words, Threats, and Obstruction
+# Sweep 016: Disorder, Unreasonable Noise, Fighting Words, Threats, and Obstruction
 
 **Research date:** September 29, 2026  
 **Detailed ledger:** `SWEEP-016-DISORDER-NOISE-THREATS-OBSTRUCTION.md`  
@@ -792,7 +792,7 @@ Assembly/dispersal warnings, emergency perimeters, observer-versus-participant q
 
 ---
 
-# Sweep 017 — Assembly, Dispersal, Emergency Perimeters, and Observer Recording
+# Sweep 017: Assembly, Dispersal, Emergency Perimeters, and Observer Recording
 
 **Research date:** September 29, 2026  
 **Detailed ledger:** `SWEEP-017-ASSEMBLY-DISPERSAL-EMERGENCY-RECORDING.md`  
@@ -831,7 +831,7 @@ After Sweep 017, provisional California totals are **68 Supported / 4 Researched
 
 ---
 
-# Sweep 018 — Law-Enforcement Records and Specialized Evidence Disclosure
+# Sweep 018: Law-Enforcement Records and Specialized Evidence Disclosure
 
 **Research date:** September 29, 2026  
 **Detailed ledger:** `SWEEP-018-LAW-ENFORCEMENT-RECORDS-DISCLOSURE.md`  
@@ -873,7 +873,7 @@ This satisfies CA-GATE-03's no-activation-blocking-Gap research condition. It do
 
 ---
 
-# Final adversarial qualification review — CA-GATE-01 through CA-GATE-08
+# Final adversarial qualification review: CA-GATE-01 through CA-GATE-08
 
 **Review date:** September 29, 2026  
 **Detailed record:** `CA-FINAL-ADVERSARIAL-QUALIFICATION-REVIEW.md`  
@@ -904,7 +904,7 @@ Substantive controls CA-GATE-01 through CA-GATE-08 are therefore recorded as met
 - controlling case-law sweep for remaining constitutional/public-peace/trespass authorities.
 - additional police/sheriff-lobby validation at a second site, plus federal/postal-premises validation, without carrying over Concord Police, DMV, or library anchor conclusions.
 
-## Sweep 020 — Healdsburg facility baseline
+## Sweep 020: Healdsburg facility baseline
 
 **Research date:** October 7, 2026.
 

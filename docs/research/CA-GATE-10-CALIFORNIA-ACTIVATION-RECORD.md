@@ -37,10 +37,10 @@ Activation does not reclassify any unresolved row.
 
 The following remain visible constraints:
 
-1. **CA-F4.5** — individualized prior-ban / Penal Code § 602(o) edge;
-2. **CA-F5.8** — affirmative identification consequences during an otherwise-lawful detention;
-3. **NC-COMPLAINT-01.D** — prospective no-entry notice combined with a claimed identification duty; and
-4. **NC-COMPLAINT-01.I** — effect of immediately available offered-but-unreviewed exculpatory recording.
+1. **CA-F4.5**, individualized prior-ban / Penal Code § 602(o) edge;
+2. **CA-F5.8**, affirmative identification consequences during an otherwise-lawful detention;
+3. **NC-COMPLAINT-01.D**, prospective no-entry notice combined with a claimed identification duty; and
+4. **NC-COMPLAINT-01.I**, effect of immediately available offered-but-unreviewed exculpatory recording.
 
 ## County inventory and local-research initialization
 
