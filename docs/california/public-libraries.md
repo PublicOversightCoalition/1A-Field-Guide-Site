@@ -385,7 +385,7 @@ https://law.justia.com/cases/federal/district-courts/california/caedce/2%3A2021c
 
 **Current statewide framework:** Sweep 014 now supplies the general prospective-exclusion analysis. Binding Ninth Circuit *Reza* requires attention to the factual basis, supported future risk, scope, duration, and alternative access of a government-forum ban. General procedural due process remains context-sensitive under *Mathews*. No single California/Ninth Circuit case sets one mandatory procedure for every library suspension length and circumstance.
 
-See [Sweep 014 — Public-Agency Exclusion, Prospective Trespass, and Identification](../research/SWEEP-014-PUBLIC-EXCLUSION-PROSPECTIVE-TRESPASS-ID.md).
+See [Sweep 014, Public-Agency Exclusion, Prospective Trespass, and Identification](../research/SWEEP-014-PUBLIC-EXCLUSION-PROSPECTIVE-TRESPASS-ID.md).
 
 For an actual exclusion, record:
 

@@ -27,7 +27,7 @@ A lawful policy or facility restriction can still matter even when a particular 
 
 ---
 
-# Penal Code § 602 — complete subsection matrix
+# Penal Code § 602: complete subsection matrix
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=602.
@@ -64,7 +64,7 @@ Section 602 lists numerous distinct ways to commit trespass. For peaceful public
 
 ## Core distinctions inside § 602
 
-### § 602(m) — `entering and occupying` means more than transient presence
+### § 602(m): `entering and occupying` means more than transient presence
 
 The statutory text uses the conjunctive phrase **entering and occupying** real property or a structure without consent.
 
@@ -82,7 +82,7 @@ Case sources:
 - Edgerly v. City & County of San Francisco, 599 F.3d 946 (9th Cir. 2010): https://cdn.ca9.uscourts.gov/datastore/opinions/2004/03/17/9917319.pdf
 - Judicial Council CALCRIM materials: https://courts.ca.gov/advisory-body/criminal-jury-instructions-advisory-committee
 
-### § 602(o) — property not open to the general public
+### § 602(o): property not open to the general public
 
 Section 602(o) expressly concerns land, real property, or structures **not open to the general public**. Its refusal-to-leave language should not be quoted as though it were a universal rule for an ordinary public counter, lobby, library floor, or other place currently open to the public.
 
@@ -96,11 +96,11 @@ Sweep 014 also reviewed the harder **individualized prior-ban** question. *Blank
 
 The text broadly contains a labor-activity exception. It also contains constitutional-activity language in the sentence addressing housing-authority property. Courts have not spoken with one clear published voice about whether that constitutional language operates as a general exception to all of subdivision (o) or specifically as part of the housing-authority rule.
 
-A federal district court in **Cuviello v. Cal Expo** read the constitutional phrase as linked to the housing-authority clause rather than as a subdivision-wide exemption. By contrast, the 2026 Court of Appeal opinion **People v. Hsiung** read the phrase broadly while rejecting a First Amendment challenge—but that discussion appears in **Part III, which the Court of Appeal expressly excluded from publication**. It is therefore not precedential California authority.
+A federal district court in **Cuviello v. Cal Expo** read the constitutional phrase as linked to the housing-authority clause rather than as a subdivision-wide exemption. By contrast, the 2026 Court of Appeal opinion **People v. Hsiung** read the phrase broadly while rejecting a First Amendment challenge, but that discussion appears in **Part III, which the Court of Appeal expressly excluded from publication**. It is therefore not precedential California authority.
 
 **Field Guide rule:** Do not presently claim that § 602(o) contains a settled subdivision-wide constitutional exemption. Analyze the actual constitutional right independently and continue the case-law research.
 
-### § 602(q) — public buildings after closing
+### § 602(q): public buildings after closing
 
 Section 602(q) expressly addresses a **public building of a public agency**, but its text is limited to hours when the building is **regularly closed to the public**. It also requires a request from a regularly employed guard, watchperson, or custodian and circumstances that would indicate to a reasonable person that the person has no apparent lawful business to pursue.
 
@@ -112,7 +112,7 @@ Case source:
 
 - Parrish v. Municipal Court, 258 Cal.App.2d 497 (Cal. Ct. App. 1968): https://law.justia.com/cases/california/court-of-appeal/2d/258/497.html
 
-### § 602(y) — security screening is its own rule
+### § 602(y): security screening is its own rule
 
 Section 602(y) concerns intentionally avoiding submission to the **screening and inspection of one's person and accessible property** when entering or reentering a courthouse or city/county/state building, where the entrances carry the required notice. It is not a generic prohibition on recording or peaceful presence after successfully passing security.
 
@@ -146,7 +146,7 @@ For a prospective exclusion, preserve:
 - whether the order remains effective during review; and
 - the California statute claimed to criminalize later reentry.
 
-## Reza v. Pearce — binding Ninth Circuit breadth/duration limit
+## Reza v. Pearce: binding Ninth Circuit breadth/duration limit
 
 In **Reza v. Pearce, 806 F.3d 497 (9th Cir. 2015)**, the Ninth Circuit reviewed an exclusion from an Arizona Senate building treated as a limited public forum. Material disputes existed over whether Reza had actually disrupted proceedings and whether he presented a legitimate future-disruption risk. On the plaintiff-favorable facts, a complete building-wide and initially indefinite exclusion was unreasonable, especially where it prevented unrelated future access to legislative proceedings and an elected representative.
 
@@ -172,14 +172,14 @@ Detailed authority and the unresolved later-reentry branch: [Sweep 014](../resea
 
 ---
 
-# Penal Code § 602.1 — interference with business/public-agency operations
+# Penal Code § 602.1: interference with business/public-agency operations
 
 For broader treatment of labels such as `disruptive`, `harassing`, `hostile`, and `interfering`, including § 148 obstruction and § 415 noise/fighting-words theories, see [Disturbing the Peace and Disorderly Conduct](disorderly-conduct.md) and [Sweep 016](../research/SWEEP-016-DISORDER-NOISE-THREATS-OBSTRUCTION.md).
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=602.1
 
-## § 602.1(b) — public agency open to the public
+## § 602.1(b): public agency open to the public
 
 For a **public agency open to the public**, § 602.1(b) requires:
 
@@ -191,7 +191,7 @@ The statute does not say `employee asks + refusal = offense`.
 
 Under this project's standing scenario, the auditor is not blocking access, physically interfering, threatening, creating unreasonable noise, or invading personal space. That makes the statute's actual **intentional interference / obstruction / intimidation** language especially important.
 
-### Published appellate guideposts — policy violation is not automatically the crime
+### Published appellate guideposts: policy violation is not automatically the crime
 
 In **Dubner v. City & County of San Francisco, 266 F.3d 959 (9th Cir. 2001)**, a photographer/legal observer was arrested near the Moscone Center under § 602.1. The Ninth Circuit described § 602.1 as requiring both intentional interference and refusal to leave and expressly rejected the argument that the intent-to-interfere element could simply be inferred from refusal. The record showed no deliberate obstruction or intimidation: Dubner was photographing, conversing, and positioned away from the doors.
 
@@ -208,7 +208,7 @@ Case sources:
 - Dubner v. City & County of San Francisco, 266 F.3d 959 (9th Cir. 2001): https://law.justia.com/cases/federal/appellate-courts/F3/266/959/582256/
 - Hamburg v. Wal-Mart Stores, Inc., 116 Cal.App.4th 497 (Cal. Ct. App. 2004): https://law.justia.com/cases/california/court-of-appeal/2004/a101829.html
 
-### § 602.1(d)(2) — constitutionally protected activity is expressly excluded
+### § 602.1(d)(2): constitutionally protected activity is expressly excluded
 
 Current § 602.1 contains an additional limitation that is especially important in public-facility recording disputes. Subdivision (d)(2) states that **the section shall not apply** to a person on the premises who is engaging in activities protected by the California Constitution or the United States Constitution.
 
@@ -224,7 +224,7 @@ The carveout is **not** immunity for independently unprotected conduct. A person
 
 A nonbinding federal habeas case, **Sherman v. Yolo County Sheriff** (E.D. Cal. 2010), illustrates that distinction. The record supporting the library § 602.1(b) conviction included evidence of rule violations, verbally abusive conduct, frightened patrons leaving, and repeated refusal to leave. The court did not treat simultaneous assertions of constitutional rights as immunizing independently disruptive conduct. That case is retained only as a factual cross-check, not controlling construction of subdivision (d)(2).
 
-### Local police-lobby comparator — *Wilson v. County of Contra Costa*
+### Local police-lobby comparator: *Wilson v. County of Contra Costa*
 
 **Wilson v. County of Contra Costa, No. 14-cv-03491-SI (N.D. Cal. May 6, 2015)** is a particularly close California facility comparator. At the motion-to-dismiss stage, the court allowed a First Amendment retaliation claim to proceed where the plaintiff alleged that he was recording officers performing their duties in the **public lobby of the Contra Costa County Sheriff's Office** and was arrested after an officer noticed the recording.
 
@@ -244,7 +244,7 @@ Sources:
 - Center for Bio-Ethical Reform, Inc. v. Los Angeles County Sheriff's Department, 533 F.3d 780 (9th Cir. 2008): https://law.justia.com/cases/federal/appellate-courts/ca9/05-55294/0555294-2011-02-25.html
 - Wilson v. County of Contra Costa, No. 14-cv-03491-SI, Dkt. 103 (N.D. Cal. May 6, 2015): https://law.justia.com/cases/federal/district-courts/california/candce/3%3A2014cv03491/279647/103/
 
-## § 602.1(c) — knowingly material misrepresentation of law
+## § 602.1(c): knowingly material misrepresentation of law
 
 This separate public-agency provision is easy to overlook. It applies where a person intentionally interferes with public-agency business by **knowingly making a material misrepresentation of the law to people there to transact business with the agency**, followed by refusal to leave after the qualifying request.
 
@@ -252,7 +252,7 @@ The 2017 legislative materials describe the amendment as aimed at a then-perceiv
 
 **Field implication:** The project should be meticulous about stating law accurately. A good-faith disagreement over legal interpretation is not textually identical to knowingly making a material misrepresentation, but controlling judicial construction of subdivision (c) remains to be researched.
 
-## § 602.1(e) — other law still matters
+## § 602.1(e): other law still matters
 
 Section 602.1 does not supersede other law. Therefore:
 
@@ -379,7 +379,7 @@ The converse is equally important:
 
 > **A valid, viewpoint-neutral, adequately supported restriction tied to the function of the particular forum can sometimes be enforced before actual disruption occurs.**
 
-Detailed research trail: [Sweep 012 — Conditional Access, Removal, and Derivative Trespass](../research/SWEEP-012-CONDITIONAL-EXCLUSION-DERIVATIVE-TRESPASS.md).
+Detailed research trail: [Sweep 012, Conditional Access, Removal, and Derivative Trespass](../research/SWEEP-012-CONDITIONAL-EXCLUSION-DERIVATIVE-TRESPASS.md).
 
 ---
 
@@ -404,7 +404,7 @@ The complete currently numbered § 602.x family and immediate surrounding trespa
 | § 602.13 | Unauthorized entry into posted animal enclosure at zoo/circus/traveling exhibit | SPECIALIZED |
 | § 603 | Forcible entry into occupied/occupiable building plus property damage | N/A-STANDING-SCOPE |
 
-## § 602.6 — why it matters even though it is specialized
+## § 602.6: why it matters even though it is specialized
 
 Section 602.6 is a useful antidote to vague claims that California always requires a person in a government facility to identify themselves. It is a **specific statute for specified fair buildings/grounds when they are not open to the general public**, after a qualifying direction to leave and determination that the person lacks apparent lawful business or another legitimate reason for remaining; the statute then expressly includes failure to identify and account for one's presence.
 

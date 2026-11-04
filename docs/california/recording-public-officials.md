@@ -7,7 +7,7 @@ status: verified-in-part
 
 # Recording Public Officials and Police
 
-## Field rule — Penal Code § 148(g)
+## Field rule: Penal Code § 148(g)
 
 California expressly protects the act of recording public and peace officers against several common theories of police intervention.
 
@@ -46,7 +46,7 @@ These questions preserve the factual basis for later review. They do not guarant
 
 For planned facility investigations, see [Facility Research and Field Verification](facility-investigation-methodology.md). That workflow separates the governing law, written policy, signage, prior incidents, and any later police enforcement before a field visit is treated as evidence.
 
-## Audio recording — Penal Code § 632 is a separate check
+## Audio recording: Penal Code § 632 is a separate check
 
 California is often summarized too broadly as a `two-party consent` state. The actual statutory question is whether the recording captures a **confidential communication** within Penal Code § 632.
 
@@ -108,7 +108,7 @@ The detailed encounter doctrine and field language are maintained in `police-enc
 
 A public employee recording an auditor does not by itself establish that the auditor may record everywhere or that every facility restriction is invalid. It does, however, create a separate **public-records/evidence** question.
 
-If the employee makes a work-related recording— including on a personal phone—`public-records-evidence-preservation.md` explains:
+If the employee makes a work-related recording,  including on a personal phone, `public-records-evidence-preservation.md` explains:
 
 - why personal-device storage does not categorically remove a work-related recording from the CPRA under *City of San Jose v. Superior Court*;
 - how to identify and request the recording;

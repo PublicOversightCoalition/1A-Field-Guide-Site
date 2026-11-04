@@ -13,7 +13,7 @@ For adverse government action associated with records activity, see [Records Req
 
 **Research status:** The core California Public Records Act (CPRA) definition, request, search, electronic-record, enforcement, personal-account, preservation, and ordinary law-enforcement evidence-disclosure branches have been reviewed at the primary-text and controlling-case level. Sweep 018 adds current investigatory-record, mandatory incident/arrest information, critical-incident audio/video, peace-officer-record, redaction-cost, and CCTV/custodian distinctions. Specialized exemption families, local retention schedules, discovery, and record-specific privacy/safety rules remain changed-fact layers.
 
-This chapter addresses a recurring audit problem: a public employee, officer, or other government worker creates evidence of an encounter—sometimes on an agency device and sometimes on a personal phone—and the auditor wants to identify, preserve, and obtain that evidence.
+This chapter addresses a recurring audit problem: a public employee, officer, or other government worker creates evidence of an encounter, sometimes on an agency device and sometimes on a personal phone, and the auditor wants to identify, preserve, and obtain that evidence.
 
 The analysis must keep seven questions separate:
 
@@ -45,14 +45,14 @@ The CPRA is principally a disclosure/access statute. Other statutes, approved re
 
 # 1. What counts as a public record?
 
-## Government Code § 7920.530 — public-record definition
+## Government Code § 7920.530: public-record definition
 
 Government Code § 7920.530 defines a public record to include a writing containing information relating to the conduct of the public's business that is **prepared, owned, used, or retained** by a state or local agency, regardless of physical form or characteristics.
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7920.530
 
-## Government Code § 7920.545 — `writing` includes recordings
+## Government Code § 7920.545: `writing` includes recordings
 
 The CPRA's definition of `writing` is deliberately broad. It includes handwriting, printing, photographing, electronic transmission, and every other means of recording upon a tangible thing, including letters, words, pictures, sounds, symbols, and combinations of them, regardless of storage method.
 
@@ -63,7 +63,7 @@ https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&
 
 ---
 
-# 2. Personal devices and accounts — City of San Jose
+# 2. Personal devices and accounts: City of San Jose
 
 ## Controlling rule
 
@@ -90,7 +90,7 @@ The Court identified relevant considerations including:
 
 Primarily personal material containing only incidental references to agency business generally will not qualify merely because a public employee created it.
 
-## Auditor-specific application — employee records the encounter on a personal phone
+## Auditor-specific application: employee records the encounter on a personal phone
 
 Consider these facts:
 
@@ -164,35 +164,35 @@ Use:
 
 This chapter does not attempt to reproduce every CPRA exemption. These provisions form the operational core for an auditor requesting evidence.
 
-## § 7921.300 — requester's purpose generally does not control access
+## § 7921.300: requester's purpose generally does not control access
 
 Access cannot be limited based on the purpose for which an otherwise disclosable record is requested.
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7921.300
 
-## § 7922.500 — no delay or obstruction
+## § 7922.500: no delay or obstruction
 
 An agency may not delay or obstruct inspection or copying of public records.
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.500
 
-## § 7922.525 — inspection
+## § 7922.525: inspection
 
 Public records are generally open to inspection during office hours, subject to statutory exceptions, and reasonably segregable nonexempt portions must be available.
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.525
 
-## § 7922.530 — copies and personal copying equipment
+## § 7922.530: copies and personal copying equipment
 
 A request that reasonably describes an identifiable record or records triggers the agency's duty to make copies promptly available subject to applicable law and fees. The provision also allows a person inspecting a disclosable record on agency premises to use personal equipment to photograph/copy it, subject to statutory conditions and reasonable safety/order limits.
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.530
 
-## § 7922.535 — determination deadline
+## § 7922.535: determination deadline
 
 As of the 2026 text, an agency ordinarily has **10 days after receipt** of a request for copies to determine whether the request, in whole or in part, seeks copies of disclosable public records in the agency's possession and to notify the requester of that determination and reasons. If records are determined disclosable, the notice must also state the estimated date and time they will be made available.
 
@@ -203,14 +203,14 @@ This is a **determination timeline**, not a universal command that every respons
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.535
 
-## § 7922.540 — written denial
+## § 7922.540: written denial
 
 A denial of a written request must be in writing, identify the names and titles or positions of each person responsible for the denial, and justify withholding under § 7922.000.
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.540
 
-## §§ 7922.570-7922.585 — electronic records
+## §§ 7922.570-7922.585: electronic records
 
 Electronic public records generally must be made available in electronic form when requested under the statutory rules. The Act addresses available formats, certain extraction/programming costs, records no longer available electronically, system security, and computer software. The fact that public-record information is stored in a computer does not remove its public-record status.
 
@@ -221,7 +221,7 @@ Primary sources:
 - § 7922.580: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.580
 - § 7922.585: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.585
 
-## §§ 7922.600-7922.605 — duty to assist
+## §§ 7922.600-7922.605: duty to assist
 
 Subject to statutory qualifications, an agency must reasonably assist a requester to make a focused and effective request by helping identify responsive records/information, describing information technology or physical locations in which records exist, and suggesting ways to overcome practical barriers to disclosure.
 
@@ -232,15 +232,15 @@ Primary sources:
 
 ---
 
-# 5A. Law-enforcement incident evidence — current CPRA decision tree
+# 5A. Law-enforcement incident evidence: current CPRA decision tree
 
-Detailed research record: [Sweep 018 — Law-Enforcement Records and Specialized Evidence Disclosure](../research/SWEEP-018-LAW-ENFORCEMENT-RECORDS-DISCLOSURE.md).
+Detailed research record: [Sweep 018, Law-Enforcement Records and Specialized Evidence Disclosure](../research/SWEEP-018-LAW-ENFORCEMENT-RECORDS-DISCLOSURE.md).
 
 For post-incident evidence, use:
 
 > **record/custodian → investigatory-record status → mandatory information carveout → critical-incident audio/video override → peace-officer-record override → privacy/safety/redaction → electronic format/cost → retention separately**
 
-## § 7923.600 — investigatory records
+## § 7923.600: investigatory records
 
 Government Code § 7923.600 is the current recodified law-enforcement investigatory-record provision, formerly part of § 6254(f).
 
@@ -272,7 +272,7 @@ Routine facility CCTV is not automatically a police investigatory record merely 
 
 **Field rule:** identify the custodian and purpose. Request important footage from every plausible public custodian rather than assuming all copies have the same legal status.
 
-## §§ 7923.610 and 7923.615 — the mandatory information floor
+## §§ 7923.610 and 7923.615: the mandatory information floor
 
 Even when the underlying report/record is exempt, the CPRA requires specified information to be made public.
 
@@ -290,7 +290,7 @@ A useful response to an investigatory-file denial is:
 
 > If you withhold the underlying record under Government Code § 7923.600, please nevertheless provide all information required by §§ 7923.610 and 7923.615, as applicable.
 
-## § 7923.625 — defined critical-incident audio/video
+## § 7923.625: defined critical-incident audio/video
 
 Government Code § 7923.625 specifically limits withholding of audio/video that **depicts** a defined critical incident:
 
@@ -309,7 +309,7 @@ https://law.justia.com/cases/california/court-of-appeal/2025/c102316.html
 
 **Field rule:** not every body-camera recording is a § 7923.625 critical-incident recording. Ordinary stops, trespass complaints, and non-GBI force remain governed by other law unless another disclosure mandate applies.
 
-## Penal Code §§ 832.7–832.8 — specified peace-officer records
+## Penal Code §§ 832.7–832.8: specified peace-officer records
 
 Current Penal Code § 832.7 begins from personnel-record confidentiality but expressly makes enumerated categories public notwithstanding that ordinary rule, Government Code § 7923.600, or other law, subject to the statute's own limitations.
 
@@ -348,7 +348,7 @@ https://law.justia.com/cases/california/court-of-appeal/2023/a165888.html
 
 https://law.justia.com/cases/california/supreme-court/2014/s200872.html
 
-## Penal Code § 832.18 — retention, not the main disclosure rule
+## Penal Code § 832.18: retention, not the main disclosure rule
 
 Section 832.18 addresses BWC policies/best practices and retention. It should not be cited as though it independently makes body-camera footage public.
 
@@ -356,7 +356,7 @@ https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&
 
 Use § 7923.625, § 832.7, or other applicable CPRA law for disclosure, and § 832.18 when retention/policy actually matters.
 
-## Redaction costs — National Lawyers Guild v. City of Hayward
+## Redaction costs: National Lawyers Guild v. City of Hayward
 
 **National Lawyers Guild v. City of Hayward, 9 Cal.5th 488 (2020)** holds that ordinary staff time spent redacting exempt material from otherwise disclosable electronic police video is not requester-billable "data extraction."
 
@@ -390,7 +390,7 @@ Do not confuse CPRA access with civil/criminal discovery, subpoena rights, or a 
 
 ---
 
-# 6. Preservation is not the same thing as disclosure — City of Gilroy
+# 6. Preservation is not the same thing as disclosure: City of Gilroy
 
 ## The 2026 California Supreme Court rule
 
@@ -432,7 +432,7 @@ The correct analysis after a deletion is:
 
 ---
 
-# 7. A preservation notice is still valuable — but do not describe it as magic
+# 7. A preservation notice is still valuable: but do not describe it as magic
 
 Even though a CPRA preservation notice does not automatically create a CPRA litigation hold, it remains extremely useful evidence.
 
@@ -477,21 +477,21 @@ https://www.sos.ca.gov/archives/records-management-and-appraisal
 State Administrative Manual, Chapter 1600:  
 https://www.dgs.ca.gov/Resources/SAM/TOC/1600/Chapter-View
 
-## Cities — Government Code § 34090
+## Cities: Government Code § 34090
 
 For cities, Government Code § 34090 provides a statutory mechanism for destruction of city records after they are no longer required, subject to approval/consent requirements and enumerated exceptions. It must be read with the city's adopted retention schedule and any more specific law governing the record.
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=34090
 
-## Routine city/city-county recordings — Government Code § 34090.6
+## Routine city/city-county recordings: Government Code § 34090.6
 
 Government Code § 34090.6 contains specialized retention/destruction provisions for specified routine video monitoring and telephone/radio communications. Its definitions and conditions matter; it should not be generalized to an ad hoc personal-phone recording by an employee.
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=34090.6
 
-## Counties — Government Code § 26202
+## Counties: Government Code § 26202
 
 Government Code § 26202 provides county record-destruction authority under specified circumstances. County retention should be checked against that statute, other applicable laws, and the county's adopted schedule/policy.
 
@@ -506,7 +506,7 @@ When preservation matters, request the retention policy itself.
 
 ---
 
-# 9. Government Code §§ 6200-6201 — deliberate destruction requires careful analysis
+# 9. Government Code §§ 6200-6201: deliberate destruction requires careful analysis
 
 Government Code § 6200 imposes criminal liability on an **officer having custody** of specified records/maps/books/papers/proceedings who willfully steals/removes/secretes, destroys/mutilates/defaces, or alters/falsifies them. Section 6201 separately reaches specified acts by a person who is not the officer described in § 6200.
 
@@ -515,7 +515,7 @@ Primary sources:
 - § 6200: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=6200
 - § 6201: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=6201
 
-## Published California authority — People v. Sperl
+## Published California authority: People v. Sperl
 
 In **People v. Sperl, 54 Cal.App.3d 640 (1976)**, a published Court of Appeal decision, the Los Angeles County Marshal was convicted under § 6200 based on removal/secretion/destruction of official county radio logs.
 
@@ -558,7 +558,7 @@ If you see an employee delete a work-related recording after being told it will 
 
 *City of Gilroy* expressly recognized that law outside the CPRA can create preservation duties once litigation is reasonably foreseeable.
 
-The Court cited California spoliation/discovery authorities for the principle that destruction of evidence after litigation begins—or in anticipation of discovery when litigation is objectively probable and likely—can trigger separate legal consequences.
+The Court cited California spoliation/discovery authorities for the principle that destruction of evidence after litigation begins, or in anticipation of discovery when litigation is objectively probable and likely, can trigger separate legal consequences.
 
 This does **not** mean an ordinary CPRA request automatically makes litigation reasonably foreseeable. That determination depends on circumstances.
 
@@ -574,9 +574,9 @@ If an encounter escalates into an arrest, injury claim, formal government claim,
 
 ---
 
-# 11. Practical workflow — public employee records you back
+# 11. Practical workflow: public employee records you back
 
-## Step 1 — establish the recording and work context
+## Step 1: establish the recording and work context
 
 Useful factual questions:
 
@@ -586,13 +586,13 @@ Useful factual questions:
 
 The third question can be evidentially useful, but **device ownership is not dispositive** under *City of San Jose*.
 
-## Step 2 — give a narrow preservation notice
+## Step 2: give a narrow preservation notice
 
 > I intend to request that recording under the California Public Records Act. Please preserve the original recording and do not delete or alter it.
 
 Do not overstate the legal effect of this statement.
 
-## Step 3 — promptly send the CPRA request to the agency
+## Step 3: promptly send the CPRA request to the agency
 
 Identify:
 
@@ -604,11 +604,11 @@ Identify:
 - categories of recordings sought;
 - personal-device/public-business records where applicable.
 
-## Step 4 — ask the agency to search likely custodians
+## Step 4: ask the agency to search likely custodians
 
 Use *City of San Jose* to make clear that a responsive work-related record cannot be categorically excluded merely because it is in an employee's personal account/device.
 
-## Step 5 — if the record is withheld
+## Step 5: if the record is withheld
 
 Ask for:
 
@@ -617,7 +617,7 @@ Ask for:
 - estimated availability date for disclosable records;
 - identification of person(s) responsible for a written denial as required by statute.
 
-## Step 6 — if the record is missing or deleted
+## Step 6: if the record is missing or deleted
 
 Request:
 
@@ -659,7 +659,7 @@ Government Code § 7923.000 allows a person to institute proceedings for injunct
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7923.000
 
-## City of Gilroy — declaratory relief can remain meaningful after records are gone
+## City of Gilroy: declaratory relief can remain meaningful after records are gone
 
 *City of Gilroy* held that declaratory relief under the CPRA is available at least where a declaration would resolve an ongoing dispute about the parties' rights and obligations in a way likely to affect future records requests or future conduct.
 
@@ -692,31 +692,31 @@ These are specialized or changed-fact branches, not an unresearched statewide ga
 
 ## Core CPRA statutory authorities
 
-- Gov. Code § 7920.530 — public records: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7920.530
-- Gov. Code § 7920.545 — writing: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7920.545
-- Gov. Code § 7921.000 — right of access: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7921.000
-- Gov. Code § 7921.010 — transfer/destruction provision: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7921.010
-- Gov. Code § 7921.300 — purpose of request: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7921.300
-- Gov. Code § 7922.000 — withholding justification: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.000
-- Gov. Code § 7922.500 — no delay/obstruction: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.500
-- Gov. Code § 7922.525 — inspection/segregation: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.525
-- Gov. Code § 7922.530 — copies/personal equipment: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.530
-- Gov. Code § 7922.535 — determination timeline: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.535
-- Gov. Code § 7922.540 — written denial: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.540
-- Gov. Code §§ 7922.570-7922.585 — electronic records
-- Gov. Code §§ 7922.600-7922.605 — assistance
-- Gov. Code § 7923.000 — enforcement: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7923.000
-- Gov. Code §§ 7923.600–7923.630 — law-enforcement records, mandatory information, critical-incident recordings, recodification continuity
-- Penal Code §§ 832.7–832.8 — peace-officer-record confidentiality/public-disclosure categories
-- Penal Code § 832.18 — BWC policy/retention
+- Gov. Code § 7920.530, public records: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7920.530
+- Gov. Code § 7920.545, writing: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7920.545
+- Gov. Code § 7921.000, right of access: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7921.000
+- Gov. Code § 7921.010, transfer/destruction provision: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7921.010
+- Gov. Code § 7921.300, purpose of request: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7921.300
+- Gov. Code § 7922.000, withholding justification: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.000
+- Gov. Code § 7922.500, no delay/obstruction: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.500
+- Gov. Code § 7922.525, inspection/segregation: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.525
+- Gov. Code § 7922.530, copies/personal equipment: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.530
+- Gov. Code § 7922.535, determination timeline: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.535
+- Gov. Code § 7922.540, written denial: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.540
+- Gov. Code §§ 7922.570-7922.585, electronic records
+- Gov. Code §§ 7922.600-7922.605, assistance
+- Gov. Code § 7923.000, enforcement: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7923.000
+- Gov. Code §§ 7923.600–7923.630, law-enforcement records, mandatory information, critical-incident recordings, recodification continuity
+- Penal Code §§ 832.7–832.8, peace-officer-record confidentiality/public-disclosure categories
+- Penal Code § 832.18, BWC policy/retention
 
 ## Retention/destruction authorities reviewed
 
-- Gov. Code § 12275 — state-record disposition framework
-- Gov. Code § 34090 — city records
-- Gov. Code § 34090.6 — specified routine city/city-county recordings
-- Gov. Code § 26202 — county records
-- Gov. Code §§ 6200-6201 — crimes relating to specified public records/documents
+- Gov. Code § 12275, state-record disposition framework
+- Gov. Code § 34090, city records
+- Gov. Code § 34090.6, specified routine city/city-county recordings
+- Gov. Code § 26202, county records
+- Gov. Code §§ 6200-6201, crimes relating to specified public records/documents
 - California State Archives Records Management Handbook: https://www.sos.ca.gov/archives/records-management-and-appraisal/records-management-handbook
 - State Administrative Manual, Chapter 1600: https://www.dgs.ca.gov/Resources/SAM/TOC/1600/Chapter-View
 

@@ -1,11 +1,11 @@
 ---
-title: Police Encounters — Detention, Identification, Questioning, Arrest, and Devices
+title: "Police Encounters: Detention, Identification, Questioning, Arrest, and Devices"
 jurisdiction: California
 last_verified: 2026-09-29
 status: doctrine-reviewed-in-part
 ---
 
-# Police Encounters — Detention, Identification, Questioning, Arrest, and Devices
+# Police Encounters: Detention, Identification, Questioning, Arrest, and Devices
 
 **Research status:** This chapter reviews the core federal constitutional and California authorities governing the recurring transition from peaceful First Amendment activity to police contact. The principal encounter sequence is covered at the doctrine level: consensual contact, Fourth Amendment seizure/detention, reasonable suspicion, identification demands, protective frisks, probable-cause arrest, Fifth Amendment/Miranda questioning, and recording-device seizure/search. Sweep 014 reconciles California identification authority; Sweep 015 now separates physical device seizure, retention/diligence, frisk/plain-feel/container rules, consent scope, Riley digital-search limits, news-material statutes, and compelled biometric access. The ordinary device branch is supported; the general lawful-detention affirmative-ID issue and the specialized compelled alphanumeric-passcode/foregone-conclusion edge remain expressly **RESEARCHED-UNRESOLVED** rather than converted into categorical rules.
 
@@ -24,16 +24,16 @@ California Constitution article I, sections 13 and 15 supply parallel state sear
 
 Analyze each stage separately:
 
-1. **Consensual contact** — may the person decline questions or terminate the encounter?
-2. **Seizure/detention** — has police conduct restrained liberty under the Fourth Amendment?
-3. **Reason for stop / reasonable suspicion** — for a California pedestrian stop within this project's current scope, what reason was stated before covered questioning, and what specific, articulable facts actually justified the detention when it began?
-4. **Scope/duration** — is the investigation reasonably related to its basis and pursued diligently?
-5. **Identification** — is identification merely requested, or does a specific law require it here?
-6. **Frisk** — is there a separate reasonable basis to believe the person is armed and dangerous?
-7. **Arrest** — did facts known to police establish probable cause?
-8. **Questioning/self-incrimination** — is the person merely detained, or in Miranda custody and being interrogated?
-9. **Phone/camera** — is police asking for consent, physically seizing the device, or searching digital contents?
-10. **Afterward** — release, property return, records preservation, and remedies are distinct questions.
+1. **Consensual contact**, may the person decline questions or terminate the encounter?
+2. **Seizure/detention**, has police conduct restrained liberty under the Fourth Amendment?
+3. **Reason for stop / reasonable suspicion**, for a California pedestrian stop within this project's current scope, what reason was stated before covered questioning, and what specific, articulable facts actually justified the detention when it began?
+4. **Scope/duration**, is the investigation reasonably related to its basis and pursued diligently?
+5. **Identification**, is identification merely requested, or does a specific law require it here?
+6. **Frisk**, is there a separate reasonable basis to believe the person is armed and dangerous?
+7. **Arrest**, did facts known to police establish probable cause?
+8. **Questioning/self-incrimination**, is the person merely detained, or in Miranda custody and being interrogated?
+9. **Phone/camera**, is police asking for consent, physically seizing the device, or searching digital contents?
+10. **Afterward**, release, property return, records preservation, and remedies are distinct questions.
 
 The legal threshold can change during the encounter. Do not collapse the entire interaction into one label.
 
@@ -66,7 +66,7 @@ Official sources:
 
 ---
 
-# 2. Terry detention — reasonable suspicion
+# 2. Terry detention: reasonable suspicion
 
 **Terry v. Ohio, 392 U.S. 1 (1968)** recognizes a limited investigative seizure short of arrest. Police may briefly detain a person when reasonable suspicion is supported by specific and articulable facts that criminal activity is afoot. Reasonable suspicion is less than probable cause, but more than a hunch.
 
@@ -83,7 +83,7 @@ Official sources:
 - https://supreme.courts.ca.gov/case/s267522-people-v-flores
 - https://courts.ca.gov/opinion/citings-archive/2024-05-02/s267522
 
-## Penal Code § 148(g) — recording bridge
+## Penal Code § 148(g): recording bridge
 
 California Penal Code § 148(g) provides that photographing or recording a public/peace officer, while the officer is in a public place or the recorder is in a place the recorder has a right to be, does **not in and of itself**:
 
@@ -95,7 +95,7 @@ Primary source:
 
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=148
 
-## California pedestrian-stop notice rule — Vehicle Code § 2806.5
+## California pedestrian-stop notice rule: Vehicle Code § 2806.5
 
 For this project's present facility-audit scope, the relevant part of Vehicle Code § 2806.5 is its **pedestrian-stop** rule. Effective January 1, 2024, the statute requires a peace officer making a traffic or pedestrian stop, before engaging in questioning related to a criminal investigation or traffic violation, to state the reason for the stop. The traffic-stop branch exists but is not developed further in this Field Guide at this stage. The officer must also document the reason on any resulting citation or police report.
 
@@ -176,7 +176,7 @@ When a detention grows out of a facility complaint, preserve two layers separate
 1. **what the complainant actually says happened; and**
 2. **what objective facts, if any, satisfy the asserted offense or justify the seizure.**
 
-### Arpin — an unexamined accusation is not automatically enough
+### Arpin: an unexamined accusation is not automatically enough
 
 In **Arpin v. Santa Clara Valley Transportation Agency, 261 F.3d 912 (9th Cir. 2001)**, the Ninth Circuit held that officers could not establish probable cause by relying solely on an unexamined accusation by a citizen witness without investigating the basis of the witness's knowledge or interviewing other witnesses.
 
@@ -206,7 +206,7 @@ Sources:
 
 A Terry detention therefore must remain tied to an objective investigative basis; the government cannot preserve a detention merely by repeating facts that later information has materially dispelled.
 
-### National-core comparison — immediately available exculpatory evidence
+### National-core comparison: immediately available exculpatory evidence
 
 The project-wide [Complaint-Driven Police Encounter](../national-core/complaint-driven-police-encounter.md) preserves the broader federal comparison:
 
@@ -219,7 +219,7 @@ For California field use, *Yousefian* and the Ninth Circuit dissipation cases fo
 
 This distinction matters because the Field Guide does **not** assert a categorical Ninth Circuit rule requiring an officer to watch every video a detainee offers. It does preserve the materially narrower question whether police may ignore specifically identified, immediately available objective evidence that directly negates the factual premise on which continued detention or arrest depends.
 
-### Holcomb — objective video can change the probable-cause picture
+### Holcomb: objective video can change the probable-cause picture
 
 In **United States v. Holcomb, No. 23-469 (9th Cir. July 17, 2026)**, a published Ninth Circuit decision arising from a search rather than a street detention, the majority held that probable cause to continue the challenged search dissipated after detectives viewed surveillance video that undermined the alleged criminal conduct.
 
@@ -271,7 +271,7 @@ For facility-originated complaints, document:
 
 This framework does not presume the complainant is dishonest or the officer is acting improperly. It prevents a subjective characterization from replacing the actual legal test.
 
-### California false-report overlay — do not call every bad 911 allegation a felony
+### California false-report overlay: do not call every bad 911 allegation a felony
 
 When the complaint itself appears knowingly false, keep that issue separate from whether the auditor committed the alleged offense.
 
@@ -298,7 +298,7 @@ The encounter record should preserve the caller's exact factual statements, the 
 
 ---
 
-# 5. Identification — request, statutory duty, silence, booking, and false information are different questions
+# 5. Identification: request, statutory duty, silence, booking, and false information are different questions
 
 Avoid both slogans:
 
@@ -326,7 +326,7 @@ https://www.supremecourt.gov/opinions/boundvolumes/542bv.pdf
 
 *Hiibel* establishes that a state may enact a qualifying stop-and-identify requirement. It does not legislate one for California and does not hold that identity can never have Fifth Amendment implications.
 
-### Historical California context — Kolender v. Lawson
+### Historical California context: Kolender v. Lawson
 
 In **Kolender v. Lawson, 461 U.S. 352 (1983)**, the Supreme Court invalidated California's former requirement that a stopped person provide `credible and reliable` identification because the scheme was unconstitutionally vague and gave excessive enforcement discretion. *Hiibel* itself discusses that history.
 
@@ -342,7 +342,7 @@ https://cdn.ca9.uscourts.gov/datastore/opinions/2019/01/11/17-10217.pdf
 
 The important distinction is **request versus compulsion**. An officer may ask without necessarily having authority to impose criminal consequences for refusal.
 
-## California published cases — § 148 is not a generic silence offense
+## California published cases: § 148 is not a generic silence offense
 
 ### People v. Quiroga, 16 Cal.App.4th 961 (1993)
 
@@ -383,7 +383,7 @@ That would conflict with the context-specific structure of *Hiibel* and Californ
 
 > **Silence or refusal to identify is not automatically Penal Code § 148 obstruction. Identify the actual statutory duty and stage of the encounter. Booking and specialized statutory contexts can be different.**
 
-## Penal Code § 148.9 — false identity is separate
+## Penal Code § 148.9: false identity is separate
 
 Penal Code § 148.9 makes it a misdemeanor, under its stated elements, to falsely represent or identify oneself as another or fictitious person to specified officers **upon lawful detention or arrest** for the purpose of evading process or proper identification.
 
@@ -407,7 +407,7 @@ The project therefore distinguishes:
 
 Those are different legal questions.
 
-**Scope of this conclusion:** the absence of a general carry-ID statute and general statutory stop-and-identify law does not answer every lawful-detention question. Sweep 014 has now reconciled the principal older published identification-production/search cases with later authority. The remaining California § 148 question—whether refusal to identify during every otherwise lawful Terry detention, without another statutory duty or obstructive conduct, independently supplies arrest authority—is preserved as **RESEARCHED-UNRESOLVED** rather than guessed.
+**Scope of this conclusion:** the absence of a general carry-ID statute and general statutory stop-and-identify law does not answer every lawful-detention question. Sweep 014 has now reconciled the principal older published identification-production/search cases with later authority. The remaining California § 148 question, whether refusal to identify during every otherwise lawful Terry detention, without another statutory duty or obstructive conduct, independently supplies arrest authority, is preserved as **RESEARCHED-UNRESOLVED** rather than guessed.
 
 ## Lawful detention: older production cases and the unresolved Vanegas boundary
 
@@ -493,7 +493,7 @@ When the stated purpose is "we need your ID to trespass you," ask:
 
 See [Sweep 014](../research/SWEEP-014-PUBLIC-EXCLUSION-PROSPECTIVE-TRESPASS-ID.md) and [Trespass and Removal](trespass-removal.md).
 
-## Drivers — Vehicle Code § 12951
+## Drivers: Vehicle Code § 12951
 
 Driving is different. Vehicle Code § 12951 requires a driver to possess the valid license when driving on a highway and present it on demand to a peace officer enforcing the Vehicle Code.
 
@@ -501,7 +501,7 @@ Primary source:
 
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=12951
 
-## Infraction-arrest citation — Penal Code § 853.5
+## Infraction-arrest citation: Penal Code § 853.5
 
 Section 853.5 supplies identification/fingerprint procedures when an officer is issuing a written promise to appear after an infraction arrest. It is not a general pre-arrest pedestrian stop-and-identify statute.
 
@@ -557,7 +557,7 @@ California's *People v. Garcia*, discussed in the identification section above, 
 
 ---
 
-# 7. Arrest — probable cause is a different threshold
+# 7. Arrest: probable cause is a different threshold
 
 An arrest ordinarily requires **probable cause** to believe the person committed or is committing an offense.
 
@@ -640,12 +640,12 @@ For California, ask in order:
 
 1. Is there a lawful detention?
 2. Is there a current law requiring the particular information?
-3. What exactly is demanded — name, document, address, DOB, fingerprint, etc.?
+3. What exactly is demanded, name, document, address, DOB, fingerprint, etc.?
 4. Does the Fifth Amendment create an additional issue on these facts?
 
 ---
 
-# 11. Phones and cameras — seizure, retention, search, and unlocking are separate
+# 11. Phones and cameras: seizure, retention, search, and unlocking are separate
 
 Keep separate:
 
@@ -658,9 +658,9 @@ Keep separate:
 7. forensic extraction; and
 8. compelled unlocking.
 
-Detailed authority record: [Sweep 015 — Recording-Device Seizure, Retention, Search, and Compelled Access](../research/SWEEP-015-DEVICE-SEIZURE-RETENTION-SEARCH.md).
+Detailed authority record: [Sweep 015, Recording-Device Seizure, Retention, Search, and Compelled Access](../research/SWEEP-015-DEVICE-SEIZURE-RETENTION-SEARCH.md).
 
-## Riley v. California — digital search is not physical custody
+## Riley v. California: digital search is not physical custody
 
 **Riley v. California, 573 U.S. 373 (2014)** holds that search incident to arrest does not ordinarily authorize police to search digital information on a cellphone merely because the phone was seized from a lawfully arrested person.
 
@@ -710,9 +710,9 @@ A seizure lawful at the beginning can become unreasonable through delay.
 
 Published Ninth Circuit anchors:
 
-- **United States v. Song Ja Cha, 597 F.3d 995 (2010)** — a seizure reasonable at inception can become unreasonable because of duration; officers must pursue the warrant with appropriate diligence.
-- **United States v. Dass, 849 F.2d 414 (1988)** — probable cause did not permit officers to retain mailed packages for days while warrants were obtained at leisure.
-- **United States v. Sullivan, 797 F.3d 623 (2015)** — no universal day-count rule; 21-day laptop retention was reasonable on the unusual totality there, including incarceration, parole/search conditions, reduced possessory interest, failure to seek return, later consent, and government interests.
+- **United States v. Song Ja Cha, 597 F.3d 995 (2010)**: a seizure reasonable at inception can become unreasonable because of duration; officers must pursue the warrant with appropriate diligence.
+- **United States v. Dass, 849 F.2d 414 (1988)**: probable cause did not permit officers to retain mailed packages for days while warrants were obtained at leisure.
+- **United States v. Sullivan, 797 F.3d 623 (2015)**: no universal day-count rule; 21-day laptop retention was reasonable on the unusual totality there, including incarceration, parole/search conditions, reduced possessory interest, failure to seek return, later consent, and government interests.
 
 Sources:
 
@@ -768,7 +768,7 @@ https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EVID
 
 These protections are overlays; they do not replace the ordinary Fourth Amendment seizure/search analysis.
 
-## Compelled biometric unlocking — Payne is binding but narrow
+## Compelled biometric unlocking: Payne is binding but narrow
 
 In **United States v. Payne, 99 F.4th 495 (9th Cir. 2024)**, officers physically selected and used a California parolee's thumb to unlock an already identified phone. The Ninth Circuit held the compelled thumb use non-testimonial on those facts because it required no cognitive exertion.
 
@@ -801,7 +801,7 @@ https://law.justia.com/cases/federal/appellate-courts/F3/383/905/495139/
 
 ---
 
-# 12. Practical encounter script — evidence-preserving, not magic words
+# 12. Practical encounter script: evidence-preserving, not magic words
 
 ### Initial contact
 

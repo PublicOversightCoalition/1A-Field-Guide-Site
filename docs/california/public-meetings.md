@@ -11,9 +11,9 @@ At a covered open meeting, California law may protect more than the ability to s
 
 ---
 
-# Brown Act — local legislative bodies
+# Brown Act: local legislative bodies
 
-## Government Code § 54950 — purpose
+## Government Code § 54950: purpose
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=54950.
@@ -22,7 +22,7 @@ The Brown Act declares that local public bodies exist to conduct the people's bu
 
 **Use in the guide:** § 54950 states legislative purpose. It is not by itself the operative attendance, recording, comment, or removal rule.
 
-## Government Code § 54953.3 — no mandatory sign-in or identification prerequisite
+## Government Code § 54953.3: no mandatory sign-in or identification prerequisite
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=54953.3
@@ -35,7 +35,7 @@ If a sign-in sheet, register, questionnaire, or similar document is posted or ci
 
 **Limit:** This section concerns attendance at covered meetings. It is not a general rule that a government facility may never lawfully request identifying information for some other purpose.
 
-## Government Code § 54953.5 — recording an open meeting
+## Government Code § 54953.5: recording an open meeting
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=54953.5
@@ -48,7 +48,7 @@ Section 54953.5(b) separately addresses recordings made by or at the direction o
 
 **Current-law note:** The official text reflects amendments effective January 1, 2026.
 
-## Government Code § 54954.3 — public comment and criticism
+## Government Code § 54954.3: public comment and criticism
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=54954.3.
@@ -59,7 +59,7 @@ Section 54954.3(c) states that the legislative body shall not prohibit public cr
 
 **Field rule:** Criticism of the agency or legislative body is not, merely because it is critical, a statutory basis for prohibiting public comment. Reasonable and lawful meeting regulations can still apply.
 
-## Government Code § 54957.95 — removal of an individual for disruption
+## Government Code § 54957.95: removal of an individual for disruption
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=54957.95.
@@ -74,7 +74,7 @@ The statute defines `disrupting` as behavior that **actually disrupts, disturbs,
 
 **Current-law note:** The official text reflects amendments effective January 1, 2026.
 
-## Government Code § 54957.9 — clearing a meeting room after group disruption
+## Government Code § 54957.9: clearing a meeting room after group disruption
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=54957.9.
@@ -83,20 +83,20 @@ If a meeting is willfully interrupted by a group or groups so that orderly condu
 
 The statute also addresses continued attendance by representatives of the press/news media who were not participating in the disturbance and permits a procedure for readmitting individuals not responsible for the disturbance.
 
-**Field rule:** § 54957.9 concerns a specific escalation—group disruption making orderly conduct unfeasible after individual-removal measures cannot restore order. Do not treat it as a general power to clear a room whenever a meeting becomes contentious.
+**Field rule:** § 54957.9 concerns a specific escalation, group disruption making orderly conduct unfeasible after individual-removal measures cannot restore order. Do not treat it as a general power to clear a room whenever a meeting becomes contentious.
 
 ---
 
-# Bagley-Keene Open Meeting Act — state bodies
+# Bagley-Keene Open Meeting Act: state bodies
 
-## Government Code § 11120 — purpose
+## Government Code § 11120: purpose
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=11120.
 
 Section 11120 states California's policy that public-agency proceedings be conducted openly so the public may remain informed and identifies the article as the Bagley-Keene Open Meeting Act.
 
-## Government Code § 11124 — no mandatory sign-in or identification prerequisite
+## Government Code § 11124: no mandatory sign-in or identification prerequisite
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=11124.
@@ -111,7 +111,7 @@ Section 11124(c) addresses online platforms used to attend teleconferenced meeti
 
 **Limit:** This is a meeting-attendance rule, not a universal prohibition on identification requirements in every state facility or transaction.
 
-## Government Code § 11124.1 — recording and broadcasting open state-body meetings
+## Government Code § 11124.1: recording and broadcasting open state-body meetings
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=11124.1.
@@ -122,7 +122,7 @@ Section 11124.1(c) also prohibits a state body from prohibiting or otherwise res
 
 **Field rule:** For a covered open state-body meeting, the statute affirmatively protects recording and broadcasting subject to the persistent-disruption limitation.
 
-## Government Code § 11125.7 — public comment and criticism
+## Government Code § 11125.7: public comment and criticism
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=11125.7.

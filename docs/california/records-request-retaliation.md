@@ -55,7 +55,7 @@ https://www.supremecourt.gov/opinions/23pdf/22-1025_1a72.pdf
 
 *Lozman v. City of Riviera Beach*, 585 U.S. 87 (2018), addressed a distinct retaliatory-arrest theory involving an alleged official municipal policy of retaliation.
 
-For facility encounters, keep the Fourth Amendment and First Amendment questions separate. Evidence that reasonable suspicion or probable cause never existed—or later dissipated—belongs in the seizure analysis. Evidence that an otherwise available enforcement power was used because of protected recording, criticism, petitioning, or information gathering belongs in the retaliation analysis. See [Police Encounters](police-encounters.md).
+For facility encounters, keep the Fourth Amendment and First Amendment questions separate. Evidence that reasonable suspicion or probable cause never existed, or later dissipated, belongs in the seizure analysis. Evidence that an otherwise available enforcement power was used because of protected recording, criticism, petitioning, or information gathering belongs in the retaliation analysis. See [Police Encounters](police-encounters.md).
 
 Do not convert ordinary retaliation cases into a claim that probable cause is irrelevant to every arrest.
 
