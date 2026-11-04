@@ -247,3 +247,19 @@ body:has([data-motion-home]) {
     z-index: 5;
   }
 }
+
+
+/* The interior page .md-main uses isolation:isolate, trapping the mobile
+   sidebar below Material's global screen overlay. Restore the drawer's
+   normal stacking context and place it above the overlay. */
+@media (max-width: 76em) {
+  body:not(:has([data-motion-home])) .md-main {
+    isolation: auto;
+  }
+  .md-sidebar--primary {
+    z-index: 8 !important;
+  }
+  .md-overlay {
+    z-index: 5 !important;
+  }
+}
