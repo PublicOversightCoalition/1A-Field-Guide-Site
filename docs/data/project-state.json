@@ -27,8 +27,8 @@
       "evidence_href": "evidence/california/cccl-pits/",
       "lead": true,
       "last_updated": "2026-10-31",
-      "question": "What does PITS actually preserve about patron conduct, staff response, classification, suspension, deletion, and outside-agency involvement?",
-      "summary": "The first PITS production now has a public evidence collection with stable source IDs and integrity hashes while follow-up records remain pending.",
+      "question": "Do the library's records fully show what happened, how incidents were classified, and what actions staff took?",
+      "summary": "We're checking how the library records incidents, what staff guidance says, and which questions are still unanswered. The first batch of records is available to examine.",
       "wire": "first evidence collection published; follow-up records due November 6 absent extension"
     },
     {
@@ -41,8 +41,8 @@
       "href": "registry/healdsburg-police/",
       "lead": false,
       "last_updated": "2026-10-30",
-      "question": "How does the department's officer-identification policy compare with observed refusal to provide name or badge information?",
-      "summary": "Agency identification policy and facility-specific research are being tracked against observed officer conduct and statewide law.",
+      "question": "What does the department require when someone asks an officer for their name or badge number?",
+      "summary": "We're reviewing the department's identification policy and reported encounters. The facts and policy questions are being checked separately.",
       "wire": "policy and identification-rule research"
     }
   ],
