@@ -1,5 +1,11 @@
 # California 1A Auditor's Field Guide
 
+**Start here:** Want to know what you can lawfully do when recording officials, entering a public building, attending a meeting, or asking for public records in California? This guide helps you find the relevant rules and the evidence behind them. Start with the topic that matches your situation; the detailed legal research is here when you need it.
+
+[Recording public officials](recording-public-officials.md) · [Police encounters](police-encounters.md) · [Public libraries](public-libraries.md) · [Public meetings](public-meetings.md) · [Public records](public-records-evidence-preservation.md)
+
+## For readers who want the research details
+
 **Research baseline:** September 30, 2026
 
 This directory is the California handbook. The goal is to build a rigorous statewide legal spine first, then add facility-specific chapters and case studies.
