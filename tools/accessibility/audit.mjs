@@ -121,6 +121,23 @@ for (const route of ['', 'california/']) {
     entry.passed = true;
   } catch (error) {
     entry.error = String(error);
+    entry.stack = await page.evaluate(() => {
+      const els = ['.md-sidebar--primary','.md-sidebar--primary .md-nav__list','.md-overlay','.md-main','.md-container','.md-header'];
+      const result = els.map(sel => {
+        const e=document.querySelector(sel);
+        const r=e?.getBoundingClientRect();
+        const cs=e&&getComputedStyle(e);
+        return {sel,rect:r?.toJSON(),z:cs?.zIndex,position:cs?.position,transform:cs?.transform,opacity:cs?.opacity,isolation:cs?.isolation,pointerEvents:cs?.pointerEvents};
+      });
+      const target=[...document.querySelectorAll('.md-sidebar--primary a.md-nav__link')].find(e=>e.href.includes('contribute/'));
+      if(target) {
+        const r=target.getBoundingClientRect();
+        const hit=document.elementFromPoint(Math.min(window.innerWidth-1,Math.max(0,r.left+r.width/2)), Math.min(window.innerHeight-1,Math.max(0,r.top+r.height/2)));
+        result.push({targetRect:r.toJSON(),targetParent:target.parentElement?.outerHTML.slice(0,350),hit:hit?.outerHTML.slice(0,400)});
+      }
+      return result;
+    });
+    console.log('MOBILE NAV STACK ' + JSON.stringify(entry.stack));
     errorCount++;
   }
   report.push(entry);
