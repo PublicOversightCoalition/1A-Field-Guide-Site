@@ -1,11 +1,11 @@
 ---
-title: Sweep 008 — Walnut Creek Library Branch
+title: "Sweep 008: Walnut Creek Library Branch"
 jurisdiction: California
 last_verified: 2026-09-22
 status: branch-research-in-progress
 ---
 
-# Sweep 008 — Walnut Creek Library Branch
+# Sweep 008: Walnut Creek Library Branch
 
 ## Scope
 
@@ -160,7 +160,7 @@ An exact APN-metadata search for `178 30` returned zero hits. That means only th
 
 The assessor-sheet map references were separately resolved:
 
-### Rancho Dolores — MB 2-36
+### Rancho Dolores: MB 2-36
 
 - entry name `2M36`;
 - entry ID `482387`;
@@ -170,7 +170,7 @@ The assessor-sheet map references were separately resolved:
 - recorded July 26, 1909;
 - subdivision `RANCHO DOLORES`.
 
-### Oak Park — MB 18-385
+### Oak Park: MB 18-385
 
 - entry name `18M385`;
 - entry ID `128855`;
@@ -287,12 +287,12 @@ Canonical analysis:
 
 | Area | Current documentary posture |
 | --- | --- |
-| Actual North Broadway municipal sidewalk / ROW | **TPF — HIGH CONFIDENCE; exact edge pending where ambiguous** |
-| Actual Lincoln Avenue municipal sidewalk / ROW | **TPF — HIGH CONFIDENCE; exact edge pending where ambiguous** |
+| Actual North Broadway municipal sidewalk / ROW | **TPF, HIGH CONFIDENCE; exact edge pending where ambiguous** |
+| Actual Lincoln Avenue municipal sidewalk / ROW | **TPF, HIGH CONFIDENCE; exact edge pending where ambiguous** |
 | Broadway–Lincoln civic plaza / Library outdoor-plaza area | ***Prigmore* TPF treatment strongly supported; current physical verification pending** |
 | Formal Broadway entrance / immediate exterior approach | ***Prigmore* TPF treatment strongly supported; field verification pending** |
 | Civic Park entrance / connective public pedestrian route | **TPF treatment strongly supported; exact subarea line pending if material** |
-| Civic Park proper | **TPF — HIGH CONFIDENCE, subject to ordinary park/reservation rules** |
+| Civic Park proper | **TPF, HIGH CONFIDENCE, subject to ordinary park/reservation rules** |
 | Library surface lot | ***Prigmore* TPF treatment strongly supported for lawful pedestrian expressive use; traffic/safety rules remain material** |
 | Underground Library garage | **FORUM CLASSIFICATION UNRESOLVED** |
 | Garage ramps / vehicle portals | **No broad speech-zone conclusion; vehicle/safety function dominates** |
@@ -461,7 +461,7 @@ https://www.walnutcreekca.gov/government/community-development-department/permit
 
 No publicly indexed current Library site/engineering plan was located during this sweep that fixes the exact Broadway/Lincoln/plaza/garage edges.
 
-Under the outcome-determinative boundary gate, a targeted current-plan request is warranted only if the exact line would change the legal result—for example, a location-specific exclusion/trespass dispute at a visually ambiguous plaza/sidewalk transition.
+Under the outcome-determinative boundary gate, a targeted current-plan request is warranted only if the exact line would change the legal result, for example, a location-specific exclusion/trespass dispute at a visually ambiguous plaza/sidewalk transition.
 
 ---
 

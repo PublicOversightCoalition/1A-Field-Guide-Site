@@ -1,11 +1,11 @@
 ---
-title: Restriction Corpus Completeness Sweep — Four Pilots
+title: "Restriction Corpus Completeness Sweep: Four Pilots"
 jurisdiction: California
 last_verified: 2026-09-23
 status: public-source-completeness-pass / targeted-cpra-next
 ---
 
-# Restriction Corpus Completeness Sweep — Four Pilots
+# Restriction Corpus Completeness Sweep: Four Pilots
 
 ## Result
 
@@ -13,10 +13,10 @@ A fresh public-source completeness sweep materially changed the corpus before an
 
 Current structured corpus after this pass:
 
-- Concord Library — 11 rule/context records
-- Walnut Creek Library — 10 rule/context records
-- Concord DMV — 13 rule/context records
-- Concord Police Headquarters — 10 rule/context records
+- Concord Library, 11 rule/context records
+- Walnut Creek Library, 10 rule/context records
+- Concord DMV, 13 rule/context records
+- Concord Police Headquarters, 10 rule/context records
 
 Total: **44 public-source rule/context records**.
 
@@ -34,7 +34,7 @@ That rule now requires an explicit **area split**. Both pilot libraries contain 
 
 Relevant authorities include *Village of Schaumburg*, *Prigmore*, and ordinary forum doctrine.
 
-Status: **CONSTITUTIONALITY UNRESOLVED — HIGH-PRIORITY DOCTRINAL STRESS TEST.**
+Status: **CONSTITUTIONALITY UNRESOLVED, HIGH-PRIORITY DOCTRINAL STRESS TEST.**
 
 ### 2. Concord Municipal Code solicitation restrictions
 
@@ -42,7 +42,7 @@ Concord Municipal Code chapter 9.08 prohibits solicitation in any public parking
 
 This is directly relevant to Concord Library's public parking and potentially to Police Headquarters parking/queue areas. The California Supreme Court's *Los Angeles Alliance for Survival* decision addressed a materially different Los Angeles rule whose parking-lot prohibition applied after dark. Concord's all-times parking-lot text therefore requires its own analysis.
 
-Status: **CONSTITUTIONALITY UNRESOLVED — APPLY BY EXACT SUBAREA.**
+Status: **CONSTITUTIONALITY UNRESOLVED, APPLY BY EXACT SUBAREA.**
 
 ### 3. CCCL exhibit/display/distribution content restrictions
 
@@ -50,7 +50,7 @@ The public policy affirmatively opens exhibit/display/distribution channels for 
 
 Because the channel is intentionally opened, those restrictions can be tested now under current limited-public-forum doctrine. CPRA is not needed to establish that the rule exists.
 
-Status: **CONSTITUTIONALITY UNRESOLVED — LPF STRESS TEST REQUIRED.**
+Status: **CONSTITUTIONALITY UNRESOLVED, LPF STRESS TEST REQUIRED.**
 
 ### 4. Self-Service Sunday direction/removal language
 
@@ -120,7 +120,7 @@ Likewise, Capitol-specific FAQs are not generalized to all DMV field offices whe
 
 The original 15 candidate targets should not become 15 separate requests. They can be consolidated and sequenced.
 
-### Package A — Contra Costa County Library systemwide
+### Package A: Contra Costa County Library systemwide
 
 **Priority: ISSUE NOW.** One request can cover both Concord and Walnut Creek branches.
 
@@ -128,7 +128,7 @@ Seek current internal guidance/training/scripts/sign templates for recording, ob
 
 Do **not** request the Self-Service agreement, Patron Conduct Policy, Suspension Policy, or public display rules again; those are already public.
 
-### Package B — City of Walnut Creek
+### Package B: City of Walnut Creek
 
 **Priority: ISSUE NOW.**
 
@@ -136,7 +136,7 @@ Seek the complete current Oak View / Las Trampas agreements and incorporated rul
 
 Do not request the municipal sign code itself; it is public.
 
-### Package C — California DMV
+### Package C: California DMV
 
 **Priority: ISSUE NOW.**
 
@@ -144,7 +144,7 @@ Seek internal/statewide and Concord-specific recording/phone/customer-conduct di
 
 Do not request public DMV privacy pages, the Driver's Handbook, or Title 13 regulations again.
 
-### Package D — California Highway Patrol
+### Package D: California Highway Patrol
 
 **Priority: ISSUE NOW, preferably coordinated with the DMV request.**
 
@@ -152,7 +152,7 @@ Seek the field Division/Area SOP and implementation guidance for 13 CCR §§1855
 
 The public HPM proves that DMV-office event procedures exist at the field-Division level; the local implementation is therefore a concrete, non-speculative records target.
 
-### Package E — Concord Police / City of Concord
+### Package E: Concord Police / City of Concord
 
 **Priority: ISSUE NOW.**
 

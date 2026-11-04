@@ -1,11 +1,11 @@
 ---
-title: Pilot Restriction Corpus — Public-Source Baseline
+title: "Pilot Restriction Corpus: Public-Source Baseline"
 jurisdiction: California
 last_verified: 2026-09-23
 status: public-source-baseline / cpra-targets-identified
 ---
 
-# Pilot Restriction Corpus — Public-Source Baseline
+# Pilot Restriction Corpus: Public-Source Baseline
 
 > **Checkpoint note:** This was the initial 34-record seed. The same-day [Restriction Corpus Completeness Sweep](RESTRICTION-CORPUS-COMPLETENESS-2026-09-23.md) supersedes the counts and CPRA assessment after a fresh public-source pass.
 
@@ -15,10 +15,10 @@ The four pilots now have a structured restriction corpus seeded from already-rev
 
 Current baseline:
 
-- Concord Library — 9 rule records / 3 targeted CPRA gaps
-- Walnut Creek Library — 8 rule records / 3 targeted CPRA gaps
-- Concord DMV — 8 rule records / 4 targeted CPRA gaps
-- Concord Police Headquarters — 9 rule records / 4 targeted CPRA gaps
+- Concord Library, 9 rule records / 3 targeted CPRA gaps
+- Walnut Creek Library, 8 rule records / 3 targeted CPRA gaps
+- Concord DMV, 8 rule records / 4 targeted CPRA gaps
+- Concord Police Headquarters, 9 rule records / 4 targeted CPRA gaps
 
 Total: **34 public-source rule/context records** and **14 targeted CPRA candidate requests**.
 

@@ -1,11 +1,11 @@
 ---
-title: Registry Indoor Common-Space Hardening — Four Pilot Facilities
+title: "Registry Indoor Common-Space Hardening: Four Pilot Facilities"
 jurisdiction: California
 last_verified: 2026-09-23
 status: current-registry-method
 ---
 
-# Registry Indoor Common-Space Hardening — Four Pilot Facilities
+# Registry Indoor Common-Space Hardening: Four Pilot Facilities
 
 ## Purpose
 
@@ -13,9 +13,9 @@ This pass applies the project's [Indoor Public Common Spaces](../california/indo
 
 The objective is to keep three questions separate:
 
-1. **Forum classification** — what constitutional forum category best fits the indoor area?
-2. **Privacy/confidentiality responsibility** — what duties remain with the facility, and what duties actually apply to a visitor?
-3. **Recording restriction** — what rule, if any, actually limits recording, and has that rule been constitutionally tested?
+1. **Forum classification**, what constitutional forum category best fits the indoor area?
+2. **Privacy/confidentiality responsibility**, what duties remain with the facility, and what duties actually apply to a visitor?
+3. **Recording restriction**, what rule, if any, actually limits recording, and has that rule been constitutionally tested?
 
 The project does not infer:
 
@@ -43,8 +43,8 @@ Generated facility pages display this separately from forum classification and f
 
 Hardened indoor areas:
 
-- **Ordinary lobby, stacks, reading and service areas** — general shared interior.
-- **Self-Service Sunday interior** — purpose-limited interior with conditioned access.
+- **Ordinary lobby, stacks, reading and service areas**: general shared interior.
+- **Self-Service Sunday interior**: purpose-limited interior with conditioned access.
 
 Current privacy posture:
 
@@ -58,8 +58,8 @@ Current privacy posture:
 
 Hardened indoor areas:
 
-- **Ordinary lobby, stacks, reading and service areas** — general shared interior.
-- **Garage stairs, elevators and connective corridors** — shared public circulation.
+- **Ordinary lobby, stacks, reading and service areas**: general shared interior.
+- **Garage stairs, elevators and connective corridors**: shared public circulation.
 
 Current privacy posture:
 
@@ -73,8 +73,8 @@ Current privacy posture:
 
 Hardened indoor areas:
 
-- **Ordinary lobby / waiting** — waiting area.
-- **Customer service counters / transaction zones** — public service counter.
+- **Ordinary lobby / waiting**: waiting area.
+- **Customer service counters / transaction zones**: public service counter.
 
 Current privacy posture:
 
@@ -91,8 +91,8 @@ The knowledge-test device rule remains separately classified as an **activity-sp
 
 Hardened indoor areas:
 
-- **Ordinary public lobby / Community Service Desk** — lobby.
-- **Records counter** — public service counter.
+- **Ordinary public lobby / Community Service Desk**: lobby.
+- **Records counter**: public service counter.
 
 Current privacy posture:
 
@@ -110,7 +110,7 @@ None of these four pilot facilities has been established in the Registry as a HI
 
 Accordingly, the new `hipaa_posture` field is set to `NOT_INDICATED` for the hardened subareas.
 
-That field exists because future facilities—public health clinics, county hospitals, behavioral-health offices, and similar sites—may require a direct HIPAA analysis.
+That field exists because future facilities, public health clinics, county hospitals, behavioral-health offices, and similar sites, may require a direct HIPAA analysis.
 
 The project will not label a facility `COVERED_ENTITY_CONTEXT` merely because employees use the word "HIPAA."
 

@@ -4,7 +4,7 @@ Every substantive rule in this project should be traceable to authority that a r
 
 ## Authority tiers
 
-### Tier 1 — Primary controlling authority
+### Tier 1: Primary controlling authority
 
 Preferred whenever available:
 
@@ -20,7 +20,7 @@ Preferred whenever available:
 - California Supreme Court opinions;
 - published California Courts of Appeal opinions.
 
-### Tier 2 — Primary persuasive authority
+### Tier 2: Primary persuasive authority
 
 Examples:
 
@@ -32,7 +32,7 @@ Examples:
 
 These sources may be informative but must not be described as binding California authority when they are not.
 
-### Tier 3 — Official policy and guidance
+### Tier 3: Official policy and guidance
 
 Examples:
 
@@ -44,7 +44,7 @@ Examples:
 
 These can establish what an agency says its rule is. They do not override constitutions, statutes, regulations, or controlling cases.
 
-### Tier 4 — Secondary material
+### Tier 4: Secondary material
 
 Examples:
 
@@ -56,7 +56,7 @@ Examples:
 
 Use these for context and research leads. Whenever practical, follow the citation back to primary authority.
 
-### Tier 5 — Incident evidence
+### Tier 5: Incident evidence
 
 Examples:
 
@@ -116,7 +116,7 @@ Case entries should use one of these labels:
 - `binding-us-supreme-court`
 - `binding-ninth-circuit`
 - `binding-california-supreme-court`
-- `binding-california-court-of-appeal` — identify district when relevant
+- `binding-california-court-of-appeal`, identify district when relevant
 - `persuasive-federal-district`
 - `persuasive-other-circuit`
 - `persuasive-other-state`
@@ -148,11 +148,11 @@ precedential: true
 
 ## Status values
 
-- `verified` — current text/opinion checked against a primary or authoritative source.
-- `needs-review` — plausible but not adequately verified.
-- `disputed` — authorities or interpretations materially conflict.
-- `superseded` — no longer current but retained for history.
-- `facility-specific` — applies only to a particular agency/building/category.
+- `verified`, current text/opinion checked against a primary or authoritative source.
+- `needs-review`, plausible but not adequately verified.
+- `disputed`, authorities or interpretations materially conflict.
+- `superseded`, no longer current but retained for history.
+- `facility-specific`, applies only to a particular agency/building/category.
 
 Methodology documents may use `project-methodology` in front matter. That label describes the project's research/field procedure; it is **not** a legal-verification status and should not be applied to a substantive rule of law.
 
@@ -178,8 +178,8 @@ A reader should always be able to tell when a proposition was last checked.
 
 Whenever practical, write entries in this order:
 
-1. **Field rule** — short, memorable proposition.
-2. **Authority** — precise source.
+1. **Field rule**, short, memorable proposition.
+2. **Authority**, precise source.
 3. **What the authority actually says.**
 4. **Why it matters during an audit.**
 5. **Limits/exceptions.**

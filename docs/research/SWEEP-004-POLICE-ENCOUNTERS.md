@@ -1,4 +1,4 @@
-# Sweep 004 — Police Encounters: Fourth Amendment + Self-Incrimination
+# Sweep 004: Police Encounters: Fourth Amendment + Self-Incrimination
 
 **Date reviewed:** September 21, 2026  
 **Status:** Core encounter doctrine reviewed in part; substantial edge-case/remedies work remains pending.
@@ -113,7 +113,7 @@ Primary source: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xh
 
 **Status:** PRIMARY-TEXT-VERIFIED.
 
-### Vehicle Code § 2806.5 — pedestrian-stop notice relevant to this project
+### Vehicle Code § 2806.5: pedestrian-stop notice relevant to this project
 
 Effective January 1, 2024, a peace officer making a traffic or pedestrian stop must, before questioning related to a criminal investigation or traffic violation, state the reason for the stop. The officer must document the reason on any resulting citation or police report. The statute contains an exception when the officer reasonably believes withholding the reason is necessary to protect life or property from an imminent threat.
 

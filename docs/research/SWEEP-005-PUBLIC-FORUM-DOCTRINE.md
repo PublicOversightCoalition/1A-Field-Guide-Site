@@ -1,4 +1,4 @@
-# Sweep 005 — Public-Forum Doctrine
+# Sweep 005: Public-Forum Doctrine
 
 **Review date:** September 17, 2026  
 **Status:** Core federal forum architecture and California overlay reviewed; facility-specific classifications remain open.
@@ -51,8 +51,8 @@ This is **not** a complete facility-by-facility forum survey.
 | *San Leandro Teachers Ass'n v. Governing Bd.*, 46 Cal.4th 822 (2009) | binding-california-supreme-court | DOCTRINE-REVIEWED-IN-PART | Internal school mailboxes nonpublic under federal doctrine; separate CA Speech Clause claim rejected on narrow facts; old basic-incompatibility classification theory not adopted. |
 | *Int'l Soc. for Krishna Consciousness of Cal., Inc. v. City of L.A.*, 48 Cal.4th 446 (2010) | binding-california-supreme-court | DOCTRINE-REVIEWED | CA Supreme Court expressly declined to decide LAX forum status; solicitation ban upheld under assumed-public-forum TPM analysis. |
 | *Ralphs Grocery Co. v. UFCW Local 8*, 55 Cal.4th 1083 (2012) | binding-california-supreme-court | CONTEXT / DOCTRINE-REVIEWED-IN-PART | California private-property forum analysis is area-specific/fact-sensitive; not every shopping-center walkway is a public forum. |
-| *Park Mgmt. Corp. v. In Defense of Animals*, 36 Cal.App.5th 649 (2019) | binding-california-court-of-appeal — First Dist., Div. Two | CONTEXT | California private-property analysis considers nature/use/access and can distinguish ticketed/enclosed and exterior areas. |
-| *Prigmore v. City of Redding*, 211 Cal.App.4th 1322 (2012) | binding-california-court-of-appeal — Third Dist. | DOCTRINE-REVIEWED — Sweep 006 follow-on | Redding library outdoor open space/entry/adjacent parking area traditional public forum on the record; rejected old basic-incompatibility classification approach. |
+| *Park Mgmt. Corp. v. In Defense of Animals*, 36 Cal.App.5th 649 (2019) | binding-california-court-of-appeal, First Dist., Div. Two | CONTEXT | California private-property analysis considers nature/use/access and can distinguish ticketed/enclosed and exterior areas. |
+| *Prigmore v. City of Redding*, 211 Cal.App.4th 1322 (2012) | binding-california-court-of-appeal, Third Dist. | DOCTRINE-REVIEWED, Sweep 006 follow-on | Redding library outdoor open space/entry/adjacent parking area traditional public forum on the record; rejected old basic-incompatibility classification approach. |
 
 ---
 
@@ -224,7 +224,7 @@ Still requires separate research:
 - ordinary administrative-building lobbies;
 - police/sheriff lobbies;
 - DMV/state-service centers;
-- public libraries — Contra Costa system-level Sweep 006 completed; branch-specific classifications and broader statewide library systems remain;
+- public libraries, Contra Costa system-level Sweep 006 completed; branch-specific classifications and broader statewide library systems remain;
 - courthouse rooms/corridors/clerk areas and exterior plazas;
 - public colleges/universities;
 - K-12 campuses;
