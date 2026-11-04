@@ -111,7 +111,7 @@ body:has([data-motion-home]) {
 .beta-california,
 .beta-contribute,
 .md-content__inner {
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 
 .beta-hero,
@@ -123,5 +123,36 @@ body:has([data-motion-home]) {
   .beta-hero h1,
   .beta-manifesto__headline {
     line-height: 1;
+  }
+}
+
+
+/* Mobile hero recovery: the later motion stylesheet restores a two-column
+   desktop grid. Force a single fluid column before it can squeeze the title. */
+.beta-hero__content,
+.beta-hero__question {
+  min-width: 0;
+}
+
+@media (max-width: 76em) {
+  .beta-home .beta-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 52em) {
+  .beta-home .beta-hero {
+    gap: 1.5rem;
+    padding: clamp(1.25rem, 5vw, 1.75rem);
+  }
+
+  .beta-home .beta-hero h1 {
+    max-width: 100%;
+    font-size: clamp(2.2rem, 10vw, 3.5rem);
+    line-height: 1.08;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
   }
 }
