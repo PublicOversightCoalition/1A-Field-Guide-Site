@@ -5,7 +5,7 @@ status: jurisdiction-routing-guide
 
 # Public records: start here
 
-Public-records law depends first on **which government holds the records**. The Field Guide does not treat one state's records law as the nationwide default.
+Want records from a government agency? Start by finding out **which agency has them**. Federal, state, and local agencies can follow different public-records laws.
 
 ## 1. Identify the government level
 
@@ -17,7 +17,7 @@ Use the **Freedom of Information Act (FOIA), 5 U.S.C. § 552**, for records held
 
 ### State or local agency records
 
-State and local agencies are generally governed by the applicable state's public-records law, not federal FOIA. Start with the jurisdiction where the agency sits and confirm the current statute, exemptions, deadlines, and appeal or enforcement process.
+For state and local agencies, start with that state's public-records law, not federal FOIA. Check the applicable rules, deadlines, exceptions, and ways to challenge a denial.
 
 [Browse jurisdiction coverage →](../jurisdictions/index.md)
 
@@ -29,7 +29,7 @@ For California state and local agencies, use the California Public Records Act (
 
 ## 2. Keep the legal layers separate
 
-A public-records request is usually a **statutory access tool**. It can support First Amendment research, public-forum analysis, policy verification, evidence preservation, and retaliation documentation, but the records statute itself is not a substitute for the constitutional analysis that governs recording, speech, access, or police encounters.
+Public-records laws help you ask government agencies for documents and information. Those records may help investigate a filming restriction, police encounter, or agency policy. But getting records and determining whether a restriction is constitutional are different legal questions.
 
 For those questions, start with the Field Guide's nationwide constitutional framework and then add the relevant jurisdiction-specific rules.
 
@@ -37,6 +37,6 @@ For those questions, start with the Field Guide's nationwide constitutional fram
 
 ## 3. For Field Guide research
 
-Records requests are especially useful for verifying whether a restriction or claimed rule is actually written, authorized, current, trained, enforced, or supported by an identified legal basis. Useful targets can include policies, directives, training materials, signage instructions, incident reports, complaints, enforcement statistics, and policy-change records.
+If an official says a rule exists, the records can help you check it. You might ask for the written policy, training material, signage instructions, incident reports, complaints, or records showing when the policy changed.
 
-Always route the request to the correct legal regime before relying on deadlines, exemptions, or appeal rights.
+Before relying on a response deadline or challenging a denial, make sure you are using the law that applies to that agency.
