@@ -263,3 +263,14 @@ body:has([data-motion-home]) {
     z-index: 5 !important;
   }
 }
+
+
+/* Material's dimming overlay can win the hit test over the open
+   sidebar even when the sidebar has a higher computed z-index.
+   Exclude the open drawer's own width from the overlay's hit region,
+   while keeping outside-tap-to-close working. */
+@media (max-width: 76em) {
+  body:has(#__drawer:checked) .md-overlay {
+    clip-path: inset(0 0 0 12.1rem);
+  }
+}
