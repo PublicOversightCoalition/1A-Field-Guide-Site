@@ -23,9 +23,9 @@
     wire.setAttribute('role', 'region');
     wire.setAttribute('aria-label', 'Current 1A Field Guide research and project updates');
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const compactViewport = window.matchMedia('(max-width: 48em)').matches;
-    // Narrow viewports begin in readable, swipeable mode; users may resume the ticker.
-    const initiallyPaused = reducedMotion || compactViewport;
+    const compactViewport = window.matchMedia('(max-width: 48em)');
+    // Mobile advances one readable update at a time. Reduced-motion starts paused.
+    const initiallyPaused = reducedMotion;
     if (initiallyPaused) wire.classList.add('is-paused');
 
     const label = document.createElement('div');
@@ -81,6 +81,28 @@
     pause.addEventListener('click', () => {
       updatePlaybackControl(wire.classList.toggle('is-paused'));
     });
+
+    // Deliberate card-by-card movement on narrow screens, not continuous text
+    // crawling. Each update is stationary for nine seconds before advancing.
+    // Users can swipe at any time. Focus, an open menu, or a backgrounded page
+    // suspends automatic advancement without changing their pause preference.
+    const mobileItems = [...originals.querySelectorAll('.beta-newswire__item')];
+    const reelDelay = 9000;
+    wire.dataset.mobileReelInterval = String(reelDelay);
+    const advanceMobileReel = () => {
+      if (!compactViewport.matches || wire.classList.contains('is-paused') ||
+          document.hidden || wire.matches(':focus-within, :hover') ||
+          document.querySelector('#__drawer')?.checked ||
+          document.querySelector('#__search')?.checked) return;
+      if (mobileItems.length < 2) return;
+      const position = viewport.scrollLeft;
+      const following = mobileItems.find(item => item.offsetLeft > position + 8);
+      viewport.scrollTo({
+        left: following ? following.offsetLeft : 0,
+        behavior: following ? 'smooth' : 'instant'
+      });
+    };
+    window.setInterval(advanceMobileReel, reelDelay);
 
     wire.append(label, viewport, pause);
 
