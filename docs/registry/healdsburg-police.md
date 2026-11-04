@@ -22,18 +22,18 @@ City of Healdsburg Police Department · `CA-097-F0001`
 
 | Area | Federal classification | California classification | Confidence | Recording / practical note |
 | --- | --- | --- | --- | --- |
-| Center Street ordinary municipal sidewalk — exact strip pending | **TPF** | **TPF** | **HIGH** | Forum protection and recording analysis remain separate. Identify the lawful street-side vantage before extending this row to a particular position. |
-| Entrance approach and public/operational parking transitions | **UNRESOLVED** | **UNRESOLVED** | **—** | Area-specific recording and access facts remain to be established. |
+| Center Street ordinary municipal sidewalk, exact strip pending | **TPF** | **TPF** | **HIGH** | Forum protection and recording analysis remain separate. Identify the lawful street-side vantage before extending this row to a particular position. |
+| Entrance approach and public/operational parking transitions | **UNRESOLVED** | **UNRESOLVED** | Not listed | Area-specific recording and access facts remain to be established. |
 | Ordinary public lobby during published lobby hours | **NPF** | **UNRESOLVED** | **MEDIUM** | Policy 463 applies to lawful officer recording. Current lobby signage, layout, third-party interactions, and any narrower restriction remain unverified. |
 | Public records / complaint interaction | **NPF** | **UNRESOLVED** | **MEDIUM** | Officer accountability recording is separate from capturing objectively confidential third-party communications or protected records; actual layout and conduct matter. |
 
-## Constitution First — restriction audit
+## Constitution First: restriction audit
 
 A rule listed below is a **claimed restriction**, not a concession that the rule is constitutional. The status records how far the project has actually tested it.
 
 | Area | Activity | Restriction status | Current constitutional posture |
 | --- | --- | --- | --- |
-| Center Street ordinary municipal sidewalk — exact strip pending | Recording | **NO MATERIAL RESTRICTION LOCATED** | This limited baseline has not established a material restriction for this activity. The local-rule and enforcement sweep is incomplete; this status is not clearance or a finding that no restriction exists. |
+| Center Street ordinary municipal sidewalk, exact strip pending | Recording | **NO MATERIAL RESTRICTION LOCATED** | This limited baseline has not established a material restriction for this activity. The local-rule and enforcement sweep is incomplete; this status is not clearance or a finding that no restriction exists. |
 | Entrance approach and public/operational parking transitions | Recording | **RULE LOCATED UNTESTED** | HPD recognizes lawful recording of law-enforcement activity and distinguishes recording from actual interference. The full implementation and any separate visitor rule remain to be tested; this policy does not establish a building-wide camera ban. |
 | Ordinary public lobby during published lobby hours | Recording | **RULE LOCATED UNTESTED** | HPD recognizes lawful recording of law-enforcement activity and distinguishes recording from actual interference. The full implementation and any separate visitor rule remain to be tested; this policy does not establish a building-wide camera ban. |
 | Public records / complaint interaction | Recording | **RULE LOCATED UNTESTED** | HPD recognizes lawful recording of law-enforcement activity and distinguishes recording from actual interference. The full implementation and any separate visitor rule remain to be tested; this policy does not establish a building-wide camera ban. |
@@ -61,8 +61,8 @@ Policy 463 recognizes lawful recording of officer activity. That protection, lob
 
 ### Key authorities
 
-- **United States v. Grace, 461 U.S. 171 (1983)** — ordinary public sidewalks
-- **Sammartano v. First Judicial District Court, 303 F.3d 959 (9th Cir. 2002)** — government-building nonpublic forum
+- **United States v. Grace, 461 U.S. 171 (1983)**: ordinary public sidewalks
+- **Sammartano v. First Judicial District Court, 303 F.3d 959 (9th Cir. 2002)**: government-building nonpublic forum
 
 ## Data record
 

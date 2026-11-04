@@ -150,7 +150,7 @@ When the issue is observation or recording from a lawful vantage, assume unless 
 - no hidden area is physically exposed by the observer; and
 - technological enhancement, audio capture, and publication are separate facts rather than silently included.
 
-Use **NC-VANTAGE-01 — Lawful-Vantage Observation and Recording / Matters Exposed to Public View** for the detailed branch structure.
+Use **NC-VANTAGE-01, Lawful-Vantage Observation and Recording / Matters Exposed to Public View** for the detailed branch structure.
 
 This baseline does not create the legal rule that everything visible may always be recorded.
 
@@ -158,7 +158,7 @@ This baseline does not create the legal rule that everything visible may always 
 
 ## 7. Complaint-driven police-response variant
 
-Use **NC-COMPLAINT-01 — Complaint-Driven Police Encounter / Disputed Trespass and Immediately Available Exculpatory Evidence** when a private citizen, employee, security worker, or government employee calls police and characterizes the person as trespassing, hostile, escalating, disruptive, threatening, suspicious, or otherwise unlawful.
+Use **NC-COMPLAINT-01, Complaint-Driven Police Encounter / Disputed Trespass and Immediately Available Exculpatory Evidence** when a private citizen, employee, security worker, or government employee calls police and characterizes the person as trespassing, hostile, escalating, disruptive, threatening, suspicious, or otherwise unlawful.
 
 The standing baseline does not silently adopt the caller's characterization.
 

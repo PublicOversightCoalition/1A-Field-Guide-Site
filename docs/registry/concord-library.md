@@ -32,7 +32,7 @@ Contra Costa County Library · `CA-013-F0001`
 | Self-Service Sunday interior | **LPF** | **UNRESOLVED** | **MEDIUM** | The agreement does not state a general camera ban, but incorporated rules and current signs may matter. |
 | Staff / restricted spaces | **NOT PUBLIC** | **NOT PUBLIC** | **HIGH** | No ordinary public-area inference applies. |
 
-## Constitution First — restriction audit
+## Constitution First: restriction audit
 
 A rule listed below is a **claimed restriction**, not a concession that the rule is constitutional. The status records how far the project has actually tested it.
 
@@ -83,12 +83,12 @@ Recording can constitute First Amendment-protected activity. No dedicated public
 
 ### Key authorities
 
-- **United States v. Grace, 461 U.S. 171 (1983)** — ordinary public sidewalks
-- **Prigmore v. City of Redding, 211 Cal.App.4th 1322 (2012)** — library exterior forum analysis
-- **Faith Center Church Evangelistic Ministries v. Glover, 480 F.3d 891 (9th Cir. 2007)** — library meeting room
-- **Kreimer v. Bureau of Police, 958 F.2d 1242 (3d Cir. 1992)** — ordinary library interior
-- **Neinast v. Board of Trustees, 346 F.3d 585 (6th Cir. 2003)** — ordinary library interior
-- **Project Veritas v. Schmidt, 125 F.4th 929 (9th Cir. 2025) (en banc)** — recording as First Amendment-protected speech; content-neutral privacy regulation can still be tested under applicable scrutiny
+- **United States v. Grace, 461 U.S. 171 (1983)**: ordinary public sidewalks
+- **Prigmore v. City of Redding, 211 Cal.App.4th 1322 (2012)**: library exterior forum analysis
+- **Faith Center Church Evangelistic Ministries v. Glover, 480 F.3d 891 (9th Cir. 2007)**: library meeting room
+- **Kreimer v. Bureau of Police, 958 F.2d 1242 (3d Cir. 1992)**: ordinary library interior
+- **Neinast v. Board of Trustees, 346 F.3d 585 (6th Cir. 2003)**: ordinary library interior
+- **Project Veritas v. Schmidt, 125 F.4th 929 (9th Cir. 2025) (en banc)**: recording as First Amendment-protected speech; content-neutral privacy regulation can still be tested under applicable scrutiny
 
 ## Data record
 

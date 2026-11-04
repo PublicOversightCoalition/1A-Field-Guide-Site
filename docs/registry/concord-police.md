@@ -31,7 +31,7 @@ City of Concord Police Department · `CA-013-F0004`
 | Community Meeting Room | **LPF** | **UNRESOLVED** | **HIGH** | Meeting-room contract and event rules govern; the room does not inherit lobby treatment. |
 | Controlled doors / employee and operational areas | **NOT PUBLIC** | **NOT PUBLIC** | **HIGH** | No public-lobby recording inference applies. |
 
-## Constitution First — restriction audit
+## Constitution First: restriction audit
 
 A rule listed below is a **claimed restriction**, not a concession that the rule is constitutional. The status records how far the project has actually tested it.
 
@@ -82,16 +82,16 @@ Recording public-facing police activity from a lawful, noninterfering vantage re
 
 ### Key authorities
 
-- **United States v. Grace, 461 U.S. 171 (1983)** — ordinary public sidewalks
-- **Sammartano v. First Judicial District Court, 303 F.3d 959 (9th Cir. 2002)** — government-building nonpublic forum
-- **Fordyce v. City of Seattle, 55 F.3d 436 (9th Cir. 1995)** — recording police activity
-- **Askins v. U.S. Department of Homeland Security, 899 F.3d 1035 (9th Cir. 2018)** — recording matters of public interest / location-sensitive analysis
-- **Wilson v. County of Contra Costa, No. 14-cv-03491-SI (N.D. Cal. May 6, 2015)** — public sheriff-lobby recording comparator
-- **California Penal Code § 148(g)** — recording peace officers
-- **California Penal Code § 602.1** — public-agency obstruction/removal
-- **California Penal Code § 632** — confidential communications
-- **Concord Police Department Policy 423 — Public Recording of Law Enforcement Activity** — recording officers
-- **Project Veritas v. Schmidt, 125 F.4th 929 (9th Cir. 2025) (en banc)** — recording as First Amendment-protected speech; content-neutral privacy regulation can still be tested under applicable scrutiny
+- **United States v. Grace, 461 U.S. 171 (1983)**: ordinary public sidewalks
+- **Sammartano v. First Judicial District Court, 303 F.3d 959 (9th Cir. 2002)**: government-building nonpublic forum
+- **Fordyce v. City of Seattle, 55 F.3d 436 (9th Cir. 1995)**: recording police activity
+- **Askins v. U.S. Department of Homeland Security, 899 F.3d 1035 (9th Cir. 2018)**: recording matters of public interest / location-sensitive analysis
+- **Wilson v. County of Contra Costa, No. 14-cv-03491-SI (N.D. Cal. May 6, 2015)**: public sheriff-lobby recording comparator
+- **California Penal Code § 148(g)**: recording peace officers
+- **California Penal Code § 602.1**: public-agency obstruction/removal
+- **California Penal Code § 632**: confidential communications
+- **Concord Police Department Policy 423: Public Recording of Law Enforcement Activity**: recording officers
+- **Project Veritas v. Schmidt, 125 F.4th 929 (9th Cir. 2025) (en banc)**: recording as First Amendment-protected speech; content-neutral privacy regulation can still be tested under applicable scrutiny
 
 ## Data record
 

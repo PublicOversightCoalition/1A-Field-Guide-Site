@@ -31,7 +31,7 @@ California Department of Motor Vehicles · `CA-013-F0003`
 | Knowledge-test stations | **NPF** | **UNRESOLVED** | **HIGH** | Current handbook prohibits use of a cell phone as a testing aid during the knowledge test. |
 | Employee / secure / records / equipment areas | **NOT PUBLIC** | **NOT PUBLIC** | **HIGH** | No public-lobby inference applies. |
 
-## Constitution First — restriction audit
+## Constitution First: restriction audit
 
 A rule listed below is a **claimed restriction**, not a concession that the rule is constitutional. The status records how far the project has actually tested it.
 
@@ -81,14 +81,14 @@ Recording can constitute First Amendment-protected activity. No dedicated public
 
 ### Key authorities
 
-- **United States v. Grace, 461 U.S. 171 (1983)** — ordinary public sidewalks
-- **Sammartano v. First Judicial District Court, 303 F.3d 959 (9th Cir. 2002)** — government-building nonpublic forum
-- **Freedom Foundation v. Washington Department of Ecology, No. 20-35007 (9th Cir. Dec. 21, 2020) (unpublished)** — state-agency lobby comparator
-- **United States v. Kokinda, 497 U.S. 720 (1990)** — purpose-built government access route
-- **Jacobsen v. U.S. Postal Service, 993 F.2d 649 (9th Cir. 1993)** — postal access route
-- **Askins v. U.S. Department of Homeland Security, 899 F.3d 1035 (9th Cir. 2018)** — recording matters of public interest / location-sensitive analysis
-- **Camenzind v. California Exposition & State Fair, 84 F.4th 1102 (9th Cir. 2023)** — California Speech Clause / exterior spaces
-- **Project Veritas v. Schmidt, 125 F.4th 929 (9th Cir. 2025) (en banc)** — recording as First Amendment-protected speech; content-neutral privacy regulation can still be tested under applicable scrutiny
+- **United States v. Grace, 461 U.S. 171 (1983)**: ordinary public sidewalks
+- **Sammartano v. First Judicial District Court, 303 F.3d 959 (9th Cir. 2002)**: government-building nonpublic forum
+- **Freedom Foundation v. Washington Department of Ecology, No. 20-35007 (9th Cir. Dec. 21, 2020) (unpublished)**: state-agency lobby comparator
+- **United States v. Kokinda, 497 U.S. 720 (1990)**: purpose-built government access route
+- **Jacobsen v. U.S. Postal Service, 993 F.2d 649 (9th Cir. 1993)**: postal access route
+- **Askins v. U.S. Department of Homeland Security, 899 F.3d 1035 (9th Cir. 2018)**: recording matters of public interest / location-sensitive analysis
+- **Camenzind v. California Exposition & State Fair, 84 F.4th 1102 (9th Cir. 2023)**: California Speech Clause / exterior spaces
+- **Project Veritas v. Schmidt, 125 F.4th 929 (9th Cir. 2025) (en banc)**: recording as First Amendment-protected speech; content-neutral privacy regulation can still be tested under applicable scrutiny
 
 ## Data record
 
