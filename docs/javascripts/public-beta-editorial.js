@@ -66,12 +66,20 @@
     const pause = document.createElement('button');
     pause.type = 'button';
     pause.className = 'beta-newswire__pause';
-    pause.setAttribute('aria-pressed', String(initiallyPaused));
-    pause.textContent = initiallyPaused ? 'Resume updates' : 'Pause updates';
-    pause.addEventListener('click', () => {
-      const paused = wire.classList.toggle('is-paused');
+    const playbackSymbol = document.createElement('span');
+    playbackSymbol.className = 'beta-newswire__playback-symbol';
+    playbackSymbol.setAttribute('aria-hidden', 'true');
+    pause.appendChild(playbackSymbol);
+    const updatePlaybackControl = (paused) => {
+      const action = paused ? 'Resume updates' : 'Pause updates';
       pause.setAttribute('aria-pressed', String(paused));
-      pause.textContent = paused ? 'Resume updates' : 'Pause updates';
+      pause.setAttribute('aria-label', action);
+      pause.title = action;
+      playbackSymbol.textContent = paused ? '▶' : '⏸';
+    };
+    updatePlaybackControl(initiallyPaused);
+    pause.addEventListener('click', () => {
+      updatePlaybackControl(wire.classList.toggle('is-paused'));
     });
 
     wire.append(label, viewport, pause);
