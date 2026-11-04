@@ -311,9 +311,8 @@ body:has([data-motion-home]) .beta-newswire {
 }
 
 
-/* Small-screen reading mode: preserve the editorial ticker without asking
-   users to read long updates through a narrow, fast-moving slot.
-   Mobile opens paused and swipeable; Resume updates is still available. */
+/* Small-screen reading mode: hold each readable card before advancing.
+   Updates remain swipeable and the visible playback control can pause them. */
 @media (max-width: 48em) {
   body:has([data-motion-home]) .beta-newswire {
     display: flex;
@@ -340,7 +339,19 @@ body:has([data-motion-home]) .beta-newswire {
   }
 
   body:has([data-motion-home]) .beta-newswire__track {
-    animation-duration: 210s;
+    animation: none !important;
+    transform: none !important;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__duplicate {
+    display: none;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__viewport {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
   }
 
   body:has([data-motion-home]) .beta-newswire__item {
@@ -368,12 +379,7 @@ body:has([data-motion-home]) .beta-newswire {
     font-size: .69rem;
   }
 
-  body:has([data-motion-home]) .beta-newswire.is-paused .beta-newswire__viewport {
-    scroll-snap-type: x proximity;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  body:has([data-motion-home]) .beta-newswire.is-paused .beta-newswire__item {
+  body:has([data-motion-home]) .beta-newswire__item {
     scroll-snap-align: start;
   }
 }
