@@ -1,6 +1,6 @@
-# Concord DMV — Evidence Manifest
+# Concord DMV: Evidence Manifest
 
-**Facility:** California Department of Motor Vehicles — Concord Field Office  
+**Facility:** California Department of Motor Vehicles, Concord Field Office  
 **Address:** 2070 Diamond Boulevard, Concord, CA 94520  
 **Agency:** California Department of Motor Vehicles  
 **Research date:** 2026-09-22  
@@ -59,7 +59,7 @@ Detailed review:
 
 `assessor-map-review-2026-09-22.md`
 
-## Recorded subdivision map — `212M47`
+## Recorded subdivision map: `212M47`
 
 The exact assessor reference was resolved through Contra Costa Public Works Recorded Maps:
 
@@ -98,10 +98,10 @@ Detailed review:
 
 The GIS intersection query returned four non-target candidates:
 
-- `126-490-001` — 2090 Diamond Boulevard — `FLATIRONS STANWELL LLC`;
-- `126-490-002` — 2050 Diamond Boulevard — `LEE JOHN S & HELEN Y TRE` / `NORTHS RESTAURANT INC`;
-- `126-490-003` — 2055 Meridian Park Boulevard — `CONCORD FK PROPERTY LLC`;
-- `126-490-005` — 2080 Diamond Boulevard — `EDSTAR ENTERPRISES` / `PAULA DOUGHERTY GP`.
+- `126-490-001`, 2090 Diamond Boulevard, `FLATIRONS STANWELL LLC`;
+- `126-490-002`, 2050 Diamond Boulevard, `LEE JOHN S & HELEN Y TRE` / `NORTHS RESTAURANT INC`;
+- `126-490-003`, 2055 Meridian Park Boulevard, `CONCORD FK PROPERTY LLC`;
+- `126-490-005`, 2080 Diamond Boulevard, `EDSTAR ENTERPRISES` / `PAULA DOUGHERTY GP`.
 
 These remain **candidate discovery results**. Parcel `01` is particularly relevant to the Diamond-frontage/access question because both the assessor sheet and recorded subdivision map place it between the State parcel and Diamond Boulevard. The present legal access/control relationship remains unresolved.
 
@@ -174,7 +174,7 @@ No facility-wide classification is assigned. Federal and California classificati
 
 | Area | Current documentary posture |
 | --- | --- |
-| Actual ordinary Concord municipal sidewalk / ROW | **Federal TPF / California public-forum treatment — HIGH CONFIDENCE once exact location is established** |
+| Actual ordinary Concord municipal sidewalk / ROW | **Federal TPF / California public-forum treatment, HIGH CONFIDENCE once exact location is established** |
 | Facility-specific Diamond access drive/walk | **Federal nonpublic treatment strongly supported if special-purpose facility segment; legal footprint unresolved / California classification unresolved** |
 | DMV customer parking | **Federal nonpublic treatment strongly supported / California classification unresolved** |
 | Exterior customer queue / immediate approach | **Federal nonpublic/purpose-limited treatment strongly supported; physical configuration pending / California unresolved** |

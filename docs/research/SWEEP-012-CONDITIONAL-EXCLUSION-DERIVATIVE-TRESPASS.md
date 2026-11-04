@@ -1,4 +1,4 @@
-# Sweep 012 — California Conditional Access, Removal, and Derivative Trespass
+# Sweep 012: California Conditional Access, Removal, and Derivative Trespass
 
 **Issue:** #66  
 **Package:** GAP-02  
@@ -34,7 +34,7 @@ The purpose is to prevent the later word `trespass` from erasing the upstream le
 
 # 1. Current California primary text
 
-## Penal Code § 602.1(b) — public agency open to the public
+## Penal Code § 602.1(b): public agency open to the public
 
 Current official text requires, for the public-agency branch:
 
@@ -63,7 +63,7 @@ But § 602.1(e) means the exception does not immunize conduct from some other in
 
 ---
 
-## Penal Code § 602 — recurring public-facility branches
+## Penal Code § 602: recurring public-facility branches
 
 Official source:
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=602.
@@ -213,7 +213,7 @@ https://law.justia.com/cases/california/court-of-appeal/3d/14/591.html
 
 Absence of actual disruption is **relevant but not universally dispositive**.
 
-The legal question is whether the restriction is valid under the applicable constitutional/forum rule—not simply whether misconduct had already occurred.
+The legal question is whether the restriction is valid under the applicable constitutional/forum rule, not simply whether misconduct had already occurred.
 
 ---
 
@@ -336,7 +336,7 @@ They require separate proof.
 
 When a person begins lawfully present in a government area and later receives an activity-based leave order, run these questions in sequence.
 
-## Step 1 — What exactly triggered the order?
+## Step 1: What exactly triggered the order?
 
 Preserve chronology:
 
@@ -349,7 +349,7 @@ Preserve chronology:
 
 Do not infer motive beyond the evidence.
 
-## Step 2 — Was the underlying activity restriction valid?
+## Step 2: Was the underlying activity restriction valid?
 
 Apply:
 
@@ -363,7 +363,7 @@ Apply:
 
 A public-facing interior can be nonpublic. That does not make every restriction valid.
 
-## Step 3 — What legal authority supports exclusion/removal?
+## Step 3: What legal authority supports exclusion/removal?
 
 Identify the actual authority:
 
@@ -376,7 +376,7 @@ Identify the actual authority:
 
 Do not substitute the employee's word `trespass` for this step.
 
-## Step 4 — Did the alleged offense's independent elements arise?
+## Step 4: Did the alleged offense's independent elements arise?
 
 For § 602.1(b), ask specifically:
 
@@ -390,7 +390,7 @@ Under *Dubner*'s published common structure and the nonprecedential *Mackey* pub
 
 For other statutes, use their own elements.
 
-## Step 5 — Did later facts independently change the result?
+## Step 5: Did later facts independently change the result?
 
 Examples:
 
@@ -493,5 +493,5 @@ Supreme Court support:
 - *Brown v. Louisiana*, 383 U.S. 131
 
 Persuasive/nonbinding comparators:
-- *Mackey v. Meyer*, No. 15-55186 (9th Cir. Jan. 11, 2017) — unpublished
-- *Wilson v. County of Contra Costa*, No. 14-cv-03491-SI (N.D. Cal. May 6, 2015) — district court, pleading stage
+- *Mackey v. Meyer*, No. 15-55186 (9th Cir. Jan. 11, 2017), unpublished
+- *Wilson v. County of Contra Costa*, No. 14-cv-03491-SI (N.D. Cal. May 6, 2015), district court, pleading stage

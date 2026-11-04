@@ -1,20 +1,20 @@
 ---
-title: Sweep 014 — Public-Agency Exclusion, Prospective Trespass, and Identification
+title: "Sweep 014: Public-Agency Exclusion, Prospective Trespass, and Identification"
 jurisdiction: California
 research_date: 2026-09-29
 status: defined-gap-slice-reviewed
 qualification_package: GAP-04
 ---
 
-# Sweep 014 — Public-Agency Exclusion, Prospective Trespass, and Identification
+# Sweep 014: Public-Agency Exclusion, Prospective Trespass, and Identification
 
 Qualification targets:
 
-- CA-F4.3 — public-property/public-agency distinctions;
-- CA-F4.5 — never-entered / entered-and-left / currently-remains / prospective-no-entry notice;
-- CA-F4.7 — suspension/exclusion process where material;
-- CA-F5.8 — identification request versus legal duty;
-- NC-COMPLAINT-01.D — prospective trespass notice and identification.
+- CA-F4.3, public-property/public-agency distinctions;
+- CA-F4.5, never-entered / entered-and-left / currently-remains / prospective-no-entry notice;
+- CA-F4.7, suspension/exclusion process where material;
+- CA-F5.8, identification request versus legal duty;
+- NC-COMPLAINT-01.D, prospective trespass notice and identification.
 
 This sweep addresses a recurring public-facility sequence:
 
@@ -497,7 +497,7 @@ Field rule:
 
 # 19. Citation, traffic, arrest, and booking stages can create specific identification consequences
 
-## Penal Code § 853.5 — infraction citation procedure
+## Penal Code § 853.5: infraction citation procedure
 
 Current § 853.5 supplies identification, signature, and fingerprint procedures after an infraction arrest in the citation/release process.
 
@@ -554,7 +554,7 @@ A person may still face a practical administrative consequence if a valid facili
 
 When government says a person is "trespassed" from public property, run this sequence.
 
-## Step 1 — Current access status
+## Step 1: Current access status
 
 Is the exact area:
 
@@ -566,7 +566,7 @@ Is the exact area:
 - temporarily closed for a lawful use; or
 - governed by a specialized statute/regulation?
 
-## Step 2 — Conduct before the restriction
+## Step 2: Conduct before the restriction
 
 Record actual facts before labels.
 
@@ -577,13 +577,13 @@ For "disruptive" or "harassing":
 - test its elements;
 - preserve contrary objective evidence.
 
-## Step 3 — Immediate order
+## Step 3: Immediate order
 
 Who ordered departure, under what authority, and was the underlying rule valid?
 
 Use Sweeps 012 and 013.
 
-## Step 4 — Prospective exclusion
+## Step 4: Prospective exclusion
 
 If the order extends beyond the current encounter:
 
@@ -597,7 +597,7 @@ If the order extends beyond the current encounter:
 
 Use Reza and, where procedural due process is implicated, Mathews.
 
-## Step 5 — Later return
+## Step 5: Later return
 
 Do not assume the old order itself equals a current criminal offense.
 
@@ -612,7 +612,7 @@ Identify:
 
 If the criminal theory depends only on an individualized prior ban changing otherwise generally open property into § 602(o) property, preserve the unresolved Blankenhorn/Han/Garcia boundary.
 
-## Step 6 — Police reliance
+## Step 6: Police reliance
 
 Separate:
 
@@ -624,7 +624,7 @@ Separate:
 
 Reza illustrates why these can produce different answers.
 
-## Step 7 — Identification
+## Step 7: Identification
 
 Separate:
 

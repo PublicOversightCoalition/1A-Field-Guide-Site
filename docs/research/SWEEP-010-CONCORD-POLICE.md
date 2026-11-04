@@ -1,11 +1,11 @@
 ---
-title: Sweep 010 — Concord Police Headquarters Public Lobby
+title: "Sweep 010: Concord Police Headquarters Public Lobby"
 jurisdiction: California
 last_verified: 2026-09-22
 status: documentary-research-developed
 ---
 
-# Sweep 010 — Concord Police Headquarters Public Lobby
+# Sweep 010: Concord Police Headquarters Public Lobby
 
 ## Scope
 
@@ -114,9 +114,9 @@ The sheet also contains historical headings including `RANCHO MONTE DEL DIABLO`,
 
 The parcel resolver returned three non-target polygon-intersection candidates:
 
-- APN `126-124-030` — 0.816 acre — owner `CONCORD CITY OF`;
-- APN `126-124-032` — 0.384 acre — owner `LIU JULIE J` — 1302 Galindo Street;
-- APN `126-124-033` — 0.67 acre — owner `CONCORD CITY OF`.
+- APN `126-124-030`, 0.816 acre, owner `CONCORD CITY OF`;
+- APN `126-124-032`, 0.384 acre, owner `LIU JULIE J`, 1302 Galindo Street;
+- APN `126-124-033`, 0.67 acre, owner `CONCORD CITY OF`.
 
 These remain GIS discovery candidates. The two additional City parcels may matter to circulation or a broader municipal site configuration, but current physical/site correlation is required before assigning them a role in the public entrance, parking, or pedestrian route.
 
@@ -161,9 +161,9 @@ The next property question is physical/site correlation, not broad historical ti
 
 ---
 
-# 4. Agency-specific recording policy — CPD Policy 423
+# 4. Agency-specific recording policy: CPD Policy 423
 
-Concord Police Department Policy Manual **Policy 423 — Public Recording of Law Enforcement Activity** is directly relevant and materially more specific than the generic facility-policy record available in earlier sweeps.
+Concord Police Department Policy Manual **Policy 423, Public Recording of Law Enforcement Activity** is directly relevant and materially more specific than the generic facility-policy record available in earlier sweeps.
 
 Official policy source:
 
@@ -216,9 +216,9 @@ The current Department Policy Manual contains narrower rules that materially mat
 
 Relevant examples include:
 
-- **Policy 803 — Records Unit:** secure maintenance/access controls for case files and sensitive reports;
-- **Policy 806 — Protected Information:** access/security obligations for restricted law-enforcement information and criminal-justice systems;
-- **Policy 422 — Body-Worn Cameras:** officer-side privacy/confidentiality handling for specified private/confidential communications.
+- **Policy 803: Records Unit:** secure maintenance/access controls for case files and sensitive reports;
+- **Policy 806: Protected Information:** access/security obligations for restricted law-enforcement information and criminal-justice systems;
+- **Policy 422: Body-Worn Cameras:** officer-side privacy/confidentiality handling for specified private/confidential communications.
 
 Current distinction:
 
@@ -258,7 +258,7 @@ Current field-verification target:
 
 ---
 
-# 8. Federal forum doctrine — ordinary lobby
+# 8. Federal forum doctrine: ordinary lobby
 
 No published Ninth Circuit decision specifically adjudicating an ordinary patron's right to film inside a California police-station lobby was located in this review.
 
@@ -284,7 +284,7 @@ But that classification answers the **standard for an actual restriction**. It d
 
 ---
 
-# 9. Closest local activity comparator — Wilson v. County of Contra Costa
+# 9. Closest local activity comparator: Wilson v. County of Contra Costa
 
 A particularly important case surfaced during Sweep 010:
 
@@ -323,7 +323,7 @@ Detailed note:
 
 ---
 
-# 10. Audio privacy — Penal Code § 632
+# 10. Audio privacy: Penal Code § 632
 
 California's two-party/all-party-consent shorthand is too crude for this setting. Penal Code § 632 applies to intentional eavesdropping/recording of a **confidential communication** without consent of all parties.
 
@@ -353,7 +353,7 @@ This makes current physical verification of the Concord lobby's counter/privacy 
 
 ---
 
-# 11. Penal Code § 602.1 — public-agency interference and constitutional activity
+# 11. Penal Code § 602.1: public-agency interference and constitutional activity
 
 Section 602.1 is especially important in a police lobby because it is often tempting to compress the analysis into `asked to leave + refusal = trespass`. The statutory text is more demanding.
 
@@ -369,7 +369,7 @@ Refusal alone does not supply the obstruction/intimidation element.
 
 Existing controlling/published project authorities such as *Dubner* also caution against inferring intentional interference merely from refusal.
 
-## § 602.1(d)(2) — constitutional-activity carveout
+## § 602.1(d)(2): constitutional-activity carveout
 
 Current § 602.1(d)(2) expressly states that the section **shall not apply** to:
 
@@ -507,7 +507,7 @@ The federal limited/nonpublic result must not be copied automatically into the C
 
 ---
 
-# 16. Separate opened channel — Police Department Community Meeting Room
+# 16. Separate opened channel: Police Department Community Meeting Room
 
 The Department separately advertises a public Community Meeting Room at 1350 Galindo Street.
 

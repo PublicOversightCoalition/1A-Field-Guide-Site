@@ -1,18 +1,18 @@
 ---
-title: Sweep 016 — Disorder, Unreasonable Noise, Fighting Words, Threats, and Obstruction
+title: "Sweep 016: Disorder, Unreasonable Noise, Fighting Words, Threats, and Obstruction"
 jurisdiction: California
 research_date: 2026-09-29
 status: defined-gap-slice-reviewed
 qualification_package: GAP-06
 ---
 
-# Sweep 016 — Disorder, Unreasonable Noise, Fighting Words, Threats, and Obstruction
+# Sweep 016: Disorder, Unreasonable Noise, Fighting Words, Threats, and Obstruction
 
 Qualification targets:
 
-- `CA-F6.1` — disturbance / noise;
-- `CA-F6.2` — obstruction / interference;
-- `CA-F6.3` — fighting words / threats / analogous speech offenses.
+- `CA-F6.1`, disturbance / noise;
+- `CA-F6.2`, obstruction / interference;
+- `CA-F6.3`, fighting words / threats / analogous speech offenses.
 
 This sweep addresses a recurring public-facility pattern:
 
@@ -48,9 +48,9 @@ A report that someone is "disturbing the peace" is therefore incomplete. Identif
 
 The 2026 Judicial Council instructions remain consistent with the controlling narrowing cases:
 
-- CALCRIM 2688 — fighting/challenge to fight;
-- CALCRIM 2689 — loud and unreasonable noise;
-- CALCRIM 2690 — offensive words.
+- CALCRIM 2688, fighting/challenge to fight;
+- CALCRIM 2689, loud and unreasonable noise;
+- CALCRIM 2690, offensive words.
 
 Current Judicial Council instruction index:
 https://www.justia.com/criminal/docs/calcrim/2600/
@@ -381,7 +381,7 @@ Do not merge them.
 
 Status: U.S. Supreme Court.
 
-*Counterman* holds that true-threat prosecutions require a subjective mental-state floor. The First Amendment requires proof at least that the speaker consciously disregarded a substantial risk that the communication would be viewed as threatening violence—recklessness.
+*Counterman* holds that true-threat prosecutions require a subjective mental-state floor. The First Amendment requires proof at least that the speaker consciously disregarded a substantial risk that the communication would be viewed as threatening violence, recklessness.
 
 Source:
 https://supreme.justia.com/cases/federal/us/600/22-138/
@@ -440,7 +440,7 @@ The first group can be protected petition/criticism activity even when unwelcome
 
 An actual challenge to fight can implicate § 415(1) or, depending on the words/context, § 415(3). A true threat can implicate § 422 or another specialized law.
 
-Never transform legal/political consequences—lawsuit, complaint, records request, publication—into a threat of unlawful violence merely because the official experiences them as hostile.
+Never transform legal/political consequences, lawsuit, complaint, records request, publication, into a threat of unlawful violence merely because the official experiences them as hostile.
 
 ---
 
@@ -448,13 +448,13 @@ Never transform legal/political consequences—lawsuit, complaint, records reque
 
 When an employee, caller, guard, or officer says "disruptive," "harassing," "disturbing," "hostile," or "interfering":
 
-## Step 1 — Preserve chronology
+## Step 1: Preserve chronology
 
 Record what happened **before** the label or leave demand.
 
 Do not infer disruption from the later argument over whether the person must leave.
 
-## Step 2 — Name the actual offense/rule
+## Step 2: Name the actual offense/rule
 
 Possible branches include:
 
@@ -471,7 +471,7 @@ Possible branches include:
 
 If nobody can identify the rule, preserve that fact. Do not invent one.
 
-## Step 3 — Convert the adjective to conduct
+## Step 3: Convert the adjective to conduct
 
 Examples:
 
@@ -482,7 +482,7 @@ Examples:
 - "threatening" → exact words/conduct and threatened unlawful harm;
 - "aggressive" → volume, posture, distance, movement, contact, actual threats.
 
-## Step 4 — Apply the constitutional narrowing rule
+## Step 4: Apply the constitutional narrowing rule
 
 - communicative noise → *In re Brown*;
 - offensive words → *Jefferson* / *Alejandro G.*;
@@ -490,7 +490,7 @@ Examples:
 - listener hostility → *Center for Bio-Ethical Reform*;
 - true threats → *Counterman* plus the actual California statute.
 
-## Step 5 — Check actual effect
+## Step 5: Check actual effect
 
 Ask:
 
@@ -503,7 +503,7 @@ Ask:
 - Was the volume communication or a guise to disrupt?
 - Was fear of threatened unlawful violence actually sustained where the statute requires it?
 
-## Step 6 — Rerun changed facts
+## Step 6: Rerun changed facts
 
 If conduct escalates after protected activity begins, do not freeze the legal analysis at the original lawful moment.
 
@@ -606,4 +606,4 @@ Local noise ordinances, facility conduct policies, court decorum rules, library 
 
 ## Nonprecedential comparator
 
-- *Mackey v. Meyer*, 675 F. App'x 705 (9th Cir. 2017) — memorandum / not precedent under Ninth Circuit Rule 36-3
+- *Mackey v. Meyer*, 675 F. App'x 705 (9th Cir. 2017), memorandum / not precedent under Ninth Circuit Rule 36-3

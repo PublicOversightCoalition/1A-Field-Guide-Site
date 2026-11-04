@@ -1,17 +1,17 @@
 ---
-title: Sweep 009 — Concord DMV Field Office
+title: "Sweep 009: Concord DMV Field Office"
 jurisdiction: California
 last_verified: 2026-09-22
 status: documentary-research-developed
 ---
 
-# Sweep 009 — Concord DMV Field Office
+# Sweep 009: Concord DMV Field Office
 
 ## Scope
 
 Sweep 009 is the first deliberate **cross-category Facility Prep validation** after the Concord and Walnut Creek public-library tests.
 
-**Facility:** California Department of Motor Vehicles — Concord Field Office  
+**Facility:** California Department of Motor Vehicles, Concord Field Office  
 **Agency:** California Department of Motor Vehicles  
 **Address:** 2070 Diamond Boulevard, Concord, California 94520  
 **Research mode:** documentary / pre-field  
@@ -140,10 +140,10 @@ Detailed review:
 
 The official GIS intersection query returned four non-target candidates:
 
-- `126-490-001` — 2090 Diamond Boulevard — `FLATIRONS STANWELL LLC`;
-- `126-490-002` — 2050 Diamond Boulevard — `LEE JOHN S & HELEN Y TRE` / `NORTHS RESTAURANT INC`;
-- `126-490-003` — 2055 Meridian Park Boulevard — `CONCORD FK PROPERTY LLC` / `FK CONTINENTAL LLC`;
-- `126-490-005` — 2080 Diamond Boulevard — `EDSTAR ENTERPRISES` / `PAULA DOUGHERTY GP`.
+- `126-490-001`, 2090 Diamond Boulevard, `FLATIRONS STANWELL LLC`;
+- `126-490-002`, 2050 Diamond Boulevard, `LEE JOHN S & HELEN Y TRE` / `NORTHS RESTAURANT INC`;
+- `126-490-003`, 2055 Meridian Park Boulevard, `CONCORD FK PROPERTY LLC` / `FK CONTINENTAL LLC`;
+- `126-490-005`, 2080 Diamond Boulevard, `EDSTAR ENTERPRISES` / `PAULA DOUGHERTY GP`.
 
 These remain candidate-discovery results rather than automatic legal adjacency/control findings.
 
@@ -151,7 +151,7 @@ Parcel 01 is materially relevant because both the assessor sheet and recorded su
 
 ---
 
-# 6. Recorded subdivision map — Willowick 4 / 212M47
+# 6. Recorded subdivision map: Willowick 4 / 212M47
 
 The assessor sheet supplied an exact historical reference:
 
@@ -351,7 +351,7 @@ Detailed review:
 
 ---
 
-# 11. California Speech Clause — interior
+# 11. California Speech Clause: interior
 
 Federal classification is not automatically copied into California Constitution article I, § 2(a).
 
@@ -367,7 +367,7 @@ That is an intentionally narrower result than simply labeling the lobby nonpubli
 
 ---
 
-# 12. Recording doctrine — Askins
+# 12. Recording doctrine: Askins
 
 *Askins v. U.S. Department of Homeland Security*, 899 F.3d 1035 (9th Cir. 2018), is the principal controlling recording authority added to this facility analysis.
 
@@ -391,8 +391,8 @@ Canonical analysis:
 
 | Area | Federal posture | California posture |
 | --- | --- | --- |
-| Actual ordinary Diamond municipal sidewalk / ROW | **TPF — HIGH CONFIDENCE once location established** | **Public-forum treatment — HIGH CONFIDENCE** |
-| Actual ordinary Meridian Park municipal sidewalk / ROW | **TPF — HIGH CONFIDENCE once location established** | **Public-forum treatment — HIGH CONFIDENCE** |
+| Actual ordinary Diamond municipal sidewalk / ROW | **TPF, HIGH CONFIDENCE once location established** | **Public-forum treatment, HIGH CONFIDENCE** |
+| Actual ordinary Meridian Park municipal sidewalk / ROW | **TPF, HIGH CONFIDENCE once location established** | **Public-forum treatment, HIGH CONFIDENCE** |
 | Facility-specific Diamond access drive/walk | **Nonpublic treatment strongly supported if purpose-built facility segment; footprint unresolved** | **UNRESOLVED** |
 | DMV customer parking | **Nonpublic treatment strongly supported; current physical/use verification pending** | **UNRESOLVED; exterior state-law cases materially strengthen public-forum argument** |
 | Exterior customer queue / immediate approach | **Nonpublic/purpose-limited treatment strongly supported; exact physical area pending** | **UNRESOLVED** |

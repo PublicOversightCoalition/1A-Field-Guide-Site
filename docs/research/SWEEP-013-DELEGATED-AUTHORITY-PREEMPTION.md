@@ -1,12 +1,12 @@
 ---
-title: Sweep 013 — Delegated Authority and Preemption
+title: "Sweep 013: Delegated Authority and Preemption"
 jurisdiction: California
 research_date: 2026-09-29
 status: defined-gap-slice-reviewed
 qualification_package: GAP-03
 ---
 
-# Sweep 013 — Delegated Authority and Preemption
+# Sweep 013: Delegated Authority and Preemption
 
 **Qualification target:** CA-F3.5  
 **Question:** When a California government entity, facility, department, official, or employee relies on a rule, policy, sign, directive, visitor condition, or order, what legal source authorizes that restriction, who may exercise the power, and does superior law displace or limit it?
@@ -27,12 +27,12 @@ Government ownership, employment status, or possession of a building does not it
 
 The Field Guide should distinguish:
 
-1. **Entity power** — what Constitution, statute, charter, or enabling law gives the governmental entity authority over the subject?
-2. **Rulemaking form** — must the restriction be an ordinance, regulation, resolution, order, formally adopted policy, or some other instrument?
-3. **Internal delegation** — did the governing entity assign implementation or enforcement authority to the department, officer, manager, security employee, or other actor who invoked it?
-4. **Superior-law limits** — does state or federal law preempt, supersede, or otherwise conflict with the local/agency rule?
-5. **Constitutional validity** — even if authorized and nonpreempted, does the restriction satisfy the applicable constitutional standard?
-6. **Enforcement bridge** — what law makes noncompliance removable, citable, detainable, arrestable, or criminal?
+1. **Entity power**, what Constitution, statute, charter, or enabling law gives the governmental entity authority over the subject?
+2. **Rulemaking form**, must the restriction be an ordinance, regulation, resolution, order, formally adopted policy, or some other instrument?
+3. **Internal delegation**, did the governing entity assign implementation or enforcement authority to the department, officer, manager, security employee, or other actor who invoked it?
+4. **Superior-law limits**, does state or federal law preempt, supersede, or otherwise conflict with the local/agency rule?
+5. **Constitutional validity**, even if authorized and nonpreempted, does the restriction satisfy the applicable constitutional standard?
+6. **Enforcement bridge**, what law makes noncompliance removable, citable, detainable, arrestable, or criminal?
 
 These are separate propositions.
 
@@ -290,9 +290,9 @@ If the delegation cannot be located, classify the authority as unresolved rather
 
 The U.S. Supreme Court summarizes three familiar federal preemption pathways:
 
-1. **express preemption** — Congress expressly displaces state/local law;
-2. **field preemption** — federal regulation occupies a field so completely that supplemental state/local regulation is excluded; and
-3. **conflict preemption** — state/local law conflicts with federal law, including when it stands as an obstacle to federal purposes.
+1. **express preemption**, Congress expressly displaces state/local law;
+2. **field preemption**, federal regulation occupies a field so completely that supplemental state/local regulation is excluded; and
+3. **conflict preemption**, state/local law conflicts with federal law, including when it stands as an obstacle to federal purposes.
 
 Official U.S. Reports source:
 https://www.supremecourt.gov/opinions/boundvolumes/567bv.pdf
@@ -335,31 +335,31 @@ For California public-agency trespass/interference, return to Penal Code §§ 60
 
 When a facility rule materially affects access, recording, speech, observation, identification, or removal, run these questions in sequence.
 
-## Step 1 — Who made the rule?
+## Step 1: Who made the rule?
 
 Classify the rule-maker: Legislature, state executive agency, general-law city, charter city, general-law county, charter county, special district, board/commission, joint-powers authority, court/judicial entity, department, individual official/employee, or contractor/security provider.
 
-## Step 2 — What legal source gives that entity power?
+## Step 2: What legal source gives that entity power?
 
 Locate the highest useful source: Constitution, statute/enabling act, charter, ordinance, regulation, resolution/order, joint-powers agreement, property-management instrument, or other valid delegation. Ask whether the claimed power is express or necessarily implied.
 
-## Step 3 — Was the rule adopted in the legally required form?
+## Step 3: Was the rule adopted in the legally required form?
 
 For a state executive agency, test the APA/underground-regulation issue when a generally applicable rule implements, interprets, or makes specific administered law. For local government, identify the local/statutory adoption procedure rather than importing the state APA automatically.
 
-## Step 4 — Was power delegated to this actor?
+## Step 4: Was power delegated to this actor?
 
 Identify who may create, interpret, post, grant exceptions to, or enforce the rule, and who may order departure, issue a suspension/exclusion, or request police enforcement.
 
-## Step 5 — Does superior law displace it?
+## Step 5: Does superior law displace it?
 
 Check California state/local preemption under Sherwin-Williams, charter-city home rule under article XI § 5 and City of Vista where applicable, charter-county rules separately, and federal express/field/conflict preemption under the subject-specific federal scheme.
 
-## Step 6 — Does the restriction survive the constitutional/activity test?
+## Step 6: Does the restriction survive the constitutional/activity test?
 
 Apply existing forum, recording, privacy, meeting, petition, speech, due-process, and other constitutional rules.
 
-## Step 7 — What enforcement consequence actually follows?
+## Step 7: What enforcement consequence actually follows?
 
 Identify the separate bridge to administrative consequence, loss of a voluntarily offered service, removal, prospective exclusion, citation, detention, arrest, or prosecution. Do not manufacture that consequence from the word “policy.”
 

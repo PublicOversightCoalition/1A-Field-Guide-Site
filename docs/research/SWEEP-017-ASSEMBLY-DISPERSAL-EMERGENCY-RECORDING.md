@@ -1,19 +1,19 @@
 ---
-title: Sweep 017 — Assembly, Dispersal, Emergency Perimeters, and Observer Recording
+title: "Sweep 017: Assembly, Dispersal, Emergency Perimeters, and Observer Recording"
 jurisdiction: California
 research_date: 2026-09-29
 status: defined-gap-slice-reviewed
 qualification_package: GAP-07
 ---
 
-# Sweep 017 — Assembly, Dispersal, Emergency Perimeters, and Observer Recording
+# Sweep 017: Assembly, Dispersal, Emergency Perimeters, and Observer Recording
 
 Qualification targets:
 
-- `CA-F7.3` — assembly/dispersal warning, scope, and opportunity to comply;
-- `CA-F8.1` — emergency/perimeter authority;
-- `CA-F8.2` — observer versus participant/interference;
-- `CA-F8.3` — emergency/protest recording and statutory-press versus constitutional newsgathering.
+- `CA-F7.3`, assembly/dispersal warning, scope, and opportunity to comply;
+- `CA-F8.1`, emergency/perimeter authority;
+- `CA-F8.2`, observer versus participant/interference;
+- `CA-F8.3`, emergency/protest recording and statutory-press versus constitutional newsgathering.
 
 This sweep addresses the recurring sequence:
 
@@ -31,10 +31,10 @@ The project does not assume that peaceful presence near unlawful conduct makes a
 
 Current statutes:
 
-- Penal Code § 407 — unlawful assembly;
-- Penal Code § 408 — participation in rout/unlawful assembly;
-- Penal Code § 409 — remaining after lawful warning to disperse;
-- Penal Code § 416 — assembly with purpose to disturb peace/commit unlawful act and refusal to disperse.
+- Penal Code § 407, unlawful assembly;
+- Penal Code § 408, participation in rout/unlawful assembly;
+- Penal Code § 409, remaining after lawful warning to disperse;
+- Penal Code § 416, assembly with purpose to disturb peace/commit unlawful act and refusal to disperse.
 
 Official code source:
 https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=&chapter=1.&part=1.&lawCode=PEN&title=11.
@@ -204,17 +204,17 @@ https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&
 
 Two principal closure branches matter.
 
-## Subdivision (a) — calamity menace
+## Subdivision (a): calamity menace
 
 Specified officials may close the area where a calamity creates a menace to public health or safety, for the duration of the menace.
 
 The statutory examples include flood, storm, fire, earthquake, explosion, accident, or other disaster.
 
-## Subdivision (b) — command post
+## Subdivision (b): command post
 
 Specified officers may close the **immediate area** surrounding an emergency field command post or other command post activated to abate a covered calamity, riot, or civil disturbance.
 
-## Subdivision (c) — criminal consequence
+## Subdivision (c): criminal consequence
 
 Current §409.5(c) is textually narrower than a generic "crossed police tape" offense. It applies to an unauthorized person who:
 
@@ -264,7 +264,7 @@ Status: published California Court of Appeal.
 
 *Leiserson* involved a television cameraman at the PSA crash disaster scene.
 
-The court held that §409.5(d)'s statutory news-media access provision cannot be defeated merely because the disaster area is dangerous—the statute already presupposes a health/safety menace.
+The court held that §409.5(d)'s statutory news-media access provision cannot be defeated merely because the disaster area is dangerous, the statute already presupposes a health/safety menace.
 
 But the access is not unlimited. Police may impose restrictions when they reasonably determine unrestricted press access will interfere with emergency operations. Restrictions may last only so long and extend only so far as necessary to prevent actual interference; the media must receive the maximum access that can be afforded without interference.
 
@@ -417,7 +417,7 @@ Together with *Index Newspapers*, it supports careful separation of:
 
 ---
 
-# 13. Observer, journalist, legal observer, protester, and passerby are factual roles—not magic labels
+# 13. Observer, journalist, legal observer, protester, and passerby are factual roles: not magic labels
 
 At a dynamic scene, record actual behavior:
 
@@ -596,9 +596,9 @@ The final item is GAP-08.
 - *Leigh v. Salazar*, 677 F.3d 892 (2012)
 - *Nelson v. City of Davis*, 685 F.3d 867 (2012)
 - *Askins v. U.S. Department of Homeland Security*, 899 F.3d 1035 (2018)
-- *Index Newspapers LLC v. U.S. Marshals Service*, 977 F.3d 817 (2020) — published emergency-stay/preliminary-injunction posture; limits preserved
-- *Los Angeles Press Club v. Noem*, No. 25-5975 (9th Cir. Apr. 1, 2026) — published/current; retaliation merits likelihood upheld, right-of-access merits not reached, injunction scope vacated/remanded
+- *Index Newspapers LLC v. U.S. Marshals Service*, 977 F.3d 817 (2020), published emergency-stay/preliminary-injunction posture; limits preserved
+- *Los Angeles Press Club v. Noem*, No. 25-5975 (9th Cir. Apr. 1, 2026), published/current; retaliation merits likelihood upheld, right-of-access merits not reached, injunction scope vacated/remanded
 
 ## Limited comparators
 
-- *Boudjerada v. Medary*, No. 24-2419 (9th Cir. Feb. 14, 2025) — unpublished; curfew/Collins distinction only
+- *Boudjerada v. Medary*, No. 24-2419 (9th Cir. Feb. 14, 2025), unpublished; curfew/Collins distinction only
