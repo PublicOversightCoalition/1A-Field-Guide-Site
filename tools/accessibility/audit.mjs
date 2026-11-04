@@ -115,9 +115,11 @@ for (const route of ['', 'california/']) {
       return document.querySelector('#__drawer')?.checked &&
         sidebar && sidebar.getBoundingClientRect().width > 100;
     }, { timeout: 5000 });
-    const target = page.locator('.md-sidebar--primary a.md-nav__link[href*="contribute/"]').first();
+    const target = route === ''
+      ? page.locator('.md-sidebar--primary a.md-nav__link[href*="jurisdictions/"]').first()
+      : page.locator('.md-sidebar--primary a.md-nav__link[href="../"]').first();
     await target.click({ timeout: 6000 });
-    await page.waitForURL('**/contribute/', { timeout: 6000 });
+    await page.waitForURL(route === '' ? '**/jurisdictions/' : '**/1A-Field-Guide-Site/', { timeout: 6000 });
     entry.passed = true;
   } catch (error) {
     entry.error = String(error);
