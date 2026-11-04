@@ -144,6 +144,79 @@ for (const width of [390, 1440]) {
   });
 }
 
+// Follow-up keyboard review: verify visible focus and remove decorative ticker duplicates from navigation.
+for (const width of [390, 1440]) {
+  await test('Homepage action retains visible keyboard focus', width, async page => {
+    const action = page.locator('.beta-actions .beta-button--primary').first();
+    await action.focus();
+    const focus = await action.evaluate(el => {
+      const css = getComputedStyle(el);
+      return {
+        active: document.activeElement === el,
+        visible: el.getClientRects().length > 0,
+        outlineStyle: css.outlineStyle,
+        outlineWidth: parseFloat(css.outlineWidth)
+      };
+    });
+    assert(focus.active && focus.visible, 'Primary action cannot receive visible focus');
+    assert(focus.outlineStyle !== 'none' && focus.outlineWidth >= 2,
+      'Primary action lacks a substantial visible focus outline: ' + JSON.stringify(focus));
+  });
+
+  await test('Decorative ticker copies are absent from keyboard sequence', width, async page => {
+    await page.locator('.beta-newswire__duplicate').waitFor({ state: 'attached', timeout: 8000 });
+    const duplicates = await page.locator('.beta-newswire__duplicate a').evaluateAll(links =>
+      links.map(link => ({
+        tabIndex: link.tabIndex,
+        ariaHidden: link.closest('[aria-hidden="true"]') !== null
+      }))
+    );
+    assert(duplicates.length > 0, 'Ticker duplicates were not rendered');
+    assert(duplicates.every(link => link.tabIndex === -1 && link.ariaHidden),
+      'Decorative ticker link entered keyboard or screen-reader navigation');
+  });
+}
+
+// Exercise actual keyboard events, not just mouse clicks or script-driven focus.
+for (const width of [390, 1440]) {
+  await test('Topic cards follow DOM tab order', width, async page => {
+    const first = page.locator('.beta-topic-card').first();
+    const second = page.locator('.beta-topic-card').nth(1);
+    await first.focus();
+    await page.keyboard.press('Tab');
+    assert(await second.evaluate(el => el === document.activeElement),
+      'Tab did not move to the next topic card');
+    await page.keyboard.press('Shift+Tab');
+    assert(await first.evaluate(el => el === document.activeElement),
+      'Shift+Tab did not return to the first topic card');
+  });
+
+  await test('Ticker control responds to keyboard Space', width, async page => {
+    const button = page.locator('.beta-newswire__pause');
+    await button.waitFor({ state: 'visible', timeout: 8000 });
+    await button.focus();
+    assert(await button.getAttribute('aria-pressed') === 'true',
+      'Reduced-motion ticker should initially be paused');
+    await page.keyboard.press('Space');
+    assert(await button.getAttribute('aria-pressed') === 'false',
+      'Space did not resume ticker');
+    await page.keyboard.press('Space');
+    assert(await button.getAttribute('aria-pressed') === 'true',
+      'Space did not pause ticker again');
+  });
+
+  await test('Deep article text links show keyboard focus', width, async page => {
+    const link = page.locator('.md-content__inner a[href]').first();
+    await link.focus();
+    const result = await link.evaluate(el => {
+      const css = getComputedStyle(el);
+      return { active: document.activeElement === el, outline: css.outlineStyle, width: parseFloat(css.outlineWidth) };
+    });
+    assert(result.active && result.outline !== 'none' && result.width >= 2,
+      'Deep article link does not receive visible keyboard focus: ' + JSON.stringify(result));
+  }, { route: 'california/police-encounters/' });
+}
+
 const textSpacingRoutes = [
   '', 'california/', 'investigations/', 'evidence/', 'contribute/',
   'california/recording-public-officials/', 'california/police-encounters/',
