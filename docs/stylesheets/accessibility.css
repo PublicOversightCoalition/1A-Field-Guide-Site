@@ -295,3 +295,81 @@ body:has([data-motion-home]) .beta-newswire {
     bottom: 0;
   }
 }
+
+
+/* Small-screen reading mode: preserve the editorial ticker without asking
+   users to read long updates through a narrow, fast-moving slot.
+   Mobile opens paused and swipeable; Resume updates is still available. */
+@media (max-width: 48em) {
+  body:has([data-motion-home]) .beta-newswire {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__label {
+    order: 1;
+    flex: 1 1 auto;
+    min-height: 2.35rem;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__pause {
+    order: 2;
+    margin-left: auto;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__viewport {
+    order: 3;
+    flex: 0 0 100%;
+    min-width: 0;
+    border-top: 1px solid rgba(133, 255, 151, .16);
+  }
+
+  body:has([data-motion-home]) .beta-newswire__track {
+    animation-duration: 210s;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__item {
+    box-sizing: border-box;
+    flex: 0 0 calc(100vw - 2rem);
+    width: calc(100vw - 2rem);
+    min-height: 4.5rem;
+    padding: .65rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .25rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.4;
+    font-size: .8rem;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__item::after {
+    content: none;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__item strong {
+    font-size: .69rem;
+  }
+
+  body:has([data-motion-home]) .beta-newswire.is-paused .beta-newswire__viewport {
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body:has([data-motion-home]) .beta-newswire.is-paused .beta-newswire__item {
+    scroll-snap-align: start;
+  }
+}
+
+/* The desktop headings intentionally slide behind cards. On narrow screens
+   the small, tall card stack leaves gaps: don't pin those headings there.
+   Let them scroll out normally before the content rather than leak between cards. */
+@media (max-width: 76em) {
+  body:has([data-motion-home]) .beta-sticky-heading {
+    position: static;
+    top: auto;
+  }
+}
