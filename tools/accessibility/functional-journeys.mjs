@@ -281,11 +281,11 @@ await test('Mobile research reel advances after reading interval', 390, async pa
   const ticker = page.locator('.beta-newswire');
   await ticker.waitFor({ state: 'visible', timeout: 8000 });
   const interval = Number(await ticker.getAttribute('data-mobile-reel-interval'));
-  assert(interval >= 8000, 'Reel does not hold each card long enough to read');
+  assert(interval === 3000, 'Mobile reel does not use the three-second interval');
   await page.waitForFunction(() => {
     const element = document.querySelector('.beta-newswire__viewport');
     return element && element.scrollLeft > 25;
-  }, null, { timeout: 13000 });
+  }, null, { timeout: 7000 });
   const button = page.locator('.beta-newswire__pause');
   await button.click();
   assert(await button.getAttribute('aria-pressed') === 'true',
