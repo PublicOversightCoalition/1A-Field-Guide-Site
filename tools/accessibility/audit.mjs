@@ -101,31 +101,30 @@ for (const width of [320]) {
   await ctx.close();
 }
 
-/* Mobile navigation diagnostic: report the drawer, link hit targets and overlays. */
-{
+/* Functional mobile navigation test. Static axe scans cannot detect dead menus. */
+for (const route of ['', 'california/']) {
   const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, reducedMotion: 'reduce' });
   const page = await ctx.newPage();
-  await page.goto(new URL('', root).href, { waitUntil: 'networkidle' });
-  const before = await page.evaluate(() => ({
-    body: document.body.className,
-    labels: [...document.querySelectorAll('label')].filter(e => /drawer|menu|toc/i.test(e.getAttribute('for')||'') || /menu/i.test(e.getAttribute('aria-label')||'')).slice(0,8).map(e=>({outer:e.outerHTML.slice(0,330),rect:e.getBoundingClientRect().toJSON()})),
-    toggle: [...document.querySelectorAll('input[type=checkbox]')].map(e=>({id:e.id,checked:e.checked})),
-    nav: [...document.querySelectorAll('.md-sidebar--primary, .md-sidebar--secondary, .md-nav')].slice(0,6).map(e=>({classes:e.className,rect:e.getBoundingClientRect().toJSON(),z:getComputedStyle(e).zIndex})),
-    overlays:[...document.querySelectorAll('.beta-newswire,.md-overlay,.md-header')].map(e=>({classes:e.className,rect:e.getBoundingClientRect().toJSON(),z:getComputedStyle(e).zIndex}))
-  }));
-  console.log('MOBILE NAV BEFORE ' + JSON.stringify(before));
-  const label = page.locator('label[for="__drawer"]');
-  if(await label.count()) {
-    await label.first().click({ timeout: 8000 }).catch(e => console.log('MOBILE NAV TOGGLE ERROR ' + e.message.slice(0,650)));
-    const after = await page.evaluate(() => ({
-      checked: document.querySelector('#__drawer')?.checked,
-      navLinks: [...document.querySelectorAll('.md-sidebar--primary a.md-nav__link')].slice(0,10).map(e=>{
-        const r=e.getBoundingClientRect();const hit=document.elementFromPoint(r.left+r.width/2,r.top+r.height/2);
-        return {text:e.textContent.trim().slice(0,45),href:e.href,rect:r.toJSON(),hit:hit?.className?.toString().slice(0,80),inside:e.contains(hit),z:getComputedStyle(e).zIndex};
-      })
-    }));
-    console.log('MOBILE NAV AFTER ' + JSON.stringify(after));
+  const entry = { title: 'Mobile drawer', route, viewport: 390 };
+  try {
+    await page.goto(new URL(route, root).href, { waitUntil: 'networkidle' });
+    const menu = page.locator('label.md-header__button[for="__drawer"]');
+    await menu.click({ timeout: 6000 });
+    await page.waitForFunction(() => {
+      const sidebar = document.querySelector('.md-sidebar--primary');
+      return document.querySelector('#__drawer')?.checked &&
+        sidebar && sidebar.getBoundingClientRect().width > 100;
+    }, { timeout: 5000 });
+    const target = page.locator('.md-sidebar--primary a.md-nav__link[href$="/contribute/"]').first();
+    await target.click({ timeout: 6000 });
+    await page.waitForURL('**/contribute/', { timeout: 6000 });
+    entry.passed = true;
+  } catch (error) {
+    entry.error = String(error);
+    errorCount++;
   }
+  report.push(entry);
+  console.log('MOBILE NAV ' + route + ' ' + (entry.passed ? 'PASS' : entry.error));
   await ctx.close();
 }
 
