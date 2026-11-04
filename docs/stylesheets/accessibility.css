@@ -345,8 +345,8 @@ body:has([data-motion-home]) .beta-newswire {
 
   body:has([data-motion-home]) .beta-newswire__item {
     box-sizing: border-box;
-    flex: 0 0 calc(100vw - 2rem);
-    width: calc(100vw - 2rem);
+    flex: 0 0 calc(100vw - 1rem);
+    width: calc(100vw - 1rem);
     min-height: 4.5rem;
     padding: .65rem 1rem;
     display: flex;
