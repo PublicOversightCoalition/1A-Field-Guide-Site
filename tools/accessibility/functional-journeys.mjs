@@ -78,7 +78,8 @@ for (const width of [390, 1440]) {
     if (await opener.isVisible()) await opener.click();
     const input = page.locator('input.md-search__input');
     if (!await input.isVisible()) throw new Error('Search input is not visible at this viewport');
-    await input.fill('public records');
+    await input.click();
+    await input.pressSequentially('public records', { delay: 30 });
     const result = page.locator('a.md-search-result__link').first();
     await result.waitFor({ state: 'visible', timeout: 12000 });
     const url = await result.getAttribute('href');
