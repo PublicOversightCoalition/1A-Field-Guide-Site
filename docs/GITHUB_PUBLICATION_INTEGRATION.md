@@ -135,7 +135,7 @@ There is no `merge pull request`, `update default branch`, `delete repository`, 
 
 ## Two deployment phases
 
-### Phase 1 — issue-only preparation
+### Phase 1: issue-only preparation
 
 Phase 1 is the safe default when the authoritative default branch cannot be technically protected from the integration identity.
 
@@ -151,7 +151,7 @@ Issue export is appropriate for:
 
 Issue export is not a way to dump internal research into GitHub. The issue title, body, labels, filenames, links, and attachments must themselves be safe for the GitHub boundary.
 
-### Phase 2 — branch + draft pull request preparation
+### Phase 2: branch + draft pull request preparation
 
 Phase 2 may be enabled only after the authoritative repository has a technically enforceable default-branch protection that prevents the integration identity from directly updating or merging the authoritative branch.
 
@@ -172,9 +172,9 @@ The project has chosen a public/private repository split rather than paying to m
 
 The intended steady state is:
 
-- `GitHubChrisRice/1A-Field-Guide` — **private internal workspace** for investigations, unpublished/raw evidence, requester or member-sensitive material, internal Coalition operations, and pre-publication work;
-- `GitHubChrisRice/1A-Field-Guide-Site` `main` — **public authoritative source** containing only deliberately publishable Field Guide source, public Registry material, public methodology, licensing/origin notices, and build configuration;
-- `GitHubChrisRice/1A-Field-Guide-Site` `gh-pages` — **generated website output** served by GitHub Pages.
+- `GitHubChrisRice/1A-Field-Guide`, **private internal workspace** for investigations, unpublished/raw evidence, requester or member-sensitive material, internal Coalition operations, and pre-publication work;
+- `GitHubChrisRice/1A-Field-Guide-Site` `main`, **public authoritative source** containing only deliberately publishable Field Guide source, public Registry material, public methodology, licensing/origin notices, and build configuration;
+- `GitHubChrisRice/1A-Field-Guide-Site` `gh-pages`, **generated website output** served by GitHub Pages.
 
 Because the authoritative source repository is public, GitHub Free can provide the branch/ruleset protection needed for Phase 2. The blocker is therefore configuration/migration, not a paid-plan requirement.
 
@@ -546,7 +546,7 @@ Where separate credentials are used, they must remain separate. Where GitHub Act
 
 ## Implementation sequence
 
-### Stage A — data/control plane
+### Stage A: data/control plane
 
 Implement:
 
@@ -561,7 +561,7 @@ Implement:
 
 No GitHub write credential is needed to test this stage.
 
-### Stage B — issue-only GitHub integration
+### Stage B: issue-only GitHub integration
 
 Create the dedicated GitHub integration with issue-only minimum permissions.
 
@@ -575,7 +575,7 @@ Implement:
 
 This is the first production-capable automated GitHub mode under the current repository constraints.
 
-### Stage C — protected branch/draft-PR integration
+### Stage C: protected branch/draft-PR integration
 
 Only after the repository operator verifies the authoritative branch protection prerequisite:
 
@@ -587,7 +587,7 @@ Only after the repository operator verifies the authoritative branch protection 
 - detect divergence;
 - confirm that the integration cannot directly update/merge the authoritative branch.
 
-### Stage D — deployment reconciliation
+### Stage D: deployment reconciliation
 
 Optionally reconcile the existing site-build/publish workflow so a conforming source merge can later be marked `published` after successful public deployment.
 

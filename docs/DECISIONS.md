@@ -37,7 +37,7 @@ Use this file only for lasting project, research-governance, or architecture rat
 
 **Decision:** Recurring encounters whose constitutional/factual structure is jurisdiction-neutral are modeled once in the canonical national core, with state/circuit overlays supplying offense elements and binding local authority. The complaint-driven disputed-trespass encounter is canonical scenario `NC-COMPLAINT-01`.
 
-**Rationale:** A complaint-driven police response has the same analytical spine nationwide—location, allegation, caller reliability, actual offense elements, Fourth Amendment justification, contradictory evidence, dissipation, disposition—even though state trespass and false-report laws differ. Modeling the encounter nationally prevents fifty inconsistent decision trees while preserving jurisdiction-specific law and authority hierarchy.
+**Rationale:** A complaint-driven police response has the same analytical spine nationwide, location, allegation, caller reliability, actual offense elements, Fourth Amendment justification, contradictory evidence, dissipation, disposition, even though state trespass and false-report laws differ. Modeling the encounter nationally prevents fifty inconsistent decision trees while preserving jurisdiction-specific law and authority hierarchy.
 
 ## D-007 - Founder may use a documented bootstrap activation exception
 
