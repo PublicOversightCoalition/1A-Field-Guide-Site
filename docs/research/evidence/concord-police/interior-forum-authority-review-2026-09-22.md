@@ -1,4 +1,4 @@
-# Concord Police Headquarters — Interior Forum / Recording Authority Review
+# Concord Police Headquarters: Interior Forum / Recording Authority Review
 
 **Reviewed:** 2026-09-22  
 **Question:** What forum framework best fits the ordinary public-facing Concord Police lobby, and what does that classification establish about recording?
@@ -50,7 +50,7 @@ The Ninth Circuit stated that the clearly established right to record law-enforc
 
 Important limit: *Serrano* is an **unpublished memorandum disposition** and is not precedent except as allowed by Ninth Circuit Rule 36-3. It involved a public scene rather than a police lobby.
 
-## Closest local activity comparator — Wilson v. County of Contra Costa
+## Closest local activity comparator: Wilson v. County of Contra Costa
 
 ### Wilson v. County of Contra Costa, No. 14-cv-03491-SI (N.D. Cal. May 6, 2015)
 
@@ -103,10 +103,10 @@ Detailed note:
 
 For police/sheriff lobbies, a **two-anchor method** is stronger:
 
-- forum/access anchor — *Cornelius*, *Sammartano*, and facility-purpose/access evidence;
-- activity anchor — *Fordyce*, Penal Code § 148(g), agency recording policy, and close local cases such as *Wilson*.
+- forum/access anchor, *Cornelius*, *Sammartano*, and facility-purpose/access evidence;
+- activity anchor, *Fordyce*, Penal Code § 148(g), agency recording policy, and close local cases such as *Wilson*.
 
-## California statutory bridge — Penal Code § 148(g)
+## California statutory bridge: Penal Code § 148(g)
 
 Penal Code § 148(g) provides that photographing or audio/video recording a public or peace officer, while the officer is in a public place **or the recorder is in a place the recorder has the right to be**, does not by itself constitute resisting/delaying/obstructing under § 148(a), and by itself does not create reasonable suspicion or probable cause.
 
@@ -188,7 +188,7 @@ The opinion is therefore especially useful for the exterior/interior boundary:
 
 It also cautions that even exterior recording can remain subject to properly tailored restrictions tied to concrete privacy or safety interests.
 
-## The Concord-specific wrinkle — Policy 423
+## The Concord-specific wrinkle: Policy 423
 
 Concord is not presently an ordinary `anti-recording-policy` case.
 

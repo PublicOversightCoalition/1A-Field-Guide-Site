@@ -1,4 +1,4 @@
-# Healdsburg Plaza — Evidence Manifest
+# Healdsburg Plaza: Evidence Manifest
 
 **Facility:** CA-097-F0004  
 **Verified:** 2026-10-07  
@@ -11,7 +11,7 @@ This manifest records an official-source documentary baseline. No onsite observa
 
 ## Reviewed policy sources
 
-- Plaza Special Performance Permit — Resolution 116-2023: https://healdsburg.gov/DocumentCenter/View/17222
+- Plaza Special Performance Permit, Resolution 116-2023: https://healdsburg.gov/DocumentCenter/View/17222
 
 ## Property evidence
 

@@ -1,4 +1,4 @@
-# Local Comparator — *Wilson v. County of Contra Costa* (N.D. Cal. 2015)
+# Local Comparator: *Wilson v. County of Contra Costa* (N.D. Cal. 2015)
 
 **Reviewed:** 2026-09-22  
 **Case:** *Wilson v. County of Contra Costa*, No. 14-cv-03491-SI (N.D. Cal.)  

@@ -1,4 +1,4 @@
-# Healdsburg Regional Library — Evidence Manifest
+# Healdsburg Regional Library: Evidence Manifest
 
 **Facility:** CA-097-F0003  
 **Verified:** 2026-10-07  
@@ -11,7 +11,7 @@ This manifest records an official-source documentary baseline. No onsite observa
 
 ## Reviewed policy sources
 
-- Sonoma County Library Policy 8001 — Photography and Filming: https://www.sonomalibrary.org/sites/default/files/attachments/governance/policies/Policy_8001_Photography_and_Filming_Policy_Approved_2.4.26.pdf
+- Sonoma County Library Policy 8001, Photography and Filming: https://www.sonomalibrary.org/sites/default/files/attachments/governance/policies/Policy_8001_Photography_and_Filming_Policy_Approved_2.4.26.pdf
 
 ## Property evidence
 
