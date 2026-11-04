@@ -144,7 +144,16 @@ for (const width of [390, 1440]) {
   });
 }
 
-for (const route of ['', 'california/', 'investigations/', 'evidence/', 'contribute/']) {
+const textSpacingRoutes = [
+  '', 'california/', 'investigations/', 'evidence/', 'contribute/',
+  'california/recording-public-officials/', 'california/police-encounters/',
+  'california/public-libraries/', 'california/trespass-removal/',
+  'national-core/complaint-driven-police-encounter/',
+  'california/investigations/contra-costa-library-pits/',
+  'evidence/california/cccl-pits/', 'registry/concord-library/',
+  'california/public-records-evidence-preservation/'
+];
+for (const route of textSpacingRoutes) {
   await test('Text spacing reflow', 320, async page => {
     await page.addStyleTag({ content: `
       .md-typeset, .beta-home { line-height: 1.5 !important; }

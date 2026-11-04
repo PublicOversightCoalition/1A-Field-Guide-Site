@@ -16,7 +16,16 @@ const routes = [
   ['open-government/public-records/', 'Public records'],
   ['contribute/', 'Contribute'],
   ['jurisdictions/', 'Jurisdictions'],
-  ['member-pilot.html', 'Member sign-in']
+  ['member-pilot.html', 'Member sign-in'],
+  ['california/recording-public-officials/', 'Recording public officials'],
+  ['california/police-encounters/', 'Police encounters'],
+  ['california/public-libraries/', 'Public libraries'],
+  ['california/trespass-removal/', 'Trespass and removal'],
+  ['national-core/complaint-driven-police-encounter/', 'Complaint-driven encounter'],
+  ['california/investigations/contra-costa-library-pits/', 'CCCL investigation'],
+  ['evidence/california/cccl-pits/', 'CCCL evidence'],
+  ['registry/concord-library/', 'Concord Library facility record'],
+  ['california/public-records-evidence-preservation/', 'California evidence preservation']
 ];
 
 const browser = await chromium.launch({ headless: true, args: ['--no-sandbox'] });
@@ -76,10 +85,11 @@ for (const [route, title] of routes) {
   }
 }
 
-// Reflow at 320 CSS pixels is equivalent to 1280px desktop at 400% zoom.
+// Reflow at 320 CSS pixels approximates 1280px desktop at 400% zoom.
+// Screen every audited page, including deep legal, investigation, and evidence routes.
 for (const width of [320]) {
   const ctx = await browser.newContext({ viewport: { width, height: 900 }, reducedMotion: 'reduce' });
-  for (const route of ['', 'investigations/', 'evidence/', 'contribute/']) {
+  for (const [route] of routes) {
     const p = await ctx.newPage();
     const entry = { title: 'Reflow', route, viewport: width };
     try {

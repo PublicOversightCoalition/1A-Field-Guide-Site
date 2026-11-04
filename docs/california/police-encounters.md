@@ -803,11 +803,11 @@ https://law.justia.com/cases/federal/appellate-courts/F3/383/905/495139/
 
 # 12. Practical encounter script: evidence-preserving, not magic words
 
-### Initial contact
+**Initial contact** {#initial-contact}
 
 > **Am I free to leave?**
 
-### If no
+## If no
 
 > **Am I being detained?**
 
@@ -817,7 +817,7 @@ https://law.justia.com/cases/federal/appellate-courts/F3/383/905/495139/
 
 > **What specific facts are you relying on?**
 
-### If the stop rests on a disputed complaint
+## If the stop rests on a disputed complaint
 
 > **I dispute that allegation. I have continuous video of the entire encounter that directly addresses it, and I am offering to show you that recording.**
 
@@ -827,23 +827,23 @@ If offering a specific recording from a phone:
 
 > **I am offering only this identified recording. I do not consent to any broader search of my device.**
 
-### If ID is demanded
+## If ID is demanded
 
 > **What legal authority requires me to provide identification under these circumstances?**
 
 Never provide false/fictitious identity.
 
-### If a frisk/search begins
+## If a frisk/search begins
 
 > **I do not consent to any search.**
 
 > **Are you frisking me because you believe I am armed and dangerous?**
 
-### If substantive questioning begins
+## If substantive questioning begins
 
 > **I invoke my right to remain silent. I do not want to answer investigative questions.**
 
-### If a device is demanded
+## If a device is demanded
 
 > **I do not consent to seizure or search of my device. If you are ordering me to hand it over, I am complying under protest and not consenting.**
 
