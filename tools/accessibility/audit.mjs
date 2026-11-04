@@ -115,7 +115,7 @@ for (const route of ['', 'california/']) {
       return document.querySelector('#__drawer')?.checked &&
         sidebar && sidebar.getBoundingClientRect().width > 100;
     }, { timeout: 5000 });
-    const target = page.locator('.md-sidebar--primary a.md-nav__link[href$="/contribute/"]').first();
+    const target = page.locator('.md-sidebar--primary a.md-nav__link[href*="contribute/"]').first();
     await target.click({ timeout: 6000 });
     await page.waitForURL('**/contribute/', { timeout: 6000 });
     entry.passed = true;
