@@ -45,6 +45,12 @@ jobs:
       - name: Validate raw HTML deployed links
         run: python tools/public_state/validate_raw_html_links.py
 
+      - name: Check public JavaScript syntax
+        run: |
+          node --check docs/javascripts/public-beta-editorial.js
+          node --check docs/javascripts/public-beta-motion.js
+          node --check docs/javascripts/investigations-index.js
+
       - name: Generate and validate Registry
         run: |
           python tools/registry/validate_restriction_corpus.py
