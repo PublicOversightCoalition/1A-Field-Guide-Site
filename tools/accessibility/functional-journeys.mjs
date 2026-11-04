@@ -219,7 +219,7 @@ for (const width of [390, 1440]) {
 
 // Reported mobile readability regressions: full update text and non-bleeding headings.
 for (const width of [320, 390]) {
-  await test('Mobile ticker starts paused with readable swipeable updates', width, async page => {
+  await test('Mobile ticker plays slow readable snap cards', width, async page => {
     const ticker = page.locator('.beta-newswire');
     await ticker.waitFor({ state: 'visible', timeout: 8000 });
     const metrics = await ticker.evaluate(el => {
@@ -235,28 +235,37 @@ for (const width of [320, 390]) {
         animationName: getComputedStyle(el.querySelector('.beta-newswire__track')).animationName
       };
     });
-    assert(metrics.paused, 'Mobile ticker starts moving without user choice');
+    assert(!metrics.paused, 'Mobile ticker should begin playing by default');
     assert(metrics.overflowX === 'auto', 'Mobile updates cannot be swiped');
     assert(metrics.whiteSpace !== 'nowrap', 'Mobile update text cannot wrap');
     assert(metrics.itemWidth >= width - 35, 'Mobile ticker update is too narrow: ' + JSON.stringify(metrics));
-    assert(metrics.animationName === 'none', 'Paused ticker is still animating');
+    assert(metrics.animationName === 'none', 'Mobile ticker must advance by card, not crawl continuously');
     const control = page.locator('.beta-newswire__pause');
-    assert(await control.getAttribute('aria-label') === 'Resume updates',
-      'Paused icon has no descriptive accessible name');
+    assert(await control.getAttribute('aria-label') === 'Pause updates',
+      'Playing icon has no descriptive accessible name');
     assert(await control.locator('[aria-hidden="true"]').count() === 1,
       'Playback icon is not hidden from screen readers');
     const size = await control.boundingBox();
     assert(size && size.width >= 44 && size.height >= 44,
       'Ticker touch target smaller than 44 CSS pixels');
     await control.click();
-    assert(await control.getAttribute('aria-pressed') === 'false',
-      'Resume updates does not reactivate scrolling');
-    assert(await control.getAttribute('aria-label') === 'Pause updates',
-      'Playing icon does not expose Pause updates to assistive technology');
-    await control.click();
+    assert(await control.getAttribute('aria-pressed') === 'true',
+      'Pause icon did not stop card advancement');
     assert(await control.getAttribute('aria-label') === 'Resume updates',
-      'Paused icon did not restore its accessible name');
+      'Paused icon did not expose Resume updates to assistive technology');
+    await control.click();
+    assert(await control.getAttribute('aria-label') === 'Pause updates',
+      'Play icon did not restore Pause updates');
   }, { reducedMotion: 'no-preference' });
+
+  await test('Reduced-motion mobile reel starts paused', width, async page => {
+    const ticker = page.locator('.beta-newswire');
+    await ticker.waitFor({ state: 'visible', timeout: 8000 });
+    assert(await ticker.evaluate(el => el.classList.contains('is-paused')),
+      'Reduced-motion preference should prevent automatic card movement');
+    assert(await page.locator('.beta-newswire__pause').getAttribute('aria-label') === 'Resume updates',
+      'Reduced-motion playback control is not labeled');
+  }, { reducedMotion: 'reduce' });
 
   await test('Mobile section headings do not remain sticky behind cards', width, async page => {
     const headings = await page.locator('.beta-sticky-heading').evaluateAll(nodes =>
@@ -267,6 +276,21 @@ for (const width of [320, 390]) {
       'Mobile heading may bleed through card gaps: ' + JSON.stringify(headings));
   }, { reducedMotion: 'no-preference' });
 }
+
+await test('Mobile research reel advances after reading interval', 390, async page => {
+  const ticker = page.locator('.beta-newswire');
+  await ticker.waitFor({ state: 'visible', timeout: 8000 });
+  const interval = Number(await ticker.getAttribute('data-mobile-reel-interval'));
+  assert(interval === 3000, 'Mobile reel does not use the three-second interval');
+  await page.waitForFunction(() => {
+    const element = document.querySelector('.beta-newswire__viewport');
+    return element && element.scrollLeft > 25;
+  }, null, { timeout: 7000 });
+  const button = page.locator('.beta-newswire__pause');
+  await button.click();
+  assert(await button.getAttribute('aria-pressed') === 'true',
+    'Automatic reel cannot be paused');
+}, { reducedMotion: 'no-preference' });
 
 await test('Desktop sticky heading treatment remains unchanged', 1440, async page => {
   const headings = await page.locator('.beta-sticky-heading').evaluateAll(nodes =>
