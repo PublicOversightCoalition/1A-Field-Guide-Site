@@ -4,7 +4,7 @@ title: Nationwide Jurisdictions
 
 # Nationwide jurisdictions
 
-The 1A Field Guide tracks **Federal, all 50 states, and the District of Columbia** from one public status model.
+We're building guides for federal law, all 50 states, and Washington, D.C. **California is active today.** The other guides remain in development or have not yet been researched enough to publish as active.
 
 <div class="jurisdiction-hero">
   <p><strong>Qualification status is not a prediction or a claim that no law applies.</strong> It tells you whether the Coalition has qualified that jurisdiction's Field Guide framework for use in facility analysis.</p>
@@ -13,11 +13,11 @@ The 1A Field Guide tracks **Federal, all 50 states, and the District of Columbia
 
 ## Status meanings
 
-**Not yet qualified** — no qualified jurisdiction overlay has been activated. This does not imply research is underway.
+**Not yet qualified** — we haven't finished and approved a guide for this location. That doesn't necessarily mean work has begun.
 
-**Field Guide in development** — the legal/doctrinal framework is being built and reviewed against the canonical scenario/encounter matrix.
+**Field Guide in development** — we're checking the laws and court decisions against the real-world situations the guide covers.
 
-**Field Guide active** — the framework has passed qualification. Only then does facility-research maturity begin at Unresearched and later move to Researching or Established.
+**Field Guide active** — we've checked and approved the core legal research for publication. Individual buildings and agency policies still need their own research.
 
 California became the first **Active** state overlay on September 30, 2026 after completing the same qualification process required of other jurisdictions.
 
