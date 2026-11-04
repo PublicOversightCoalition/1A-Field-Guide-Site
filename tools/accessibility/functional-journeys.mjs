@@ -15,6 +15,9 @@ async function test(name, width, journey, { route = '', reducedMotion = 'reduce'
     deviceScaleFactor: 1
   });
   const page = await context.newPage();
+  const issues = [];
+  page.on('pageerror', e => issues.push('pageerror: ' + String(e).slice(0, 350)));
+  page.on('requestfailed', req => issues.push('requestfailed: ' + req.url().slice(0, 150) + ' ' + req.failure()?.errorText));
   try {
     const resp = await page.goto(new URL(route, base).href, { waitUntil: 'networkidle', timeout: 25000 });
     if (!resp?.ok()) throw new Error('Page returned HTTP ' + resp?.status());
@@ -23,7 +26,17 @@ async function test(name, width, journey, { route = '', reducedMotion = 'reduce'
     console.log('PASS ' + name + ' ' + width + 'px');
   } catch (e) {
     const error = String(e).slice(0, 1300);
-    results.push({ name, width, route, outcome: 'fail', error });
+    const diagnostics = name.startsWith('Search') ? await page.evaluate(() => ({
+      searchOpen: document.querySelector('#__search')?.checked,
+      input: document.querySelector('.md-search__input')?.value,
+      meta: document.querySelector('.md-search-result__meta')?.textContent?.trim(),
+      list: document.querySelector('.md-search-result__list')?.textContent?.slice(0, 350),
+      searchResults: document.querySelectorAll('.md-search-result__link').length,
+      formVisible: !!document.querySelector('.md-search__form')?.getBoundingClientRect().width,
+      html: document.querySelector('.md-search__output')?.innerHTML.slice(0, 500)
+    })) : undefined;
+    results.push({ name, width, route, outcome: 'fail', error, diagnostics, issues });
+    if (diagnostics) console.error('SEARCH DIAGNOSTICS ' + JSON.stringify({ diagnostics, issues }));
     console.error('FAIL ' + name + ' ' + width + 'px: ' + error);
   } finally {
     await context.close();
@@ -61,8 +74,10 @@ for (const width of [320, 390, 768]) {
 
 for (const width of [390, 1440]) {
   await test('Search opens, returns results, follows a result', width, async page => {
-    await page.locator('label.md-header__button[for="__search"]').click();
+    const opener = page.locator('label.md-header__button[for="__search"]');
+    if (await opener.isVisible()) await opener.click();
     const input = page.locator('input.md-search__input');
+    if (!await input.isVisible()) throw new Error('Search input is not visible at this viewport');
     await input.fill('public records');
     const result = page.locator('a.md-search-result__link').first();
     await result.waitFor({ state: 'visible', timeout: 12000 });
