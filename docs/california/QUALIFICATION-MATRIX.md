@@ -63,18 +63,18 @@ These are controls over the completed matrix, not substitutes for branch researc
 
 | Control | Requirement | Current state |
 | --- | --- | --- |
-| CA-GATE-01 | Every canonical scenario and encounter family mapped | **Met** — all 73 current rows mapped and cross-checked against the evidence map |
-| CA-GATE-02 | Every material branch has an approved qualification status | **Met substantively** — final adversarial status review completed; CA-GATE-09 separately controls independent-human/bootstrap provenance |
-| CA-GATE-03 | No material activation-blocking Gap remains | **Met** — final adversarial review found no new material Gap |
-| CA-GATE-04 | Primary legal text and controlling authority have current verification records | **Met for ordinary qualification scope** — fresh sweeps plus final current-source spot checks completed; specialized branches remain labeled |
-| CA-GATE-05 | Binding versus persuasive authority is distinguished | **Met** — final hierarchy/posture audit preserves published, unpublished, district, out-of-circuit, QI, and limited-posture distinctions |
-| CA-GATE-06 | Contrary authority and meaningful limitations are preserved | **Met** — final adversarial review retained four Researched-Unresolved rows and material contrary/posture limits |
-| CA-GATE-07 | State/local rules are not mistaken for constitutional validity | **Met** — authority/delegation/preemption/constitutional/enforcement chain rechecked |
-| CA-GATE-08 | Standing scenario can run without importing California-specific law into the national baseline | **Met** — NC-STANDING-01 v1 contamination/changed-fact checks passed; California remains an overlay/crosswalk |
-| CA-GATE-09 | Normal path: independent qualified human review completed; bootstrap path: documented Founder exception if no reviewer is reasonably available | **Met via Founder/bootstrap exception** — on 2026-09-30 the Founder attested that the Founder is presently the only Coalition member, no suitably qualified independent human reviewer is reasonably available at this stage, invoked the exception, and accepted accountability; see `../research/CA-GATE-09-FOUNDER-BOOTSTRAP-RECORD.md` |
-| CA-GATE-10 | Authorized human activation decision completed | **Met** — Founder approved the completed qualification record and activated California on 2026-09-30; see `../research/CA-GATE-10-CALIFORNIA-ACTIVATION-RECORD.md` |
+| CA-GATE-01 | Every canonical scenario and encounter family mapped | **Met**, all 73 current rows mapped and cross-checked against the evidence map |
+| CA-GATE-02 | Every material branch has an approved qualification status | **Met substantively**, final adversarial status review completed; CA-GATE-09 separately controls independent-human/bootstrap provenance |
+| CA-GATE-03 | No material activation-blocking Gap remains | **Met**, final adversarial review found no new material Gap |
+| CA-GATE-04 | Primary legal text and controlling authority have current verification records | **Met for ordinary qualification scope**, fresh sweeps plus final current-source spot checks completed; specialized branches remain labeled |
+| CA-GATE-05 | Binding versus persuasive authority is distinguished | **Met**, final hierarchy/posture audit preserves published, unpublished, district, out-of-circuit, QI, and limited-posture distinctions |
+| CA-GATE-06 | Contrary authority and meaningful limitations are preserved | **Met**, final adversarial review retained four Researched-Unresolved rows and material contrary/posture limits |
+| CA-GATE-07 | State/local rules are not mistaken for constitutional validity | **Met**, authority/delegation/preemption/constitutional/enforcement chain rechecked |
+| CA-GATE-08 | Standing scenario can run without importing California-specific law into the national baseline | **Met**, NC-STANDING-01 v1 contamination/changed-fact checks passed; California remains an overlay/crosswalk |
+| CA-GATE-09 | Normal path: independent qualified human review completed; bootstrap path: documented Founder exception if no reviewer is reasonably available | **Met via Founder/bootstrap exception**, on 2026-09-30 the Founder attested that the Founder is presently the only Coalition member, no suitably qualified independent human reviewer is reasonably available at this stage, invoked the exception, and accepted accountability; see `../research/CA-GATE-09-FOUNDER-BOOTSTRAP-RECORD.md` |
+| CA-GATE-10 | Authorized human activation decision completed | **Met**, Founder approved the completed qualification record and activated California on 2026-09-30; see `../research/CA-GATE-10-CALIFORNIA-ACTIVATION-RECORD.md` |
 
-## CA-F1 — Lawful presence and area classification
+## CA-F1: Lawful presence and area classification
 
 | Row key | Required question / coverage | Canonical/method source | Status | Local dependency |
 | --- | --- | --- | --- | --- |
@@ -83,7 +83,7 @@ These are controls over the completed matrix, not substitutes for branch researc
 | CA-F1.3 | Area-specific classification rather than whole-building assumptions | JQ@f6f5a9b functional coverage family | Supported | Yes |
 | CA-F1.4 | Hours, restricted areas, and changed access facts | JQ@f6f5a9b functional coverage family | Supported | Yes |
 
-## CA-F2 — Protected activity and recording
+## CA-F2: Protected activity and recording
 
 | Row key | Required question / coverage | Canonical/method source | Status | Local dependency |
 | --- | --- | --- | --- | --- |
@@ -92,7 +92,7 @@ These are controls over the completed matrix, not substitutes for branch researc
 | CA-F2.3 | Privacy/confidential-communication rules and material exceptions | JQ@f6f5a9b functional coverage family | Supported | Yes |
 | CA-F2.4 | Credential-neutral treatment of ordinary members of the public | JQ@f6f5a9b functional coverage family | Supported | No |
 
-## CA-F3 — Government restrictions
+## CA-F3: Government restrictions
 
 | Row key | Required question / coverage | Canonical/method source | Status | Local dependency |
 | --- | --- | --- | --- | --- |
@@ -102,7 +102,7 @@ These are controls over the completed matrix, not substitutes for branch researc
 | CA-F3.4 | Policy/sign/order versus actual legal authority, including conditional-access demands such as `stop recording or leave` and the legality of the underlying exclusion before downstream trespass enforcement | JQ functional coverage + NC-COMPLAINT-01.M | Supported | Yes |
 | CA-F3.5 | Delegated authority and state/federal preemption where material | JQ@f6f5a9b functional coverage family | Supported | Yes |
 
-## CA-F4 — Trespass, exclusion, and removal
+## CA-F4: Trespass, exclusion, and removal
 
 | Row key | Required question / coverage | Canonical/method source | Status | Local dependency |
 | --- | --- | --- | --- | --- |
@@ -114,7 +114,7 @@ These are controls over the completed matrix, not substitutes for branch researc
 | CA-F4.6 | Effect of a later removal order on an initially lawful presence | JQ@f6f5a9b functional coverage family | Supported | Yes |
 | CA-F4.7 | Suspension/exclusion process where material | JQ@f6f5a9b functional coverage family | Supported | Yes |
 
-## CA-F5 — Police encounters
+## CA-F5: Police encounters
 
 | Row key | Required question / coverage | Canonical/method source | Status | Local dependency |
 | --- | --- | --- | --- | --- |
@@ -130,7 +130,7 @@ These are controls over the completed matrix, not substitutes for branch researc
 | CA-F5.10 | Arrest/probable cause | JQ@f6f5a9b functional coverage family | Supported | No |
 | CA-F5.11 | Fifth Amendment/Miranda distinctions where the encounter tree requires them | JQ@f6f5a9b functional coverage family | Supported | No |
 
-## CA-F6 — Disorder, obstruction, and reaction-based allegations
+## CA-F6: Disorder, obstruction, and reaction-based allegations
 
 | Row key | Required question / coverage | Canonical/method source | Status | Local dependency |
 | --- | --- | --- | --- | --- |
@@ -140,7 +140,7 @@ These are controls over the completed matrix, not substitutes for branch researc
 | CA-F6.4 | Another person's objection or anger versus statutory elements | JQ@f6f5a9b functional coverage family | Supported | No |
 | CA-F6.5 | Allegation-to-elements analysis | JQ@f6f5a9b functional coverage family | Supported | No |
 
-## CA-F7 — Public meetings and assemblies
+## CA-F7: Public meetings and assemblies
 
 | Row key | Required question / coverage | Canonical/method source | Status | Local dependency |
 | --- | --- | --- | --- | --- |
@@ -148,7 +148,7 @@ These are controls over the completed matrix, not substitutes for branch researc
 | CA-F7.2 | Actual disruption/removal standards | JQ@f6f5a9b functional coverage family | Supported | Yes |
 | CA-F7.3 | Assembly/dispersal rules where material | JQ@f6f5a9b functional coverage family | Supported | Yes |
 
-## CA-F8 — Emergency and law-enforcement scenes
+## CA-F8: Emergency and law-enforcement scenes
 
 | Row key | Required question / coverage | Canonical/method source | Status | Local dependency |
 | --- | --- | --- | --- | --- |
@@ -156,7 +156,7 @@ These are controls over the completed matrix, not substitutes for branch researc
 | CA-F8.2 | Interference/obstruction distinctions | JQ@f6f5a9b functional coverage family | Supported | Yes |
 | CA-F8.3 | Recording from lawful locations | JQ@f6f5a9b functional coverage family | Supported | Yes |
 
-## CA-F9 — Public records and evidence
+## CA-F9: Public records and evidence
 
 | Row key | Required question / coverage | Canonical/method source | Status | Local dependency |
 | --- | --- | --- | --- | --- |
@@ -165,7 +165,7 @@ These are controls over the completed matrix, not substitutes for branch researc
 | CA-F9.3 | Preservation/retention distinctions | JQ@f6f5a9b functional coverage family | Supported | Yes |
 | CA-F9.4 | Access to policy, incident, dispatch/body-camera/CCTV or analogous evidence subject to applicable exemptions | JQ@f6f5a9b functional coverage family | Supported | Yes |
 
-## CA-F10 — Remedies and retaliation sufficient for field use
+## CA-F10: Remedies and retaliation sufficient for field use
 
 | Row key | Required question / coverage | Canonical/method source | Status | Local dependency |
 | --- | --- | --- | --- | --- |
@@ -173,7 +173,7 @@ These are controls over the completed matrix, not substitutes for branch researc
 | CA-F10.2 | Preservation/escalation paths needed by the research methodology | JQ@f6f5a9b functional coverage family | Supported | Yes |
 | CA-F10.3 | Clear identification of material remedy areas still outside current operational scope | JQ@f6f5a9b functional coverage family | Supported | No |
 
-## CA-F11 — Facility research methodology
+## CA-F11: Facility research methodology
 
 | Row key | Required question / coverage | Canonical/method source | Status | Local dependency |
 | --- | --- | --- | --- | --- |
@@ -182,7 +182,7 @@ These are controls over the completed matrix, not substitutes for branch researc
 | CA-F11.3 | Local ordinance/policy/practice treated as evidence to be tested, not self-validating law | JQ@f6f5a9b functional coverage family | Supported | Yes |
 | CA-F11.4 | Contrary authority and changed facts preserved | JQ@f6f5a9b functional coverage family | Supported | No |
 
-## NC-COMPLAINT-01 — Complaint-driven police encounter
+## NC-COMPLAINT-01: Complaint-driven police encounter
 
 Canonical version: **v2**. These rows are required in addition to the functional coverage inventory above; overlap is intentional because the scenario must be runnable end-to-end rather than inferred from topic pages.
 
@@ -202,7 +202,7 @@ Canonical version: **v2**. These rows are required in addition to the functional
 | NC-COMPLAINT-01.L | What records should be preserved/requested after the encounter: 911 audio, CAD/dispatch, body camera, CCTV, incident reports, exclusion notices, complaints, and related evidence? | v2 | Supported | Yes |
 | NC-COMPLAINT-01.M | When access is conditioned on stopping recording/speech/observation, was the underlying restriction and resulting exclusion lawful before downstream trespass enforcement is analyzed? | v2 | Supported | Yes |
 
-## NC-VANTAGE-01 — Lawful-vantage observation and recording
+## NC-VANTAGE-01: Lawful-vantage observation and recording
 
 Canonical version: **v1**. This scenario is public/private-subject neutral: the applicable authority may differ, but every jurisdiction must be able to analyze ordinary observation/recording from a lawful vantage without collapsing visibility, privacy, property, audio, intrusion, and exclusion into one rule.
 

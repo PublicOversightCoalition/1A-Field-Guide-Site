@@ -73,7 +73,7 @@ For each material restriction, record when available:
 
 A missing local delegation document is not proof that no authority exists. Mark the chain unresolved and use targeted public-source research or CPRA to obtain the ordinance, resolution, charter provision, enabling law, delegation, contract, or other source needed to resolve it.
 
-The statewide framework is in [Sweep 013 — Delegated Authority and Preemption](../research/SWEEP-013-DELEGATED-AUTHORITY-PREEMPTION.md).
+The statewide framework is in [Sweep 013, Delegated Authority and Preemption](../research/SWEEP-013-DELEGATED-AUTHORITY-PREEMPTION.md).
 
 ## 3. Build a pre-visit facility research packet
 
@@ -95,7 +95,7 @@ Record:
 
 Do not assign one forum label to the entire address merely because the building has a public lobby.
 
-### Property and boundary evidence — standard facility pass
+### Property and boundary evidence: standard facility pass
 
 Property research is now a **standard part of the facility SOP wherever practical**, not something reserved only for locations that already look complicated.
 
@@ -229,12 +229,12 @@ Historical enforcement must be assessed against the law, policy, area, and known
 
 For each historical event, use one of these working assessments:
 
-- **ADJUDICATED_UNLAWFUL** — a court or competent tribunal actually held the relevant challenged policy or enforcement unlawful on the issue being recorded;
-- **APPARENTLY_INCONSISTENT_WITH_THEN_CONTROLLING_LAW** — the governing authority already existed and the documented facts appear inconsistent with it, but no adjudication of this event is claimed;
-- **CONSTITUTIONALLY_SUSPECT_NEEDS_RECORDS** — available facts raise a concrete constitutional question, but records or factual development are still needed;
-- **LATER_LAW_CHANGED_OR_CLARIFIED** — later authority materially changed or clarified the analysis and the project should not silently project the modern rule backward;
-- **LAWFUL_OR_DISTINGUISHABLE** — the documented conduct, area, restriction, or legal posture materially differs from the protected scenario or is supported by identified authority; or
-- **UNRESOLVED** — the evidence or law does not support a more specific assessment.
+- **ADJUDICATED_UNLAWFUL**: a court or competent tribunal actually held the relevant challenged policy or enforcement unlawful on the issue being recorded;
+- **APPARENTLY_INCONSISTENT_WITH_THEN_CONTROLLING_LAW**: the governing authority already existed and the documented facts appear inconsistent with it, but no adjudication of this event is claimed;
+- **CONSTITUTIONALLY_SUSPECT_NEEDS_RECORDS**: available facts raise a concrete constitutional question, but records or factual development are still needed;
+- **LATER_LAW_CHANGED_OR_CLARIFIED**: later authority materially changed or clarified the analysis and the project should not silently project the modern rule backward;
+- **LAWFUL_OR_DISTINGUISHABLE**: the documented conduct, area, restriction, or legal posture materially differs from the protected scenario or is supported by identified authority; or
+- **UNRESOLVED**: the evidence or law does not support a more specific assessment.
 
 These are project research classifications. Except for **ADJUDICATED_UNLAWFUL**, they are not judicial findings.
 
@@ -259,13 +259,13 @@ Facility files should use research flags rather than prematurely declaring an ag
 
 Suggested flags:
 
-- **SUPPORTED-BY-IDENTIFIED-AUTHORITY** — a current source has been identified that appears to support the rule;
-- **AUTHORITY-UNRESOLVED** — the policy exists, but the project has not yet identified adequate authority for or against it;
-- **POTENTIAL-FACIAL-CONFLICT** — the written rule itself appears to conflict with controlling law and requires final legal review;
-- **POTENTIAL-AS-APPLIED-CONFLICT** — the rule may be lawful in some applications but prior enforcement raises a constitutional/statutory issue;
-- **POTENTIAL-VIEWPOINT-COMPARATOR** — comparable favorable and unfavorable expression appears to have been treated differently;
-- **POLICY-TO-CRIMINAL-AUTHORITY-GAP** — a policy violation appears to have been treated as sufficient basis for detention, citation, arrest, or criminal trespass without the required offense elements or legal bridge being identified;
-- **SUPERSEDED-OR-REVISED** — the policy has changed and historical versions must not be treated as current.
+- **SUPPORTED-BY-IDENTIFIED-AUTHORITY**: a current source has been identified that appears to support the rule;
+- **AUTHORITY-UNRESOLVED**: the policy exists, but the project has not yet identified adequate authority for or against it;
+- **POTENTIAL-FACIAL-CONFLICT**: the written rule itself appears to conflict with controlling law and requires final legal review;
+- **POTENTIAL-AS-APPLIED-CONFLICT**: the rule may be lawful in some applications but prior enforcement raises a constitutional/statutory issue;
+- **POTENTIAL-VIEWPOINT-COMPARATOR**: comparable favorable and unfavorable expression appears to have been treated differently;
+- **POLICY-TO-CRIMINAL-AUTHORITY-GAP**: a policy violation appears to have been treated as sufficient basis for detention, citation, arrest, or criminal trespass without the required offense elements or legal bridge being identified;
+- **SUPERSEDED-OR-REVISED**: the policy has changed and historical versions must not be treated as current.
 
 These are research flags, not court holdings.
 

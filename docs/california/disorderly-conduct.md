@@ -9,7 +9,7 @@ status: doctrine-reviewed-in-part
 
 California does not have one generic offense that means "someone was uncomfortable with your behavior." Two provisions especially worth separating are Penal Code §§ 415 and 647.
 
-## Penal Code § 415 — disturbing the peace
+## Penal Code § 415: disturbing the peace
 
 Section 415 criminalizes three categories of conduct:
 
@@ -29,9 +29,9 @@ Therefore, if § 415 is asserted, identify **which subsection and which conduct*
 
 When a patron, employee, or officer uses a conclusion such as "harassment," "disruption," "interference," "hostile," or "disturbance," apply the [Standing Scenario's Allegation-to-Elements Check](standing-scenario.md#subjective-complaint-conversion-labels-are-not-facts).
 
-Detailed authority: [Sweep 016 — Disorder, Unreasonable Noise, Fighting Words, Threats, and Obstruction](../research/SWEEP-016-DISORDER-NOISE-THREATS-OBSTRUCTION.md).
+Detailed authority: [Sweep 016, Disorder, Unreasonable Noise, Fighting Words, Threats, and Obstruction](../research/SWEEP-016-DISORDER-NOISE-THREATS-OBSTRUCTION.md).
 
-## § 415(2) — loud and unreasonable noise
+## § 415(2): loud and unreasonable noise
 
 ### In re Brown, 9 Cal.3d 612 (1973)
 
@@ -54,7 +54,7 @@ https://www.justia.com/criminal/docs/calcrim/2600/2689/
 
 This does not invalidate properly drawn content-neutral volume/time/place/manner rules for particular facilities. Those must be analyzed under their own authority.
 
-### Changed-fact comparator — People v. Superior Court (Commons)
+### Changed-fact comparator: People v. Superior Court (Commons)
 
 In **People v. Superior Court (Commons), 135 Cal.App.3d 812 (1982)**, probable cause existed on materially different facts involving very loud laughter/shouting in a hotel hallway around 1 a.m., where occupants were disturbed and the volume could be treated as disruptive rather than genuine communication.
 
@@ -66,7 +66,7 @@ The project therefore does not turn *Brown* into a universal right to shout anyw
 
 ---
 
-## § 415(3) — fighting words / offensive words
+## § 415(3): fighting words / offensive words
 
 ### Jefferson v. Superior Court, 51 Cal.App.3d 721 (1975)
 
@@ -94,9 +94,9 @@ https://law.justia.com/cases/california/court-of-appeal/4th/37/44.html
 
 ### Federal/Ninth Circuit police-criticism layer
 
-- **City of Houston v. Hill, 482 U.S. 451 (1987)** — substantial verbal criticism/challenge of police is protected.
-- **Duran v. City of Douglas, 904 F.2d 1372 (9th Cir. 1990)** — obscene gestures/expletives toward an officer did not supply lawful detention/arrest grounds on those facts.
-- **United States v. Poocha, 259 F.3d 1077 (9th Cir. 2001)** — profanity and aggressive posture did not convert the speech into fighting words on the facts there.
+- **City of Houston v. Hill, 482 U.S. 451 (1987)**: substantial verbal criticism/challenge of police is protected.
+- **Duran v. City of Douglas, 904 F.2d 1372 (9th Cir. 1990)**: obscene gestures/expletives toward an officer did not supply lawful detention/arrest grounds on those facts.
+- **United States v. Poocha, 259 F.3d 1077 (9th Cir. 2001)**: profanity and aggressive posture did not convert the speech into fighting words on the facts there.
 
 Sources:
 
@@ -130,10 +130,10 @@ That does not prevent officials from addressing actual threats, obstruction, unl
 
 Protected verbal challenge must be separated from actual resistance/delay/obstruction.
 
-- **People v. Quiroga, 16 Cal.App.4th 961 (1993)** — § 148 does not criminalize mere failure to comply "with alacrity"; verbal dispute of police authority is protected.
-- **Mackinney v. Nielsen, 69 F.3d 1002 (9th Cir. 1995)** — seconds of delayed compliance and verbal protest did not supply § 148 probable cause.
-- **In re Muhammed C., 95 Cal.App.4th 1325 (2002)** — repeated refusal to move away from a patrol car that caused officers to interrupt/delay their lawful work supported § 148.
-- **In re N.S., G065591 (Cal. Ct. App. Sept. 8, 2026)** — current published comparator; physically leaving the location, repeated refusals, pursuit, and approximately ten minutes of actual delay distinguished *Quiroga*. Its underlying search holding is school-specific.
+- **People v. Quiroga, 16 Cal.App.4th 961 (1993)**: § 148 does not criminalize mere failure to comply "with alacrity"; verbal dispute of police authority is protected.
+- **Mackinney v. Nielsen, 69 F.3d 1002 (9th Cir. 1995)**: seconds of delayed compliance and verbal protest did not supply § 148 probable cause.
+- **In re Muhammed C., 95 Cal.App.4th 1325 (2002)**: repeated refusal to move away from a patrol car that caused officers to interrupt/delay their lawful work supported § 148.
+- **In re N.S., G065591 (Cal. Ct. App. Sept. 8, 2026)**: current published comparator; physically leaving the location, repeated refusals, pursuit, and approximately ten minutes of actual delay distinguished *Quiroga*. Its underlying search holding is school-specific.
 
 Sources:
 
@@ -147,7 +147,7 @@ https://law.justia.com/cases/california/court-of-appeal/2026/g065591.html
 
 **Field rule:** the line is not "speech versus physical contact." The line is whether the person actually willfully resisted, delayed, or obstructed an officer's **lawful** performance. Mere argument, criticism, or momentary slow compliance is not automatically enough.
 
-### Penal Code § 602.1(b) — public agency
+### Penal Code § 602.1(b): public agency
 
 For a public agency open to the public, § 602.1(b) separately requires intentional interference **by obstruction or intimidation**, a qualifying leave request, and refusal. Section 602.1(d)(2) excludes constitutionally protected activity.
 
@@ -193,7 +193,7 @@ Because § 422 requires specific intent that the statement be taken as a threat,
 
 ---
 
-## Penal Code § 647 — disorderly conduct
+## Penal Code § 647: disorderly conduct
 
 Section 647 is a list of specifically defined offenses. It is not a free-floating power to arrest a person merely for behaving unusually or making another person uncomfortable.
 
