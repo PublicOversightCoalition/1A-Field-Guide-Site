@@ -1,16 +1,16 @@
 ---
-title: Sweep 018 — Law-Enforcement Records and Specialized Evidence Disclosure
+title: "Sweep 018: Law-Enforcement Records and Specialized Evidence Disclosure"
 jurisdiction: California
 research_date: 2026-09-29
 status: defined-gap-slice-reviewed
 qualification_package: GAP-08
 ---
 
-# Sweep 018 — Law-Enforcement Records and Specialized Evidence Disclosure
+# Sweep 018: Law-Enforcement Records and Specialized Evidence Disclosure
 
 Qualification target:
 
-- `CA-F9.4` — access to policy, incident, dispatch/body-camera/CCTV, peace-officer, and analogous evidence subject to applicable exemptions.
+- `CA-F9.4`, access to policy, incident, dispatch/body-camera/CCTV, peace-officer, and analogous evidence subject to applicable exemptions.
 
 This sweep completes the ordinary California post-incident records branch needed after a public-facility or police encounter.
 
@@ -56,7 +56,7 @@ The ordinary CPRA public-record definition, personal-device doctrine, request pr
 
 ---
 
-# 2. Current law-enforcement investigatory-record exemption — Government Code § 7923.600
+# 2. Current law-enforcement investigatory-record exemption: Government Code § 7923.600
 
 Current primary source:
 
@@ -71,7 +71,7 @@ Section 7923.600 preserves a broad CPRA exemption for specified:
 
 This is the recodified successor to former § 6254(f).
 
-## Government Code § 7923.630 — recodification continuity
+## Government Code § 7923.630: recodification continuity
 
 Section 7923.630 expressly records that this article was derived from former § 6254(f) and that dividing it into multiple sections was not intended to alter its construction or relationships.
 
@@ -157,9 +157,9 @@ Status: published California Court of Appeal.
 
 Castañares applied the same distinction to police drone footage and described three useful categories:
 
-1. footage placed in an investigatory file — exempt under § 7923.600;
-2. footage created while investigating whether a law violation occurred, even without a formal file — ordinarily exempt under Haynie; and
-3. footage created to determine what kind of noncriminal public assistance is needed — not automatically investigatory.
+1. footage placed in an investigatory file, exempt under § 7923.600;
+2. footage created while investigating whether a law violation occurred, even without a formal file, ordinarily exempt under Haynie; and
+3. footage created to determine what kind of noncriminal public assistance is needed, not automatically investigatory.
 
 Source:
 
@@ -175,7 +175,7 @@ Do not promise that requesting the same file from another custodian necessarily 
 
 ---
 
-# 6. Mandatory arrest information — Government Code § 7923.610
+# 6. Mandatory arrest information: Government Code § 7923.610
 
 Current source:
 
@@ -202,7 +202,7 @@ An agency cannot answer "investigatory file" and ignore the mandatory-informatio
 
 ---
 
-# 7. Mandatory complaint/request/response information — § 7923.615
+# 7. Mandatory complaint/request/response information: § 7923.615
 
 Current source:
 
@@ -236,7 +236,7 @@ That prevents an agency from treating an investigatory-record exemption as thoug
 
 ---
 
-# 8. Victim/authorized-requester information — § 7923.605
+# 8. Victim/authorized-requester information: § 7923.605
 
 Current source:
 
@@ -260,7 +260,7 @@ It does not require release of officer analysis/conclusions merely because a req
 
 ---
 
-# 9. Critical-incident audio/video — Government Code § 7923.625
+# 9. Critical-incident audio/video: Government Code § 7923.625
 
 Current official source:
 
@@ -307,7 +307,7 @@ It may still be disclosable under another statute or CPRA rule; it can also fall
 
 ---
 
-# 10. Sacramento Television Stations — current interpretation of critical-incident recordings
+# 10. Sacramento Television Stations: current interpretation of critical-incident recordings
 
 ## Sacramento Television Stations Inc. v. Superior Court, 112 Cal.App.5th 306 (2025)
 
@@ -331,7 +331,7 @@ Project use:
 
 ---
 
-# 11. BWC retention — Penal Code § 832.18 is not the disclosure statute
+# 11. BWC retention: Penal Code § 832.18 is not the disclosure statute
 
 Current source:
 
@@ -359,7 +359,7 @@ https://law.justia.com/cases/california/supreme-court/2026/s282937.html
 
 ---
 
-# 12. Peace-officer personnel/misconduct records — Penal Code § 832.7
+# 12. Peace-officer personnel/misconduct records: Penal Code § 832.7
 
 Current official source:
 
@@ -474,7 +474,7 @@ The correct current sequence is:
 
 ---
 
-# 15. Becerra / First Amendment Coalition — later § 832.7 is a genuine override
+# 15. Becerra / First Amendment Coalition: later § 832.7 is a genuine override
 
 ## Becerra v. Superior Court, 44 Cal.App.5th 897 (2020)
 
@@ -502,11 +502,11 @@ https://law.justia.com/cases/california/court-of-appeal/2023/a165888.html
 
 ## Project rule
 
-> **Treat § 832.7(b) as an affirmative statutory disclosure command with its own redaction/delay scheme—not as a suggestion layered beneath the older blanket confidentiality rule.**
+> **Treat § 832.7(b) as an affirmative statutory disclosure command with its own redaction/delay scheme, not as a suggestion layered beneath the older blanket confidentiality rule.**
 
 ---
 
-# 16. Officer names — Long Beach
+# 16. Officer names: Long Beach
 
 ## Long Beach Police Officers Association v. City of Long Beach, 59 Cal.4th 59 (2014)
 
@@ -526,7 +526,7 @@ Current Penal Code § 832.7(i) expressly states that the chapter does not limit 
 
 ---
 
-# 17. Redaction costs — National Lawyers Guild v. City of Hayward
+# 17. Redaction costs: National Lawyers Guild v. City of Hayward
 
 ## National Lawyers Guild v. City of Hayward, 9 Cal.5th 488 (2020)
 
@@ -542,9 +542,9 @@ https://law.justia.com/cases/california/supreme-court/2020/s252445.html
 
 Current electronic-record/copy provisions:
 
-- § 7922.530 — copies/direct duplication;
-- § 7922.570 — electronic-form availability;
-- § 7922.575 — specified compilation/extraction/programming cost branch.
+- § 7922.530, copies/direct duplication;
+- § 7922.570, electronic-form availability;
+- § 7922.575, specified compilation/extraction/programming cost branch.
 
 Official sources:
 
@@ -569,8 +569,8 @@ https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&
 | 911 audio | May be investigatory depending on actual incident/inquiry | §7923.615 requires specified complaint/request/response information even if audio itself exempt |
 | CAD/dispatch event | Same purpose-specific analysis | §7923.615 mandatory information; record itself not automatically compelled |
 | Radio traffic | Can be investigatory; retention separate | Mandatory information branch may still apply; local/state retention schedules matter |
-| BWC/dash video — ordinary stop | May be investigatory | Not automatically §7923.625; other CPRA/§832.7 branches can apply |
-| BWC/dash/video — officer shooting or force causing death/GBI | Specific critical-incident branch | §7923.625 disclosure/delay/privacy rules; §832.7 may independently apply |
+| BWC/dash video, ordinary stop | May be investigatory | Not automatically §7923.625; other CPRA/§832.7 branches can apply |
+| BWC/dash/video, officer shooting or force causing death/GBI | Specific critical-incident branch | §7923.625 disclosure/delay/privacy rules; §832.7 may independently apply |
 | Routine facility CCTV | Public-record/exemption analysis at host agency | Not automatically investigatory; police-acquired investigative copy can be treated differently |
 | Drone/automated video | Purpose-specific | Castañares / ACLU: targeted suspected-law-violation inquiry differs from routine/assistance collection |
 | Officer shooting/use-of-force records | §832.7(b) affirmative public category | statutory redaction/delay rules; critical-incident video separately §7923.625 |
@@ -582,7 +582,7 @@ https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&
 
 # 19. Post-encounter request workflow
 
-## Step 1 — send parallel requests to likely custodians
+## Step 1: send parallel requests to likely custodians
 
 For a public-facility police response, consider separate requests to:
 
@@ -591,7 +591,7 @@ For a public-facility police response, consider separate requests to:
 - city/county/state host agency;
 - contracted security entity if legally subject to the request or records are held by the public agency.
 
-## Step 2 — request the actual evidence
+## Step 2: request the actual evidence
 
 Request categories narrowly enough to identify the incident:
 
@@ -609,7 +609,7 @@ Request categories narrowly enough to identify the incident:
 - employee recordings;
 - relevant communications.
 
-## Step 3 — invoke mandatory information separately
+## Step 3: invoke mandatory information separately
 
 If police claim § 7923.600:
 
@@ -617,19 +617,19 @@ If police claim § 7923.600:
 
 That avoids treating the record exemption as an information blackout.
 
-## Step 4 — identify critical-incident video if applicable
+## Step 4: identify critical-incident video if applicable
 
 If the event depicts an officer firearm discharge at a person or force resulting in death/GBI:
 
 > Please process responsive audio/video under Government Code § 7923.625 and identify any statutory basis and timeline for delayed disclosure/redaction.
 
-## Step 5 — identify § 832.7 categories if applicable
+## Step 5: identify § 832.7 categories if applicable
 
 If records concern a qualifying officer incident or sustained finding, cite the specific current § 832.7(b)(1) category.
 
 Do not demand all officer personnel files.
 
-## Step 6 — request segregable material and legal bases
+## Step 6: request segregable material and legal bases
 
 For every withholding/redaction:
 
@@ -638,7 +638,7 @@ For every withholding/redaction:
 - request the required written denial;
 - preserve dates/timing.
 
-## Step 7 — request retention schedules separately
+## Step 7: request retention schedules separately
 
 Disclosure and retention remain different.
 
@@ -757,4 +757,4 @@ Those become specialized or changed-fact branches, not reasons to leave the ordi
 
 ## Historical context
 
-- *Copley Press, Inc. v. Superior Court*, 39 Cal.4th 1272 (2006) — older confidentiality regime; current §832.7(b) creates later statutory exceptions/overrides for enumerated categories.
+- *Copley Press, Inc. v. Superior Court*, 39 Cal.4th 1272 (2006), older confidentiality regime; current §832.7(b) creates later statutory exceptions/overrides for enumerated categories.

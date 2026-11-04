@@ -1,4 +1,4 @@
-# Facility Prep — Second-Site Validation Checkpoint
+# Facility Prep: Second-Site Validation Checkpoint
 
 **Facility:** Walnut Creek Library  
 **Date:** 2026-09-22  
@@ -46,7 +46,7 @@ Walnut Creek ROW research instead starts from Walnut Creek Engineering, current 
 
 ### Adjacent parcels
 
-The same GIS-intersection method returned six non-target Walnut Creek parcels. Only one — City parcel `178-300-040` at 1375 Civic Drive — was strongly tied by independent evidence to the material Library/Civic Park question.
+The same GIS-intersection method returned six non-target Walnut Creek parcels. Only one, City parcel `178-300-040` at 1375 Civic Drive, was strongly tied by independent evidence to the material Library/Civic Park question.
 
 Architecture consequence:
 

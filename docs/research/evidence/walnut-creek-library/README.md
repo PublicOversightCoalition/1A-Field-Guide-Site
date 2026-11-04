@@ -1,4 +1,4 @@
-# Walnut Creek Library — Evidence Manifest
+# Walnut Creek Library: Evidence Manifest
 
 **Facility:** Walnut Creek Library  
 **Address:** 1644 N. Broadway, Walnut Creek, CA 94596  
@@ -68,7 +68,7 @@ Contra Costa Public Works' public Recorded Maps index was queried anonymously/re
 
 ### Historical assessor references
 
-**Rancho Dolores — Book 2 Page 36**
+**Rancho Dolores, Book 2 Page 36**
 
 - `2M36`
 - entry `482387`
@@ -78,7 +78,7 @@ Contra Costa Public Works' public Recorded Maps index was queried anonymously/re
 - recorded 7/26/1909
 - `RANCHO DOLORES`
 
-**Oak Park — Book 18 Page 385**
+**Oak Park, Book 18 Page 385**
 
 - `18M385`
 - entry `128855`
@@ -191,12 +191,12 @@ Current documentary posture:
 
 | Area | Current status |
 | --- | --- |
-| Actual North Broadway municipal sidewalk / ROW | **TPF — HIGH CONFIDENCE; exact edge pending where ambiguous** |
-| Actual Lincoln Avenue municipal sidewalk / ROW | **TPF — HIGH CONFIDENCE; exact edge pending where ambiguous** |
+| Actual North Broadway municipal sidewalk / ROW | **TPF, HIGH CONFIDENCE; exact edge pending where ambiguous** |
+| Actual Lincoln Avenue municipal sidewalk / ROW | **TPF, HIGH CONFIDENCE; exact edge pending where ambiguous** |
 | Broadway–Lincoln civic plaza / Library outdoor plaza | ***Prigmore* TPF treatment strongly supported; physical verification pending** |
 | Formal Broadway entrance / immediate exterior approach | ***Prigmore* TPF treatment strongly supported; field verification pending** |
 | Civic Park entrance / connective pedestrian route | **TPF treatment strongly supported; exact line pending if material** |
-| Civic Park proper | **TPF — HIGH CONFIDENCE; ordinary park/reservation rules remain applicable** |
+| Civic Park proper | **TPF, HIGH CONFIDENCE; ordinary park/reservation rules remain applicable** |
 | Library surface lot | ***Prigmore* TPF treatment strongly supported for lawful pedestrian expressive use; safety rules remain material** |
 | Underground Library garage | **PUBLIC-ACCESS-VERIFIED / FORUM-UNRESOLVED** |
 | Garage ramps / vehicle portals | **No broad speech-zone conclusion** |
@@ -238,7 +238,7 @@ The current live policy opens the room to organizations, businesses or groups an
 
 Current forum posture:
 
-`LIMITED PUBLIC FORUM — STRONGLY SUPPORTED UNDER FAITH CENTER COMPARATOR / PRACTICE VERIFICATION PENDING`
+`LIMITED PUBLIC FORUM: STRONGLY SUPPORTED UNDER FAITH CENTER COMPARATOR / PRACTICE VERIFICATION PENDING`
 
 An older 2025-revised system Room Use PDF says both Oak View and Las Trampas arrangements are through City Facility Rentals. The current City Oak View page now expressly states that smaller rooms such as Las Trampas are reserved directly through CCCL.
 

@@ -1,4 +1,4 @@
-/* Public Beta editorial identity pass v0.3 — homepage only */
+/* Public Beta editorial identity pass v0.3: homepage only */
 
 body:has([data-motion-home]) {
   --editorial-ink: #080b0e;

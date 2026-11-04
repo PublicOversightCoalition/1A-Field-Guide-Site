@@ -1,6 +1,6 @@
-# Out-of-State Case Study — Reyes / Fahey (Connecticut)
+# Out-of-State Case Study: Reyes / Fahey (Connecticut)
 
-> **ILLUSTRATIVE ONLY — NOT CALIFORNIA AUTHORITY**
+> **ILLUSTRATIVE ONLY: NOT CALIFORNIA AUTHORITY**
 
 **Status:** Open research note; primary sentencing/protective-order documents pending  
 **Last reviewed:** September 24, 2026
@@ -27,7 +27,7 @@ That makes the matter a useful example for the Field Guide's work on:
 
 ## Core timeline presently supported
 
-### July 11, 2025 — driveway encounter
+### July 11, 2025: driveway encounter
 
 SeanPaul Reyes and cameraman Tahiem Glover went to the Groton residence of then-Connecticut State Police Sgt. Bryan Fahey while filming.
 
@@ -61,7 +61,7 @@ https://www.ctpost.com/news/article/groton-seanpaul-reyes-charges-reduced-bryan-
 
 This matters analytically because the original police narrative and charging package did not remain intact through later review.
 
-### September 3, 2026 — third-degree trespass conviction
+### September 3, 2026: third-degree trespass conviction
 
 Judge Cody N. Guarnieri found Reyes guilty of Connecticut third-degree criminal trespass.
 
@@ -107,7 +107,7 @@ https://www.ctinsider.com/connecticut/article/seanpaul-reyes-trespassing-case-fi
 
 As of this review, the project has **not independently retrieved an official Connecticut appellate docket or notice of appeal**. A specific appeal filing date should not be stated in the Field Guide until a court source or comparably reliable docket record is obtained.
 
-## Analytical lesson 1 — one event can contain separate legal acts
+## Analytical lesson 1: one event can contain separate legal acts
 
 The video may strongly prove misconduct by one participant without necessarily negating a separately completed offense by another participant.
 
@@ -135,7 +135,7 @@ That is a different evidentiary problem because the recording goes directly to t
 
 The California Field Guide should preserve this distinction.
 
-## Analytical lesson 2 — narrative cascade
+## Analytical lesson 2: narrative cascade
 
 One possible institutional failure mode is:
 
@@ -158,7 +158,7 @@ For a California facility incident, preserve the chain separately:
 
 Do not silently treat those eight items as independent corroboration if they all derive from one original assertion.
 
-## Analytical lesson 3 — objective video does not answer every legal question
+## Analytical lesson 3: objective video does not answer every legal question
 
 Video can establish facts with exceptional clarity but legal questions remain issue-specific.
 
@@ -174,7 +174,7 @@ rather than:
 
 > Who does the video make look worse overall?
 
-## Analytical lesson 4 — third-party audience conduct requires attribution discipline
+## Analytical lesson 4: third-party audience conduct requires attribution discipline
 
 At sentencing, reporting says Fahey family members described threats received from some of Reyes's followers and the effect of repeated videos concerning the family.
 
@@ -188,7 +188,7 @@ Those facts can be relevant to a sentencing/protective-order record, but the Fie
 
 Do not collapse "followers threatened us" into "the speaker threatened us" without evidence satisfying the relevant legal standard.
 
-## Analytical lesson 5 — collateral consequences can dwarf the triggering offense
+## Analytical lesson 5: collateral consequences can dwarf the triggering offense
 
 The reported sentence for the Class C misdemeanor was a suspended three-month term plus probation, while the four standing criminal protective orders reportedly extend through 2099.
 

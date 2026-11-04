@@ -11,7 +11,7 @@ status: jurisdiction-overlay
 
 California inherits the jurisdiction-neutral factual baseline in:
 
-[NC-STANDING-01 — Canonical Standing Scenario](../national-core/standing-scenario.md)
+[NC-STANDING-01, Canonical Standing Scenario](../national-core/standing-scenario.md)
 
 This page no longer defines the national facts. It maps those facts to California-specific statutes, Ninth Circuit authority, and California public-meeting/encounter branches.
 
@@ -65,12 +65,12 @@ strip the conclusion back to observable conduct and then test the actual Califor
 
 Common California branches include:
 
-- Penal Code § 415 — fighting, loud/unreasonable noise, fighting words;
-- Penal Code § 148 — resistance/delay/obstruction;
-- Penal Code §§ 602 / 602.1 — trespass/public-agency interference;
-- Penal Code § 422 — criminal threats;
-- Penal Code §§ 407–409 / 416 — assembly/dispersal;
-- Penal Code § 646.9 — stalking, when its specialized predicates are actually present;
+- Penal Code § 415, fighting, loud/unreasonable noise, fighting words;
+- Penal Code § 148, resistance/delay/obstruction;
+- Penal Code §§ 602 / 602.1, trespass/public-agency interference;
+- Penal Code § 422, criminal threats;
+- Penal Code §§ 407–409 / 416, assembly/dispersal;
+- Penal Code § 646.9, stalking, when its specialized predicates are actually present;
 - meeting-specific Government Code / Penal Code rules; and
 - a valid ordinance, regulation, or facility rule whose authority and constitutional validity must still be tested.
 
@@ -126,7 +126,7 @@ See [Police Encounters](police-encounters.md) and Sweep 014.
 
 Use:
 
-[NC-COMPLAINT-01 — Complaint-Driven Police Encounter](../national-core/complaint-driven-police-encounter.md)
+[NC-COMPLAINT-01, Complaint-Driven Police Encounter](../national-core/complaint-driven-police-encounter.md)
 
 The national scenario supplies the factual postures. California supplies:
 
@@ -157,7 +157,7 @@ Immediately available video and continuing detention remain separately analyzed 
 
 Use:
 
-[NC-VANTAGE-01 — Lawful-Vantage Observation and Recording](../national-core/lawful-vantage-observation-recording.md)
+[NC-VANTAGE-01, Lawful-Vantage Observation and Recording](../national-core/lawful-vantage-observation-recording.md)
 
 California adds:
 

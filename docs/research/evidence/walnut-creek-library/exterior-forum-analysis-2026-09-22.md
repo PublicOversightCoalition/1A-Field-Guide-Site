@@ -1,4 +1,4 @@
-# Walnut Creek Library — Exterior Forum Analysis
+# Walnut Creek Library: Exterior Forum Analysis
 
 **Facility:** Walnut Creek Library  
 **Address:** 1644 N. Broadway, Walnut Creek, California 94596  
@@ -34,8 +34,8 @@ That layout tests whether the project can apply an anchor case by **specific are
 
 Official countywide GIS returns:
 
-- APN `178-300-039` — 1644 Broadway — owner field `WALNUT CREEK CITY OF` — 2.202 acres;
-- adjoining APN `178-300-040` — 1375 Civic Drive — owner field `WALNUT CREEK CITY OF` — 7.548 acres.
+- APN `178-300-039`, 1644 Broadway, owner field `WALNUT CREEK CITY OF`, 2.202 acres;
+- adjoining APN `178-300-040`, 1375 Civic Drive, owner field `WALNUT CREEK CITY OF`, 7.548 acres.
 
 The human-reviewed assessor sheet independently labels parcels 39 and 40 `CITY OF WALNUT CREEK`.
 
@@ -64,9 +64,9 @@ https://www.walnutcreekca.gov/home/showpublisheddocument/11536/63613681962897000
 
 The current CCCL branch page identifies:
 
-- Library underground garage — 120 spaces, four-hour limit;
-- Library surface lot — 20 four-hour spaces and 10 thirty-minute spaces;
-- nearby Broadway Garage — a separate downtown garage at 1390 N. Broadway.
+- Library underground garage, 120 spaces, four-hour limit;
+- Library surface lot, 20 four-hour spaces and 10 thirty-minute spaces;
+- nearby Broadway Garage, a separate downtown garage at 1390 N. Broadway.
 
 Source:
 
@@ -89,15 +89,15 @@ Exact surveyed ROW edges at the Library remain unresolved.
 
 ### A. North Broadway municipal sidewalk / actual public-ROW component
 
-**Classification:** **TRADITIONAL PUBLIC FORUM — HIGH CONFIDENCE; EXACT EDGE PENDING WHERE AMBIGUOUS.**
+**Classification:** **TRADITIONAL PUBLIC FORUM, HIGH CONFIDENCE; EXACT EDGE PENDING WHERE AMBIGUOUS.**
 
 An actual ordinary municipal sidewalk is the paradigmatic traditional public forum under *Grace*, *Perry*, and Ninth Circuit street/sidewalk doctrine. Walnut Creek's engineering materials establish that public sidewalk/ROW is a City-managed category, while current facility evidence establishes the Library frontage on North Broadway.
 
-The unresolved question is geographic precision at any visually ambiguous transition between street ROW and Library plaza/parcel—not the doctrine applicable once the person is actually on the municipal sidewalk.
+The unresolved question is geographic precision at any visually ambiguous transition between street ROW and Library plaza/parcel, not the doctrine applicable once the person is actually on the municipal sidewalk.
 
 ### B. Lincoln Avenue municipal sidewalk / actual public-ROW component
 
-**Classification:** **TRADITIONAL PUBLIC FORUM — HIGH CONFIDENCE; EXACT EDGE PENDING WHERE AMBIGUOUS.**
+**Classification:** **TRADITIONAL PUBLIC FORUM, HIGH CONFIDENCE; EXACT EDGE PENDING WHERE AMBIGUOUS.**
 
 The same rule applies to an identified ordinary municipal sidewalk along Lincoln Avenue. Exact edge work remains available for a location-specific removal/trespass dispute.
 
@@ -137,7 +137,7 @@ The exact parcel line is not outcome-determinative for ordinary peaceful express
 
 ### F. Civic Park proper
 
-**Classification:** **TRADITIONAL PUBLIC FORUM — HIGH CONFIDENCE, SUBJECT TO ORDINARY PARK HOURS/RULES AND ANY SPECIFIC RESERVED-USE CONDITIONS.**
+**Classification:** **TRADITIONAL PUBLIC FORUM, HIGH CONFIDENCE, SUBJECT TO ORDINARY PARK HOURS/RULES AND ANY SPECIFIC RESERVED-USE CONDITIONS.**
 
 Public parks are paradigmatic traditional public forums. The Library's adjacency does not convert Civic Park into Library interior property.
 
@@ -159,7 +159,7 @@ As in Concord and *Prigmore*, parking-lot forum status does not eliminate vehicl
 
 ### H. Underground Library garage
 
-**Classification:** **FORUM CLASSIFICATION UNRESOLVED — SPECIAL-PURPOSE / NONPUBLIC-FORUM ANALOGIES MATERIAL; BROAD PUBLIC USE ALSO MATERIAL.**
+**Classification:** **FORUM CLASSIFICATION UNRESOLVED, SPECIAL-PURPOSE / NONPUBLIC-FORUM ANALOGIES MATERIAL; BROAD PUBLIC USE ALSO MATERIAL.**
 
 This is where Walnut Creek meaningfully diverges from Concord and from *Prigmore*.
 
@@ -203,12 +203,12 @@ This is a legal/methodological classification point; it does not depend on any r
 
 | Area | Principal anchor / doctrine | Current documentary posture |
 | --- | --- | --- |
-| North Broadway municipal sidewalk | *Grace* / ordinary sidewalk doctrine | **TPF — HIGH CONFIDENCE; exact edge pending** |
-| Lincoln municipal sidewalk | *Grace* / ordinary sidewalk doctrine | **TPF — HIGH CONFIDENCE; exact edge pending** |
+| North Broadway municipal sidewalk | *Grace* / ordinary sidewalk doctrine | **TPF, HIGH CONFIDENCE; exact edge pending** |
+| Lincoln municipal sidewalk | *Grace* / ordinary sidewalk doctrine | **TPF, HIGH CONFIDENCE; exact edge pending** |
 | Broadway–Lincoln civic plaza | *Prigmore* + civic-plaza facts | **TPF TREATMENT STRONGLY SUPPORTED** |
 | Formal Broadway entrance | *Prigmore* | **TPF TREATMENT STRONGLY SUPPORTED** |
 | Civic Park entrance/connective path | *Prigmore* + park doctrine | **TPF TREATMENT STRONGLY SUPPORTED** |
-| Civic Park proper | *Perry* / park tradition | **TPF — HIGH CONFIDENCE** |
+| Civic Park proper | *Perry* / park tradition | **TPF, HIGH CONFIDENCE** |
 | Surface Library lot | *Prigmore* | **TPF TREATMENT STRONGLY SUPPORTED; safety limits** |
 | Underground garage | *Cornelius* / *Kokinda* / *Sammartano* cautionary comparison | **UNRESOLVED** |
 | Garage ramps/vehicle lanes | compatibility/safety | **NO BROAD SPEECH-ZONE CONCLUSION** |

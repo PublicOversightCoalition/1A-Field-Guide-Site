@@ -1,4 +1,4 @@
-# Walnut Creek Library — Assessor Map Review
+# Walnut Creek Library: Assessor Map Review
 
 **Source:** Contra Costa County Assessor Map, Book 178 Page 30  
 **Official PDF:** https://ccmap.cccounty.us/HTML5/assessorPDF/178p30x0.pdf  

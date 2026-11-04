@@ -1,12 +1,12 @@
 ---
-title: Sweep 015 — Recording-Device Seizure, Retention, Search, and Compelled Access
+title: "Sweep 015: Recording-Device Seizure, Retention, Search, and Compelled Access"
 jurisdiction: California
 research_date: 2026-09-29
 status: defined-gap-slice-reviewed
 qualification_package: GAP-05
 ---
 
-# Sweep 015 — Recording-Device Seizure, Retention, Search, and Compelled Access
+# Sweep 015: Recording-Device Seizure, Retention, Search, and Compelled Access
 
 **Qualification target:** `CA-F5.9`
 
@@ -247,7 +247,7 @@ For recording devices:
 
 > Feeling a rectangular phone during a lawful patdown ordinarily establishes that an object feels like a common lawful device. It does not by itself make the phone contraband, establish probable cause that it contains evidence, or authorize digital browsing.
 
-Different facts can matter—for example, an independently supported evidentiary nexus, a warrant, a lawful arrest, or a genuine safety concern involving a different object.
+Different facts can matter, for example, an independently supported evidentiary nexus, a warrant, a lawful arrest, or a genuine safety concern involving a different object.
 
 ---
 
@@ -277,7 +277,7 @@ separately.
 
 Status: U.S. Supreme Court.
 
-The scope of consent is measured by objective reasonableness—what the typical reasonable person would have understood from the exchange. A person can delimit the scope of consent.
+The scope of consent is measured by objective reasonableness, what the typical reasonable person would have understood from the exchange. A person can delimit the scope of consent.
 
 Source:
 https://www.law.cornell.edu/supremecourt/text/500/248
@@ -415,8 +415,8 @@ The PPA's text asks about the defined materials and a purpose to disseminate pub
 That does **not** mean every phone carried by every person automatically receives PPA protection. The dissemination purpose, material category, criminal-investigation context, and exceptions must actually fit.
 
 Persuasive outside-circuit cases can be used only as comparators:
-- *Garcia v. Montgomery County, Maryland* (D. Md. 2015) — video-card seizure from person filming police; factual PPA questions survived;
-- *Sennett v. United States*, 667 F.3d 531 (4th Cir. 2012) — independent photographer/newsgatherer and suspect-exception analysis.
+- *Garcia v. Montgomery County, Maryland* (D. Md. 2015), video-card seizure from person filming police; factual PPA questions survived;
+- *Sennett v. United States*, 667 F.3d 531 (4th Cir. 2012), independent photographer/newsgatherer and suspect-exception analysis.
 
 The statute itself is the primary authority.
 
@@ -484,7 +484,7 @@ Purpose, authority, duration, dissemination protections, and search scope remain
 
 # 18. California recording-device decision tree
 
-## Step 1 — Identify the encounter stage
+## Step 1: Identify the encounter stage
 
 Is this:
 
@@ -497,7 +497,7 @@ Is this:
 
 Do not import a parole rule into an ordinary street/public-facility encounter.
 
-## Step 2 — Identify the government act
+## Step 2: Identify the government act
 
 Is the officer:
 
@@ -513,7 +513,7 @@ Is the officer:
 
 Name the act before naming the authority.
 
-## Step 3 — Test initial physical seizure authority
+## Step 3: Test initial physical seizure authority
 
 Ask whether there is:
 
@@ -528,7 +528,7 @@ Ask whether there is:
 
 The statement "your video is evidence" is a conclusion, not the authority.
 
-## Step 4 — Test duration and diligence
+## Step 4: Test duration and diligence
 
 If police keep the device:
 
@@ -542,7 +542,7 @@ If police keep the device:
 
 Use Song Ja Cha / Dass / Sullivan rather than a fixed hour/day rule.
 
-## Step 5 — Test digital search authority separately
+## Step 5: Test digital search authority separately
 
 Riley ordinarily requires a warrant for stored contents even after lawful arrest.
 
@@ -554,13 +554,13 @@ Check:
 - valid parole/probation/special search condition;
 - another recognized exception.
 
-## Step 6 — Test frisk / physical container doctrines separately
+## Step 6: Test frisk / physical container doctrines separately
 
 A Terry frisk is for weapons. Plain feel requires immediately apparent incriminating character without exploratory manipulation.
 
 A lawful physical search of a bag/case does not itself authorize browsing the phone discovered inside it.
 
-## Step 7 — Check dissemination/news-material statutes
+## Step 7: Check dissemination/news-material statutes
 
 If the device contains material prepared/held for public dissemination:
 
@@ -568,7 +568,7 @@ If the device contains material prepared/held for public dissemination:
 - check §1524(g)/Evidence Code §1070 only if the California newsperson definitions actually fit;
 - preserve exceptions.
 
-## Step 8 — Analyze compelled access method
+## Step 8: Analyze compelled access method
 
 - physical thumb/fingerprint selected by police: Payne supplies a narrow non-testimonial rule;
 - biometric requiring user choice/cognitive act: Payne expressly leaves room for a different result;
@@ -701,6 +701,6 @@ The operational device branch is complete enough for qualification; those specia
 
 ## Nonprecedential current comparators
 
-- *Carlson v. Chavez*, No. 25-3038 (9th Cir. Sept. 9, 2026) — memorandum / not for publication
-- *Langham v. Noyd*, No. 24-7292 (9th Cir. Dec. 23, 2025) — memorandum / not for publication
-- *United States v. Sessions*, No. 21-50125 (9th Cir. Jan. 18, 2024) — memorandum / not for publication
+- *Carlson v. Chavez*, No. 25-3038 (9th Cir. Sept. 9, 2026), memorandum / not for publication
+- *Langham v. Noyd*, No. 24-7292 (9th Cir. Dec. 23, 2025), memorandum / not for publication
+- *United States v. Sessions*, No. 21-50125 (9th Cir. Jan. 18, 2024), memorandum / not for publication

@@ -16,7 +16,7 @@
       "topic": "California Speech Clause / exterior spaces"
     },
     "chp-hpm10070-ch10": {
-      "citation": "CHP HPM 100.70, ch. 10 — State Property Event Permits (2026)",
+      "citation": "CHP HPM 100.70, ch. 10, State Property Event Permits (2026)",
       "level": "AGENCY_POLICY",
       "topic": "CHP implementation of Title 13 state-property event permits, expressly including DMV field-office events"
     },
@@ -26,7 +26,7 @@
       "topic": "aggressive solicitation and location-based solicitation restrictions"
     },
     "cpd423": {
-      "citation": "Concord Police Department Policy 423 — Public Recording of Law Enforcement Activity",
+      "citation": "Concord Police Department Policy 423, Public Recording of Law Enforcement Activity",
       "level": "AGENCY_POLICY",
       "topic": "recording officers"
     },
@@ -136,7 +136,7 @@
       "topic": "charitable solicitation is protected speech subject to constitutionally adequate regulation"
     },
     "scl8001": {
-      "citation": "Sonoma County Library Policy 8001 — Photography and Filming (effective February 4, 2026)",
+      "citation": "Sonoma County Library Policy 8001, Photography and Filming (effective February 4, 2026)",
       "level": "AGENCY_POLICY",
       "topic": "Library interior/exterior filming conditions; validity not inferred from adoption"
     },
@@ -1408,7 +1408,7 @@
             "confidence": "HIGH",
             "note": "Ordinary municipal sidewalk doctrine applies to the defined street-side sidewalk, once distinguished from a purpose-built facility approach."
           },
-          "name": "Grove Street ordinary municipal sidewalk — exact strip pending",
+          "name": "Grove Street ordinary municipal sidewalk, exact strip pending",
           "notes": "No survey-grade boundary or right-of-way edge is established. This row defines the ordinary municipal sidewalk category, not an unmapped forecourt, driveway, or parking area.",
           "recording": {
             "status": "SEPARATE_ANALYSIS",
@@ -1470,7 +1470,7 @@
             "confidence": "HIGH",
             "note": "The classification is limited to a council meeting opened to public participation under Norse; it is not a room-wide or all-hours designation."
           },
-          "name": "Council chamber — covered open meeting / public-participation channel",
+          "name": "Council chamber, covered open meeting / public-participation channel",
           "recording": {
             "status": "STRONG_ACTIVITY_PROTECTION",
             "summary": "Government Code §54953.5 protects recording of covered open meetings subject to its persistent-disruption standard. Check the actual meeting agenda and current local procedures."
@@ -1612,7 +1612,7 @@
             "confidence": "HIGH",
             "note": "Ordinary municipal sidewalk doctrine applies to the defined street-side sidewalk, once distinguished from a purpose-built facility approach."
           },
-          "name": "Piper Street ordinary municipal sidewalk — exact strip pending",
+          "name": "Piper Street ordinary municipal sidewalk, exact strip pending",
           "notes": "No survey-grade boundary or right-of-way edge is established. This row defines the ordinary municipal sidewalk category, not an unmapped forecourt, driveway, or parking area.",
           "recording": {
             "status": "SEPARATE_ANALYSIS",
@@ -1622,7 +1622,7 @@
             {
               "activity": "RECORDING",
               "constitutional_test": "Apply the Active California framework to the actual rule, defined area, activity, and enforcement facts; publication alone does not establish validity.",
-              "rule_source": "https://www.sonomalibrary.org/sites/default/files/attachments/governance/policies/Policy_8001_Photography_and_Filming_Policy_Approved_2.4.26.pdf — Policy 8001, §§III.A–B and III.C(iv)",
+              "rule_source": "https://www.sonomalibrary.org/sites/default/files/attachments/governance/policies/Policy_8001_Photography_and_Filming_Policy_Approved_2.4.26.pdf, Policy 8001, §§III.A–B and III.C(iv)",
               "status": "RULE_LOCATED_UNTESTED",
               "summary": "The policy addresses interior and exterior filming, objections by subjects, operational interference, meeting-room filming, and advance authorization for professional/commercial projects. Its scope and constitutional validity are not presumed from adoption."
             }
@@ -1651,7 +1651,7 @@
             {
               "activity": "RECORDING",
               "constitutional_test": "Apply the Active California framework to the actual rule, defined area, activity, and enforcement facts; publication alone does not establish validity.",
-              "rule_source": "https://www.sonomalibrary.org/sites/default/files/attachments/governance/policies/Policy_8001_Photography_and_Filming_Policy_Approved_2.4.26.pdf — Policy 8001, §§III.A–B and III.C(iv)",
+              "rule_source": "https://www.sonomalibrary.org/sites/default/files/attachments/governance/policies/Policy_8001_Photography_and_Filming_Policy_Approved_2.4.26.pdf, Policy 8001, §§III.A–B and III.C(iv)",
               "status": "RULE_LOCATED_UNTESTED",
               "summary": "The policy addresses interior and exterior filming, objections by subjects, operational interference, meeting-room filming, and advance authorization for professional/commercial projects. Its scope and constitutional validity are not presumed from adoption."
             }
@@ -1685,7 +1685,7 @@
             {
               "activity": "RECORDING",
               "constitutional_test": "Apply the Active California framework to the actual rule, defined area, activity, and enforcement facts; publication alone does not establish validity.",
-              "rule_source": "https://www.sonomalibrary.org/sites/default/files/attachments/governance/policies/Policy_8001_Photography_and_Filming_Policy_Approved_2.4.26.pdf — Policy 8001, §§III.A–B and III.C(iv)",
+              "rule_source": "https://www.sonomalibrary.org/sites/default/files/attachments/governance/policies/Policy_8001_Photography_and_Filming_Policy_Approved_2.4.26.pdf, Policy 8001, §§III.A–B and III.C(iv)",
               "status": "RULE_LOCATED_UNTESTED",
               "summary": "The policy addresses interior and exterior filming, objections by subjects, operational interference, meeting-room filming, and advance authorization for professional/commercial projects. Its scope and constitutional validity are not presumed from adoption."
             }
@@ -1706,7 +1706,7 @@
             "confidence": "NONE",
             "note": "The branch advertises meeting-room requests, but current eligibility, permitted subjects, reservation terms, and actual practice have not been reviewed."
           },
-          "name": "Reservable meeting room — actual opened channel pending",
+          "name": "Reservable meeting room, actual opened channel pending",
           "recording": {
             "status": "ACTIVITY_SPECIFIC_RULE",
             "summary": "Policy 8001 separately addresses filming by meeting-room groups. Obtain the reservation terms before defining the complete forum or recording result."
@@ -1715,7 +1715,7 @@
             {
               "activity": "RECORDING",
               "constitutional_test": "Apply the Active California framework to the actual rule, defined area, activity, and enforcement facts; publication alone does not establish validity.",
-              "rule_source": "https://www.sonomalibrary.org/sites/default/files/attachments/governance/policies/Policy_8001_Photography_and_Filming_Policy_Approved_2.4.26.pdf — Policy 8001, §§III.A–B and III.C(iv)",
+              "rule_source": "https://www.sonomalibrary.org/sites/default/files/attachments/governance/policies/Policy_8001_Photography_and_Filming_Policy_Approved_2.4.26.pdf, Policy 8001, §§III.A–B and III.C(iv)",
               "status": "RULE_LOCATED_UNTESTED",
               "summary": "The policy addresses interior and exterior filming, objections by subjects, operational interference, meeting-room filming, and advance authorization for professional/commercial projects. Its scope and constitutional validity are not presumed from adoption."
             }
@@ -1817,14 +1817,14 @@
             {
               "activity": "ASSEMBLY_DEMONSTRATION",
               "constitutional_test": "Apply the Active California framework to the actual rule, defined area, activity, and enforcement facts; publication alone does not establish validity.",
-              "rule_source": "https://healdsburg.gov/DocumentCenter/View/17222 — Resolution 116-2023, Exhibit A",
+              "rule_source": "https://healdsburg.gov/DocumentCenter/View/17222, Resolution 116-2023, Exhibit A",
               "status": "RULE_LOCATED_UNTESTED",
               "summary": "The City requires a permit for Plaza performances, with advance application, time, location, frequency, and conduct conditions. The definition of performance and application to ordinary spontaneous expression require review."
             },
             {
               "activity": "RECORDING",
               "constitutional_test": "Apply the Active California framework to the actual rule, defined area, activity, and enforcement facts; publication alone does not establish validity.",
-              "rule_source": "https://healdsburg.gov/DocumentCenter/View/17222 — Exhibit A §3.8.7",
+              "rule_source": "https://healdsburg.gov/DocumentCenter/View/17222, Exhibit A §3.8.7",
               "status": "RULE_LOCATED_UNTESTED",
               "summary": "Performance permit holders are directed not to create commercial recordings without a Healdsburg Film Permit. Whether a separate film policy governs an ordinary visitor, and its scope and validity, remain unresolved."
             }
@@ -1855,14 +1855,14 @@
             {
               "activity": "ASSEMBLY_DEMONSTRATION",
               "constitutional_test": "Apply the Active California framework to the actual rule, defined area, activity, and enforcement facts; publication alone does not establish validity.",
-              "rule_source": "https://healdsburg.gov/DocumentCenter/View/17222 — Resolution 116-2023, Exhibit A",
+              "rule_source": "https://healdsburg.gov/DocumentCenter/View/17222, Resolution 116-2023, Exhibit A",
               "status": "RULE_LOCATED_UNTESTED",
               "summary": "The City requires a permit for Plaza performances, with advance application, time, location, frequency, and conduct conditions. The definition of performance and application to ordinary spontaneous expression require review."
             },
             {
               "activity": "RECORDING",
               "constitutional_test": "Apply the Active California framework to the actual rule, defined area, activity, and enforcement facts; publication alone does not establish validity.",
-              "rule_source": "https://healdsburg.gov/DocumentCenter/View/17222 — Exhibit A §3.8.7",
+              "rule_source": "https://healdsburg.gov/DocumentCenter/View/17222, Exhibit A §3.8.7",
               "status": "RULE_LOCATED_UNTESTED",
               "summary": "Performance permit holders are directed not to create commercial recordings without a Healdsburg Film Permit. Whether a separate film policy governs an ordinary visitor, and its scope and validity, remain unresolved."
             }
@@ -1884,7 +1884,7 @@
             "confidence": "HIGH",
             "note": "Ordinary municipal sidewalk doctrine applies to the defined street-side sidewalk, once distinguished from a purpose-built facility approach."
           },
-          "name": "Surrounding street-side ordinary municipal sidewalk — exact strip pending",
+          "name": "Surrounding street-side ordinary municipal sidewalk, exact strip pending",
           "notes": "No survey-grade boundary or right-of-way edge is established. This row defines the ordinary municipal sidewalk category, not an unmapped forecourt, driveway, or parking area.",
           "recording": {
             "status": "SEPARATE_ANALYSIS",
@@ -1985,7 +1985,7 @@
             "confidence": "HIGH",
             "note": "Ordinary municipal sidewalk doctrine applies to the defined street-side sidewalk, once distinguished from a purpose-built facility approach."
           },
-          "name": "Center Street ordinary municipal sidewalk — exact strip pending",
+          "name": "Center Street ordinary municipal sidewalk, exact strip pending",
           "notes": "No survey-grade boundary or right-of-way edge is established. This row defines the ordinary municipal sidewalk category, not an unmapped forecourt, driveway, or parking area.",
           "recording": {
             "status": "SEPARATE_ANALYSIS",
@@ -2022,7 +2022,7 @@
             {
               "activity": "RECORDING",
               "constitutional_test": "Apply the Active California framework to the actual rule, defined area, activity, and enforcement facts; publication alone does not establish validity.",
-              "rule_source": "https://healdsburg.gov/DocumentCenter/View/11325/Healdsburg_PD_Policy_Manual — Policy 463, pp. 374–376",
+              "rule_source": "https://healdsburg.gov/DocumentCenter/View/11325/Healdsburg_PD_Policy_Manual, Policy 463, pp. 374–376",
               "status": "RULE_LOCATED_UNTESTED",
               "summary": "HPD recognizes lawful recording of law-enforcement activity and distinguishes recording from actual interference. The full implementation and any separate visitor rule remain to be tested; this policy does not establish a building-wide camera ban."
             }
@@ -2055,7 +2055,7 @@
             {
               "activity": "RECORDING",
               "constitutional_test": "Apply the Active California framework to the actual rule, defined area, activity, and enforcement facts; publication alone does not establish validity.",
-              "rule_source": "https://healdsburg.gov/DocumentCenter/View/11325/Healdsburg_PD_Policy_Manual — Policy 463, pp. 374–376",
+              "rule_source": "https://healdsburg.gov/DocumentCenter/View/11325/Healdsburg_PD_Policy_Manual, Policy 463, pp. 374–376",
               "status": "RULE_LOCATED_UNTESTED",
               "summary": "HPD recognizes lawful recording of law-enforcement activity and distinguishes recording from actual interference. The full implementation and any separate visitor rule remain to be tested; this policy does not establish a building-wide camera ban."
             }
@@ -2088,7 +2088,7 @@
             {
               "activity": "RECORDING",
               "constitutional_test": "Apply the Active California framework to the actual rule, defined area, activity, and enforcement facts; publication alone does not establish validity.",
-              "rule_source": "https://healdsburg.gov/DocumentCenter/View/11325/Healdsburg_PD_Policy_Manual — Policy 463, pp. 374–376",
+              "rule_source": "https://healdsburg.gov/DocumentCenter/View/11325/Healdsburg_PD_Policy_Manual, Policy 463, pp. 374–376",
               "status": "RULE_LOCATED_UNTESTED",
               "summary": "HPD recognizes lawful recording of law-enforcement activity and distinguishes recording from actual interference. The full implementation and any separate visitor rule remain to be tested; this policy does not establish a building-wide camera ban."
             }

@@ -1,4 +1,4 @@
-# Sweep 002 — California Trespass and Property-Access Family
+# Sweep 002: California Trespass and Property-Access Family
 
 **Date reviewed:** September 17, 2026  
 **Status:** Primary-text sweep complete for the defined slice; first controlling-case pass completed for selected core propositions.
@@ -85,21 +85,21 @@ This is a **slice-level completeness claim only**. It is not a completed sweep o
 
 ## Controlling-case review findings
 
-### § 602(m) — occupation is nontransient and continuous
+### § 602(m): occupation is nontransient and continuous
 
-- **In re Catalano, 29 Cal.3d 1 (1981)** — binding California Supreme Court authority. The court states that the entering-and-occupying subdivision requires occupation of the property, a `nontransient, continuous type of possession`, citing *People v. Wilkinson*. The subdivision was later renumbered to current § 602(m) without substantive change to this language.
-- **Edgerly v. City & County of San Francisco, 599 F.3d 946 (9th Cir. 2010)** — published/binding Ninth Circuit authority for federal probable-cause analysis. A matter of minutes on the property did not supply probable cause for the entering-and-occupying subdivision. The court nevertheless found probable cause under § 602.8(a), illustrating why each potentially applicable subsection must be checked independently.
-- **CALCRIM No. 2931** — the Judicial Council instruction requires proof that the defendant occupied some part of the property continuously until removed.
+- **In re Catalano, 29 Cal.3d 1 (1981)**: binding California Supreme Court authority. The court states that the entering-and-occupying subdivision requires occupation of the property, a `nontransient, continuous type of possession`, citing *People v. Wilkinson*. The subdivision was later renumbered to current § 602(m) without substantive change to this language.
+- **Edgerly v. City & County of San Francisco, 599 F.3d 946 (9th Cir. 2010)**: published/binding Ninth Circuit authority for federal probable-cause analysis. A matter of minutes on the property did not supply probable cause for the entering-and-occupying subdivision. The court nevertheless found probable cause under § 602.8(a), illustrating why each potentially applicable subsection must be checked independently.
+- **CALCRIM No. 2931**: the Judicial Council instruction requires proof that the defendant occupied some part of the property continuously until removed.
 
 **Narrow doctrine-reviewed proposition:** transient or momentary presence does not satisfy § 602(m)'s occupation requirement.
 
-### § 602.1 — refusal and intentional interference are distinct
+### § 602.1: refusal and intentional interference are distinct
 
-- **Dubner v. City & County of San Francisco, 266 F.3d 959 (9th Cir. 2001)** — published Ninth Circuit decision. The court treated § 602.1 as requiring intentional interference plus refusal to leave and rejected the contention that intent to interfere could be inferred merely from refusal. The photographer/legal observer's documented conduct did not supply facts of deliberate obstruction or intimidation.
+- **Dubner v. City & County of San Francisco, 266 F.3d 959 (9th Cir. 2001)**: published Ninth Circuit decision. The court treated § 602.1 as requiring intentional interference plus refusal to leave and rejected the contention that intent to interfere could be inferred merely from refusal. The photographer/legal observer's documented conduct did not supply facts of deliberate obstruction or intimidation.
 - The wording quoted in *Dubner* was the business-establishment version of § 602.1, not today's public-agency subdivision (b). The case is therefore used as a binding probable-cause guidepost on the common § 602.1 structure, not as a complete published construction of every element of current subdivision (b).
 - **Mackey v. Meyer, 675 F. App'x 705 (9th Cir. 2017)** applied *Dubner* specifically to § 602.1(b) at a DMV and found no probable cause on the video-supported facts, but it is unpublished and is not treated as binding precedent.
 
-### § 602(o) — publication-status caution
+### § 602(o): publication-status caution
 
 The 2026 Court of Appeal opinion **People v. Hsiung** discusses § 602(o)'s constitutional savings language, but that analysis appears in **Part III**, which the court expressly excluded from publication. The California Supreme Court later denied review and a depublication request, but that does not convert the excluded Part III analysis into published precedential authority. The Field Guide therefore does not rely on that discussion as controlling law.
 
@@ -132,4 +132,4 @@ Before remaining propositions are promoted to `DOCTRINE-REVIEWED`, research must
 
 ## Next project slice
 
-After Sweep 002 is reviewed and merged, the planned next high-priority slice is **Sweep 003 — California Public Records Act / evidence preservation**, including personal-device public records, *City of San Jose v. Superior Court*, the 2026 *City of Gilroy* preservation decision, applicable retention/destruction statutes, and practical preservation/request language.
+After Sweep 002 is reviewed and merged, the planned next high-priority slice is **Sweep 003, California Public Records Act / evidence preservation**, including personal-device public records, *City of San Jose v. Superior Court*, the 2026 *City of Gilroy* preservation decision, applicable retention/destruction statutes, and practical preservation/request language.

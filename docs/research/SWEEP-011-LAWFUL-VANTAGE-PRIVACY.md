@@ -1,4 +1,4 @@
-# Sweep 011 — California Lawful Vantage, Visual Privacy, and Exposed Information
+# Sweep 011: California Lawful Vantage, Visual Privacy, and Exposed Information
 
 **Issue:** #64  
 **Package:** GAP-01  
@@ -95,7 +95,7 @@ https://law.justia.com/cases/california/supreme-court/4th/27/766.html
 
 ## California statutory findings
 
-### Civil Code § 1708.8 — physical and constructive invasion
+### Civil Code § 1708.8: physical and constructive invasion
 
 Subdivision (a) addresses knowing entry/trespass undertaken to capture a visual image, sound recording, or other physical impression of a plaintiff engaged in private, personal, or familial activity where the invasion is offensive to a reasonable person.
 
@@ -109,7 +109,7 @@ Field consequence:
 
 Do not rewrite § 1708.8(b) as a ban on ordinary camera zoom. Apply its actual statutory test.
 
-### Penal Code § 647(i) — private-property peeking posture
+### Penal Code § 647(i): private-property peeking posture
 
 Section 647(i) applies when a person, while loitering/prowling/wandering **upon the private property of another**, peeks in the door or window of an inhabited building or structure without visible or lawful business with the owner/occupant.
 
@@ -119,7 +119,7 @@ Field consequence:
 
 That does not resolve other privacy laws.
 
-### Penal Code § 647(j) — instrumentality and protected private zones
+### Penal Code § 647(j): instrumentality and protected private zones
 
 Section 647(j)(1) reaches viewing, by listed instrumentalities including cameras/mobile phones and similar devices, the interior of a bedroom, bathroom, changing/fitting/dressing/tanning room, or another area where the occupant has a reasonable expectation of privacy, with intent to invade privacy.
 
@@ -129,7 +129,7 @@ Field consequence:
 
 > A transparent barrier does not create a universal "window exception." Subject area, reasonable privacy expectation, method, and statutory intent matter.
 
-### Penal Code § 632 — confidential audio
+### Penal Code § 632: confidential audio
 
 Section 632 separately regulates electronic amplification/recording of confidential communications. Its definition excludes communications made in public gatherings, open public proceedings, and other circumstances where the parties may reasonably expect the communication may be overheard or recorded.
 
@@ -139,7 +139,7 @@ Field consequence:
 
 Section 632.7 is a distinct communications statute involving specified cellular/cordless communications and should not be silently merged into ordinary in-person § 632 analysis.
 
-### Penal Code § 502 — actual computer/system access
+### Penal Code § 502: actual computer/system access
 
 Section 502 protects computer data/systems from specified unauthorized access and defines/access-regulates conduct involving computers, systems, networks, services, programs, and data.
 
@@ -169,7 +169,7 @@ Field consequence:
 Source:
 https://scocal.stanford.edu/opinion/golden-gateway-center-v-golden-gateway-tenants-assn-32146/
 
-## Fourth Amendment window/vantage cases — analogy only
+## Fourth Amendment window/vantage cases: analogy only
 
 The following cases concern **government searches**. They are retained solely because they illustrate why vantage facts matter. They do **not** create a civilian right to photograph private property.
 
@@ -196,7 +196,7 @@ https://law.justia.com/cases/california/supreme-court/4th/23/824.html
 
 **Project rule:** never cite these Fourth Amendment cases as though they hold that a private citizen may photograph anything police could constitutionally observe.
 
-## Transparent barriers — resulting analytical rule
+## Transparent barriers: resulting analytical rule
 
 Glass, an uncovered window, or a windshield is a fact, not a conclusion.
 
@@ -211,7 +211,7 @@ Record:
 7. whether audio was captured; and
 8. whether later acquisition/use/publication raises a different legal issue.
 
-## Visible documents/screens — resulting analytical rule
+## Visible documents/screens: resulting analytical rule
 
 Do not collapse three different events:
 

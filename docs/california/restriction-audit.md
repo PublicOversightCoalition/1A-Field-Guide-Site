@@ -1,11 +1,11 @@
 ---
-title: Restriction Audit — Testing Government Rules Against the Constitution
+title: "Restriction Audit: Testing Government Rules Against the Constitution"
 jurisdiction: California / federal
 last_verified: 2026-09-29
 status: project-methodology
 ---
 
-# Restriction Audit — Testing Government Rules Against the Constitution
+# Restriction Audit: Testing Government Rules Against the Constitution
 
 This chapter implements the Field Guide's governing [Constitution First](../constitution-first.md) principle.
 
@@ -100,10 +100,10 @@ do not treat the resulting leave order as a substitute for the restriction analy
 
 Run four separate propositions:
 
-1. **Underlying restriction** — is the activity restriction valid under the applicable forum/activity/privacy/security doctrine?
-2. **Exclusion authority** — what statute, regulation, order, policy authority, or property rule authorizes removal for violating that valid restriction?
-3. **Enforcement elements** — what independent elements must be satisfied before detention, citation, or arrest? For California Penal Code § 602.1(b), refusal alone does not supply intentional interference by obstruction/intimidation.
-4. **Changed facts** — did closing time, restricted-area entry, actual obstruction, a valid security condition, reentry, or another later fact independently change the result?
+1. **Underlying restriction**, is the activity restriction valid under the applicable forum/activity/privacy/security doctrine?
+2. **Exclusion authority**, what statute, regulation, order, policy authority, or property rule authorizes removal for violating that valid restriction?
+3. **Enforcement elements**, what independent elements must be satisfied before detention, citation, or arrest? For California Penal Code § 602.1(b), refusal alone does not supply intentional interference by obstruction/intimidation.
+4. **Changed facts**, did closing time, restricted-area entry, actual obstruction, a valid security condition, reentry, or another later fact independently change the result?
 
 The project records the complete chronology because a downstream `trespass` label does not retroactively validate the upstream restriction.
 
@@ -117,15 +117,15 @@ California doctrine and source trail: [Trespass and Removal from Public Agencies
 
 A restriction can be constitutionally permissible in the abstract and still lack a valid authority chain. When a facility relies on a policy, sign, directive, visitor condition, or employee order, run these propositions separately:
 
-1. **Rule-maker** — is this a state agency, general-law city, charter city, general-law county, charter county, special district, board/commission, joint-powers entity, court, department, or individual employee?
-2. **Enabling authority** — what Constitution, statute, charter, enabling act, ordinance, regulation, resolution, order, agreement, or necessarily implied power authorizes the rule?
-3. **Required adoption form** — was the restriction adopted through the legally required process? For a California state executive agency, a generally applicable rule that implements, interprets, or makes specific administered law may implicate the APA and underground-regulation doctrine. Do not automatically apply that state-APA rule to local governments.
-4. **Delegation to the actor** — even if the entity possesses the power, who may create, interpret, post, waive, or enforce the rule; order departure; or request police action?
-5. **Superior-law conflict** — does California state/local preemption, charter-city home rule, another specialized state-law rule, or federal express/field/conflict preemption displace or limit the rule?
-6. **Constitutional validity** — authorization and nonpreemption do not end the First Amendment, California Speech Clause, due-process, or other constitutional analysis.
-7. **Enforcement bridge** — identify the separate authority for removal, exclusion, citation, detention, arrest, or criminal prosecution. A policy violation does not become a crime merely because the rule is otherwise valid.
+1. **Rule-maker**, is this a state agency, general-law city, charter city, general-law county, charter county, special district, board/commission, joint-powers entity, court, department, or individual employee?
+2. **Enabling authority**, what Constitution, statute, charter, enabling act, ordinance, regulation, resolution, order, agreement, or necessarily implied power authorizes the rule?
+3. **Required adoption form**, was the restriction adopted through the legally required process? For a California state executive agency, a generally applicable rule that implements, interprets, or makes specific administered law may implicate the APA and underground-regulation doctrine. Do not automatically apply that state-APA rule to local governments.
+4. **Delegation to the actor**, even if the entity possesses the power, who may create, interpret, post, waive, or enforce the rule; order departure; or request police action?
+5. **Superior-law conflict**, does California state/local preemption, charter-city home rule, another specialized state-law rule, or federal express/field/conflict preemption displace or limit the rule?
+6. **Constitutional validity**, authorization and nonpreemption do not end the First Amendment, California Speech Clause, due-process, or other constitutional analysis.
+7. **Enforcement bridge**, identify the separate authority for removal, exclusion, citation, detention, arrest, or criminal prosecution. A policy violation does not become a crime merely because the rule is otherwise valid.
 
-California source trail: [Sweep 013 — Delegated Authority and Preemption](../research/SWEEP-013-DELEGATED-AUTHORITY-PREEMPTION.md).
+California source trail: [Sweep 013, Delegated Authority and Preemption](../research/SWEEP-013-DELEGATED-AUTHORITY-PREEMPTION.md).
 
 ---
 

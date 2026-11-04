@@ -11,7 +11,7 @@ This inventory implements D-008 and the `CountyCoverageUnit` model created for p
 
 Every county begins **Unresearched**. A county may move to **Researching** or **Established** only after local law, policy, practice, agencies/facilities, enforcement history, records practice, and other local dependencies are reconciled against the qualified California framework and receive the required human review.
 
-The stable geographic codes below are five-digit Census county GEOIDs. The inventory was verified against the U.S. Census Bureau TIGERweb **State of California Counties — Current/ACS26, data as of January 1, 2026**: https://tigerweb.geo.census.gov/tigerwebmain/Files/acs26/tigerweb_acs26_county_ca.html
+The stable geographic codes below are five-digit Census county GEOIDs. The inventory was verified against the U.S. Census Bureau TIGERweb **State of California Counties, Current/ACS26, data as of January 1, 2026**: https://tigerweb.geo.census.gov/tigerwebmain/Files/acs26/tigerweb_acs26_county_ca.html
 
 Existing pre-activation facility work does not automatically promote a county. Contra Costa began **Unresearched** at activation and moved to **Researching** only after its pilot facilities were reconciled against the Active California framework.
 
@@ -78,8 +78,8 @@ Existing pre-activation facility work does not automatically promote a county. C
 
 ## Status rule
 
-- **Unresearched** — the county exists in the inherited coverage inventory, but its local dependencies have not yet been reconciled sufficiently for a county-level research maturity claim.
-- **Researching** — county/local research is actively being reconciled under the Active California framework.
-- **Established** — the defined county/local coverage scope has completed the project's applicable review standard.
+- **Unresearched**: the county exists in the inherited coverage inventory, but its local dependencies have not yet been reconciled sufficiently for a county-level research maturity claim.
+- **Researching**: county/local research is actively being reconciled under the Active California framework.
+- **Established**: the defined county/local coverage scope has completed the project's applicable review standard.
 
 County coverage is a research/geographic index, not a claim that cities, special districts, state agencies, federal facilities, or other entities inside a county are legally subordinate to county government.

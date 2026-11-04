@@ -1,4 +1,4 @@
-# Concord DMV — Policy / Privacy Search Review
+# Concord DMV: Policy / Privacy Search Review
 
 **Reviewed:** 2026-09-22
 
@@ -11,7 +11,7 @@ Primary current sources reviewed include:
 - How Information is Protected or Disclosed: https://www.dmv.ca.gov/portal/privacy-and-security/how-your-information-is-shared/
 - DMV Records Requests: https://www.dmv.ca.gov/portal/customer-service/records-request/
 - DMV Conditions of Use / data-use policy: https://www.dmv.ca.gov/portal/conditions-of-use/
-- California Driver's Handbook — Testing Process: https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/the-testing-process/
+- California Driver's Handbook, Testing Process: https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/the-testing-process/
 
 Targeted searches were also run against current DMV public-facing material for combinations of photography, videography, filming, camera, recording, cell-phone, field-office, testing, examination, and patron/customer rules.
 

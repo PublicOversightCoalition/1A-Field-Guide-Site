@@ -7,7 +7,7 @@ status: doctrine-reviewed-in-part
 
 # Lawful Vantage, Public View, and California Privacy Boundaries
 
-This chapter is the California overlay for national-core scenario **NC-VANTAGE-01 — Lawful-Vantage Observation and Recording / Matters Exposed to Public View**.
+This chapter is the California overlay for national-core scenario **NC-VANTAGE-01, Lawful-Vantage Observation and Recording / Matters Exposed to Public View**.
 
 It answers a recurring question:
 
@@ -138,7 +138,7 @@ https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&
 
 ## Penal Code § 647(j)(1)
 
-Section 647(j)(1) separately reaches viewing by specified instrumentalities—including cameras, mobile phones, binoculars, and similar devices—into:
+Section 647(j)(1) separately reaches viewing by specified instrumentalities, including cameras, mobile phones, binoculars, and similar devices, into:
 
 - a bedroom;
 - bathroom;
@@ -189,11 +189,11 @@ https://law.justia.com/cases/california/supreme-court/4th/23/824.html
 
 # 7. Physical intrusion and device-assisted constructive intrusion
 
-## Civil Code § 1708.8(a) — physical invasion
+## Civil Code § 1708.8(a): physical invasion
 
 Section 1708.8(a) creates civil liability when a person knowingly enters another's land/airspace without permission or otherwise trespasses **in order to capture** a visual image, sound recording, or other physical impression of the plaintiff engaged in private, personal, or familial activity, when the statutory offensiveness requirement is met.
 
-## Civil Code § 1708.8(b) — constructive invasion
+## Civil Code § 1708.8(b): constructive invasion
 
 Subdivision (b) does not require physical trespass. It addresses use of a device to offensively attempt to capture private/personal/familial activity where the image/sound/impression **could not have been achieved without trespass unless the device were used**.
 
@@ -379,7 +379,7 @@ Record:
 7. whether any independent misconduct occurred; and
 8. whether police/security later translated the objection into "trespass" or "illegal recording."
 
-If government conditions continued access on ending recording/speech/observation, also run **NC-COMPLAINT-01.M — conditional access / derivative trespass**.
+If government conditions continued access on ending recording/speech/observation, also run **NC-COMPLAINT-01.M, conditional access / derivative trespass**.
 
 That California exclusion issue is maintained separately in GAP-02; closing GAP-01 does not prejudge whether a particular "stop recording or leave" order is lawful.
 

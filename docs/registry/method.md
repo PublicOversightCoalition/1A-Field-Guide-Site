@@ -12,21 +12,21 @@ The classification is a research conclusion, not a claim that a court has adjudi
 
 Every Registry entry keeps these questions apart:
 
-1. **Forum classification** — what constitutional forum category best fits the defined area?
-2. **Activity / claimed restriction** — what protected activity is at issue, what restriction does government claim applies, and has that restriction actually been constitutionally validated?
-3. **Field verification** — is a current sign, boundary, door, counter layout, or other physical fact still worth checking?
+1. **Forum classification**, what constitutional forum category best fits the defined area?
+2. **Activity / claimed restriction**, what protected activity is at issue, what restriction does government claim applies, and has that restriction actually been constitutionally validated?
+3. **Field verification**, is a current sign, boundary, door, counter layout, or other physical fact still worth checking?
 
 A pending field check does **not** automatically downgrade a forum classification. It matters only when the missing physical fact could plausibly change the legal answer.
 
 ## Classification labels
 
-**TPF — Traditional public forum**  
+**TPF, Traditional public forum**  
 Streets, ordinary municipal sidewalks, parks, and sufficiently close analogues. Restrictions receive the highest forum scrutiny.
 
-**LPF — Limited public forum**  
+**LPF, Limited public forum**  
 Government property intentionally opened for defined speakers, subjects, or purposes. Restrictions may track the forum's purpose but must remain viewpoint neutral.
 
-**NPF — Nonpublic forum**  
+**NPF, Nonpublic forum**  
 Government property used for a governmental purpose and not opened for public discourse. Restrictions still must satisfy the applicable reasonableness and viewpoint-neutrality rules.
 
 **NOT PUBLICLY ACCESSIBLE**  
@@ -66,15 +66,15 @@ A sign, policy, statute, ordinance, contract term, employee instruction, or poli
 
 Every subarea now carries at least one structured `restriction_audit`. Current statuses include:
 
-- **NO MATERIAL RESTRICTION LOCATED** — the current record does not establish a material restriction for that activity; this is not government-granted permission.
-- **RULE LOCATED UNTESTED** — the rule exists, but constitutional validity has not yet been established.
-- **CONSTITUTIONALLY SUPPORTED** — authority strongly supports the defined restriction/application.
-- **CONSTITUTIONALITY UNRESOLVED** — a real legal or factual gap prevents a responsible conclusion; unresolved is not presumed valid.
-- **FACIALLY SUSPECT** — the text itself presents a substantial constitutional problem.
-- **AS-APPLIED SUSPECT** — the text may have valid applications, but the documented enforcement appears constitutionally problematic.
-- **LIKELY INVALID** — controlling authority strongly contradicts the defined restriction/application.
-- **UPHELD BINDING** — controlling authority supports the materially same restriction/application.
-- **NOT APPLICABLE** — no public-expression restriction audit is being asserted for that row.
+- **NO MATERIAL RESTRICTION LOCATED**: the current record does not establish a material restriction for that activity; this is not government-granted permission.
+- **RULE LOCATED UNTESTED**: the rule exists, but constitutional validity has not yet been established.
+- **CONSTITUTIONALLY SUPPORTED**: authority strongly supports the defined restriction/application.
+- **CONSTITUTIONALITY UNRESOLVED**: a real legal or factual gap prevents a responsible conclusion; unresolved is not presumed valid.
+- **FACIALLY SUSPECT**: the text itself presents a substantial constitutional problem.
+- **AS-APPLIED SUSPECT**: the text may have valid applications, but the documented enforcement appears constitutionally problematic.
+- **LIKELY INVALID**: controlling authority strongly contradicts the defined restriction/application.
+- **UPHELD BINDING**: controlling authority supports the materially same restriction/application.
+- **NOT APPLICABLE**: no public-expression restriction audit is being asserted for that row.
 
 The governing project principle is [Constitution First](../constitution-first.md). The detailed testing method is [Restriction Audit](../california/restriction-audit.md).
 
@@ -127,10 +127,10 @@ A facility can therefore show, for example:
 
 The current scoped signal values are:
 
-- **NONE** — a completed review located no material rights-risk in the stated scope and period; absence of a signal is not the same as NONE.
-- **POSSIBLE** — a concrete issue exists, but the present evidence does not yet document the relevant enforcement or chilling event.
-- **DOCUMENTED** — reliable evidence documents a material warning, coercive action, enforcement event, or chilling/compliance event involving protected or potentially protected activity. This does **not** mean a court found the government action unlawful.
-- **ADJUDICATED** — a court or competent tribunal actually held the relevant challenged policy or enforcement unlawful on the represented issue.
+- **NONE**: a completed review located no material rights-risk in the stated scope and period; absence of a signal is not the same as NONE.
+- **POSSIBLE**: a concrete issue exists, but the present evidence does not yet document the relevant enforcement or chilling event.
+- **DOCUMENTED**: reliable evidence documents a material warning, coercive action, enforcement event, or chilling/compliance event involving protected or potentially protected activity. This does **not** mean a court found the government action unlawful.
+- **ADJUDICATED**: a court or competent tribunal actually held the relevant challenged policy or enforcement unlawful on the represented issue.
 
 Historical events also carry a date-sensitive legal assessment so the Registry does not judge old conduct solely by later law.
 

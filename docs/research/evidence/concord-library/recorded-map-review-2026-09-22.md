@@ -1,4 +1,4 @@
-# Concord Library — Recorded Map Review
+# Concord Library: Recorded Map Review
 
 **Facility:** Concord Library  
 **Address:** 2900 Salvio Street, Concord, California 94519  

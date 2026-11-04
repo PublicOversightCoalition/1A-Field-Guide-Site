@@ -55,7 +55,7 @@ No row was changed merely to reduce the Gap count during this review.
 
 # 2. Four Researched-Unresolved rows re-reviewed
 
-## CA-F4.5 — current remain/leave/reentry/prospective exclusion posture
+## CA-F4.5: current remain/leave/reentry/prospective exclusion posture
 
 **Status retained: Researched-Unresolved.**
 
@@ -72,7 +72,7 @@ https://law.justia.com/cases/california/court-of-appeal/2026/a169697m.html
 
 No promotion to Supported and no new Gap is warranted.
 
-## CA-F5.8 — identification request versus legal duty
+## CA-F5.8: identification request versus legal duty
 
 **Status retained: Researched-Unresolved.**
 
@@ -90,7 +90,7 @@ The review does not convert a qualified-immunity holding into a substantive stat
 
 No promotion to Supported and no new Gap is warranted.
 
-## NC-COMPLAINT-01.D — prospective notice / identification
+## NC-COMPLAINT-01.D: prospective notice / identification
 
 **Status retained: Researched-Unresolved.**
 
@@ -99,11 +99,11 @@ This branch combines the two genuine California edges above:
 - individualized prior-ban effect under § 602(o); and
 - general otherwise-lawful-detention affirmative-ID duty.
 
-The surrounding decision tree—never entered, entered-and-left, currently remains, prospective notice, reentry, officer reliance, false identity, citation/booking—is supported.
+The surrounding decision tree, never entered, entered-and-left, currently remains, prospective notice, reentry, officer reliance, false identity, citation/booking, is supported.
 
 No promotion to Supported and no new Gap is warranted.
 
-## NC-COMPLAINT-01.I — offered but unreviewed exculpatory recording
+## NC-COMPLAINT-01.I: offered but unreviewed exculpatory recording
 
 **Status retained: Researched-Unresolved.**
 
@@ -218,12 +218,12 @@ The following distinctions remain explicit:
 
 Examples correctly limited in the corpus include:
 
-- *Mackey v. Meyer* — unpublished/nonprecedential DMV comparator;
-- *Carlson*, *Langham*, *Sessions* — unpublished device-retention comparators;
-- *Wilson* — N.D. Cal. pleading-stage comparator;
-- *Han*, *Garcia*, *James* — district-court comparators in the § 602(o) access branch;
-- *Index Newspapers* — limited preliminary-injunction/stay posture;
-- *Vanegas* — qualified-immunity holding does not settle substantive § 148 ID law.
+- *Mackey v. Meyer*, unpublished/nonprecedential DMV comparator;
+- *Carlson*, *Langham*, *Sessions*, unpublished device-retention comparators;
+- *Wilson*, N.D. Cal. pleading-stage comparator;
+- *Han*, *Garcia*, *James*, district-court comparators in the § 602(o) access branch;
+- *Index Newspapers*, limited preliminary-injunction/stay posture;
+- *Vanegas*, qualified-immunity holding does not settle substantive § 148 ID law.
 
 No supported matrix row was found to depend solely on a nonprecedential comparator.
 
@@ -300,13 +300,13 @@ No correction required a Supported row to be demoted.
 
 # 8. Gate dispositions after adversarial review
 
-## CA-GATE-01 — canonical families mapped
+## CA-GATE-01: canonical families mapped
 
 **Met.**
 
 All 73 current rows are present in both the matrix and evidence map with no mismatches.
 
-## CA-GATE-02 — every material branch has an approved qualification status
+## CA-GATE-02: every material branch has an approved qualification status
 
 **Substantively met, subject to CA-GATE-09 human provenance.**
 
@@ -314,37 +314,37 @@ Every material branch is now classified as Supported or Researched-Unresolved af
 
 CA-GATE-09 remains the separate control for independent qualified human review or a documented Founder/bootstrap exception. This review does not impersonate that reviewer.
 
-## CA-GATE-03 — no material activation-blocking Gap
+## CA-GATE-03: no material activation-blocking Gap
 
 **Met.**
 
 No new Gap was found.
 
-## CA-GATE-04 — current verification
+## CA-GATE-04: current verification
 
 **Met for the ordinary qualification scope.**
 
 Gap packages were freshly verified on September 28–29, 2026, and the final adversarial pass rechecked current high-risk statutes/cases. Specialized future branches remain labeled as such.
 
-## CA-GATE-05 — authority hierarchy
+## CA-GATE-05: authority hierarchy
 
 **Met.**
 
 Binding, persuasive, unpublished, district-court, out-of-circuit, QI, and limited procedural postures remain distinguished.
 
-## CA-GATE-06 — contrary authority / limitations
+## CA-GATE-06: contrary authority / limitations
 
 **Met.**
 
 The four RU rows remain visible; contrary district treatments and posture limitations are preserved rather than resolved in the project's preferred direction.
 
-## CA-GATE-07 — policy versus constitutional validity
+## CA-GATE-07: policy versus constitutional validity
 
 **Met.**
 
 The authority/delegation/preemption/constitutional/enforcement chain remains mandatory for local/facility restrictions.
 
-## CA-GATE-08 — neutral standing baseline
+## CA-GATE-08: neutral standing baseline
 
 **Met.**
 
@@ -358,8 +358,8 @@ After this review, the substantive/legal qualification controls are complete.
 
 Still open:
 
-- **CA-GATE-09** — independent qualified human review, or documented Founder/bootstrap exception if no such reviewer is reasonably available;
-- **CA-GATE-10** — deliberate authorized human activation decision.
+- **CA-GATE-09**: independent qualified human review, or documented Founder/bootstrap exception if no such reviewer is reasonably available;
+- **CA-GATE-10**: deliberate authorized human activation decision.
 
 If the bootstrap route is used, the record still must document:
 

@@ -24,9 +24,9 @@ City of Healdsburg Community Services · `CA-097-F0004`
 | --- | --- | --- | --- | --- |
 | Ordinary public park lawns / paths / gathering space | **TPF** | **TPF** | **HIGH** | TPF protection does not alone resolve recording, valid conduct limits, or commercial-permit scope. |
 | Gazebo / performance channel while ordinary park remains open | **TPF** | **TPF** | **HIGH** | Resolution 116-2023 §3.8.7 attaches a commercial-recording condition to performance permits. |
-| Surrounding street-side ordinary municipal sidewalk — exact strip pending | **TPF** | **TPF** | **HIGH** | Forum protection and recording analysis remain separate. Identify the lawful street-side vantage before extending this row to a particular position. |
+| Surrounding street-side ordinary municipal sidewalk, exact strip pending | **TPF** | **TPF** | **HIGH** | Forum protection and recording analysis remain separate. Identify the lawful street-side vantage before extending this row to a particular position. |
 
-## Constitution First — restriction audit
+## Constitution First: restriction audit
 
 A rule listed below is a **claimed restriction**, not a concession that the rule is constitutional. The status records how far the project has actually tested it.
 
@@ -36,7 +36,7 @@ A rule listed below is a **claimed restriction**, not a concession that the rule
 | Ordinary public park lawns / paths / gathering space | Recording | **RULE LOCATED UNTESTED** | Performance permit holders are directed not to create commercial recordings without a Healdsburg Film Permit. Whether a separate film policy governs an ordinary visitor, and its scope and validity, remain unresolved. |
 | Gazebo / performance channel while ordinary park remains open | Assembly Demonstration | **RULE LOCATED UNTESTED** | The City requires a permit for Plaza performances, with advance application, time, location, frequency, and conduct conditions. The definition of performance and application to ordinary spontaneous expression require review. |
 | Gazebo / performance channel while ordinary park remains open | Recording | **RULE LOCATED UNTESTED** | Performance permit holders are directed not to create commercial recordings without a Healdsburg Film Permit. Whether a separate film policy governs an ordinary visitor, and its scope and validity, remain unresolved. |
-| Surrounding street-side ordinary municipal sidewalk — exact strip pending | Recording | **NO MATERIAL RESTRICTION LOCATED** | This limited baseline has not established a material restriction for this activity. The local-rule and enforcement sweep is incomplete; this status is not clearance or a finding that no restriction exists. |
+| Surrounding street-side ordinary municipal sidewalk, exact strip pending | Recording | **NO MATERIAL RESTRICTION LOCATED** | This limited baseline has not established a material restriction for this activity. The local-rule and enforcement sweep is incomplete; this status is not clearance or a finding that no restriction exists. |
 
 ## Recording posture
 
@@ -61,8 +61,8 @@ Ordinary public-place recording and the conditions attached to a performance per
 
 ### Key authorities
 
-- **United States v. Grace, 461 U.S. 171 (1983)** — ordinary public sidewalks
-- **Perry Education Association v. Perry Local Educators’ Association, 460 U.S. 37, 45–46 (1983)** — traditional public parks and public-forum framework
+- **United States v. Grace, 461 U.S. 171 (1983)**: ordinary public sidewalks
+- **Perry Education Association v. Perry Local Educators’ Association, 460 U.S. 37, 45–46 (1983)**: traditional public parks and public-forum framework
 
 ## Data record
 

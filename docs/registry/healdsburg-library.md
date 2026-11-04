@@ -22,21 +22,21 @@ Sonoma County Library · `CA-097-F0003`
 
 | Area | Federal classification | California classification | Confidence | Recording / practical note |
 | --- | --- | --- | --- | --- |
-| Piper Street ordinary municipal sidewalk — exact strip pending | **TPF** | **TPF** | **HIGH** | Forum protection and recording analysis remain separate. Identify the lawful street-side vantage before extending this row to a particular position. |
-| Library entrance approach / exterior grounds / parking | **UNRESOLVED** | **UNRESOLVED** | **—** | Area-specific recording and access facts remain to be established. |
+| Piper Street ordinary municipal sidewalk, exact strip pending | **TPF** | **TPF** | **HIGH** | Forum protection and recording analysis remain separate. Identify the lawful street-side vantage before extending this row to a particular position. |
+| Library entrance approach / exterior grounds / parking | **UNRESOLVED** | **UNRESOLVED** | Not listed | Area-specific recording and access facts remain to be established. |
 | Ordinary interior for library-purpose activity during service hours | **LPF** | **UNRESOLVED** | **HIGH** | Policy 8001 supplies actual interior filming conditions; the existence of those rules does not establish validity. |
-| Reservable meeting room — actual opened channel pending | **UNRESOLVED** | **UNRESOLVED** | **—** | Policy 8001 separately addresses filming by meeting-room groups. Obtain the reservation terms before defining the complete forum or recording result. |
+| Reservable meeting room, actual opened channel pending | **UNRESOLVED** | **UNRESOLVED** | Not listed | Policy 8001 separately addresses filming by meeting-room groups. Obtain the reservation terms before defining the complete forum or recording result. |
 
-## Constitution First — restriction audit
+## Constitution First: restriction audit
 
 A rule listed below is a **claimed restriction**, not a concession that the rule is constitutional. The status records how far the project has actually tested it.
 
 | Area | Activity | Restriction status | Current constitutional posture |
 | --- | --- | --- | --- |
-| Piper Street ordinary municipal sidewalk — exact strip pending | Recording | **RULE LOCATED UNTESTED** | The policy addresses interior and exterior filming, objections by subjects, operational interference, meeting-room filming, and advance authorization for professional/commercial projects. Its scope and constitutional validity are not presumed from adoption. |
+| Piper Street ordinary municipal sidewalk, exact strip pending | Recording | **RULE LOCATED UNTESTED** | The policy addresses interior and exterior filming, objections by subjects, operational interference, meeting-room filming, and advance authorization for professional/commercial projects. Its scope and constitutional validity are not presumed from adoption. |
 | Library entrance approach / exterior grounds / parking | Recording | **RULE LOCATED UNTESTED** | The policy addresses interior and exterior filming, objections by subjects, operational interference, meeting-room filming, and advance authorization for professional/commercial projects. Its scope and constitutional validity are not presumed from adoption. |
 | Ordinary interior for library-purpose activity during service hours | Recording | **RULE LOCATED UNTESTED** | The policy addresses interior and exterior filming, objections by subjects, operational interference, meeting-room filming, and advance authorization for professional/commercial projects. Its scope and constitutional validity are not presumed from adoption. |
-| Reservable meeting room — actual opened channel pending | Recording | **RULE LOCATED UNTESTED** | The policy addresses interior and exterior filming, objections by subjects, operational interference, meeting-room filming, and advance authorization for professional/commercial projects. Its scope and constitutional validity are not presumed from adoption. |
+| Reservable meeting room, actual opened channel pending | Recording | **RULE LOCATED UNTESTED** | The policy addresses interior and exterior filming, objections by subjects, operational interference, meeting-room filming, and advance authorization for professional/commercial projects. Its scope and constitutional validity are not presumed from adoption. |
 
 ## Recording posture
 
@@ -61,10 +61,10 @@ Policy 8001, effective February 4, 2026, permits casual amateur filming with con
 
 ### Key authorities
 
-- **United States v. Grace, 461 U.S. 171 (1983)** — ordinary public sidewalks
-- **Kreimer v. Bureau of Police, 958 F.2d 1242 (3d Cir. 1992)** — ordinary library interior
-- **Neinast v. Board of Trustees, 346 F.3d 585 (6th Cir. 2003)** — ordinary library interior
-- **Sonoma County Library Policy 8001 — Photography and Filming (effective February 4, 2026)** — Library interior/exterior filming conditions; validity not inferred from adoption
+- **United States v. Grace, 461 U.S. 171 (1983)**: ordinary public sidewalks
+- **Kreimer v. Bureau of Police, 958 F.2d 1242 (3d Cir. 1992)**: ordinary library interior
+- **Neinast v. Board of Trustees, 346 F.3d 585 (6th Cir. 2003)**: ordinary library interior
+- **Sonoma County Library Policy 8001: Photography and Filming (effective February 4, 2026)**: Library interior/exterior filming conditions; validity not inferred from adoption
 
 ## Data record
 

@@ -8,9 +8,9 @@ Government ownership, a posted rule, or an agency's own forum label does not by 
 
 The project distinguishes three different forms of authority:
 
-1. **Judicial determination** — a court has classified the actual space or a materially identical forum.
-2. **Agency position** — the government has formally described the space, its purpose, or the expressive uses it permits or restricts.
-3. **Field Guide determination** — the project's legal assessment from controlling/analogous authority plus documented site facts.
+1. **Judicial determination**, a court has classified the actual space or a materially identical forum.
+2. **Agency position**, the government has formally described the space, its purpose, or the expressive uses it permits or restricts.
+3. **Field Guide determination**, the project's legal assessment from controlling/analogous authority plus documented site facts.
 
 An agency position is evidence. It is not a substitute for constitutional analysis.
 
@@ -57,9 +57,9 @@ These must not be collapsed. A municipal sidewalk may be a high-confidence TPF e
 
 Forum-map geometry should progress through three levels:
 
-1. **Schematic** — top-down research diagram sufficient to visualize zones, explicitly not a survey.
-2. **Evidence-aligned** — geometry traced from official site plans, parcel/ROW records, easements, or comparable authoritative mapping.
-3. **Field-hardened** — evidence-aligned geometry checked against current physical conditions/signage where boundary-dependent enforcement is plausible.
+1. **Schematic**, top-down research diagram sufficient to visualize zones, explicitly not a survey.
+2. **Evidence-aligned**, geometry traced from official site plans, parcel/ROW records, easements, or comparable authoritative mapping.
+3. **Field-hardened**, evidence-aligned geometry checked against current physical conditions/signage where boundary-dependent enforcement is plausible.
 
 The UI must always disclose the current geometry level and must not imply survey precision that the evidence does not support.
 
@@ -93,16 +93,16 @@ Submitted records follow the ordinary immutable research/review workflow. Approv
 
 `CA-013-F0002` is the first map pilot because its Registry record already has area-specific federal determinations:
 
-- North Broadway / Lincoln ordinary municipal sidewalks — **TPF / high**;
-- Broadway-Lincoln civic plaza / formal exterior approach — **TPF / high**;
-- Civic Park entrance/connective route and Civic Park — **TPF / high**;
-- library surface lot — **TPF / high**;
-- ordinary library interior — **LPF / medium**;
-- Oak View Room — **LPF / high**;
-- Las Trampas Conference Room — **LPF / high**;
-- group study rooms — **LPF / medium**;
-- underground public garage — **NPF / medium**;
-- garage circulation — **NPF / medium**;
-- cafe — **unresolved pending control/access facts**.
+- North Broadway / Lincoln ordinary municipal sidewalks, **TPF / high**;
+- Broadway-Lincoln civic plaza / formal exterior approach, **TPF / high**;
+- Civic Park entrance/connective route and Civic Park, **TPF / high**;
+- library surface lot, **TPF / high**;
+- ordinary library interior, **LPF / medium**;
+- Oak View Room, **LPF / high**;
+- Las Trampas Conference Room, **LPF / high**;
+- group study rooms, **LPF / medium**;
+- underground public garage, **NPF / medium**;
+- garage circulation, **NPF / medium**;
+- cafe, **unresolved pending control/access facts**.
 
 The initial member map is schematic. The first geometry-hardening tasks are to locate the controlling parcel/ROW/easement evidence and an official final/as-built site circulation plan, then align the SVG zones to those records.

@@ -10,7 +10,7 @@ This is the jurisdiction-level parent for California investigation files. The cr
 
 ## Active
 
-### Contra Costa County Library — Patron Incident Tracking System
+### Contra Costa County Library: Patron Incident Tracking System
 
 **Status:** ACTIVE · RECORDS PENDING  
 **Scope:** Contra Costa County Library · Concord Library · Walnut Creek Library
@@ -31,6 +31,6 @@ Agency identification policy and facility-specific research are being compared a
 
 Investigation files do not replace the handbook. They consume it.
 
-A California investigation should link to the relevant statewide doctrine — public records, recording, police encounters, public forums, trespass/removal, privacy, or meetings — and then identify the local facts, policies, records, and unresolved questions that make the investigation specific.
+A California investigation should link to the relevant statewide doctrine, public records, recording, police encounters, public forums, trespass/removal, privacy, or meetings, and then identify the local facts, policies, records, and unresolved questions that make the investigation specific.
 
 [Return to the California Field Guide](../README.md)

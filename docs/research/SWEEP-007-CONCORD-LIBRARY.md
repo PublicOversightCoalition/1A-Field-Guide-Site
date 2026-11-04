@@ -1,11 +1,11 @@
 ---
-title: Sweep 007 — Concord Library Branch
+title: "Sweep 007: Concord Library Branch"
 jurisdiction: California
 last_verified: 2026-09-22
 status: branch-research-in-progress
 ---
 
-# Sweep 007 — Concord Library Branch
+# Sweep 007: Concord Library Branch
 
 ## Scope
 
@@ -142,7 +142,7 @@ Human review confirms:
 - parcel 14 also fronts Salvio;
 - `40` dimension callouts appear on each side of the depicted Salvio centerline;
 - a `50'` callout appears near the Parkside strip;
-- the revision table includes `10/10/96 — CREATE 013 & 014`.
+- the revision table includes the 10/10/96 revision entry recording creation of parcels 013 and 014.
 
 Canonical review:
 
@@ -223,7 +223,7 @@ Prepared City Engineering target:
 
 ---
 
-# V. Exterior forum analysis — Prigmore applied
+# V. Exterior forum analysis: Prigmore applied
 
 Canonical analysis:
 
@@ -249,7 +249,7 @@ The holding is property-specific. It does not make every library exterior a trad
 
 ### 1. Salvio Street municipal sidewalk / public-ROW component
 
-**Classification: TRADITIONAL PUBLIC FORUM — HIGH CONFIDENCE, SUBJECT TO EXACT-EDGE IDENTIFICATION.**
+**Classification: TRADITIONAL PUBLIC FORUM, HIGH CONFIDENCE, SUBJECT TO EXACT-EDGE IDENTIFICATION.**
 
 The actual municipal sidewalk component is classic traditional-public-forum property. City GIS identifies the relevant Salvio segment as Concord-owned/jurisdictional with sidewalks on both sides, and City planning treats the corridor as part of the pedestrian/bicycle connection serving the Civic Center and Library.
 
@@ -257,13 +257,13 @@ The unresolved issue is the surveyed edge where public ROW transitions into faci
 
 ### 2. Parkside Drive municipal sidewalk / public-ROW component
 
-**Classification: TRADITIONAL PUBLIC FORUM — HIGH CONFIDENCE, SUBJECT TO EXACT-EDGE IDENTIFICATION.**
+**Classification: TRADITIONAL PUBLIC FORUM, HIGH CONFIDENCE, SUBJECT TO EXACT-EDGE IDENTIFICATION.**
 
 The same reasoning applies to the actual Parkside public-sidewalk/ROW component. The closest City segment is Concord-owned/jurisdictional and reports sidewalks on both sides.
 
 ### 3. Library public entrance / immediate east-side approach
 
-**Classification: TRADITIONAL PUBLIC FORUM — STRONGLY SUPPORTED UNDER PRIGMORE; FIELD/PHYSICAL VERIFICATION PENDING.**
+**Classification: TRADITIONAL PUBLIC FORUM, STRONGLY SUPPORTED UNDER PRIGMORE; FIELD/PHYSICAL VERIFICATION PENDING.**
 
 The City map marks this as the Library's **Public Entrance** and shows it integrated with public parking, a bike rack, pedestrian circulation, and adjacent Civic Center buildings. Ordinary staffed access is open to the public.
 
@@ -271,7 +271,7 @@ This is a close functional analogue to the entry/exit area in *Prigmore*. The pr
 
 ### 4. Library/Civic Center connective pedestrian walkway
 
-**Classification: TRADITIONAL PUBLIC FORUM — STRONGLY SUPPORTED; EXACT SUBAREA/FIELD CONDITIONS PENDING.**
+**Classification: TRADITIONAL PUBLIC FORUM, STRONGLY SUPPORTED; EXACT SUBAREA/FIELD CONDITIONS PENDING.**
 
 The City map depicts ordinary pedestrian circulation linking the Library public entrance, bike rack, public parking, and multiple Civic Center buildings. It appears functionally broader than a restricted employee/service path.
 
@@ -279,13 +279,13 @@ Free public access, City ownership, public-building circulation, and similarity 
 
 ### 5. Front Salvio public parking lot
 
-**Classification: TRADITIONAL PUBLIC FORUM — STRONGLY SUPPORTED UNDER PRIGMORE FOR LAWFUL PEDESTRIAN EXPRESSIVE USE; SAFETY RESTRICTIONS REMAIN MATERIAL.**
+**Classification: TRADITIONAL PUBLIC FORUM, STRONGLY SUPPORTED UNDER PRIGMORE FOR LAWFUL PEDESTRIAN EXPRESSIVE USE; SAFETY RESTRICTIONS REMAIN MATERIAL.**
 
 CCCL expressly describes the front lot as public parking serving the branch. It sits immediately at the Library/Civic Center frontage and is materially similar to the adjacent library parking lot included in the forum defined in *Prigmore*.
 
 This does not eliminate traffic, obstruction, or vehicle-safety rules. *Prigmore* itself upheld Redding's restriction on placing leaflets on vehicles in the parking lot based on the safety/property rationale before the court.
 
-Under the project's standing scenario — no blocking, interference, unsafe positioning, or occupation of vehicle travel lanes — the forum analogy is substantially stronger than for activity directed at parked vehicles or occurring in traffic lanes.
+Under the project's standing scenario, no blocking, interference, unsafe positioning, or occupation of vehicle travel lanes, the forum analogy is substantially stronger than for activity directed at parked vehicles or occurring in traffic lanes.
 
 ### 6. Rear Parkside / Civic Center public parking lot
 
@@ -345,7 +345,7 @@ The room is expressly opened as meeting space for organizations, businesses, or 
 
 *Faith Center Church Evangelistic Ministries v. Glover*, 480 F.3d 891 (9th Cir. 2007), held that the historical Antioch Library meeting room was a limited public forum. The current Concord/system written rules retain the core features relevant in *Faith Center*: defined eligible users/purposes, application and screening, fee/no-fee distinctions, and limits tied to library operations.
 
-**Policy-based classification: STRONGLY SUPPORTED — LIMITED PUBLIC FORUM.**
+**Policy-based classification: STRONGLY SUPPORTED, LIMITED PUBLIC FORUM.**
 
 This is an application of *Faith Center* methodology to current written rules, not a claim that *Faith Center* adjudicated today's Concord room. Actual practice remains a verification item.
 
@@ -353,7 +353,7 @@ This is an application of *Faith Center* methodology to current written rules, n
 
 ---
 
-# VIII. Self-Service Sundays — distinct access regime
+# VIII. Self-Service Sundays: distinct access regime
 
 Current program page:
 
@@ -395,7 +395,7 @@ No single row controls another.
 
 ---
 
-# X. Photography / recording — branch-specific finding
+# X. Photography / recording: branch-specific finding
 
 As of September 21, 2026, no dedicated current public-facing Concord-specific ordinary-patron photography/videography rule was located in the branch/system sources reviewed.
 
@@ -435,14 +435,14 @@ Observed facts must be recorded separately from legal conclusions.
 
 # XII. Research flags
 
-- [x] **AUTHORITY-UNRESOLVED** — ordinary interior recording/forum status is not resolved by current controlling authority or published branch policy.
-- [x] **PROPERTY/ROW-PARTIALLY-VERIFIED** — APNs, City owner fields, assessor map, street attributes, and historic survey chain are developed; exact modern legal edges remain unresolved.
-- [x] **EXTERIOR-FORUM-APPLICATION-COMPLETED-IN-PART** — area-specific *Prigmore* classifications are now assigned with confidence qualifiers.
-- [ ] POTENTIAL-FACIAL-CONFLICT — no branch-specific rule has yet been identified that warrants this flag.
-- [ ] POTENTIAL-AS-APPLIED-CONFLICT — no branch-specific enforcement incident has yet been documented.
-- [ ] POTENTIAL-VIEWPOINT-COMPARATOR — no comparator record yet.
-- [ ] POLICY-TO-CRIMINAL-AUTHORITY-GAP — system-level § 602 issue remains in Sweep 006, but no Concord-specific enforcement event has yet been identified.
-- [ ] SUPERSEDED-OR-REVISED — older Self-Service pilot materials are historical; current materials are used here.
+- [x] **AUTHORITY-UNRESOLVED**, ordinary interior recording/forum status is not resolved by current controlling authority or published branch policy.
+- [x] **PROPERTY/ROW-PARTIALLY-VERIFIED**, APNs, City owner fields, assessor map, street attributes, and historic survey chain are developed; exact modern legal edges remain unresolved.
+- [x] **EXTERIOR-FORUM-APPLICATION-COMPLETED-IN-PART**, area-specific *Prigmore* classifications are now assigned with confidence qualifiers.
+- [ ] POTENTIAL-FACIAL-CONFLICT, no branch-specific rule has yet been identified that warrants this flag.
+- [ ] POTENTIAL-AS-APPLIED-CONFLICT, no branch-specific enforcement incident has yet been documented.
+- [ ] POTENTIAL-VIEWPOINT-COMPARATOR, no comparator record yet.
+- [ ] POLICY-TO-CRIMINAL-AUTHORITY-GAP, system-level § 602 issue remains in Sweep 006, but no Concord-specific enforcement event has yet been identified.
+- [ ] SUPERSEDED-OR-REVISED, older Self-Service pilot materials are historical; current materials are used here.
 
 ---
 

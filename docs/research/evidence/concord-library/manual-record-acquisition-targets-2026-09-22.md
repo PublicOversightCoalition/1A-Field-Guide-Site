@@ -1,4 +1,4 @@
-# Concord Library — Manual Recorded-Instrument Acquisition Targets
+# Concord Library: Manual Recorded-Instrument Acquisition Targets
 
 **Facility:** Concord Library, 2900 Salvio Street, Concord, CA 94519  
 **Prepared:** 2026-09-22  
@@ -24,9 +24,9 @@ A resolved document ID establishes that the public index recognized the supplied
 
 If manual copies become necessary, prioritize:
 
-1. **3356 OR 502** — highest priority because it is printed directly on the current assessor parcel 06 / Library area.
-2. **636 OR 390** — high priority because it is printed on adjacent current parcel 14 / Civic Center area.
-3. **454 OR 154** — historical-chain record; useful for provenance and interpreting 7LSM51, but less likely by itself to resolve the modern 1996+ parcel/ROW configuration.
+1. **3356 OR 502**, highest priority because it is printed directly on the current assessor parcel 06 / Library area.
+2. **636 OR 390**, high priority because it is printed on adjacent current parcel 14 / Civic Center area.
+3. **454 OR 154**, historical-chain record; useful for provenance and interpreting 7LSM51, but less likely by itself to resolve the modern 1996+ parcel/ROW configuration.
 
 Ordinary research copies are sufficient unless a later legal question specifically requires a certified copy.
 

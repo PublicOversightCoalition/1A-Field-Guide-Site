@@ -1,5 +1,5 @@
 ---
-title: Complaint-Driven Police Encounter — Disputed Trespass and Immediately Available Exculpatory Evidence
+title: "Complaint-Driven Police Encounter: Disputed Trespass and Immediately Available Exculpatory Evidence"
 jurisdiction: national-core
 scenario_id: NC-COMPLAINT-01
 version: 2
@@ -7,7 +7,7 @@ last_verified: 2026-09-28
 status: canonical-development
 ---
 
-# Complaint-Driven Police Encounter — Disputed Trespass and Immediately Available Exculpatory Evidence
+# Complaint-Driven Police Encounter: Disputed Trespass and Immediately Available Exculpatory Evidence
 
 **Canonical scenario ID:** `NC-COMPLAINT-01`
 
@@ -77,7 +77,7 @@ The phrase `you have been trespassed` is too ambiguous for legal analysis.
 
 Every jurisdiction overlay must separately analyze at least these four postures.
 
-## NC-COMPLAINT-01.A — Never entered the disputed property
+## NC-COMPLAINT-01.A: Never entered the disputed property
 
 The recorder remained outside the relevant property boundary.
 
@@ -90,7 +90,7 @@ Questions:
 
 A prospective warning not to enter does not retroactively establish that a prior trespass occurred.
 
-## NC-COMPLAINT-01.B — Entered, then left when requested
+## NC-COMPLAINT-01.B: Entered, then left when requested
 
 The recorder entered an area but departed after a qualifying request to leave.
 
@@ -104,7 +104,7 @@ Questions:
 
 Leaving when asked does **not** establish a universal nationwide defense to every trespass offense. It means the jurisdiction must identify what offense, if any, was complete under its own law.
 
-## NC-COMPLAINT-01.C — Currently remains after a request to leave
+## NC-COMPLAINT-01.C: Currently remains after a request to leave
 
 The recorder is presently on the disputed property after someone has requested departure.
 
@@ -119,7 +119,7 @@ Questions:
 
 This posture creates materially different immediate risk from a person who is already off the property.
 
-## NC-COMPLAINT-01.D — Prospective no-entry notice only
+## NC-COMPLAINT-01.D: Prospective no-entry notice only
 
 The recorder is outside the property and is told not to enter or return in the future.
 
@@ -136,7 +136,7 @@ Questions:
 
 A prospective notice is not proof of a completed past trespass. The existence of a notice also does **not by itself answer** whether the recipient has a legal duty to identify; the jurisdiction must identify independent authority for any compulsory identification requirement.
 
-## NC-COMPLAINT-01.M — Conditional access / derivative trespass
+## NC-COMPLAINT-01.M: Conditional access / derivative trespass
 
 This branch applies when an otherwise lawful or arguably lawful presence becomes the subject of a removal/trespass sequence because continued access is conditioned on ceasing expressive or information-gathering activity.
 
@@ -292,7 +292,7 @@ This term does **not** mean every video is necessarily exculpatory, complete, au
 
 These circuit cases are not universally binding nationwide. They are preserved in the national core because they illuminate a recurring federal Fourth Amendment question and become binding/persuasive according to the applicable circuit.
 
-## Eighth Circuit — Kuehl v. Burtis, 173 F.3d 646 (8th Cir. 1999)
+## Eighth Circuit: Kuehl v. Burtis, 173 F.3d 646 (8th Cir. 1999)
 
 *Kuehl* states that an officer contemplating arrest is not free to disregard plainly exculpatory evidence even when incriminating evidence, standing alone, could suggest probable cause. The Eighth Circuit emphasized the totality of all information and distinguished a reasonably thorough investigation from requiring a mini-trial.
 
@@ -302,7 +302,7 @@ https://law.justia.com/cases/federal/appellate-courts/F3/173/646/548042/
 
 **Field significance:** this is one of the clearest formulations that “probable cause existed if I look only at the incriminating side” is not the complete inquiry.
 
-## Eleventh Circuit — Kingsland v. City of Miami, 382 F.3d 1220 (11th Cir. 2004)
+## Eleventh Circuit: Kingsland v. City of Miami, 382 F.3d 1220 (11th Cir. 2004)
 
 *Kingsland* explicitly distinguished the rule that officers need not independently investigate every asserted claim of innocence from the narrower problem of turning a blind eye to immediately available exculpatory information. It also rejected selective investigation as a permissible way to manufacture or preserve probable cause.
 
@@ -315,7 +315,7 @@ https://media.ca11.uscourts.gov/opinions/pub/
 
 **Field significance:** this is a particularly useful response to the overbroad slogan `police don't have to investigate your innocence`.
 
-## Tenth Circuit — Baptiste v. J.C. Penney Co., 147 F.3d 1252 (10th Cir. 1998)
+## Tenth Circuit: Baptiste v. J.C. Penney Co., 147 F.3d 1252 (10th Cir. 1998)
 
 Police responded to a shoplifting allegation, viewed surveillance footage recording the very conduct the security guards characterized as theft, and nevertheless relied on the guards' interpretation. The Tenth Circuit held the video had to be considered independently in the totality of circumstances and concluded probable cause was lacking.
 
@@ -325,7 +325,7 @@ Source:
 
 https://law.justia.com/cases/federal/appellate-courts/F3/147/1252/634968/
 
-### Later Tenth Circuit treatment — Craft v. White, No. 19-2213 (10th Cir. Jan. 14, 2021) (unpublished)
+### Later Tenth Circuit treatment: Craft v. White, No. 19-2213 (10th Cir. Jan. 14, 2021) (unpublished)
 
 In an **unpublished Order and Judgment**, the Tenth Circuit characterized the categorical video language in *Baptiste* footnote 8 as **dictum** and declined to find a clearly established duty where the officer was not at the scene, did not possess the video, and sought a warrant rather than making the same kind of immediate warrantless arrest.
 
@@ -335,7 +335,7 @@ https://www.ca10.uscourts.gov/opinion/19-2213
 
 **Field significance:** *Craft* is useful later Tenth Circuit treatment but is not a published precedential limitation on *Baptiste*. It reinforces why the national core should not misstate *Baptiste* footnote 8 as a Supreme Court rule or universal categorical duty.
 
-## Ninth Circuit — Yousefian v. City of Glendale, 779 F.3d 1010 (9th Cir. 2015)
+## Ninth Circuit: Yousefian v. City of Glendale, 779 F.3d 1010 (9th Cir. 2015)
 
 The Ninth Circuit states that an officer may not ignore exculpatory evidence that would negate probable cause. On the particular facts, however, the suspect's self-defense account did not negate probable cause because victim/witness evidence still supported the assault allegation.
 
@@ -345,7 +345,7 @@ https://cdn.ca9.uscourts.gov/datastore/opinions/2015/03/05/12-57269.pdf
 
 **Field significance:** contradictory evidence is not automatically dispositive. The question is whether the evidence actually negates or materially dissipates the basis for probable cause.
 
-## Ninth Circuit — United States v. Holcomb, No. 23-469 (9th Cir. July 17, 2026)
+## Ninth Circuit: United States v. Holcomb, No. 23-469 (9th Cir. July 17, 2026)
 
 In a search context, the Ninth Circuit held that probable cause dissipated after officers discovered and viewed video showing that the alleged crime described in the warrant almost certainly had not occurred. The opinion reiterates that officers may not disregard facts tending to dissipate probable cause.
 
@@ -481,7 +481,7 @@ The national scenario does not prescribe whether a person should physically hand
 
 The key evidence checkpoint is that the relevant recording was identified and made reasonably available, not that the person surrendered unrestricted access to the device.
 
-## Edge case — officer threatens or seeks a warrant for the recording device
+## Edge case: officer threatens or seeks a warrant for the recording device
 
 A less common variation may occur when a person identifies exculpatory video and the officer responds by threatening to seek, or stating an intent to seek, a warrant for the phone/camera instead of reviewing the specifically offered recording.
 
@@ -576,7 +576,7 @@ from:
 
 when contemporaneous video may show that those factual assertions never happened.
 
-A state false-report analysis should focus on knowingly false material facts, statutory elements, and proof of the required mental state—not merely the fact that the complainant disliked recording or reached the wrong legal conclusion.
+A state false-report analysis should focus on knowingly false material facts, statutory elements, and proof of the required mental state, not merely the fact that the complainant disliked recording or reached the wrong legal conclusion.
 
 ---
 

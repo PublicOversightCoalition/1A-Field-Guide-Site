@@ -238,7 +238,7 @@ from
 
 Those are different questions.
 
-For the broader California visual-privacy analysis—including limited-audience privacy, windows/glass, Civil Code § 1708.8, Penal Code § 647(j), exposed screens/documents, and the visual/audio distinction—see [Lawful Vantage, Public View, and California Privacy Boundaries](lawful-vantage-privacy.md).
+For the broader California visual-privacy analysis, including limited-audience privacy, windows/glass, Civil Code § 1708.8, Penal Code § 647(j), exposed screens/documents, and the visual/audio distinction, see [Lawful Vantage, Public View, and California Privacy Boundaries](lawful-vantage-privacy.md).
 
 ## 8. Public waiting areas and HIPAA
 
@@ -272,7 +272,7 @@ or
 
 The correct question is whether the covered entity used reasonable safeguards under the circumstances and whether the visitor's own conduct implicates some independent law.
 
-## 10. "HIPAA says you cannot record" — field analysis
+## 10. "HIPAA says you cannot record": field analysis
 
 If a government employee invokes HIPAA to prohibit recording in a public-access common area, preserve the statement and separate the questions.
 

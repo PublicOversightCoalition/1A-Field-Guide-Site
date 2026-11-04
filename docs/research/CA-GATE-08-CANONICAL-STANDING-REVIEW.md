@@ -6,7 +6,7 @@ status: activation-control-review
 control: CA-GATE-08
 ---
 
-# CA-GATE-08 — Canonical Standing Scenario Review
+# CA-GATE-08: Canonical Standing Scenario Review
 
 Issue: #80
 
@@ -213,8 +213,8 @@ Reason:
 
 Remaining activation controls after this change:
 
-- CA-GATE-02 — final/adversarial qualification review;
-- CA-GATE-09 — independent qualified human review or documented Founder/bootstrap exception;
-- CA-GATE-10 — authorized human activation decision.
+- CA-GATE-02, final/adversarial qualification review;
+- CA-GATE-09, independent qualified human review or documented Founder/bootstrap exception;
+- CA-GATE-10, authorized human activation decision.
 
 CA-GATE-04 through CA-GATE-07 remain provisionally supported and should be stress-tested during CA-GATE-02.

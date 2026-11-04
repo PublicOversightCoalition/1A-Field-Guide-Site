@@ -1,11 +1,11 @@
 ---
-title: Sweep 006 — Contra Costa County Public Libraries
+title: "Sweep 006: Contra Costa County Public Libraries"
 jurisdiction: California
 last_verified: 2026-09-21
 status: doctrine-reviewed-in-part
 ---
 
-# Sweep 006 — Contra Costa County Public Libraries
+# Sweep 006: Contra Costa County Public Libraries
 
 ## Scope
 
@@ -71,7 +71,7 @@ The adoption provenance matters because these are Board-approved system policies
 
 # II. The library is not one constitutional forum
 
-## Controlling Ninth Circuit anchor — Faith Center Church Evangelistic Ministries v. Glover
+## Controlling Ninth Circuit anchor: Faith Center Church Evangelistic Ministries v. Glover
 
 Authority: Faith Center Church Evangelistic Ministries v. Glover, 480 F.3d 891 (9th Cir. 2007), amended published opinion.
 
@@ -125,7 +125,7 @@ Accordingly:
 
 ---
 
-# III. California library-exterior anchor — Prigmore v. City of Redding
+# III. California library-exterior anchor: Prigmore v. City of Redding
 
 **Authority:** *Prigmore v. City of Redding*, 211 Cal.App.4th 1322, 150 Cal.Rptr.3d 647 (2012), published Third District Court of Appeal.
 
@@ -170,7 +170,7 @@ No published Ninth Circuit decision located in this sweep categorically classifi
 
 That gap matters.
 
-## Persuasive authority — Kreimer
+## Persuasive authority: Kreimer
 
 Authority: Kreimer v. Bureau of Police for Town of Morristown, 958 F.2d 1242 (3d Cir. 1992).
 
@@ -447,7 +447,7 @@ The flag does not mean arrest would necessarily be unlawful. It means the public
 
 ---
 
-# XII. Photography and videography — current system finding
+# XII. Photography and videography: current system finding
 
 As of September 21, 2026, this sweep reviewed:
 
@@ -506,25 +506,25 @@ A Registry entry should distinguish:
 
 # XIV. Sweep 006 field rules
 
-## Field rule — define the library area
+## Field rule: define the library area
 
 Do not say: "A public library is a public forum."
 
 Use: Identify the exact area and activity. A meeting room intentionally opened for community meetings can have a different forum analysis from stacks, a children's area, a study room, a staff office, or an exterior sidewalk.
 
-## Field rule — library purpose matters, but does not answer every activity
+## Field rule: library purpose matters, but does not answer every activity
 
 Libraries may adopt reasonable rules preserving reading, study, information access, safety, and other intended uses. Whether a particular recording or expressive restriction is valid still requires the actual rule, area, activity, purpose, and governing doctrine.
 
-## Field rule — "library activity" is a real policy predicate
+## Field rule: "library activity" is a real policy predicate
 
 CCCL can point to an adopted rule requiring patrons to engage in activities associated with public-library use. Whether a peaceful auditor's particular information-gathering activity satisfies, or can constitutionally be excluded under, that rule remains a separate question.
 
-## Field rule — protect the policy/removal/crime distinction
+## Field rule: protect the policy/removal/crime distinction
 
 A patron-conduct violation, staff instruction, suspension notice, removal authority, and California criminal trespass are separate steps. Identify the authority for each.
 
-## Field rule — patron-record privacy is not camera law
+## Field rule: patron-record privacy is not camera law
 
 Patron-record confidentiality protects qualifying library-maintained records. Do not transform it into a categorical visitor-recording prohibition without separate authority.
 
@@ -562,21 +562,21 @@ This is the practical output of Sweep 006: system rules first; branch and area f
 
 | Authority | Level | Sweep 006 proposition/status |
 | --- | --- | --- |
-| Faith Center Church Evangelistic Ministries v. Glover, 480 F.3d 891 (9th Cir. 2007) | Ninth Circuit, published | DOCTRINE-REVIEWED — historical Antioch meeting room limited public forum on the record; area/purpose/policy-specific forum analysis |
-| Prigmore v. City of Redding, 211 Cal.App.4th 1322 (2012) | California Court of Appeal, Third District, published | DOCTRINE-REVIEWED — Redding library outdoor open space/entry/parking area traditional public forum on the record; area-specific scope |
-| Kennedy v. Bremerton School District, 597 U.S. 507 (2022) | U.S. Supreme Court | DOCTRINE-REVIEWED-IN-PART — later Establishment doctrine means the 2009 Faith Center Lemon analysis is historical, not a current general test |
-| Kreimer v. Bureau of Police, 958 F.2d 1242 (3d Cir. 1992) | Third Circuit, published | PERSUASIVE — library-purpose/right-to-receive-information and library-activity rule |
-| Neinast v. Board of Trustees, 346 F.3d 585 (6th Cir. 2003) | Sixth Circuit, published | PERSUASIVE — reasonable library conduct rule; short-eviction notice/opportunity on its facts |
-| Doe v. City of Albuquerque, 667 F.3d 1111 (10th Cir. 2012) | Tenth Circuit, published | PERSUASIVE — right-to-receive-information/access and different forum terminology |
-| Spiehs v. Morgan, No. 25-3174 (10th Cir. Sept. 8, 2026) | Tenth Circuit, published | PERSUASIVE — content-neutral sign restriction/library-purpose analysis; not a filming case |
-| Van Den Heuvel v. Dorothy, No. 2:21-cv-02176 (E.D. Cal. 2022) | Federal district court | PERSUASIVE/CONTEXT — countywide weeks/month suspension plausibly implicated a liberty interest at screening stage |
+| Faith Center Church Evangelistic Ministries v. Glover, 480 F.3d 891 (9th Cir. 2007) | Ninth Circuit, published | DOCTRINE-REVIEWED, historical Antioch meeting room limited public forum on the record; area/purpose/policy-specific forum analysis |
+| Prigmore v. City of Redding, 211 Cal.App.4th 1322 (2012) | California Court of Appeal, Third District, published | DOCTRINE-REVIEWED, Redding library outdoor open space/entry/parking area traditional public forum on the record; area-specific scope |
+| Kennedy v. Bremerton School District, 597 U.S. 507 (2022) | U.S. Supreme Court | DOCTRINE-REVIEWED-IN-PART, later Establishment doctrine means the 2009 Faith Center Lemon analysis is historical, not a current general test |
+| Kreimer v. Bureau of Police, 958 F.2d 1242 (3d Cir. 1992) | Third Circuit, published | PERSUASIVE, library-purpose/right-to-receive-information and library-activity rule |
+| Neinast v. Board of Trustees, 346 F.3d 585 (6th Cir. 2003) | Sixth Circuit, published | PERSUASIVE, reasonable library conduct rule; short-eviction notice/opportunity on its facts |
+| Doe v. City of Albuquerque, 667 F.3d 1111 (10th Cir. 2012) | Tenth Circuit, published | PERSUASIVE, right-to-receive-information/access and different forum terminology |
+| Spiehs v. Morgan, No. 25-3174 (10th Cir. Sept. 8, 2026) | Tenth Circuit, published | PERSUASIVE, content-neutral sign restriction/library-purpose analysis; not a filming case |
+| Van Den Heuvel v. Dorothy, No. 2:21-cv-02176 (E.D. Cal. 2022) | Federal district court | PERSUASIVE/CONTEXT, countywide weeks/month suspension plausibly implicated a liberty interest at screening stage |
 | CCCL Patron Conduct Policy (2026) | County policy | SOURCE-VERIFIED |
 | CCCL Suspension Policy (2026) | County policy | SOURCE-VERIFIED; criminal bridge remains unresolved |
 | CCCL Children/Teen Areas Policy | County policy | SOURCE-VERIFIED; area-specific access |
 | CCCL Meeting Room Policy/Rules | County policy | SOURCE-VERIFIED; religious-services restriction marked stricken effective 2009 |
 | CCCL display/distribution rules | County policy | SOURCE-VERIFIED; forum/restriction doctrine pending |
-| Gov. Code § 7927.105 | California statute | SOURCE-CHECKED — library patron-use records; not a visitor-camera statute |
-| Educ. Code § 19100 | California statute | SOURCE-CHECKED — county-free-library governance context |
+| Gov. Code § 7927.105 | California statute | SOURCE-CHECKED, library patron-use records; not a visitor-camera statute |
+| Educ. Code § 19100 | California statute | SOURCE-CHECKED, county-free-library governance context |
 
 ---
 

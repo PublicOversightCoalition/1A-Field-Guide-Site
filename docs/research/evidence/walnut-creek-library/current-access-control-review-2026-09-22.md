@@ -1,4 +1,4 @@
-# Walnut Creek Library — Current Access / Control Review
+# Walnut Creek Library: Current Access / Control Review
 
 **Review date:** 2026-09-22  
 **Purpose:** Preserve current official-source facts that materially affect the area-specific forum/control analysis after the parcel pass.
@@ -11,11 +11,11 @@ https://ccclib.org/locations/26/
 
 Current public facts reviewed:
 
-- Walnut Creek Library — 1644 N. Broadway;
+- Walnut Creek Library, 1644 N. Broadway;
 - staffed hours Monday–Thursday 10 a.m.–8 p.m., Friday–Saturday 9 a.m.–5 p.m., Sunday closed;
-- Library underground garage — 120 spaces, four-hour limit;
-- Library surface lot — 20 four-hour spaces and 10 thirty-minute spaces;
-- nearby Broadway Garage — separate downtown parking at 1390 N. Broadway.
+- Library underground garage, 120 spaces, four-hour limit;
+- Library surface lot, 20 four-hour spaces and 10 thirty-minute spaces;
+- nearby Broadway Garage, separate downtown parking at 1390 N. Broadway.
 
 A September 2026 City Manager update independently identifies the Downtown Walnut Creek Library at 1644 N. Broadway and states that parking is available on site or at the nearby Broadway Garage.
 
@@ -25,7 +25,7 @@ https://www.walnutcreekca.gov/Home/Components/News/News/3966/17
 
 The Broadway Garage is not treated as Library-property evidence merely because it is offered as nearby parking.
 
-## Underground Library garage — current access facts
+## Underground Library garage: current access facts
 
 The current City Oak View rental page states that the Library underground parking is **metered** and remains accessible when the Library is closed for after-hours Oak View events.
 
@@ -64,7 +64,7 @@ https://www.walnutcreekca.gov/home/showpublisheddocument/30891/63841882884123000
 
 These sources support the public-park character and ordinary-access baseline. Specific reserved events, closures, permits, and generally applicable park rules remain separately enforceable where valid.
 
-## Oak View Room — current City control
+## Oak View Room: current City control
 
 Current City page:
 
@@ -108,7 +108,7 @@ City downtown parking page:
 
 https://www.walnutcreekca.gov/community/what-s-happening/parking-downtown
 
-The City separately describes its three downtown City garages — Broadway, Lesher Center and South Locust — as 24-hour public garages. That page also notes public EV chargers for visitors to the Library and City Hall.
+The City separately describes its three downtown City garages, Broadway, Lesher Center and South Locust, as 24-hour public garages. That page also notes public EV chargers for visitors to the Library and City Hall.
 
 The underground **Library** garage is therefore not silently conflated with the City's **Broadway Garage**. Different access rules, pricing, operating purposes and forum facts may apply.
 

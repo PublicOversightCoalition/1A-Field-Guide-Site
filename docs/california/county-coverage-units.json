@@ -6,7 +6,7 @@
   "facility_research_status": "Researching",
   "inventory_verified_at": "2026-09-30",
   "inventory_source_ref": "https://tigerweb.geo.census.gov/tigerwebmain/Files/acs26/tigerweb_acs26_county_ca.html",
-  "inventory_source_description": "U.S. Census Bureau TIGERweb — State of California Counties, Current/ACS26, data as of January 1, 2026",
+  "inventory_source_description": "U.S. Census Bureau TIGERweb, State of California Counties, Current/ACS26, data as of January 1, 2026",
   "units": [
     {
       "id": "CA-06001",

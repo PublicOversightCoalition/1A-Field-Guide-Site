@@ -1,8 +1,8 @@
-# Concord DMV — Recorded Map 212M47 Review
+# Concord DMV: Recorded Map 212M47 Review
 
 **Research date:** 2026-09-22  
 **Custodian:** Contra Costa County Public Works Recorded Maps / Laserfiche WebLink  
-**Map:** Subdivision 5292 — `WILLOWICK 4`  
+**Map:** Subdivision 5292, `WILLOWICK 4`  
 **Recorded map:** Book 212 Page 47  
 **Entry:** `212M47`, entry ID `148419`  
 **Date recorded:** 1978-06-28  
@@ -39,7 +39,7 @@ Rendered-page SHA-256 values:
 
 The complete Actions evidence packet is preserved as run `35784583396`, artifact `facility-prep-concord-dmv-full`, artifact ID `10719403821`, ZIP SHA-256 `ed90611aabdf487199d196dbc955800e8dc173ef99df430f13d3d82ea7ba7c3d`.
 
-## Page 1 — ownership / dedication certificates
+## Page 1: ownership / dedication certificates
 
 The owner's certificate identifies Eastman Concord Venture as the record-title party for the subdivision lands and states that the owners dedicate to public use the portions designated on the map as **Meridian Park Blvd**. The certificate also states that the map shows easements on the premises or of record.
 
@@ -49,7 +49,7 @@ The map title states that the subdivision is Parcel `C` from a January 29, 1970 
 
 This establishes the historical subdivision source and a specific public-dedication offer concerning Meridian Park Boulevard. It does not by itself establish the present legal status of every easement or every current access route.
 
-## Page 2 — City approval / acceptance posture
+## Page 2: City approval / acceptance posture
 
 The City Clerk's certificate states that the Concord City Council approved the final map in June 1978 and **did not accept or reject on behalf of the public any of the streets or easements shown as dedicated to public use** at that time.
 
@@ -57,17 +57,17 @@ That distinction matters. The owner's dedication language and the City's contemp
 
 Current Concord Road Centerlines independently identifies Meridian Park Boulevard as Concord-owned/jurisdictional today. The present road status therefore has later/current support independent of the 1978 certificate language.
 
-## Page 3 — lot and street geometry
+## Page 3: lot and street geometry
 
 The subdivision drawing is especially useful for the current DMV access question.
 
 It shows five lots:
 
-- Lot 1 — net approximately 1.45 acres;
-- Lot 2 — net approximately 1.35 acres;
-- Lot 3 — net approximately 2.34 acres;
-- **Lot 4 — net approximately 3.49 acres**;
-- Lot 5 — net approximately 1.13 acres.
+- Lot 1, net approximately 1.45 acres;
+- Lot 2, net approximately 1.35 acres;
+- Lot 3, net approximately 2.34 acres;
+- **Lot 4: net approximately 3.49 acres**;
+- Lot 5, net approximately 1.13 acres.
 
 The lot configuration materially matches the later assessor arrangement around current parcels `126-490-001` through `126-490-005`.
 

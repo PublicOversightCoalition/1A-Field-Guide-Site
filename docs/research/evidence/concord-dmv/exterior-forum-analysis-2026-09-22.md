@@ -1,6 +1,6 @@
-# Concord DMV — Exterior Forum Analysis
+# Concord DMV: Exterior Forum Analysis
 
-**Facility:** California DMV — Concord Field Office  
+**Facility:** California DMV, Concord Field Office  
 **Address:** 2070 Diamond Boulevard, Concord, CA 94520  
 **Analysis date:** 2026-09-22  
 **Federal anchors:** *Grace*, *Kokinda*, *Cornelius*, *Jacobsen*  
@@ -40,9 +40,9 @@ Accordingly:
 
 ### A. Actual ordinary Diamond Boulevard municipal sidewalk / ROW
 
-**Federal:** **TRADITIONAL PUBLIC FORUM — HIGH CONFIDENCE once the person's actual position is established as ordinary municipal sidewalk/ROW.**
+**Federal:** **TRADITIONAL PUBLIC FORUM, HIGH CONFIDENCE once the person's actual position is established as ordinary municipal sidewalk/ROW.**
 
-**California:** **PUBLIC-FORUM TREATMENT — HIGH CONFIDENCE for an ordinary municipal sidewalk.**
+**California:** **PUBLIC-FORUM TREATMENT, HIGH CONFIDENCE for an ordinary municipal sidewalk.**
 
 *United States v. Grace* supplies the ordinary-sidewalk baseline. Concord Road Centerlines independently identifies the relevant Diamond segment as Concord-owned/jurisdictional and reports a sidewalk on the relevant side.
 
@@ -50,9 +50,9 @@ The unusual parcel geometry does not change the doctrine applicable to a person 
 
 ### B. Actual ordinary Meridian Park Boulevard municipal sidewalk / ROW
 
-**Federal:** **TRADITIONAL PUBLIC FORUM — HIGH CONFIDENCE once exact municipal-sidewalk location is established.**
+**Federal:** **TRADITIONAL PUBLIC FORUM, HIGH CONFIDENCE once exact municipal-sidewalk location is established.**
 
-**California:** **PUBLIC-FORUM TREATMENT — HIGH CONFIDENCE for an ordinary municipal sidewalk.**
+**California:** **PUBLIC-FORUM TREATMENT, HIGH CONFIDENCE for an ordinary municipal sidewalk.**
 
 This location has an especially strong property chain:
 
@@ -72,7 +72,7 @@ That conclusion is conditional because the current Diamond approach has not yet 
 
 **California:** **UNRESOLVED.**
 
-California's Speech Clause can treat freely accessible exterior spaces more broadly than federal forum doctrine. *Camenzind v. California Exposition & State Fair*, 84 F.4th 1102 (9th Cir. 2023), held exterior unticketed state fairgrounds—including parking lots and sidewalks leading to gates—to be a public forum under the California Speech Clause, relying on current California-law analysis including *Park Management*.
+California's Speech Clause can treat freely accessible exterior spaces more broadly than federal forum doctrine. *Camenzind v. California Exposition & State Fair*, 84 F.4th 1102 (9th Cir. 2023), held exterior unticketed state fairgrounds, including parking lots and sidewalks leading to gates, to be a public forum under the California Speech Clause, relying on current California-law analysis including *Park Management*.
 
 But the DMV approach is materially different from a large event/exhibition venue designed for mass public pedestrian circulation. No close California case resolving a purpose-built DMV or administrative-office access drive/walk was located. Do not force the *Camenzind* result onto this different property without current physical/use facts.
 
@@ -116,8 +116,8 @@ The transition between an exterior walkway/queue and the interior administrative
 
 | Area | Federal anchor | Federal posture | California posture |
 | --- | --- | --- | --- |
-| Actual Diamond municipal sidewalk | *Grace* | **TPF — HIGH CONFIDENCE** | **Public forum — high confidence** |
-| Actual Meridian Park municipal sidewalk | *Grace* + current City road evidence | **TPF — HIGH CONFIDENCE** | **Public forum — high confidence** |
+| Actual Diamond municipal sidewalk | *Grace* | **TPF, HIGH CONFIDENCE** | **Public forum, high confidence** |
+| Actual Meridian Park municipal sidewalk | *Grace* + current City road evidence | **TPF, HIGH CONFIDENCE** | **Public forum, high confidence** |
 | Facility-specific Diamond access route | *Kokinda* / *Jacobsen* | **Nonpublic treatment strongly supported if special-purpose facility segment** | **UNRESOLVED** |
 | DMV customer parking | *Cornelius* / *Kokinda* | **Nonpublic treatment strongly supported** | **UNRESOLVED; *Camenzind* exterior cases material** |
 | Exterior customer queue | *Cornelius* / *Kokinda* | **Nonpublic/purpose-limited treatment strongly supported** | **UNRESOLVED** |

@@ -115,7 +115,7 @@ The initial credit schedule uses `credit_policy_version = CREDIT_V1` with these 
 | REVIEW_DOCTRINAL_OR_FINAL | 2 |
 | REVIEW_ELEVATED_ADDITIONAL | 3 |
 
-## 1 point — Verification
+## 1 point: Verification
 
 Use for accepted work that materially improves confidence or currency without independently resolving a substantial research question.
 
@@ -130,7 +130,7 @@ Examples:
 
 Pure formatting, spelling, or cosmetic edits normally receive no contribution points unless they correct a material ambiguity or source error.
 
-## 2 points — Standard research result
+## 2 points: Standard research result
 
 Use for a discrete accepted research/evidence result that adds useful substance.
 
@@ -145,7 +145,7 @@ Examples:
 
 The direction of the result does not affect the points.
 
-## 3 points — Substantive research result
+## 3 points: Substantive research result
 
 Use for accepted work requiring meaningful synthesis, analysis, or correction.
 
@@ -159,7 +159,7 @@ Examples:
 - a material dependency update;
 - a developed facility research component that applies multiple authority layers.
 
-## 5 points — Major integrated research package
+## 5 points: Major integrated research package
 
 Use sparingly for accepted work that integrates several substantial components into one coherent research product.
 

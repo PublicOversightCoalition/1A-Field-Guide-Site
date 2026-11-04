@@ -1,4 +1,4 @@
-# Concord DMV — Interior Forum Authority Review
+# Concord DMV: Interior Forum Authority Review
 
 **Reviewed:** 2026-09-22  
 **Question:** What forum framework best fits the ordinary public-facing interior of a California DMV field office, and what does that classification establish about recording?
@@ -53,7 +53,7 @@ It is also not controlling in California or the Ninth Circuit.
 
 ### Avedisian / Rodriguez
 
-*Avedisian* and *Rodriguez* provide additional DMV-specific persuasive context, but they are out-of-circuit district-court authorities. Their proper role in this project is to corroborate that treating a transactional DMV interior as a special-purpose/nonpublic forum is not a novel analogy—not to displace controlling Ninth Circuit law or independently settle California's Speech Clause.
+*Avedisian* and *Rodriguez* provide additional DMV-specific persuasive context, but they are out-of-circuit district-court authorities. Their proper role in this project is to corroborate that treating a transactional DMV interior as a special-purpose/nonpublic forum is not a novel analogy, not to displace controlling Ninth Circuit law or independently settle California's Speech Clause.
 
 ## Working federal classification
 
@@ -87,7 +87,7 @@ Current state-law posture:
 
 Do not automatically copy the federal nonpublic label into the California column.
 
-## Recording consequence — Askins
+## Recording consequence: Askins
 
 The recording question is separate from forum classification.
 

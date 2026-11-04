@@ -1,4 +1,4 @@
-# Concord Library — Assessor Map Review
+# Concord Library: Assessor Map Review
 
 **Facility:** Concord Library  
 **Address:** 2900 Salvio Street, Concord, California 94519  
@@ -52,7 +52,7 @@ The following should be pursued as recorded-record research targets:
 - parcel 06 / Library: **Book 3356 of Official Records, Page 502**;
 - parcel 14 / City of Concord: **Book 636 of Official Records, Page 390**;
 - assessor sheet: Book 111, Page 24;
-- sheet revision: `10/10/96 — CREATE 013 & 014`.
+- sheet revision: the 10/10/96 entry recording creation of parcels 013 and 014.
 
 Contra Costa RecorderWorks exposes an **Old Book** workflow in addition to newer Book/Page searching, so these older Official Records references should be attempted there or through the Clerk-Recorder's equivalent record-retrieval process:
 

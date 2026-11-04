@@ -1,4 +1,4 @@
-# Concord Library — Recorded-Record Lookup Review
+# Concord Library: Recorded-Record Lookup Review
 
 **Facility:** Concord Library  
 **Address:** 2900 Salvio Street, Concord, California 94519  
@@ -92,8 +92,8 @@ Facility Prep should stop automated acquisition at this point rather than attemp
 
 The Clerk-Recorder can now be given exact references rather than a broad research request:
 
-1. **Book 3356 of Official Records, Page 502** — RecorderWorks document identifier `16109166`.
-2. **Book 636 of Official Records, Page 390** — RecorderWorks document identifier `12566187`.
+1. **Book 3356 of Official Records, Page 502**, RecorderWorks document identifier `16109166`.
+2. **Book 636 of Official Records, Page 390**, RecorderWorks document identifier `12566187`.
 
 The purpose is to obtain ordinary copies for research and determine what those instruments actually establish about the Concord Library and Civic Center property. A certified copy is not necessary for the current research stage unless a later evidentiary need specifically requires certification.
 

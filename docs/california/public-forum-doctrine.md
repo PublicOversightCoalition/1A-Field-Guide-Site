@@ -240,12 +240,12 @@ That is now a research trap. In **San Leandro Teachers Association v. Governing 
 
 *San Leandro* is also useful for a narrower point. The California Supreme Court treated internal school mailboxes as nonpublic under federal forum doctrine and then separately rejected the claim that the California Speech Clause required a different result on those facts. California's broader speech clause therefore does not automatically convert every restricted government communication channel into a public forum.
 
-*Prigmore v. City of Redding*, 211 Cal.App.4th 1322 (2012), later declined to apply the old `basic incompatibility` formulation and instead analyzed the outdoor grounds of the Redding Municipal Library using the federal forum framework. On its property-specific record, the court treated the public open space at the entrance, the entry/exit-door area, and the adjacent parking lot as a traditional public forum. That holding is useful California authority for library exteriors, but it does not classify every library exterior—or the library interior—the same way. See `public-libraries.md`.
+*Prigmore v. City of Redding*, 211 Cal.App.4th 1322 (2012), later declined to apply the old `basic incompatibility` formulation and instead analyzed the outdoor grounds of the Redding Municipal Library using the federal forum framework. On its property-specific record, the court treated the public open space at the entrance, the entry/exit-door area, and the adjacent parking lot as a traditional public forum. That holding is useful California authority for library exteriors, but it does not classify every library exterior, or the library interior, the same way. See `public-libraries.md`.
 
 Authorities:
 
 - *San Leandro Teachers Ass'n v. Governing Board*, 46 Cal.4th 822 (2009).
-- *U.C. Nuclear Weapons Labs Conversion Project v. Lawrence Livermore Laboratory*, 154 Cal.App.3d 1157 (1984) — historical context; do not use its `basic incompatibility` formulation as the current classification rule.
+- *U.C. Nuclear Weapons Labs Conversion Project v. Lawrence Livermore Laboratory*, 154 Cal.App.3d 1157 (1984), historical context; do not use its `basic incompatibility` formulation as the current classification rule.
 - *Camenzind*, 84 F.4th 1102.
 
 ## California can protect more speech without making every public-facing place a public forum

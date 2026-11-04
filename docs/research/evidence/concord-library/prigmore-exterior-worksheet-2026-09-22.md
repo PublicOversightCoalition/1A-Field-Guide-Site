@@ -1,4 +1,4 @@
-# Concord Library — Exterior / Prigmore Working Worksheet
+# Concord Library: Exterior / Prigmore Working Worksheet
 
 **Facility:** Concord Library, 2900 Salvio Street, Concord, CA 94519  
 **Prepared:** 2026-09-22  
@@ -22,7 +22,7 @@ For each exterior area, keep separate:
 
 A fact established for one area does not automatically carry into another.
 
-## Area 1 — Salvio Street public sidewalk / street frontage
+## Area 1: Salvio Street public sidewalk / street frontage
 
 ### Established or strongly supported facts
 
@@ -45,7 +45,7 @@ If a particular segment is confirmed to be an ordinary municipal sidewalk within
 
 **Current status:** STRONGLY-SUPPORTED-PUBLIC-STREET-CONTEXT / EXACT-STRIP-MAPPING-PENDING.
 
-## Area 2 — Front Salvio parking lot
+## Area 2: Front Salvio parking lot
 
 ### Established or strongly supported facts
 
@@ -76,7 +76,7 @@ If a particular segment is confirmed to be an ordinary municipal sidewalk within
 
 **Current status:** PRIGMORE-COMPARATOR-STRONG / CLASSIFICATION-UNRESOLVED.
 
-## Area 3 — Main entrance / forecourt / pedestrian approach
+## Area 3: Main entrance / forecourt / pedestrian approach
 
 ### Established or strongly supported facts
 
@@ -103,7 +103,7 @@ No classification yet. The combination of boundary evidence and physical/site-us
 
 **Current status:** DISTINCT-AREA-IDENTIFIED / PRIGMORE-ANALYSIS-PENDING.
 
-## Area 4 — Rear Parkside / Civic Center parking area
+## Area 4: Rear Parkside / Civic Center parking area
 
 ### Established or strongly supported facts
 
@@ -126,7 +126,7 @@ The rear lot must be analyzed separately from the smaller front Library lot. Its
 
 **Current status:** PUBLIC-PARKING-USE-VERIFIED / CONTROL-AND-FORUM-UNRESOLVED.
 
-## Area 5 — Parkside sidewalk / shared Civic Center pedestrian circulation
+## Area 5: Parkside sidewalk / shared Civic Center pedestrian circulation
 
 ### Established or strongly supported facts
 
@@ -164,10 +164,10 @@ Current City Engineering/ROW records can resolve much of the first three categor
 
 Once current ROW/control evidence is obtained, analyze in this order:
 
-1. **confirmed Salvio/Parkside municipal sidewalks** — ordinary public-sidewalk / traditional-public-forum doctrine;
-2. **entrance/forecourt** — area-specific *Prigmore* comparison;
-3. **front parking lot** — property-specific *Prigmore* comparison;
-4. **rear Civic Center parking/circulation** — separate *Prigmore* / government-campus analysis based on its own control/use record;
-5. **internal pedestrian paths** — classify individually based on ownership/control, access, purpose, design, and practice.
+1. **confirmed Salvio/Parkside municipal sidewalks**, ordinary public-sidewalk / traditional-public-forum doctrine;
+2. **entrance/forecourt**, area-specific *Prigmore* comparison;
+3. **front parking lot**, property-specific *Prigmore* comparison;
+4. **rear Civic Center parking/circulation**, separate *Prigmore* / government-campus analysis based on its own control/use record;
+5. **internal pedestrian paths**, classify individually based on ownership/control, access, purpose, design, and practice.
 
 No current evidence supports collapsing these into one exterior forum classification.

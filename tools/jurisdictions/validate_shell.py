@@ -97,7 +97,7 @@ def main()->None:
         visible_label = (
             "Not yet qualified" if status == "Inactive"
             else "Field Guide in development" if status == "Field Guide Development"
-            else f"Field Guide active — {maturity}"
+            else f"Field Guide active: {maturity}"
         )
         if f"<strong>{visible_label}</strong>" not in text:
             fail(f"{code}: visible status label does not match canonical dataset")
@@ -157,7 +157,7 @@ def main()->None:
         if f'href="{row["slug"]}/"' not in index: fail(f"{row['code']}: nationwide index missing jurisdiction link")
     generated={p.stem for p in JUR_DIR.glob("*.md") if p.name!="index.md"}
     if generated!=slugs: fail(f"generated page set differs from dataset; missing={sorted(slugs-generated)} extra={sorted(generated-slugs)}")
-    print("jurisdiction-shell: OK — "
+    print("jurisdiction-shell: OK: "
           f"{len(rows)} jurisdictions; "
           f"{sum(r['qualification_status']=='Active' for r in rows)} Active; "
           f"{sum(r['qualification_status']=='Field Guide Development' for r in rows)} Development; "

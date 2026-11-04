@@ -1,4 +1,4 @@
-# Concord Police Headquarters — Property / ROW Review
+# Concord Police Headquarters: Property / ROW Review
 
 **Reviewed:** 2026-09-22
 
@@ -71,9 +71,9 @@ Those headings are preserved as historical-chain context. They are not automatic
 
 The parcel resolver returned three non-target polygon-intersection candidates:
 
-- APN `126-124-030` — 0.816 acre — owner `CONCORD CITY OF`;
-- APN `126-124-032` — 0.384 acre — owner `LIU JULIE J` — 1302 Galindo Street;
-- APN `126-124-033` — 0.67 acre — owner `CONCORD CITY OF`.
+- APN `126-124-030`, 0.816 acre, owner `CONCORD CITY OF`;
+- APN `126-124-032`, 0.384 acre, owner `LIU JULIE J`, 1302 Galindo Street;
+- APN `126-124-033`, 0.67 acre, owner `CONCORD CITY OF`.
 
 These remain candidate-discovery results rather than automatic legal adjacency/control findings.
 

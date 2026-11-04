@@ -1,8 +1,8 @@
 ---
-title: Contra Costa County Library — PITS investigation
+title: "Contra Costa County Library: PITS investigation"
 ---
 
-# Contra Costa County Library — PITS investigation
+# Contra Costa County Library: PITS investigation
 
 **Jurisdiction:** California · Contra Costa County  
 **Agencies / facilities:** Contra Costa County Library; Concord Library; Walnut Creek Library  
@@ -11,7 +11,7 @@ title: Contra Costa County Library — PITS investigation
 
 <div class="registry-bottom-line" markdown>
 
-**Current question:** What does the Library's Patron Incident Tracking System actually record about patron conduct, staff response, classification, suspension, deletion, and police/EMS involvement — and are the resulting records complete enough to support the way the system is used?
+**Current question:** What does the Library's Patron Incident Tracking System actually record about patron conduct, staff response, classification, suspension, deletion, and police/EMS involvement, and are the resulting records complete enough to support the way the system is used?
 
 </div>
 
@@ -94,13 +94,13 @@ The current record does not yet answer several material questions:
 
 ## Records obtained
 
-### First production — completed October 19, 2026
+### First production: completed October 19, 2026
 
 The first production now has a dedicated [public evidence collection](../../evidence/california/cccl-pits/index.md). The collection assigns stable evidence IDs to all 16 original files, records source byte sizes and SHA-256 hashes, publishes selected searchable derivatives or evidence notes, and keeps source-retained files distinct from public derivatives.
 
 The incident spreadsheet contains 1,749 rows across Concord and Walnut Creek from April 2015 through September 2026. The evidence collection publishes a reproducible aggregate profile while the original XLSX remains source-retained pending the project's publication/privacy review.
 
-### Follow-up production — pending
+### Follow-up production: pending
 
 The October 27 follow-up requests:
 

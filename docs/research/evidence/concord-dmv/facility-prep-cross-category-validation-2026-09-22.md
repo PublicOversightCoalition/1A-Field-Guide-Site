@@ -1,6 +1,6 @@
-# Facility Prep — Cross-Category Validation Checkpoint
+# Facility Prep: Cross-Category Validation Checkpoint
 
-**Facility:** California DMV — Concord Field Office  
+**Facility:** California DMV, Concord Field Office  
 **Date:** 2026-09-22  
 **Branch:** `field-guide/sweep-09-concord-dmv`
 
@@ -36,7 +36,7 @@ Key current results:
 
 The same Contra Costa parcel core therefore transferred from municipal-library property to a State-owned administrative facility without code changes.
 
-## New issue exposed — address/frontage mismatch
+## New issue exposed: address/frontage mismatch
 
 DMV and the current parcel feed identify the public facility address as `2070 Diamond Boulevard`.
 

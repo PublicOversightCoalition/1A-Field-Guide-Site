@@ -26,8 +26,8 @@ A facility record stores identity and location, agency and facility type, proper
 
 When historical research supports them, a facility record can also store:
 
-- `rights_risk_signals` — scoped evidence signals for a defined area/activity/policy and review period; and
-- `enforcement_history` — sourced warnings, removals, exclusions, police actions, prosecutions, chilling/compliance events, litigation, injunctions, policy changes, and related historical events.
+- `rights_risk_signals`, scoped evidence signals for a defined area/activity/policy and review period; and
+- `enforcement_history`, sourced warnings, removals, exclusions, police actions, prosecutions, chilling/compliance events, litigation, injunctions, policy changes, and related historical events.
 
 These fields are optional. An unresearched facility is not assigned `NONE` merely because no history has been entered.
 

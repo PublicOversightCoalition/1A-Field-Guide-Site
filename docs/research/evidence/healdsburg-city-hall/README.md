@@ -1,4 +1,4 @@
-# Healdsburg City Hall / Council Chamber — Evidence Manifest
+# Healdsburg City Hall / Council Chamber: Evidence Manifest
 
 **Facility:** CA-097-F0002  
 **Verified:** 2026-10-07  
@@ -11,8 +11,8 @@ This manifest records an official-source documentary baseline. No onsite observa
 
 ## Reviewed policy sources
 
-- Brown Act — covered open-meeting recording: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=54953.5
-- Brown Act — public comment and criticism: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=54954.3.
+- Brown Act, covered open-meeting recording: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=54953.5
+- Brown Act, public comment and criticism: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=54954.3.
 
 ## Property evidence
 

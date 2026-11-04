@@ -19,9 +19,9 @@ Useful contributions include:
 
 Write for ordinary readers first. Use clear sentences, concrete verbs, and plain explanations before technical labels. This applies to public pages, headlines, navigation, investigation summaries, status messages, and JavaScript-generated copy.
 
-**Do not use the em dash character in new or revised public copy.** Prefer a period, comma, colon, semicolon, or parentheses, whichever sounds most natural. Do not replace every mark mechanically with the same punctuation. Also avoid legalistic filler, repetitive slogans, and insider vocabulary when introducing a topic to first-time visitors.
+**Do not use the em dash character in public editorial copy, including existing pages and new changes.** Prefer a period, comma, colon, semicolon, or parentheses, whichever sounds most natural. Do not replace every mark mechanically with the same punctuation. Also avoid legalistic filler, repetitive slogans, and insider vocabulary when introducing a topic to first-time visitors.
 
-This is a permanent project editorial requirement. GitHub CI rejects newly added em dashes in public-site source files. Verbatim agency records, evidence extracts, and accurately attributed historical quotations must not be silently rewritten to conform to an editorial preference. Any older marks already present in project research should be addressed as part of a deliberate editorial review.
+This is a permanent project editorial requirement. GitHub CI scans the complete public editorial source tree and rejects existing or newly added em dashes. Verbatim agency records, evidence extracts, and accurately attributed historical quotations must not be silently rewritten to conform to an editorial preference. Do not publish editorial text with legacy instances. Keep unchanged agency source extracts separate from project-authored pages.
 
 ## Evidence standard
 

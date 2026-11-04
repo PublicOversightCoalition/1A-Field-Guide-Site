@@ -24,7 +24,7 @@ A California audit may implicate several distinct constitutional interests at on
 Primary source for Article I:  
 https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CONS&article=I
 
-### Article I, § 1 — privacy
+### Article I, § 1: privacy
 
 California expressly identifies privacy as an inalienable right.
 
@@ -32,7 +32,7 @@ California expressly identifies privacy as an inalienable right.
 
 **Limit:** The existence of a privacy interest does not automatically establish that a particular restriction on observation or recording is lawful. The actual statute, regulation, case law, forum, and facts still matter.
 
-### Article I, § 2(a) — speech and press
+### Article I, § 2(a): speech and press
 
 California provides that every person may freely speak, write, and publish sentiments on all subjects, subject to responsibility for abuse of the right, and that law may not restrain or abridge liberty of speech or press.
 
@@ -40,7 +40,7 @@ California provides that every person may freely speak, write, and publish senti
 
 **Research note:** The extent to which California's speech clause provides broader protection in a particular government-property setting is a case-law question and should not be assumed from the text alone.
 
-### Article I, § 2(b) — source and unpublished-material shield text
+### Article I, § 2(b): source and unpublished-material shield text
 
 Section 2(b) contains California's constitutional shield language for specified publishers, editors, reporters, and other persons connected with or employed by newspapers, magazines, periodicals, press associations, wire services, radio stations, or television stations. Within the terms of the provision, it protects against contempt for refusing to disclose certain sources or unpublished newsgathering information.
 
@@ -52,13 +52,13 @@ The text defines `unpublished information` broadly enough to include material su
 
 The project should not assume that an independent journalist or self-publisher either qualifies or fails to qualify under a separate statute merely by comparing labels. That requires analysis of the particular statutory text and relevant case law.
 
-### Article I, § 3(a) — petition and assembly
+### Article I, § 3(a): petition and assembly
 
 California protects the rights to instruct representatives, petition government for redress, and assemble freely to consult for the common good.
 
 **Why it matters:** Public comment, demonstrations, petitioning, and other direct engagement with government can implicate this provision as well as the federal First Amendment.
 
-### Article I, § 3(b) — access to government information
+### Article I, § 3(b): access to government information
 
 California expressly gives the people a right of access to information concerning the conduct of the people's business and states that meetings of public bodies and writings of public officials and agencies shall be open to public scrutiny.
 
@@ -66,27 +66,27 @@ Section 3(b)(2) directs that authorities furthering access be broadly construed 
 
 **Field rule:** This is a powerful transparency provision, but it is not a standalone rule that every government room, record, computer screen, conversation, or physical area must be open to observation or recording.
 
-### Article I, § 7 — due process and equal protection
+### Article I, § 7: due process and equal protection
 
 California prohibits deprivation of life, liberty, or property without due process and denial of equal protection.
 
 **Why it matters:** Removal, exclusion, government-imposed restrictions, and selective enforcement can raise due-process or equal-protection questions depending on the facts and governing law.
 
-### Article I, § 13 — searches and seizures
+### Article I, § 13: searches and seizures
 
 California protects persons, houses, papers, and effects against unreasonable searches and seizures and imposes warrant requirements.
 
 **Why it matters:** A detention is a seizure for Fourth Amendment purposes under federal doctrine, and searches/seizures of phones, cameras, bags, recordings, or other property may raise both federal and California constitutional issues.
 
-**Important California construction rule:** Article I, § 24 states that specified California criminal-procedure rights—including the right to be free from unreasonable searches and seizures—are construed consistently with the U.S. Constitution in criminal cases.
+**Important California construction rule:** Article I, § 24 states that specified California criminal-procedure rights, including the right to be free from unreasonable searches and seizures, are construed consistently with the U.S. Constitution in criminal cases.
 
-### Article I, § 15 — self-incrimination and due process in criminal causes
+### Article I, § 15: self-incrimination and due process in criminal causes
 
 Section 15 provides, among other protections, that a person may not be compelled in a criminal cause to be a witness against themselves and may not be deprived of life, liberty, or property without due process.
 
 **Why it matters:** This is the California constitutional counterpart relevant to compelled self-incrimination. It should be analyzed separately from whether a person must identify themselves or comply with a lawful detention/order under a specific statute or case.
 
-### Article I, § 24 — relationship to federal constitutional rights
+### Article I, § 24: relationship to federal constitutional rights
 
 Section 24 first states that rights guaranteed by the California Constitution are not dependent on rights guaranteed by the U.S. Constitution. It then imposes an important criminal-case construction rule for specified rights, including equal protection, due process, search/seizure, privacy, self-incrimination, double jeopardy, and others.
 
@@ -152,12 +152,12 @@ This page is the constitutional architecture/crosswalk, not the sole repository 
 
 The ordinary qualification propositions are developed in:
 
-- `public-forum-doctrine.md` — federal and California speech/forum architecture;
-- `recording-public-officials.md` and `lawful-vantage-privacy.md` — recording/newsgathering/privacy;
-- `police-encounters.md` — incorporation bridge, detention/search/seizure, self-incrimination, and device issues;
-- `public-meetings.md` — meeting speech/comment/removal;
-- `assembly-emergency-scenes.md` — assembly/newsgathering/emergency scenes; and
-- `public-records-evidence-preservation.md` — California access-to-information implementation.
+- `public-forum-doctrine.md`, federal and California speech/forum architecture;
+- `recording-public-officials.md` and `lawful-vantage-privacy.md`, recording/newsgathering/privacy;
+- `police-encounters.md`, incorporation bridge, detention/search/seizure, self-incrimination, and device issues;
+- `public-meetings.md`, meeting speech/comment/removal;
+- `assembly-emergency-scenes.md`, assembly/newsgathering/emergency scenes; and
+- `public-records-evidence-preservation.md`, California access-to-information implementation.
 
 Remaining specialized questions include the full independent reach of some California constitutional provisions beyond the ordinary canonical facts, Article I § 2(b)'s application to modern/independent newsgatherers, and remedies/suppression doctrines not required for the current operational branch.
 

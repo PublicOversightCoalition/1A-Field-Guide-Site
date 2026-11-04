@@ -9,7 +9,7 @@ This chapter covers California statutes that are commonly relevant when peaceful
 
 Peaceful presence near a protest or emergency does not by itself answer whether a dispersal order or closure is lawful. Identify the exact authority being invoked, whether its statutory predicates exist, whether notice was actually given, whether the person is inside the area covered by the order, and whether a statutory exception applies.
 
-## Penal Code § 403 — disturbing or breaking up a lawful meeting
+## Penal Code § 403: disturbing or breaking up a lawful meeting
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=403.
@@ -20,7 +20,7 @@ Section 403 makes it a misdemeanor, without authority of law, to **willfully dis
 
 **Limit:** What conduct legally amounts to `disturbs or breaks up` requires case-law analysis. Do not reduce the statute to a subjective complaint that someone was uncomfortable.
 
-## Penal Code § 407 — unlawful assembly
+## Penal Code § 407: unlawful assembly
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=407.
@@ -32,7 +32,7 @@ Section 407 defines an unlawful assembly as two or more persons assembled either
 
 **Field rule:** A gathering is not an `unlawful assembly` merely because it is a protest, contentious, unpopular, or being recorded. The statutory definition must be satisfied, together with controlling constitutional case law.
 
-## Penal Code § 408 — participation in a rout or unlawful assembly
+## Penal Code § 408: participation in a rout or unlawful assembly
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=408.
@@ -41,7 +41,7 @@ Section 408 makes participation in a rout or unlawful assembly a misdemeanor.
 
 **Field rule:** The statute targets participation in the prohibited assembly; it should not be treated as establishing that every observer, journalist, passerby, or person recording nearby is necessarily a participant. Case law is required to define the participation element and constitutional limits.
 
-## Penal Code § 409 — remaining after lawful warning to disperse
+## Penal Code § 409: remaining after lawful warning to disperse
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=409.
@@ -52,7 +52,7 @@ Section 409 applies to a person who remains at the place of a riot, rout, or unl
 
 **Doctrine status:** Sweep 017 now supplies the ordinary warning/audibility, opportunity-to-comply, participant/observer, and First Amendment limitation layer through *In re Brown*, *Wagner*, *Dubner*, *Collins*, *Nelson*, and related authority. Geographic/local closure details and specialized facility rules remain changed-fact dependencies.
 
-## Penal Code § 409.5 — calamity and emergency command-post closures
+## Penal Code § 409.5: calamity and emergency command-post closures
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=409.5.
@@ -82,7 +82,7 @@ Section 409.5(d) uses specific statutory language concerning duly authorized rep
 
 The project should not rewrite that special statutory access rule into a universal citizen exemption. It also should not treat the statute's category as a universal definition of who possesses First Amendment newsgathering rights. Whether an independent journalist or self-publisher qualifies under this particular provision is a separate question requiring statutory and case-law analysis.
 
-## Penal Code § 409.6 — avalanche-area closures
+## Penal Code § 409.6: avalanche-area closures
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=409.6.
@@ -91,7 +91,7 @@ Section 409.6 is a specialized avalanche-area closure statute. Its subdivision (
 
 **Classification:** Specialized. It is retained because it demonstrates that California's emergency-closure statutes are not textually interchangeable and may matter in a location/event-specific audit.
 
-## Penal Code § 409.7 — special news-representative protections at demonstrations and related closures
+## Penal Code § 409.7: special news-representative protections at demonstrations and related closures
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=409.7.
@@ -108,9 +108,9 @@ The statute does not, in its text, define `duly authorized representative` or `o
 
 Similarly, a person who does **not** qualify for § 409.7's special statutory protections may still possess independent First Amendment protections for lawful recording, observation, speech, or newsgathering. Those constitutional questions require their own doctrine and cannot be answered solely by § 409.7.
 
-**Field rule:** Treat § 409.7 as an additional statutory protection for people who fall within its terms—not as a licensing system for constitutional journalism and not as a declaration that everyone carrying a camera receives the same special access.
+**Field rule:** Treat § 409.7 as an additional statutory protection for people who fall within its terms, not as a licensing system for constitutional journalism and not as a declaration that everyone carrying a camera receives the same special access.
 
-## Penal Code § 415 — disturbing the peace
+## Penal Code § 415: disturbing the peace
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=415.
@@ -125,7 +125,7 @@ A fuller treatment belongs in `disorderly-conduct.md`.
 
 **Field rule for this chapter:** Do not use `disturbing the peace` as a generic label for peaceful recording, criticism, or mere public discomfort. Analyze the actual statutory category being asserted.
 
-## Penal Code § 415.5 — school and campus variant
+## Penal Code § 415.5: school and campus variant
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=415.5.
@@ -134,7 +134,7 @@ Section 415.5 contains a school/community-college/university variant of fighting
 
 **Classification:** Specialized. Handle the details in the future school/campus chapter rather than applying § 415.5 as a general public-property rule.
 
-## Penal Code § 416 — assembly for disturbing the peace or committing an unlawful act
+## Penal Code § 416: assembly for disturbing the peace or committing an unlawful act
 
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=416.
@@ -145,7 +145,7 @@ Section 416(a) applies when two or more persons assemble **for the purpose of di
 
 ## Controlling assembly/dispersal doctrine
 
-### In re Brown / Collins — not every protest is an unlawful assembly
+### In re Brown / Collins: not every protest is an unlawful assembly
 
 **In re Brown, 9 Cal.3d 612 (1973)** constitutionally narrows §§ 407–408 when a group assembled for a lawful purpose. The assembly must actually be violent or pose a clear and present danger of imminent violence; `boisterous or tumultuous` is not an independent catch-all basis.
 
@@ -187,7 +187,7 @@ Source: https://law.justia.com/cases/california/court-of-appeal/3d/18/299.html
 
 The reviewed authorities do **not** create a universal fixed countdown after a warning.
 
-### Nelson — egress and force during dispersal
+### Nelson: egress and force during dispersal
 
 In **Nelson v. City of Davis, 685 F.3d 867 (9th Cir. 2012)**, officers used pepperball force against unarmed people where warnings were not adequately audible, the primary exit was blocked, and members of the group were attempting to comply or waiting for directions. The Ninth Circuit held the force unreasonable on the plaintiff-favorable facts.
 
@@ -221,7 +221,7 @@ Source: https://law.justia.com/cases/california/court-of-appeal/3d/184/41.html
 
 **Field rule:** qualifying statutory media access is substantial but not unlimited, and it is not a general license to enter an independently valid crime scene.
 
-### § 409.7 — demonstration/protest media protection
+### § 409.7: demonstration/protest media protection
 
 Section 409.7 supplies special protections for a `duly authorized representative` of a news service, **online news service**, newspaper, or radio/television station or network in the covered demonstration/police-line/rolling-closure setting.
 
@@ -247,15 +247,15 @@ https://law.justia.com/cases/federal/appellate-courts/ca9/16-55719/16-55719-2018
 
 https://law.justia.com/cases/federal/appellate-courts/ca9/11-16088/11-16088-2012-04-16.html
 
-### Index Newspapers — important preliminary-injunction posture
+### Index Newspapers: important preliminary-injunction posture
 
 **Index Newspapers LLC v. U.S. Marshals Service, 977 F.3d 817 (9th Cir. 2020)** is a published order denying a stay of preliminary injunctive relief in the Portland protest litigation. It strongly protects newsgathering/retaliation interests on its unusual record, but should not be rewritten as a universal rule that anyone identifying as press or legal observer may ignore every otherwise lawful dispersal order.
 
 Source: https://openjurist.org/977/f3d/817/index-newspapers-llc-v-united-states-marshals-service-4795058
 
-### Los Angeles Press Club v. Noem — current retaliation authority
+### Los Angeles Press Club v. Noem: current retaliation authority
 
-In **Los Angeles Press Club v. Noem, No. 25-5975 (9th Cir. Apr. 1, 2026)**, the Ninth Circuit affirmed the likelihood of success on First Amendment **retaliation** claims based on evidence of force directed at journalists, legal observers, and peaceful protesters—including people standing apart from unlawful actors or attempting to comply.
+In **Los Angeles Press Club v. Noem, No. 25-5975 (9th Cir. Apr. 1, 2026)**, the Ninth Circuit affirmed the likelihood of success on First Amendment **retaliation** claims based on evidence of force directed at journalists, legal observers, and peaceful protesters, including people standing apart from unlawful actors or attempting to comply.
 
 The panel did **not** reach the plaintiffs' separate right-of-access merits theory because the retaliation theory was enough, and it vacated/remanded portions of the injunction as overbroad.
 

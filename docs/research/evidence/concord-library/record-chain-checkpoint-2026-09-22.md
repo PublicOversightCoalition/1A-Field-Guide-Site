@@ -1,4 +1,4 @@
-# Concord Library — Recorded-Map / Instrument Checkpoint
+# Concord Library: Recorded-Map / Instrument Checkpoint
 
 **Facility:** Concord Library, 2900 Salvio Street, Concord, CA 94519  
 **Prepared:** 2026-09-22  

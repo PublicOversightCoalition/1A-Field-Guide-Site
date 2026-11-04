@@ -13,11 +13,11 @@ We're building guides for federal law, all 50 states, and Washington, D.C. **Cal
 
 ## Status meanings
 
-**Not yet qualified** — we haven't finished and approved a guide for this location. That doesn't necessarily mean work has begun.
+**Not yet qualified:** we haven't finished and approved a guide for this location. That doesn't necessarily mean work has begun.
 
-**Field Guide in development** — we're checking the laws and court decisions against the real-world situations the guide covers.
+**Field Guide in development:** we're checking the laws and court decisions against the real-world situations the guide covers.
 
-**Field Guide active** — we've checked and approved the core legal research for publication. Individual buildings and agency policies still need their own research.
+**Field Guide active:** we've checked and approved the core legal research for publication. Individual buildings and agency policies still need their own research.
 
 California became the first **Active** state overlay on September 30, 2026 after completing the same qualification process required of other jurisdictions.
 
@@ -46,7 +46,7 @@ California became the first **Active** state overlay on September 30, 2026 after
 </a>
 <a class="jurisdiction-card" href="california/">
   <span class="jurisdiction-card__name">California</span>
-  <span class="jurisdiction-pill jurisdiction-pill--active">Field Guide active — Researching</span>
+  <span class="jurisdiction-pill jurisdiction-pill--active">Field Guide active: Researching</span>
 </a>
 <a class="jurisdiction-card" href="colorado/">
   <span class="jurisdiction-card__name">Colorado</span>

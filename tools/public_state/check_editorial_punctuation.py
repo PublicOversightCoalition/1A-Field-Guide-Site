@@ -1,88 +1,88 @@
 #!/usr/bin/env python3
-"""Reject new em dash characters in public-facing project content.
+"""Enforce the no-em-dash editorial policy against the entire public source tree.
 
-We compare added lines rather than rewriting historical sources. Preserved
-verbatim evidence is not edited. When working in normal site copy, use a period,
-comma, colon, parentheses, or separate sentence instead.
+This checks existing text, not just additions in a pull request. Exact agency
+source extracts stay unchanged and are deliberately excluded. Rephrase site
+copy rather than altering authoritative quotations.
 """
 from __future__ import annotations
 
 import argparse
-import os
-import re
+from pathlib import Path
 import subprocess
 import sys
 
-EM_DASH = "\u2014"
-PUBLIC_EXTENSIONS = (".md", ".html", ".js", ".json", ".yaml", ".yml")
-EXCLUDED_PREFIXES = (
-    "docs/evidence/california/cccl-pits/extracts/",
-)
-EXCLUDED_PATHS = set()
+EM_DASH = chr(0x2014)
+EXTENSIONS = {".md", ".html", ".js", ".json", ".yaml", ".yml", ".txt", ".css"}
+ROOT_FILES = {"AGENTS.md", "CONTRIBUTING.md", "README.md", "mkdocs.yml"}
+SOURCE_EXTRACT_PREFIXES = ("docs/evidence/california/cccl-pits/extracts/",)
 
 
-def is_public_copy(path: str) -> bool:
+def is_editorial_source(path: str) -> bool:
+    if path in ROOT_FILES:
+        return True
     return (
         path.startswith("docs/")
-        and path.endswith(PUBLIC_EXTENSIONS)
-        and not path.startswith(EXCLUDED_PREFIXES)
-        and path not in EXCLUDED_PATHS
+        and Path(path).suffix.lower() in EXTENSIONS
+        and not any(path.startswith(prefix) for prefix in SOURCE_EXTRACT_PREFIXES)
     )
 
 
-def added_lines(diff: str):
-    path = None
-    new_line = 0
-    for line in diff.splitlines():
-        if line.startswith("+++ b/"):
-            path = line[6:]
-        elif line.startswith("@@"):
-            match = re.search(r"\+(\d+)", line)
-            if match:
-                new_line = int(match.group(1))
-        elif line.startswith("+") and not line.startswith("+++"):
-            if path and is_public_copy(path) and EM_DASH in line[1:]:
-                yield path, new_line, line[1:].strip()
-            new_line += 1
-        elif not line.startswith("-") and not line.startswith("\\"):
-            new_line += 1
+def check_text(path: str, content: str) -> list[tuple[str, int, str]]:
+    if not is_editorial_source(path):
+        return []
+    return [
+        (path, index, line.strip()[:180])
+        for index, line in enumerate(content.splitlines(), 1)
+        if EM_DASH in line
+    ]
 
 
-def git(*args: str) -> str:
-    return subprocess.check_output(["git", *args], text=True)
+def git_tracked_paths() -> list[str]:
+    data = subprocess.check_output(["git", "ls-files", "-z"])
+    return [p.decode("utf-8") for p in data.split(b"\0") if p]
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--self-test", action="store_true")
     args = parser.parse_args()
+
     if args.self_test:
-        sample = (
-            "diff --git a/docs/index.md b/docs/index.md\n"
-            "+++ b/docs/index.md\n"
-            "@@ -1,0 +1,2 @@\n"
-            "+This is an example with an em dash: " + EM_DASH + "\n"
-            "+This is a normal line.\n"
+        assert len(check_text("docs/index.md", "existing " + EM_DASH + " text")) == 1
+        assert len(check_text("mkdocs.yml", "title: Hello " + EM_DASH)) == 1
+        assert not check_text(
+            "docs/evidence/california/cccl-pits/extracts/source.txt",
+            "verbatim " + EM_DASH + " source",
         )
-        found = list(added_lines(sample))
-        assert len(found) == 1 and found[0][1] == 1, found
-        assert not list(added_lines(sample.replace("docs/index.md", "docs/evidence/california/cccl-pits/extracts/agency.txt")))
-        print("Editorial punctuation rule self-test passed.")
+        assert not check_text("tools/example.py", EM_DASH)
+        print("Full-source editorial punctuation self-test passed.")
         return 0
 
-    base = os.getenv("BASE_SHA", "").strip()
-    head = os.getenv("HEAD_SHA", "").strip() or "HEAD"
-    if not base:
-        base = git("rev-parse", "HEAD^1").strip()
-    diff = git("diff", "--unified=0", "--no-ext-diff", "--diff-filter=ACMR", base, head, "--", "docs/")
-    findings = list(added_lines(diff))
-    if findings:
-        print("New em dashes are not allowed in public Field Guide copy.")
-        for path, lineno, content in findings:
-            print(f"{path}:{lineno}: {content[:160]}")
-        print("Rewrite with natural sentence punctuation. Do not modify preserved originals.")
+    failures = []
+    files = 0
+    for name in git_tracked_paths():
+        if not is_editorial_source(name):
+            continue
+        files += 1
+        path = Path(name)
+        try:
+            content = path.read_text(encoding="utf-8")
+        except (UnicodeError, OSError) as exc:
+            print(f"Could not scan editorial file {name}: {exc}", file=sys.stderr)
+            return 1
+        failures.extend(check_text(name, content))
+
+    if failures:
+        print(f"Editorial punctuation check failed: {len(failures)} existing em dash marks.")
+        for name, line, excerpt in failures[:100]:
+            print(f"{name}:{line}: {excerpt}")
+        if len(failures) > 100:
+            print(f"... and {len(failures) - 100} more.")
+        print("Rewrite project-authored prose. Keep original agency extracts unmodified.")
         return 1
-    print("Editorial punctuation check passed: no newly introduced em dashes.")
+
+    print(f"Editorial punctuation check passed: {files} public source files, zero em dashes.")
     return 0
 
 

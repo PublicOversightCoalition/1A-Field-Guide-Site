@@ -1,4 +1,4 @@
-# Healdsburg Police Department — Evidence Manifest
+# Healdsburg Police Department: Evidence Manifest
 
 **Facility:** CA-097-F0001  
 **Verified:** 2026-10-07  
@@ -11,9 +11,9 @@ This manifest records an official-source documentary baseline. No onsite observa
 
 ## Reviewed policy sources
 
-- HPD Policy 463 — Public Recording of Law Enforcement Activity: https://healdsburg.gov/DocumentCenter/View/11325/Healdsburg_PD_Policy_Manual
-- HPD identification — requested ID-card display and uniform identification: https://healdsburg.gov/DocumentCenter/View/11325/Healdsburg_PD_Policy_Manual
-- HPD Policy 1019 — complaint intake: https://healdsburg.gov/DocumentCenter/View/11325/Healdsburg_PD_Policy_Manual
+- HPD Policy 463, Public Recording of Law Enforcement Activity: https://healdsburg.gov/DocumentCenter/View/11325/Healdsburg_PD_Policy_Manual
+- HPD identification, requested ID-card display and uniform identification: https://healdsburg.gov/DocumentCenter/View/11325/Healdsburg_PD_Policy_Manual
+- HPD Policy 1019, complaint intake: https://healdsburg.gov/DocumentCenter/View/11325/Healdsburg_PD_Policy_Manual
 
 ## Property evidence
 

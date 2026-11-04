@@ -1,4 +1,4 @@
-# Concord Police Headquarters — Evidence Manifest
+# Concord Police Headquarters: Evidence Manifest
 
 **Facility:** Concord Police Department Headquarters  
 **Address:** 1350 Galindo Street, Concord, CA 94520  
@@ -59,9 +59,9 @@ A sheet notation `VACATED 94-188992 7-25-94` appears **west of Laguna Street, ou
 
 Candidate parcel intersections include:
 
-- `126-124-030` — City of Concord — 0.816 acre;
-- `126-124-032` — Julie J. Liu — 0.384 acre;
-- `126-124-033` — City of Concord — 0.67 acre.
+- `126-124-030`, City of Concord, 0.816 acre;
+- `126-124-032`, Julie J. Liu, 0.384 acre;
+- `126-124-033`, City of Concord, 0.67 acre.
 
 These are discovery candidates, not automatic control conclusions.
 
@@ -131,7 +131,7 @@ Current distinction:
 
 `NARROW-CONFIDENTIALITY/INFORMATION-SECURITY-DUTIES-VERIFIED / NO-AUTOMATIC-RECIPROCAL-PUBLIC-CAMERA-BAN`
 
-## Audio privacy — Penal Code § 632
+## Audio privacy: Penal Code § 632
 
 Penal Code § 632 applies to intentional recording/eavesdropping of a **confidential communication** without consent of all parties. The statutory definition excludes circumstances in which parties may reasonably expect the communication to be overheard or recorded.
 
@@ -150,7 +150,7 @@ Current audio posture:
 
 `§632-FACT-SPECIFIC / FLANAGAN-OBJECTIVE-CONFIDENTIALITY-TEST / WILSON-PUBLIC-LOBBY-APPLICATION-PERSUASIVE-ONLY`
 
-## Closest local officer-recording comparator — Wilson
+## Closest local officer-recording comparator: Wilson
 
 **Wilson v. County of Contra Costa**, No. 14-cv-03491-SI (N.D. Cal. May 6, 2015), involved recording officers in the **public lobby of the Contra Costa County Sheriff's Office**.
 
@@ -222,7 +222,7 @@ Detailed authority review:
 
 `interior-forum-authority-review-2026-09-22.md`
 
-## Penal Code § 602.1 — important constitutional-activity carveout
+## Penal Code § 602.1: important constitutional-activity carveout
 
 Section 602.1(b) does not reduce a public-agency trespass/interference case to `asked to leave + refused`.
 

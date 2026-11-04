@@ -32,9 +32,9 @@ Contra Costa County Library · `CA-013-F0002`
 | Group study rooms | **LPF** | **UNRESOLVED** | **MEDIUM** | Narrow purpose and room rules materially matter. |
 | Underground public garage | **NPF** | **UNRESOLVED** | **MEDIUM** | NPF status does not create a camera ban; an actual restriction still must be identified. |
 | Garage stairs, elevators and connective corridors | **NPF** | **UNRESOLVED** | **MEDIUM** | Exact segment and any specific rule matter. |
-| Cafe | **UNRESOLVED** | **UNRESOLVED** | **—** | Cafe-specific rules cannot be determined without control/access facts. |
+| Cafe | **UNRESOLVED** | **UNRESOLVED** | Not listed | Cafe-specific rules cannot be determined without control/access facts. |
 
-## Constitution First — restriction audit
+## Constitution First: restriction audit
 
 A rule listed below is a **claimed restriction**, not a concession that the rule is constitutional. The status records how far the project has actually tested it.
 
@@ -87,12 +87,12 @@ Recording can constitute First Amendment-protected activity. No dedicated public
 
 ### Key authorities
 
-- **United States v. Grace, 461 U.S. 171 (1983)** — ordinary public sidewalks
-- **Prigmore v. City of Redding, 211 Cal.App.4th 1322 (2012)** — library exterior forum analysis
-- **Faith Center Church Evangelistic Ministries v. Glover, 480 F.3d 891 (9th Cir. 2007)** — library meeting room
-- **Kreimer v. Bureau of Police, 958 F.2d 1242 (3d Cir. 1992)** — ordinary library interior
-- **Sammartano v. First Judicial District Court, 303 F.3d 959 (9th Cir. 2002)** — government-building nonpublic forum
-- **Project Veritas v. Schmidt, 125 F.4th 929 (9th Cir. 2025) (en banc)** — recording as First Amendment-protected speech; content-neutral privacy regulation can still be tested under applicable scrutiny
+- **United States v. Grace, 461 U.S. 171 (1983)**: ordinary public sidewalks
+- **Prigmore v. City of Redding, 211 Cal.App.4th 1322 (2012)**: library exterior forum analysis
+- **Faith Center Church Evangelistic Ministries v. Glover, 480 F.3d 891 (9th Cir. 2007)**: library meeting room
+- **Kreimer v. Bureau of Police, 958 F.2d 1242 (3d Cir. 1992)**: ordinary library interior
+- **Sammartano v. First Judicial District Court, 303 F.3d 959 (9th Cir. 2002)**: government-building nonpublic forum
+- **Project Veritas v. Schmidt, 125 F.4th 929 (9th Cir. 2025) (en banc)**: recording as First Amendment-protected speech; content-neutral privacy regulation can still be tested under applicable scrutiny
 
 ## Data record
 

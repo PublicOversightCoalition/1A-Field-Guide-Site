@@ -1,4 +1,4 @@
-# Sweep 003 — California Public Records Act / Evidence Preservation
+# Sweep 003: California Public Records Act / Evidence Preservation
 
 **Date reviewed:** September 17, 2026  
 **Status:** Historical core operational CPRA/preservation sweep; later Sweep 018 completes the ordinary law-enforcement evidence-disclosure branch while specialized exemptions/retention remain separate.
@@ -132,7 +132,7 @@ Specialized rules for specified routine video monitoring and telephone/radio com
 
 **Classification:** SPECIALIZED.
 
-## Counties — Gov. Code § 26202
+## Counties: Gov. Code § 26202
 
 County record-destruction authority under specified conditions; must be read with more specific law and the county's adopted schedule.
 
@@ -146,7 +146,7 @@ Criminal provisions concerning specified records/documents and willful removal, 
 
 Published California authority includes **People v. Sperl, 54 Cal.App.3d 640 (1976)**, which applied § 6200 to official county radio logs and rejected the claim that such a record was freely disposable merely because no statute expressly required its creation or retention. Related published authority includes *People v. Pearson* and *Loder v. Municipal Court*.
 
-**Important limitation:** The guide does not equate the CPRA's broad public-record definition with the elements/scope of §§ 6200-6201. Those criminal provisions still have their own covered-record, custody, authorization, willfulness, and—under § 6200—`officer having custody` requirements. Their application to ad hoc personal-device recordings remains unresolved.
+**Important limitation:** The guide does not equate the CPRA's broad public-record definition with the elements/scope of §§ 6200-6201. Those criminal provisions still have their own covered-record, custody, authorization, willfulness, and, under § 6200, `officer having custody` requirements. Their application to ad hoc personal-device recordings remains unresolved.
 
 ---
 

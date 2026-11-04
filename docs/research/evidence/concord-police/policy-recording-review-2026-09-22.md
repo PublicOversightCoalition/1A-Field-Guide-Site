@@ -1,4 +1,4 @@
-# Concord Police Headquarters — Recording / Policy Review
+# Concord Police Headquarters: Recording / Policy Review
 
 **Reviewed:** 2026-09-22
 
@@ -12,7 +12,7 @@ Primary current sources reviewed:
 - Department Policy Manual: https://www.cityofconcord.org/1196/Department-Policy-Manual
 - California Penal Code § 148: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=148.
 
-## CPD Policy 423 — Public Recording of Law Enforcement Activity
+## CPD Policy 423: Public Recording of Law Enforcement Activity
 
 Policy 423 is a highly material facility-specific source.
 
@@ -63,19 +63,19 @@ Do not collapse `lawful presence` into either `government-owned property` or `do
 
 The same current Department Policy Manual contains narrower rules that are relevant to the **reasonableness and tailoring** of restrictions around records, screens, conversations and secure workspaces.
 
-### Policy 803 — Records Unit
+### Policy 803: Records Unit
 
 Policy 803 requires case reports/files to be maintained securely, limits Records Unit access to authorized personnel, and calls for additional access controls for sensitive reports.
 
 This is strong evidence that police records and records workspaces can present legitimate confidentiality/security interests. It is **not** a rule addressed to ordinary lobby patrons and does not itself prohibit a patron from operating a camera in the public lobby.
 
-### Policy 806 — Protected Information
+### Policy 806: Protected Information
 
 Policy 806 governs protected information and the Department's handling/access/security obligations for restricted law-enforcement data, including systems and information subject to legal or criminal-justice access controls.
 
 Again, this can support protection of actual protected information, screens or systems. It should not be transformed into a building-wide public-camera rule.
 
-### Policy 422 — Body-Worn Cameras
+### Policy 422: Body-Worn Cameras
 
 Policy 422 includes officer-side provisions for muting/stopping audio in specified private or confidential circumstances, including certain attorney, religious-advisor and physician communications in custody.
 

@@ -66,8 +66,8 @@ nav:
   - Home: index.md
   - Explore:
       - Start here: jurisdictions/index.md
-      - California — Active: california/README.md
-      - Federal — In development: jurisdictions/federal.md
+      - 'California: Active': california/README.md
+      - 'Federal: In development': jurisdictions/federal.md
       - Facility & policy registry: registry/index.md
   - Field Guides:
       - Recording public officials: california/recording-public-officials.md
@@ -81,7 +81,7 @@ nav:
       - Evidence library: evidence/index.md
       - California:
           - California investigations: california/investigations/index.md
-          - Contra Costa County Library — PITS: california/investigations/contra-costa-library-pits.md
+          - 'Contra Costa County Library: PITS': california/investigations/contra-costa-library-pits.md
           - CCCL PITS evidence: evidence/california/cccl-pits/index.md
           - Concord Library facility record: registry/concord-library.md
           - Concord Police Department: registry/concord-police.md

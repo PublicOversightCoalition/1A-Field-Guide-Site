@@ -34,9 +34,9 @@ A facility listing is not an instruction or request for anyone to visit, contact
 
 The project now separates three functions:
 
-1. **Field Guide** — researches and explains generally applicable constitutional provisions, statutes, regulations, cases, and field rules.
-2. **Facility Research and Field Verification** — defines the investigation workflow, authority chain, source collection, field verification, police-policy transition, and post-visit records process.
-3. **Registry** — stores and publishes facility-specific facts, area-by-area access conditions, policies, signage, evidence history, research flags, and later corrections.
+1. **Field Guide**, researches and explains generally applicable constitutional provisions, statutes, regulations, cases, and field rules.
+2. **Facility Research and Field Verification**, defines the investigation workflow, authority chain, source collection, field verification, police-policy transition, and post-visit records process.
+3. **Registry**, stores and publishes facility-specific facts, area-by-area access conditions, policies, signage, evidence history, research flags, and later corrections.
 
 The canonical factual baseline is [NC-STANDING-01 v1](../../national-core/standing-scenario.md). California-specific legal mappings live in the [California Standing Scenario Overlay](../standing-scenario.md). The canonical facility-research workflow is [Facility Research and Field Verification](../facility-investigation-methodology.md).
 
@@ -184,7 +184,7 @@ A single facility page may therefore contain multiple concurrent statuses. For e
 
 Every non-Gray status should identify its scope clearly enough that a reader can tell **what was actually researched or tested**. A successful encounter in one area does not clear every policy or space at the facility, and an adverse encounter in one area does not establish that every operation at the facility is problematic.
 
-### Gray — unresearched, incomplete, stale, or unresolved
+### Gray: unresearched, incomplete, stale, or unresolved
 
 Use Gray when:
 
@@ -195,7 +195,7 @@ Use Gray when:
 
 Gray does not imply either compliance or noncompliance.
 
-### Green — no material concern identified or satisfactory documented response
+### Green: no material concern identified or satisfactory documented response
 
 Use Green when, based on the evidence reviewed:
 
@@ -207,7 +207,7 @@ Green does not mean a facility has been comprehensively tested for every possibl
 
 Positive outcomes should receive meaningful visibility. The Registry may highlight facilities with clear policies, accurate legal guidance, professional handling of peaceful protected activity, transparent records practices, constructive corrections, or other exemplary performance under a future published rubric.
 
-### Yellow — pre-field policy or legal concern
+### Yellow: pre-field policy or legal concern
 
 Use Yellow when public research identifies a specific, documented question that merits clarification or further verification.
 
@@ -231,7 +231,7 @@ Yellow means: **a documented question exists.**
 
 It does not mean: **go confront this facility.**
 
-### Red — documented adverse government action
+### Red: documented adverse government action
 
 Use Red only when reliable evidence documents a material adverse government action **materially connected to the peaceful constitutional activity or facility-access issue being evaluated**.
 
@@ -267,13 +267,13 @@ Current status should not erase significant historical events.
 
 A scoped issue may improve from Yellow or Red to Green after clarification or corrective action while retaining a visible status history, for example:
 
-- `2026-09-16 — RED: documented removal during peaceful recording.`
-- `2026-10-12 — agency reports outdated sign removed and policy corrected.`
-- `2026-10-15 — GREEN: correction independently verified.`
+- `2026-09-16: RED: documented removal during peaceful recording.`
+- `2026-10-12: agency reports outdated sign removed and policy corrected.`
+- `2026-10-15: GREEN: correction independently verified.`
 
 Similarly, a currently stale issue may be Gray while retaining a historical Red or Yellow event. The project should distinguish each issue's **current scoped status** from its **status history**.
 
-### Rights-Risk Signal — separate from Registry color/status
+### Rights-Risk Signal: separate from Registry color/status
 
 The Registry may maintain a second, explicitly scoped **Rights-Risk Signal** describing the evidentiary state of possible historical or current burdens on protected activity.
 
@@ -283,10 +283,10 @@ This signal is **not** a score, grade, blacklist, or substitute for the Gray/Gre
 
 Allowed values:
 
-- **NONE** — the completed review located no material rights-risk for the stated scope and period. This is not a guarantee that no historical event exists.
-- **POSSIBLE** — a policy, historical report, or partial record raises a concrete issue, but the evidence is not yet sufficient to document the relevant adverse enforcement or chilling event.
-- **DOCUMENTED** — reliable evidence documents a material warning, coercive action, enforcement event, or chilling/compliance event involving protected or potentially protected activity. This label **does not mean a court has found the action unlawful**.
-- **ADJUDICATED** — a court or competent tribunal actually held the relevant challenged policy or enforcement unlawful on the issue represented by the signal.
+- **NONE**: the completed review located no material rights-risk for the stated scope and period. This is not a guarantee that no historical event exists.
+- **POSSIBLE**: a policy, historical report, or partial record raises a concrete issue, but the evidence is not yet sufficient to document the relevant adverse enforcement or chilling event.
+- **DOCUMENTED**: reliable evidence documents a material warning, coercive action, enforcement event, or chilling/compliance event involving protected or potentially protected activity. This label **does not mean a court has found the action unlawful**.
+- **ADJUDICATED**: a court or competent tribunal actually held the relevant challenged policy or enforcement unlawful on the issue represented by the signal.
 
 Every signal must state:
 
@@ -323,14 +323,14 @@ These classifications must be date-sensitive. A modern rule cannot silently be p
 
 Where evidence exists, a mature Registry entry should make the following layers separately visible:
 
-1. **Current law** — the presently governing constitutional/statutory/case framework.
-2. **Current policy** — what the agency presently says.
-3. **Policy gap** — any documented mismatch or unresolved authority question.
-4. **Enforcement history** — warnings, removals, exclusions, police action, citations, arrests, prosecutions, or comparable official action.
-5. **Chilling history** — documented cases where an official warning or threat caused activity to stop or materially change without an arrest or prosecution.
-6. **Litigation history** — claims, suits, injunctions, adjudications, appeals, and relevant dispositions.
-7. **Remedial history** — policy corrections, withdrawn signs, training changes, settlements, or other documented responses.
-8. **Open rights-risk** — unresolved current or historical issue requiring more evidence or legal analysis.
+1. **Current law**, the presently governing constitutional/statutory/case framework.
+2. **Current policy**, what the agency presently says.
+3. **Policy gap**, any documented mismatch or unresolved authority question.
+4. **Enforcement history**, warnings, removals, exclusions, police action, citations, arrests, prosecutions, or comparable official action.
+5. **Chilling history**, documented cases where an official warning or threat caused activity to stop or materially change without an arrest or prosecution.
+6. **Litigation history**, claims, suits, injunctions, adjudications, appeals, and relevant dispositions.
+7. **Remedial history**, policy corrections, withdrawn signs, training changes, settlements, or other documented responses.
+8. **Open rights-risk**, unresolved current or historical issue requiring more evidence or legal analysis.
 
 This structure is intended to surface possible unknown rights violations without converting every historical dispute into a conclusion of illegality.
 
@@ -582,9 +582,9 @@ The project should not erase prior history merely because a rule changed.
 
 Example:
 
-- `2026-09-10 — No-recording sign documented.`
-- `2026-10-12 — Agency states sign was obsolete and has been removed.`
-- `2026-10-15 — Removal independently verified.`
+- `2026-09-10: No-recording sign documented.`
+- `2026-10-12: Agency states sign was obsolete and has been removed.`
+- `2026-10-15: Removal independently verified.`
 
 A scoped issue's current status or any future rubric treatment may improve when an agency corrects a problem, while the historical record remains visible.
 

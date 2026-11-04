@@ -28,10 +28,10 @@ A designated public forum, while intentionally kept open for general public expr
 
 The table uses these practical baselines:
 
-- **STRONG BASELINE** — the activity is ordinarily within the expressive use associated with the forum, although valid time/place/manner, safety, permit, privacy, or other rules may still apply.
-- **PURPOSE-DEPENDENT** — the activity is protected when it fits the speakers, subjects, uses, or procedures for which the limited forum was opened.
-- **NO GENERAL FORUM ENTITLEMENT** — the forum category itself does not give a general right to use the property for that activity. An actual restriction still must be lawful, and another constitutional/statutory doctrine may independently protect the activity.
-- **SEPARATE DOCTRINE** — forum status is not enough to answer the question. Recording, public meetings, confidential communications, press access, and similar activities can have additional rules.
+- **STRONG BASELINE**: the activity is ordinarily within the expressive use associated with the forum, although valid time/place/manner, safety, permit, privacy, or other rules may still apply.
+- **PURPOSE-DEPENDENT**: the activity is protected when it fits the speakers, subjects, uses, or procedures for which the limited forum was opened.
+- **NO GENERAL FORUM ENTITLEMENT**: the forum category itself does not give a general right to use the property for that activity. An actual restriction still must be lawful, and another constitutional/statutory doctrine may independently protect the activity.
+- **SEPARATE DOCTRINE**: forum status is not enough to answer the question. Recording, public meetings, confidential communications, press access, and similar activities can have additional rules.
 
 These are not substitutes for the actual rule at the facility.
 
@@ -71,7 +71,7 @@ Ask:
 
 This matters even in an NPF. A nonpublic-forum label establishes the forum standard; it does not manufacture a camera prohibition.
 
-For the California privacy overlay—public versus limited-audience visibility, windows/glass, device-assisted constructive intrusion, visible screens/documents, computer access, voyeurism, and confidential audio—see [Lawful Vantage, Public View, and California Privacy Boundaries](lawful-vantage-privacy.md).
+For the California privacy overlay, public versus limited-audience visibility, windows/glass, device-assisted constructive intrusion, visible screens/documents, computer access, voyeurism, and confidential audio, see [Lawful Vantage, Public View, and California Privacy Boundaries](lawful-vantage-privacy.md).
 
 ## 2. Public officials and police
 
