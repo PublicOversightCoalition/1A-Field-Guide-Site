@@ -15,6 +15,14 @@ Useful contributions include:
 - real-world audit case studies with enough documentation to verify what happened;
 - facility-specific research for California public agencies and federal facilities in California.
 
+## Public writing and punctuation standard
+
+Write for ordinary readers first. Use clear sentences, concrete verbs, and plain explanations before technical labels. This applies to public pages, headlines, navigation, investigation summaries, status messages, and JavaScript-generated copy.
+
+**Do not use the em dash character in new or revised public copy.** Prefer a period, comma, colon, semicolon, or parentheses, whichever sounds most natural. Do not replace every mark mechanically with the same punctuation. Also avoid legalistic filler, repetitive slogans, and insider vocabulary when introducing a topic to first-time visitors.
+
+This is a permanent project editorial requirement. GitHub CI rejects newly added em dashes in public-site source files. Verbatim agency records, evidence extracts, and accurately attributed historical quotations must not be silently rewritten to conform to an editorial preference. Any older marks already present in project research should be addressed as part of a deliberate editorial review.
+
 ## Evidence standard
 
 For legal propositions, prefer sources in this order:
