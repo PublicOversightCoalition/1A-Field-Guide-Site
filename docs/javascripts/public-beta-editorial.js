@@ -23,7 +23,10 @@
     wire.setAttribute('role', 'region');
     wire.setAttribute('aria-label', 'Current 1A Field Guide research and project updates');
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reducedMotion) wire.classList.add('is-paused');
+    const compactViewport = window.matchMedia('(max-width: 48em)').matches;
+    // Narrow viewports begin in readable, swipeable mode; users may resume the ticker.
+    const initiallyPaused = reducedMotion || compactViewport;
+    if (initiallyPaused) wire.classList.add('is-paused');
 
     const label = document.createElement('div');
     label.className = 'beta-newswire__label';
@@ -63,12 +66,20 @@
     const pause = document.createElement('button');
     pause.type = 'button';
     pause.className = 'beta-newswire__pause';
-    pause.setAttribute('aria-pressed', String(reducedMotion));
-    pause.textContent = reducedMotion ? 'Resume updates' : 'Pause updates';
-    pause.addEventListener('click', () => {
-      const paused = wire.classList.toggle('is-paused');
+    const playbackSymbol = document.createElement('span');
+    playbackSymbol.className = 'beta-newswire__playback-symbol';
+    playbackSymbol.setAttribute('aria-hidden', 'true');
+    pause.appendChild(playbackSymbol);
+    const updatePlaybackControl = (paused) => {
+      const action = paused ? 'Resume updates' : 'Pause updates';
       pause.setAttribute('aria-pressed', String(paused));
-      pause.textContent = paused ? 'Resume updates' : 'Pause updates';
+      pause.setAttribute('aria-label', action);
+      pause.title = action;
+      playbackSymbol.textContent = paused ? '▶' : '⏸';
+    };
+    updatePlaybackControl(initiallyPaused);
+    pause.addEventListener('click', () => {
+      updatePlaybackControl(wire.classList.toggle('is-paused'));
     });
 
     wire.append(label, viewport, pause);
