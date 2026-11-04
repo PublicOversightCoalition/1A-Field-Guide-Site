@@ -1,4 +1,4 @@
-# Concord Library — City Engineering / ROW Records Target
+# Concord Library: City Engineering / ROW Records Target
 
 **Facility:** Concord Library, 2900 Salvio Street, Concord, CA 94519  
 **Prepared:** 2026-09-22  

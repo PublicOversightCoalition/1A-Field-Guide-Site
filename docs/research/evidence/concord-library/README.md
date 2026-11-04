@@ -1,4 +1,4 @@
-# Concord Library — Property / Boundary Evidence Manifest
+# Concord Library: Property / Boundary Evidence Manifest
 
 **Facility:** Concord Library  
 **Address:** 2900 Salvio Street, Concord, California 94519  
@@ -27,7 +27,7 @@ The Library parcel record also returns `1950 PARKSIDE DR` in a separate `full_n_
 
 The City expressly warns that its GIS is general-reference data and is not for determining legal boundaries.
 
-## Assessor map — Book 111 Page 24
+## Assessor map: Book 111 Page 24
 
 Facility Prep downloaded and preserved the official assessor-map PDF:
 
@@ -61,7 +61,7 @@ Canonical review note:
 
 The City's official Road Centerlines layer returned the closest relevant segments as follows.
 
-**Salvio Street — OBJECTID `199013`:**
+**Salvio Street, OBJECTID `199013`:**
 
 - street owner `Concord`;
 - jurisdiction `Concord`;
@@ -70,7 +70,7 @@ The City's official Road Centerlines layer returned the closest relevant segment
 - right-side address range includes 2900;
 - returned update date 2020-04-27.
 
-**Parkside Drive — OBJECTID `199079`:**
+**Parkside Drive, OBJECTID `199079`:**
 
 - street owner `Concord`;
 - jurisdiction `Concord`;
@@ -83,7 +83,7 @@ These are strong governmental-control/context attributes. A road centerline and 
 
 City engineering materials also treat sidewalks/driveways as ordinary public-ROW work and, for a Parkside/Salvio-area pedestrian project, anticipated work within City ROW while expressly recognizing that boundary surveys may be necessary to locate exact property lines.
 
-## Historical recorded survey — 7 LSM 51
+## Historical recorded survey: 7 LSM 51
 
 Facility Prep resolved the assessor annotation `7 LSM 51` through Contra Costa County Public Works' public Laserfiche Recorded Maps search:
 
@@ -119,13 +119,13 @@ This does not prove that no other relevant record exists; it means no additional
 
 `SALVIO` returned one later map, `168PM050`, but its APN metadata is `121-25`.
 
-`PARKSIDE` returned three later maps — `93LSM40`, `158PM009`, and `172PM036` — with APN metadata `128 10`, `124 25`, and `117 11` respectively.
+`PARKSIDE` returned three later maps, `93LSM40`, `158PM009`, and `172PM036`, with APN metadata `128 10`, `124 25`, and `117 11` respectively.
 
 None matches the Library/Civic Center assessor book/page `111 24`, and no independent geographic evidence presently ties those maps to APNs `111-240-006` or `111-240-014`. They remain **BROAD-GEOGRAPHIC-HIT / NOT-PROMOTED**.
 
 Result: the useful anonymous automated Public Works recorded-map discovery path is now **substantially exhausted** for this facility. The next exact-boundary step is targeted current-record acquisition rather than blind pursuit of same-street hits.
 
-## Official Records references — exact identifiers resolved
+## Official Records references: exact identifiers resolved
 
 RecorderWorks recognizes all three known historical Official Records references:
 
