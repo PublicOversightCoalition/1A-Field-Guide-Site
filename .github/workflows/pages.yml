@@ -61,6 +61,7 @@ jobs:
           node --check docs/javascripts/public-beta-motion.js
           node --check docs/javascripts/investigations-index.js
           node --check docs/javascripts/accessibility-support.js
+          node --check tools/accessibility/functional-journeys.mjs
 
       - name: Generate and validate Registry
         run: |
