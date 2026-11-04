@@ -4,7 +4,7 @@ This repository serves the public. Write in everyday, natural language that a fi
 
 ## Permanent punctuation rule
 
-Do not use the Unicode em dash character in any new public-facing writing, navigation, metadata, headline, component text, generated copy, or contributor-facing documentation.
+Do not use the Unicode em dash character in public-facing writing, navigation, metadata, headlines, component text, generated copy, or contributor-facing documentation, whether existing or newly written. The repository's full-source CI check enforces this policy.
 
 Use a period, comma, colon, semicolon, or parentheses where it reads naturally. Recast the sentence rather than applying a blind global substitution.
 
