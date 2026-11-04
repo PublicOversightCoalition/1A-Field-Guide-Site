@@ -83,7 +83,7 @@ hide:
 
   <section class="beta-section beta-california beta-motion-section" data-motion-section="california">
     <div><span class="beta-label beta-label--green">ACTIVE JURISDICTION</span><h2>We're starting with California.</h2><p>California is our first active state guide. It brings together rights, local policies, public records, and on-the-ground research. You can follow the sources and see where questions remain.</p><div class="beta-actions"><a class="beta-button beta-button--primary" href="california/">Open California</a><a class="beta-button beta-button--secondary" href="jurisdictions/">See nationwide status</a></div></div>
-    <div class="beta-california__stats"><div data-motion-card><strong>69</strong><span>research findings backed by sources</span></div><div data-motion-card><strong>4</strong><span>questions still under review</span></div><div data-motion-card><strong>0</strong><span>unfilled research gaps at launch</span></div><div data-motion-card><strong>58</strong><span>California counties covered</span></div></div>
+    <div class="beta-california__stats"><div data-motion-card><strong>69</strong><span>research checks with supporting sources</span></div><div data-motion-card><strong>4</strong><span>questions still under review</span></div><div data-motion-card><strong>0</strong><span>unfilled research gaps at launch</span></div><div data-motion-card><strong>58</strong><span>California counties inventoried</span></div></div>
   </section>
 
   <section class="beta-section beta-contribute beta-motion-section" data-motion-section="contribute">
