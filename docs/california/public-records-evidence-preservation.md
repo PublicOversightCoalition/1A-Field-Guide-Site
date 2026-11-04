@@ -148,7 +148,7 @@ Government Code § 7922.525 also requires disclosure of reasonably segregable no
 Primary source:  
 https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=7922.525
 
-### Field Guide distinction
+## Field Guide distinction
 
 Do not argue:
 
@@ -562,7 +562,7 @@ The Court cited California spoliation/discovery authorities for the principle th
 
 This does **not** mean an ordinary CPRA request automatically makes litigation reasonably foreseeable. That determination depends on circumstances.
 
-### Important distinction
+## Important distinction
 
 > CPRA request pending
 
