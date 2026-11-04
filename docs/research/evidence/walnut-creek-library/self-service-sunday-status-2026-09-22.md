@@ -1,4 +1,4 @@
-# Walnut Creek Library — Self-Service Sunday Status
+# Walnut Creek Library: Self-Service Sunday Status
 
 **Reviewed:** 2026-09-22
 

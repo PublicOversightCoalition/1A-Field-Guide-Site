@@ -1,4 +1,4 @@
-# Walnut Creek Library — Policy Search Review
+# Walnut Creek Library: Policy Search Review
 
 **Reviewed:** 2026-09-22
 

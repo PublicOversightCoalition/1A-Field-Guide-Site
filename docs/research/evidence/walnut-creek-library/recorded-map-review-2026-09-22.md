@@ -1,4 +1,4 @@
-# Walnut Creek Library — Recorded Map Review
+# Walnut Creek Library: Recorded Map Review
 
 **Research date:** 2026-09-22  
 **Custodian:** Contra Costa County Public Works Recorded Maps / Laserfiche WebLink  
@@ -26,7 +26,7 @@ Interpretation:
 
 This establishes only that the Recorded Maps index did not return a record whose **current indexed APN metadata exactly matched `178 30`**. It is not proof that no relevant recorded map exists. Historical subdivision maps may predate modern APNs, may carry older assessor-book formatting, or may be discoverable only by book/page, tract/subdivision, permit, or geographic metadata.
 
-## 2. Rancho Dolores — assessor reference `MB 2-36`
+## 2. Rancho Dolores: assessor reference `MB 2-36`
 
 The first probe searched Book `2`, Page `36`. Because the then-current adapter did not yet map the user-facing `MB` alias to the WebLink option `Subdivision Map`, the initial query was broader than intended and returned four record types sharing that book/page.
 
@@ -46,7 +46,7 @@ This independently verifies the identity of the historical subdivision reference
 
 The other Book 2/Page 36 hits had different record types and/or APN/geographic metadata and were not promoted as facility evidence merely because the book/page numbers coincided.
 
-## 3. Oak Park — assessor reference `MB 18-385`
+## 3. Oak Park: assessor reference `MB 18-385`
 
 The Book `18`, Page `385` search returned one record:
 
