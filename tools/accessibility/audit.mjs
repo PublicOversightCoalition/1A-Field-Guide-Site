@@ -121,4 +121,5 @@ for (const p of report) {
   }
 }
 process.stdout.write('Flagged checks: ' + errorCount + '\n');
-// Report first. Do not block deployment until findings are triaged.
+// The corrected baseline has zero findings. Block regressions in these tests.
+if (errorCount > 0) process.exitCode = 1;
