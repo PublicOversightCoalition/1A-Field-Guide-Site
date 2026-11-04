@@ -1,0 +1,146 @@
+/* Functional visitor-journey checks. Complements axe checks; not WCAG certification. */
+import { chromium } from 'playwright';
+import { mkdirSync, writeFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+const base = process.env.AUDIT_URL || 'http://127.0.0.1:8765/1A-Field-Guide-Site/';
+const output = process.env.AUDIT_OUTPUT || 'audit-results';
+mkdirSync(output, { recursive: true });
+const browser = await chromium.launch({ headless: true, args: ['--no-sandbox'] });
+const results = [];
+
+async function test(name, width, journey, { route = '', reducedMotion = 'reduce' } = {}) {
+  const context = await browser.newContext({
+    viewport: { width, height: 844 }, reducedMotion,
+    deviceScaleFactor: 1
+  });
+  const page = await context.newPage();
+  try {
+    const resp = await page.goto(new URL(route, base).href, { waitUntil: 'networkidle', timeout: 25000 });
+    if (!resp?.ok()) throw new Error('Page returned HTTP ' + resp?.status());
+    await journey(page);
+    results.push({ name, width, route, outcome: 'pass' });
+    console.log('PASS ' + name + ' ' + width + 'px');
+  } catch (e) {
+    const error = String(e).slice(0, 1300);
+    results.push({ name, width, route, outcome: 'fail', error });
+    console.error('FAIL ' + name + ' ' + width + 'px: ' + error);
+  } finally {
+    await context.close();
+  }
+}
+function assert(condition, detail) {
+  if (!condition) throw new Error(detail);
+}
+
+async function drawer(page, targetHref, finalPath) {
+  await page.locator('label.md-header__button[for="__drawer"]').click({ timeout: 5000 });
+  await page.waitForFunction(() => {
+    const sidebar = document.querySelector('.md-sidebar--primary');
+    return document.querySelector('#__drawer')?.checked &&
+      sidebar?.getBoundingClientRect().width > 100;
+  });
+  await page.locator('.md-sidebar--primary a.md-nav__link[href*="' + targetHref + '"]').first().click({ timeout: 5500 });
+  await page.waitForURL(url => url.pathname.endsWith(finalPath), { timeout: 5500 });
+}
+
+for (const width of [320, 390, 768]) {
+  await test('Home mobile menu opens and navigates', width, async page => {
+    await drawer(page, 'jurisdictions/', '/jurisdictions/');
+  });
+  await test('California section menu opens and navigates', width, async page => {
+    await drawer(page, 'jurisdictions/federal/', '/jurisdictions/federal/');
+  }, { route: 'california/' });
+  await test('Mobile drawer closes via outside overlay', width, async page => {
+    await page.locator('label.md-header__button[for="__drawer"]').click();
+    await page.waitForFunction(() => document.querySelector('#__drawer')?.checked);
+    await page.locator('.md-overlay').click({ position: { x: 310, y: 300 }, timeout: 5500 });
+    await page.waitForFunction(() => !document.querySelector('#__drawer')?.checked);
+  });
+}
+
+for (const width of [390, 1440]) {
+  await test('Search opens, returns results, follows a result', width, async page => {
+    await page.locator('label.md-header__button[for="__search"]').click();
+    const input = page.locator('input.md-search__input');
+    await input.fill('public records');
+    const result = page.locator('a.md-search-result__link').first();
+    await result.waitFor({ state: 'visible', timeout: 12000 });
+    const url = await result.getAttribute('href');
+    assert(url && url.length > 1, 'Search result has no URL');
+    await result.click();
+    await page.waitForURL(url => !url.pathname.endsWith('/1A-Field-Guide-Site/'), { timeout: 7000 });
+  });
+  await test('Dynamic investigation cards lead to research', width, async page => {
+    await page.locator('#investigations-live .investigation-card').first().waitFor({ state: 'visible', timeout: 8000 });
+    const link = page.locator('#investigations-live .investigation-card h2 a').first();
+    const target = await link.getAttribute('href');
+    assert(target && target.includes('investigations/'), 'Missing dynamic investigation link');
+    await link.click();
+    await page.waitForURL(url => url.pathname.includes('/investigations/') && !url.pathname.endsWith('/investigations/'));
+  }, { route: 'investigations/' });
+  await test('Evidence collection opens', width, async page => {
+    await page.locator('a.evidence-collection').first().click();
+    await page.waitForURL(url => url.pathname.includes('/cccl-pits/'));
+    assert(await page.locator('h1').count() > 0, 'Evidence page has no heading');
+  }, { route: 'evidence/' });
+  await test('Contribution link reaches member sign-in', width, async page => {
+    await page.locator('a[href="../member-pilot.html"]').first().click();
+    await page.waitForURL('**/member-pilot.html');
+    assert(await page.locator('form#signin').isVisible(), 'Sign-in form not visible');
+  }, { route: 'contribute/' });
+  await test('Member forms reject empty and malformed input locally', width, async page => {
+    const form = page.locator('form#signin');
+    assert(await form.isVisible(), 'Member sign-in form is not visible');
+    await form.locator('button').click();
+    assert(await form.evaluate(el => !el.checkValidity()), 'Empty sign-in form accepted');
+    await page.locator('#signin-email').fill('invalid-email');
+    await page.locator('#signin-password').fill('testpassword123');
+    assert(!(await page.locator('#signin-email').evaluate(el => el.checkValidity())), 'Malformed email accepted');
+  }, { route: 'member-pilot.html' });
+}
+
+for (const width of [390, 1440]) {
+  await test('Ticker pause and resume is operable', width, async page => {
+    const button = page.locator('.beta-newswire__pause');
+    await button.waitFor({ state: 'visible', timeout: 8000 });
+    const initial = await button.getAttribute('aria-pressed');
+    assert(initial === 'true', 'Ticker not initially paused for reduced motion');
+    await button.click();
+    assert(await button.getAttribute('aria-pressed') === 'false', 'Ticker did not resume');
+    await button.click();
+    assert(await button.getAttribute('aria-pressed') === 'true', 'Ticker did not pause again');
+  });
+  await test('Keyboard activates homepage California link', width, async page => {
+    const link = page.locator('a[href="california/"]').filter({ hasText: 'Open California' }).first();
+    await link.focus();
+    assert(await link.evaluate(e => document.activeElement === e), 'Homepage action not focusable');
+    await page.keyboard.press('Enter');
+    await page.waitForURL('**/california/');
+  });
+}
+
+for (const route of ['', 'california/', 'investigations/', 'evidence/', 'contribute/']) {
+  await test('Text spacing reflow', 320, async page => {
+    await page.addStyleTag({ content: `
+      .md-typeset, .beta-home { line-height: 1.5 !important; }
+      .md-typeset p, .beta-home p { margin-bottom: 2em !important; }
+      .md-typeset, .beta-home { letter-spacing: .12em !important; word-spacing: .16em !important; }
+    ` });
+    const reflow = await page.evaluate(() => ({
+      scrollWidth: document.documentElement.scrollWidth,
+      clientWidth: document.documentElement.clientWidth
+    }));
+    assert(reflow.scrollWidth <= reflow.clientWidth + 2,
+      'Text spacing overflow ' + JSON.stringify(reflow));
+  }, { route });
+}
+
+await browser.close();
+const failed = results.filter(r => r.outcome === 'fail');
+writeFileSync(join(output, 'functional-journeys.json'), JSON.stringify({
+  generated: new Date().toISOString(), scope: 'Browser functional smoke tests, not a screen-reader certification',
+  total: results.length, passed: results.length - failed.length, failed: failed.length, results
+}, null, 2));
+console.log('Functional journeys: ' + (results.length - failed.length) + '/' + results.length + ' passed');
+if (failed.length) process.exitCode = 1;
