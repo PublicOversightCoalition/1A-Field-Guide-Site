@@ -299,6 +299,50 @@ await test('Desktop sticky heading treatment remains unchanged', 1440, async pag
     'Desktop editorial sticky headings changed: ' + JSON.stringify(headings));
 }, { reducedMotion: 'no-preference' });
 
+// Nonphysical zoom and focus checks. A 320px viewport is already covered in
+// audit.mjs as a 400%-zoom reflow proxy; these exercise 200% text enlargement.
+for (const route of ['', 'california/', 'california/police-encounters/']) {
+  for (const width of [390, 1280]) {
+    await test('200 percent text enlargement preserves horizontal reflow', width, async page => {
+      await page.addStyleTag({ content: 'html { font-size: 200% !important; }' });
+      await page.waitForTimeout(100);
+      const sizes = await page.evaluate(() => ({
+        scroll: document.documentElement.scrollWidth,
+        visible: document.documentElement.clientWidth
+      }));
+      assert(sizes.scroll <= sizes.visible + 2,
+        'Text enlargement requires horizontal document scrolling: ' + JSON.stringify(sizes));
+    }, { route });
+  }
+}
+
+// A focused control should be both visibly outlined and unobscured by
+// persistent headers, tickers, or overlay layers at the viewport center.
+for (const width of [390, 1440]) {
+  await test('Focused homepage topic card is visible and unobscured', width, async page => {
+    const card = page.locator('.beta-topic-card').first();
+    await card.focus();
+    const result = await card.evaluate(el => {
+      const rect = el.getBoundingClientRect();
+      const x = Math.max(0, Math.min(innerWidth - 1, rect.left + rect.width / 2));
+      const y = Math.max(0, Math.min(innerHeight - 1, rect.top + Math.min(rect.height / 2, 35)));
+      const hit = document.elementFromPoint(x, y);
+      const style = getComputedStyle(el);
+      return {
+        active: document.activeElement === el,
+        inView: rect.bottom > 0 && rect.top < innerHeight,
+        unobscured: hit === el || el.contains(hit),
+        outline: style.outlineStyle,
+        width: parseFloat(style.outlineWidth),
+        hit: hit?.className?.toString().slice(0, 100)
+      };
+    });
+    assert(result.active && result.inView && result.unobscured &&
+      result.outline !== 'none' && result.width >= 2,
+      'Focused topic card is obscured or missing focus indication: ' + JSON.stringify(result));
+  });
+}
+
 const textSpacingRoutes = [
   '', 'california/', 'investigations/', 'evidence/', 'contribute/',
   'california/recording-public-officials/', 'california/police-encounters/',
