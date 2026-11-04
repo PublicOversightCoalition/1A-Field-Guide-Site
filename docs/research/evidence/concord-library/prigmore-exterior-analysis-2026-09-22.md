@@ -1,4 +1,4 @@
-# Concord Library — Exterior Prigmore Analysis
+# Concord Library: Exterior Prigmore Analysis
 
 **Facility:** Concord Library  
 **Address:** 2900 Salvio Street, Concord, California 94519  
@@ -36,8 +36,8 @@ The holding was property-specific. It does not make every library parking lot or
 
 Current City GIS identifies:
 
-- APN `111-240-006` — 2900 Salvio Street — owner field `CONCORD CITY OF` — 0.84 acres;
-- adjoining APN `111-240-014` — 1950 Parkside Drive — owner field `CONCORD CITY OF` — 3.68 acres.
+- APN `111-240-006`, 2900 Salvio Street, owner field `CONCORD CITY OF`, 0.84 acres;
+- adjoining APN `111-240-014`, 1950 Parkside Drive, owner field `CONCORD CITY OF`, 3.68 acres.
 
 The City-owned-parcels layer returns the library parcel as City-owned. A 2020 Contra Costa County Library Commission packet separately states that the Concord Library building is owned by the City of Concord.
 
@@ -90,7 +90,7 @@ The historical survey is context only; it is not treated as a current ROW plat.
 
 ### A. Salvio Street municipal sidewalk / public ROW component
 
-**Classification:** **TRADITIONAL PUBLIC FORUM — HIGH CONFIDENCE, SUBJECT TO EXACT-EDGE IDENTIFICATION.**
+**Classification:** **TRADITIONAL PUBLIC FORUM, HIGH CONFIDENCE, SUBJECT TO EXACT-EDGE IDENTIFICATION.**
 
 Reasoning:
 
@@ -102,7 +102,7 @@ The unresolved issue is not the forum doctrine applicable to a genuine municipal
 
 ### B. Parkside Drive municipal sidewalk / public ROW component
 
-**Classification:** **TRADITIONAL PUBLIC FORUM — HIGH CONFIDENCE, SUBJECT TO EXACT-EDGE IDENTIFICATION.**
+**Classification:** **TRADITIONAL PUBLIC FORUM, HIGH CONFIDENCE, SUBJECT TO EXACT-EDGE IDENTIFICATION.**
 
 The same reasoning applies to the actual public-sidewalk/ROW component along Parkside. City GIS characterizes the relevant street segment as Concord-owned/jurisdictional with sidewalks on both sides.
 
@@ -110,7 +110,7 @@ Again, the precise edge remains a boundary question, not a reason to classify an
 
 ### C. Library public entrance and immediate east-side pedestrian approach
 
-**Classification:** **TRADITIONAL PUBLIC FORUM — STRONGLY SUPPORTED UNDER PRIGMORE; FIELD/PHYSICAL VERIFICATION PENDING.**
+**Classification:** **TRADITIONAL PUBLIC FORUM, STRONGLY SUPPORTED UNDER PRIGMORE; FIELD/PHYSICAL VERIFICATION PENDING.**
 
 This area is the closest Concord analogue to the Redding entry/exit area:
 
@@ -126,7 +126,7 @@ That missing fact weakens the comparison somewhat but does not erase the strong 
 
 ### D. Pedestrian walkway connecting the library entrance with the Civic Center / front parking circulation
 
-**Classification:** **TRADITIONAL PUBLIC FORUM — STRONGLY SUPPORTED; EXACT SUBAREA BOUNDARIES AND FIELD CONDITIONS PENDING.**
+**Classification:** **TRADITIONAL PUBLIC FORUM, STRONGLY SUPPORTED; EXACT SUBAREA BOUNDARIES AND FIELD CONDITIONS PENDING.**
 
 The City map depicts this as ordinary pedestrian circulation linking a public entrance, bike rack, public parking, and multiple Civic Center buildings. Its use is therefore broader than a restricted employee/service walkway.
 
@@ -136,13 +136,13 @@ Field verification should still confirm that no gate, access-control sign, secur
 
 ### E. Front public parking lot off Salvio Street
 
-**Classification:** **TRADITIONAL PUBLIC FORUM — STRONGLY SUPPORTED UNDER PRIGMORE FOR LAWFUL PEDESTRIAN EXPRESSIVE USE; SAFETY RESTRICTIONS REMAIN MATERIAL.**
+**Classification:** **TRADITIONAL PUBLIC FORUM, STRONGLY SUPPORTED UNDER PRIGMORE FOR LAWFUL PEDESTRIAN EXPRESSIVE USE; SAFETY RESTRICTIONS REMAIN MATERIAL.**
 
 The front lot is expressly described by the Library as public parking and sits immediately at the library/Civic Center frontage. This is materially similar to the adjacent library parking lot included in the forum defined in *Prigmore*.
 
 The important limitation is activity-specific. *Prigmore* itself upheld Redding's prohibition on placing leaflets on vehicles in the parking lot based on the safety/property rationale before the court. Thus, traditional-public-forum status does not eliminate content-neutral vehicle, traffic, obstruction, or pedestrian-safety rules.
 
-For the project's standing scenario — peaceful recording/observation without blocking traffic, interfering with vehicles, or approaching people — the forum comparison is substantially stronger than for an activity occurring in travel lanes or involving parked vehicles themselves.
+For the project's standing scenario, peaceful recording/observation without blocking traffic, interfering with vehicles, or approaching people, the forum comparison is substantially stronger than for an activity occurring in travel lanes or involving parked vehicles themselves.
 
 ### F. Rear public parking lot off Parkside Drive / Civic Center lot
 
@@ -206,11 +206,11 @@ The supported formulation is:
 
 | Concord exterior area | Current status |
 | --- | --- |
-| Salvio municipal sidewalk / ROW | TPF — HIGH CONFIDENCE; exact edge pending |
-| Parkside municipal sidewalk / ROW | TPF — HIGH CONFIDENCE; exact edge pending |
-| Public entrance / immediate east approach | TPF — STRONGLY SUPPORTED; field verification pending |
-| Civic Center/library connective pedestrian walkway | TPF — STRONGLY SUPPORTED; exact subarea/field verification pending |
-| Front Salvio public lot | TPF — STRONGLY SUPPORTED under *Prigmore*; safety rules remain applicable |
+| Salvio municipal sidewalk / ROW | TPF, HIGH CONFIDENCE; exact edge pending |
+| Parkside municipal sidewalk / ROW | TPF, HIGH CONFIDENCE; exact edge pending |
+| Public entrance / immediate east approach | TPF, STRONGLY SUPPORTED; field verification pending |
+| Civic Center/library connective pedestrian walkway | TPF, STRONGLY SUPPORTED; exact subarea/field verification pending |
+| Front Salvio public lot | TPF, STRONGLY SUPPORTED under *Prigmore*; safety rules remain applicable |
 | Rear Parkside/Civic Center public lot | PRIGMORE-ANALOGY-SUBSTANTIAL; final classification pending |
 | Vehicle travel lanes / driveway throats | No independent broad speech-zone conclusion; safety controls substantial |
 

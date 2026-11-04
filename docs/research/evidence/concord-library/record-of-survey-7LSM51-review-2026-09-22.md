@@ -1,4 +1,4 @@
-# Concord Library — Record of Survey 7 LSM 51 Review
+# Concord Library: Record of Survey 7 LSM 51 Review
 
 **Facility:** Concord Library, 2900 Salvio Street, Concord, CA 94519  
 **Reviewed:** 2026-09-22  
