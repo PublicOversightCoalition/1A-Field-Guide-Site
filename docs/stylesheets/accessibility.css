@@ -231,3 +231,19 @@ body:has([data-motion-home]) {
 .beta-home {
   --beta-violet-text: #c6a7ff;
 }
+
+
+/* Mobile Material navigation must stack above the sticky research ticker.
+   Material drawer and scrim use z-index 5; ticker previously used 40. */
+@media (max-width: 76em) {
+  body:has([data-motion-home]) .beta-newswire {
+    z-index: 2;
+  }
+  body:has([data-motion-home]) .md-header {
+    z-index: 4;
+  }
+  body:has([data-motion-home]) .md-sidebar--primary,
+  body:has([data-motion-home]) .md-overlay {
+    z-index: 5;
+  }
+}
