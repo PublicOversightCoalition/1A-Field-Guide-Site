@@ -1,5 +1,5 @@
 ---
-title: Lawful-Vantage Observation and Recording — Matters Exposed to Public View
+title: "Lawful-Vantage Observation and Recording: Matters Exposed to Public View"
 jurisdiction: national-core
 scenario_id: NC-VANTAGE-01
 version: 1
@@ -7,7 +7,7 @@ last_verified: 2026-09-28
 status: canonical-development
 ---
 
-# Lawful-Vantage Observation and Recording — Matters Exposed to Public View
+# Lawful-Vantage Observation and Recording: Matters Exposed to Public View
 
 **Canonical scenario ID:** `NC-VANTAGE-01`
 
