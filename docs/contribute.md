@@ -6,8 +6,8 @@ hide:
 
 <div class="contribute-hero">
   <span class="beta-label beta-label--green">CONTRIBUTE</span>
-  <h1>Help turn public information into public knowledge.</h1>
-  <p>The Field Guide grows through careful source work: finding official policies, checking legal authority, documenting public-facing facilities, reviewing records, and identifying where the evidence does not yet support a conclusion.</p>
+  <h1>Help people find the facts.</h1>
+  <p>Found an agency policy, a public record, a posted rule, or an incident we should look into? You can help us check the facts. We review sources and corrections before publishing them.</p>
   <div class="contribute-actions">
     <a class="beta-button beta-button--primary" href="../member-pilot.html">Join or sign in</a>
     <a class="beta-button beta-button--secondary" href="https://github.com/PublicOversightCoalition/1A-Field-Guide-Site/blob/main/CONTRIBUTING.md">Code & documentation on GitHub</a>
@@ -17,35 +17,35 @@ hide:
 <div class="contribute-grid">
   <section class="contribute-card">
     <span class="contribute-card__step">01 · SOURCE WORK</span>
-    <h2>Find and verify official material</h2>
-    <p>Locate agency policies, ordinances, public records, court opinions, facility rules, maps, and other primary sources. Contributions are reviewed before they become part of the guide.</p>
+    <h2>Find the original source</h2>
+    <p>Help find official policies, laws, court decisions, public records, or posted rules. We'll check each source before using it in the guide.</p>
   </section>
   <section class="contribute-card">
-    <span class="contribute-card__step">02 · FIELD INTELLIGENCE</span>
-    <h2>Document what government actually does</h2>
-    <p>Help identify facilities, posted restrictions, access controls, policy changes, or incidents that deserve structured follow-up. Observation is evidence; interpretation still requires source support.</p>
+    <span class="contribute-card__step">02 · OBSERVATIONS</span>
+    <h2>Tell us what you observed</h2>
+    <p>Point out a facility rule, policy change, or encounter worth checking. Tell us what you saw and what you can document; we'll separate those details from interpretations.</p>
   </section>
   <section class="contribute-card">
-    <span class="contribute-card__step">03 · RECORDS & ANALYSIS</span>
-    <h2>Turn records into reusable evidence</h2>
-    <p>Review productions, identify gaps, compare written policy with practice, and help organize records so findings remain traceable to their source.</p>
+    <span class="contribute-card__step">03 · RECORDS</span>
+    <h2>Help make records useful</h2>
+    <p>Help compare agency records with written policies, notice what's missing, and keep findings linked to their original documents.</p>
   </section>
   <section class="contribute-card">
     <span class="contribute-card__step">04 · CORRECTIONS</span>
-    <h2>Challenge the guide when the evidence changes</h2>
-    <p>Corrections, contrary authority, updated policy, and better evidence are contributions too. The project is designed to preserve unresolved questions rather than force certainty.</p>
+    <h2>Help us correct mistakes</h2>
+    <p>Found a mistake, an updated policy, or evidence that challenges a conclusion? We want to know. If the answer is still uncertain, we'll say so.</p>
   </section>
 </div>
 
 ## How membership works
 
-Membership is the private contribution path. Email is used for sign-in, recovery, and necessary account communication; the public/member-facing identity is a Screen Name. Applying does not obligate anyone to accept assignments, and membership does not grant publication authority.
+You can apply to contribute through the private member workspace. We use your email for sign-in, account recovery, and necessary messages, while other members see your Screen Name. Joining doesn't commit you to taking on tasks, and contributions are reviewed before publication.
 
 <div class="contribute-callout">
   <div>
     <span class="beta-label">PRIVACY BY DEFAULT</span>
-    <h2>Your login identity is not your public identity.</h2>
-    <p>The contribution workflow is designed around pseudonymous participation, bounded research tasks, review before publication, and separation between private account information and public attribution.</p>
+    <h2>Contribute under a screen name.</h2>
+    <p>Your sign-in email stays separate from the name members see. You can choose a research task that interests you, and we review work before it becomes public.</p>
   </div>
   <a class="beta-button beta-button--primary" href="../member-pilot.html">Open member workspace</a>
 </div>

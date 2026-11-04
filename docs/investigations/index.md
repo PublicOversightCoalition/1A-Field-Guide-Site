@@ -6,9 +6,9 @@ title: Research & Investigations
 
 <div class="investigations-intro" markdown>
 
-The Field Guide is built from more than doctrine. We test rules against **agency policy, public records, facility conditions, and real incidents**. This page is the public index of that work.
+Here you can follow the questions we're investigating, the records we've collected, and what we've learned so far. We compare **what the law says, what agencies write in their policies, and what happens in practice**.
 
-An investigation can remain open while some findings are already well supported. Status describes the **research process**, not a conclusion about misconduct.
+A case can still be open even when some findings are well supported. **The status shows where our research stands; it does not mean an agency or person has been found to have acted unlawfully.**
 
 </div>
 
@@ -27,7 +27,7 @@ An investigation can remain open while some findings are already well supported.
 
 ## How to read an investigation
 
-Every mature investigation should answer the same questions:
+Each investigation aims to answer seven practical questions:
 
 1. **What happened, and why did we open it?**
 2. **Why does it matter beyond one incident?**
@@ -37,10 +37,10 @@ Every mature investigation should answer the same questions:
 6. **What records or field work come next?**
 7. **What reusable lesson belongs in the Field Guide?**
 
-The investigation page is an analytical index. Original records, exports, policies, and other source material should live in the evidence/public-records layer and be linked from the investigation rather than pasted into one enormous page.
+The investigation page tells the story and shows what we can support. The evidence library keeps the supporting records organized and linked, so you can check the sources yourself.
 
 ## Research discipline
 
-The project distinguishes among **fact, inference, allegation, unresolved question, and legal conclusion**. Public records are evidence, but the existence of an incident report or policy does not by itself prove that an event occurred exactly as described or that a rule is lawful.
+We separate **documented facts, allegations, interpretations, open questions, and legal conclusions**. A government report tells us what was recorded; it doesn't automatically prove that every statement in it is true, or that an agency's rule is lawful.
 
 [Read the Constitution First principle.](../constitution-first.md) · [Browse facility and policy research.](../registry/index.md) · [Public-records field guide.](../open-government/public-records.md)
