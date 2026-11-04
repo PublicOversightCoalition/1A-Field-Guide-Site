@@ -306,7 +306,7 @@ See [Records Requests and Retaliation](../california/records-request-retaliation
 ## Core sources
 
 - 5 U.S.C. § 552.
-- FOIA.gov — How to Make a FOIA Request / FAQ.
-- DOJ Office of Information Policy — DOJ Guide to the Freedom of Information Act.
-- DOJ OIP — FOIA Improvement Act of 2016 summary and foreseeable-harm guidance.
-- National Archives, Office of Government Information Services (OGIS) — requester assistance and mediation guidance.
+- FOIA.gov, How to Make a FOIA Request / FAQ.
+- DOJ Office of Information Policy, DOJ Guide to the Freedom of Information Act.
+- DOJ OIP, FOIA Improvement Act of 2016 summary and foreseeable-harm guidance.
+- National Archives, Office of Government Information Services (OGIS), requester assistance and mediation guidance.

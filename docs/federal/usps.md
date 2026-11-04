@@ -9,13 +9,13 @@ status: verified-in-part
 
 A California post office is federal property. Do not assume that California public-agency trespass rules are the operative conduct rules simply because the building is physically located in California.
 
-## Primary conduct regulation — 39 C.F.R. § 232.1
+## Primary conduct regulation: 39 C.F.R. § 232.1
 
 **Primary source:** [39 C.F.R. § 232.1](https://www.ecfr.gov/current/title-39/section-232.1)
 
 The regulation applies broadly to real property under Postal Service charge and control, subject to stated exceptions.
 
-## Photography — § 232.1(i)
+## Photography: § 232.1(i)
 
 The regulation states that, except when prohibited by official signs, directions of security force personnel or other authorized personnel, or a federal court order/rule, **photographs for news purposes** may be taken in entrances, lobbies, foyers, corridors, or auditoriums when used for public meetings.
 
@@ -33,19 +33,19 @@ or
 
 The actual regulation contains both an affirmative photography provision and express qualifications. The meaning/application of "news purposes," official signs/directions, and constitutional limits on enforcement require separate legal analysis.
 
-## Disturbances — § 232.1(e)
+## Disturbances: § 232.1(e)
 
 The regulation prohibits disorderly conduct, loud/unusual noise, obstruction of ingress/egress and conduct that impedes or disturbs employees performing duties or the public transacting business.
 
 Under the standing eight-condition scenario, an auditor is intentionally avoiding the clearest obstruction/noise/interference conduct. If § 232.1(e) is invoked, document the specific behavior the government claims satisfies it.
 
-## Signs and directions — § 232.1(d)
+## Signs and directions: § 232.1(d)
 
 The regulation requires compliance with official prohibitory/directory signs and directions of security-force personnel or other authorized individuals.
 
 This provision must be read together with § 232.1(i), constitutional law, and any applicable agency interpretation. The mere existence of a sign should be documented, but a handbook entry should not assume that a sign answers every constitutional question.
 
-## Closed property — § 232.1(b)(3)
+## Closed property: § 232.1(b)(3)
 
 Postal property generally may be closed to the public after normal business hours and may be closed in emergency situations or when necessary for orderly business. Admission during closed periods may be limited to authorized individuals.
 

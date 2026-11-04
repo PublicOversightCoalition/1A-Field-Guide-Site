@@ -22,9 +22,9 @@ The original agency-produced files are retained exactly as received and identifi
 
 The public site does **not** automatically mirror every original file. Instead, records can have one of three public treatments:
 
-- **Searchable derivative** — project-generated text derived from an agency-authored source for accessibility/search.
-- **Evidence note** — project-authored summary of investigation-relevant capabilities from a source, used where republishing the source itself is unnecessary or inappropriate.
-- **Source retained** — the original is preserved and cryptographically identified, but no public copy is being served yet.
+- **Searchable derivative**: project-generated text derived from an agency-authored source for accessibility/search.
+- **Evidence note**: project-authored summary of investigation-relevant capabilities from a source, used where republishing the source itself is unnecessary or inappropriate.
+- **Source retained**: the original is preserved and cryptographically identified, but no public copy is being served yet.
 
 A derivative or evidence note is never a substitute for the preserved original.
 
@@ -77,14 +77,14 @@ Those facts support investigation questions about completeness, lifecycle histor
 
 | Evidence ID | Source | Why it matters | Public access |
 | --- | --- | --- | --- |
-| `CCCL-PITS-006` | User Guide — Browse Incidents | Shows browse/filter functionality. | Source retained |
-| `CCCL-PITS-007` | User Guide — Create Incident Report | Shows how staff create incident records and enter information. | Source retained |
-| `CCCL-PITS-008` | User Guide — Review/Edit Incident Report | Establishes editable narratives, support fields, follow-up edits/deletions, and incident history. | [Evidence note](notes/review-edit-capabilities.md) |
-| `CCCL-PITS-009` | User Guide — Perpetrator Details | Documents person-detail fields and handling. | Source retained |
-| `CCCL-PITS-010` | User Guide — PITS Dashboard | Documents dashboard access/functions. | Source retained |
-| `CCCL-PITS-011` | User Guide — Reports | Documents reporting functions and report paths. | Source retained |
-| `CCCL-PITS-012` | User Guide — Restricted Data | Documents restricted-data features and access handling. | Source retained |
-| `CCCL-PITS-013` | User Guide — Recent Changes and Additions July 2025 | Provides a dated change record for PITS functionality. | Source retained |
+| `CCCL-PITS-006` | User Guide, Browse Incidents | Shows browse/filter functionality. | Source retained |
+| `CCCL-PITS-007` | User Guide, Create Incident Report | Shows how staff create incident records and enter information. | Source retained |
+| `CCCL-PITS-008` | User Guide, Review/Edit Incident Report | Establishes editable narratives, support fields, follow-up edits/deletions, and incident history. | [Evidence note](notes/review-edit-capabilities.md) |
+| `CCCL-PITS-009` | User Guide, Perpetrator Details | Documents person-detail fields and handling. | Source retained |
+| `CCCL-PITS-010` | User Guide, PITS Dashboard | Documents dashboard access/functions. | Source retained |
+| `CCCL-PITS-011` | User Guide, Reports | Documents reporting functions and report paths. | Source retained |
+| `CCCL-PITS-012` | User Guide, Restricted Data | Documents restricted-data features and access handling. | Source retained |
+| `CCCL-PITS-013` | User Guide, Recent Changes and Additions July 2025 | Provides a dated change record for PITS functionality. | Source retained |
 
 ### Classification and taxonomy
 
