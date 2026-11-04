@@ -373,3 +373,13 @@ body:has([data-motion-home]) .beta-newswire {
     top: auto;
   }
 }
+
+
+/* The expanded two-row mobile ticker must not intercept links in the
+   Material navigation drawer. Suppress it while that drawer is open. */
+@media (max-width: 76em) {
+  body:has(#__drawer:checked) .beta-newswire {
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
