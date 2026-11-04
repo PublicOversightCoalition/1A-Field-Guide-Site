@@ -156,3 +156,67 @@ body:has([data-motion-home]) {
     hyphens: none;
   }
 }
+
+
+/* Research updates: WCAG 2.2.2 pause/stop/hide and usable static alternative. */
+.beta-newswire__originals,
+.beta-newswire__duplicate {
+  display: flex;
+  flex: none;
+  align-items: center;
+}
+.beta-newswire__pause {
+  position: relative;
+  z-index: 3;
+  flex: none;
+  min-height: 2.35rem;
+  padding: .3rem .75rem;
+  border: 0;
+  border-left: 1px solid rgba(133, 255, 151, .28);
+  border-radius: 0;
+  background: #0d1618;
+  color: #eaf4ee;
+  font: 700 .75rem/1.25 system-ui, sans-serif;
+  cursor: pointer;
+}
+.beta-newswire__pause:hover {
+  background: #1b2c28;
+}
+.beta-newswire.is-paused .beta-newswire__track {
+  animation: none !important;
+  transform: none !important;
+}
+.beta-newswire.is-paused .beta-newswire__viewport {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.beta-newswire.is-paused .beta-newswire__duplicate {
+  display: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .beta-newswire__track { animation: none !important; }
+}
+
+/* Don't let dimmed scroll effects hide actionable items from keyboard users. */
+.beta-topic-card:focus-visible,
+.beta-feature-card:focus-visible,
+.beta-case-card:focus-visible,
+.evidence-collection:focus-visible,
+.jurisdiction-card:focus-visible {
+  opacity: 1 !important;
+  filter: none !important;
+  transform: none !important;
+}
+/* Clear prose links in dynamic investigation and evidence explanations. */
+.investigation-card__actions a,
+.investigation-card h2 a,
+.evidence-principles a {
+  text-decoration: underline;
+  text-underline-offset: .16em;
+}
+@media (max-width: 48em) {
+  .beta-newswire__pause {
+    font-size: .7rem;
+    padding-inline: .5rem;
+  }
+}
