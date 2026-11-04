@@ -91,7 +91,8 @@
     wire.dataset.mobileReelInterval = String(reelDelay);
     const advanceMobileReel = () => {
       if (!compactViewport.matches || wire.classList.contains('is-paused') ||
-          document.hidden || wire.matches(':focus-within, :hover') ||
+          document.hidden || wire.matches(':focus-within') ||
+          (window.matchMedia('(hover: hover)').matches && wire.matches(':hover')) ||
           document.querySelector('#__drawer')?.checked ||
           document.querySelector('#__search')?.checked) return;
       if (mobileItems.length < 2) return;
