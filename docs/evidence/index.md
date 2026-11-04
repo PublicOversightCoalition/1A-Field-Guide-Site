@@ -4,17 +4,17 @@ title: Evidence library
 
 # Evidence library
 
-Public investigations should not require readers to trust a summary when the supporting record can be identified and inspected.
+You shouldn't have to take our word for it. When we make a finding, we aim to show you the records behind it.
 
-The Evidence Library is the source layer behind 1A Field Guide investigations. Collections are organized by jurisdiction and investigation, with stable evidence IDs, source metadata, integrity hashes, publication status, and search-friendly derivatives where appropriate.
+This library organizes the documents and data behind our investigations. Each preserved source receives an evidence ID and a digital fingerprint (SHA-256 hash) to help identify the exact file we received. We also provide searchable versions where appropriate.
 
 <div class="evidence-principles" markdown>
 
-**Evidence is not a conclusion.** A record can show what an agency documented, instructed, classified, or produced. Whether the underlying conduct was lawful, accurate, complete, or fairly characterized is a separate analytical question.
+**A record is a starting point, not a verdict.** It can show what an agency wrote or provided. It doesn't necessarily prove that an incident happened exactly that way, or that the agency acted lawfully.
 
-**Source and derivative stay separate.** Searchable text or CSV derivatives are labeled as derivatives. The preserved source record remains the integrity reference.
+**We keep originals separate from working copies.** Searchable text and data extracts are labeled clearly. The original file remains the reference for checking what we received.
 
-**Privacy review is independent of agency disclosure.** The project may withhold or redact material when publication would unnecessarily expose private people even if an agency produced it.
+**Public records can still contain private information.** We may redact or withhold a public copy when releasing it would unnecessarily expose someone, even if an agency supplied the original.
 
 </div>
 
@@ -25,7 +25,7 @@ The Evidence Library is the source layer behind 1A Field Guide investigations. C
 <a class="evidence-collection" href="california/cccl-pits/">
   <span class="evidence-collection__eyebrow">CALIFORNIA · CONTRA COSTA COUNTY</span>
   <h2>Contra Costa County Library — PITS</h2>
-  <p>First public-records production: incident-list data, PITS training, system guides, reporting mechanics, classification guidance, and taxonomy records.</p>
+  <p>The first batch of library records includes incident data, staff training materials, system guides, and the categories staff use to classify incidents.</p>
   <span class="evidence-collection__meta">16 source records · received 2026-10-19</span>
 </a>
 
@@ -33,4 +33,4 @@ The Evidence Library is the source layer behind 1A Field Guide investigations. C
 
 ## Publication states
 
-**Published derivative** means a search/access copy is available from the site. **Source retained** means the original agency-produced file is preserved and cryptographically identified but is not itself being served from the public site yet. A later direct-source publication can be attached to the same evidence ID without changing the investigation record.
+**Published copy:** a searchable or readable version you can open here. **Original preserved:** we retain the original file and its hash, but have not published it on the site. A published version can be added later without changing its evidence ID.
