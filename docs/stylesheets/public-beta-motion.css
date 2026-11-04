@@ -1,8 +1,17 @@
 /* Public Beta motion pass v0.2 — homepage only */
 
-body:has([data-motion-home]) .md-sidebar--primary,
-body:has([data-motion-home]) .md-sidebar--secondary {
-  display: none;
+/* Hide desktop sidebars for the editorial homepage, but preserve Material's
+   primary navigation drawer on mobile. */
+@media (min-width: 76.01em) {
+  body:has([data-motion-home]) .md-sidebar--primary,
+  body:has([data-motion-home]) .md-sidebar--secondary {
+    display: none;
+  }
+}
+@media (max-width: 76em) {
+  body:has([data-motion-home]) .md-sidebar--primary {
+    display: block;
+  }
 }
 
 body:has([data-motion-home]) .md-main__inner {
