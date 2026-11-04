@@ -4,7 +4,7 @@ import AxeBuilder from '@axe-core/playwright';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-const root = process.env.AUDIT_URL || 'http://127.0.0.1:8765/';
+const root = process.env.AUDIT_URL || 'http://127.0.0.1:8765/1A-Field-Guide-Site/';
 const out = process.env.AUDIT_OUTPUT || 'audit-results';
 mkdirSync(out, { recursive: true });
 
