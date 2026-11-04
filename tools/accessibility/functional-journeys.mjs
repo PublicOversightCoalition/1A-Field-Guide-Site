@@ -240,9 +240,22 @@ for (const width of [320, 390]) {
     assert(metrics.whiteSpace !== 'nowrap', 'Mobile update text cannot wrap');
     assert(metrics.itemWidth >= width - 35, 'Mobile ticker update is too narrow: ' + JSON.stringify(metrics));
     assert(metrics.animationName === 'none', 'Paused ticker is still animating');
-    await page.locator('.beta-newswire__pause').click();
-    assert(await page.locator('.beta-newswire__pause').getAttribute('aria-pressed') === 'false',
+    const control = page.locator('.beta-newswire__pause');
+    assert(await control.getAttribute('aria-label') === 'Resume updates',
+      'Paused icon has no descriptive accessible name');
+    assert(await control.locator('[aria-hidden="true"]').count() === 1,
+      'Playback icon is not hidden from screen readers');
+    const size = await control.boundingBox();
+    assert(size && size.width >= 44 && size.height >= 44,
+      'Ticker touch target smaller than 44 CSS pixels');
+    await control.click();
+    assert(await control.getAttribute('aria-pressed') === 'false',
       'Resume updates does not reactivate scrolling');
+    assert(await control.getAttribute('aria-label') === 'Pause updates',
+      'Playing icon does not expose Pause updates to assistive technology');
+    await control.click();
+    assert(await control.getAttribute('aria-label') === 'Resume updates',
+      'Paused icon did not restore its accessible name');
   }, { reducedMotion: 'no-preference' });
 
   await test('Mobile section headings do not remain sticky behind cards', width, async page => {
