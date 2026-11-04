@@ -20,7 +20,10 @@
   const buildWire = (state) => {
     const wire = document.createElement('div');
     wire.className = 'beta-newswire';
+    wire.setAttribute('role', 'region');
     wire.setAttribute('aria-label', 'Current 1A Field Guide research and project updates');
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reducedMotion) wire.classList.add('is-paused');
 
     const label = document.createElement('div');
     label.className = 'beta-newswire__label';
@@ -39,9 +42,36 @@
       ...state.next.map((item) => [item.label, item.text, item.href || null]),
     ];
 
-    [...items, ...items].forEach(([k, t, h]) => track.appendChild(mkItem(k, t, h)));
+    items.forEach(([k, t, h]) => track.appendChild(mkItem(k, t, h)));
+    // A visual duplicate makes the animation seamless but must not create
+    // duplicate screen-reader announcements or keyboard tab stops.
+    const duplicate = document.createElement('div');
+    duplicate.className = 'beta-newswire__duplicate';
+    duplicate.setAttribute('aria-hidden', 'true');
+    items.forEach(([k, t, h]) => {
+      const item = mkItem(k, t, h);
+      if (item.matches('a')) item.tabIndex = -1;
+      duplicate.appendChild(item);
+    });
+    // Keep original items together as the first half of the scrolling track.
+    const originals = document.createElement('div');
+    originals.className = 'beta-newswire__originals';
+    while (track.firstChild) originals.appendChild(track.firstChild);
+    track.append(originals, duplicate);
     viewport.appendChild(track);
-    wire.append(label, viewport);
+
+    const pause = document.createElement('button');
+    pause.type = 'button';
+    pause.className = 'beta-newswire__pause';
+    pause.setAttribute('aria-pressed', String(reducedMotion));
+    pause.textContent = reducedMotion ? 'Resume updates' : 'Pause updates';
+    pause.addEventListener('click', () => {
+      const paused = wire.classList.toggle('is-paused');
+      pause.setAttribute('aria-pressed', String(paused));
+      pause.textContent = paused ? 'Resume updates' : 'Pause updates';
+    });
+
+    wire.append(label, viewport, pause);
 
     const header = document.querySelector('.md-header');
     if (header) header.insertAdjacentElement('afterend', wire);
@@ -100,10 +130,10 @@
   const applyCaliforniaMetrics = (state) => {
     const stats = [...home.querySelectorAll('.beta-california__stats > div')];
     const values = [
-      [state.california.supported_qualification_rows, 'supported qualification rows'],
-      [state.california.researched_unresolved_rows, 'researched-unresolved rows'],
-      [state.california.gap_rows_at_activation, 'gap rows at activation'],
-      [state.california.counties_inventoried, 'counties inventoried'],
+      [state.california.supported_qualification_rows, 'research checks with supporting sources'],
+      [state.california.researched_unresolved_rows, 'questions still under review'],
+      [state.california.gap_rows_at_activation, 'unfilled research gaps at launch'],
+      [state.california.counties_inventoried, 'California counties inventoried'],
     ];
 
     stats.forEach((stat, index) => {
@@ -133,15 +163,15 @@
 
     const sub = document.createElement('p');
     sub.className = 'beta-manifesto__sub';
-    sub.textContent = 'The Field Guide connects law, policy, records, and incidents so a public claim can be traced back to the authority and evidence supporting it.';
+    sub.textContent = 'When a public agency makes a claim, we look for the law, policy, and records behind it. You should be able to follow that trail too.';
 
     const stats = document.createElement('div');
     stats.className = 'beta-manifesto__stats';
     const values = [
       [state.research.length, 'active public research files'],
       [state.california.counties_inventoried, 'California counties inventoried'],
-      [state.california.supported_qualification_rows, 'supported qualification rows'],
-      [state.california.gap_rows_at_activation, 'gap rows at California activation'],
+      [state.california.supported_qualification_rows, 'research checks with supporting sources'],
+      [state.california.gap_rows_at_activation, 'unfilled research gaps at launch'],
     ];
 
     values.forEach(([value, label]) => {
