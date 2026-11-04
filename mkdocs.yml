@@ -57,6 +57,7 @@ extra_javascript:
   - javascripts/public-beta-motion.js
   - javascripts/public-beta-editorial.js
   - javascripts/investigations-index.js
+  - javascripts/accessibility-support.js
 
 exclude_docs: |
   templates/**

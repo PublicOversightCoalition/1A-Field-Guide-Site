@@ -60,6 +60,7 @@ jobs:
           node --check docs/javascripts/public-beta-editorial.js
           node --check docs/javascripts/public-beta-motion.js
           node --check docs/javascripts/investigations-index.js
+          node --check docs/javascripts/accessibility-support.js
 
       - name: Generate and validate Registry
         run: |
