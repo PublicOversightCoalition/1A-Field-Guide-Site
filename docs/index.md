@@ -58,7 +58,7 @@ hide:
         <a class="beta-case-card" href="registry/healdsburg-police/" data-motion-card><div class="beta-case-card__meta"><span class="beta-live-dot"></span> RESEARCHING · SONOMA COUNTY</div><h3>Healdsburg Police Department</h3><p>We're comparing the department's published policies with reported encounters and documenting what remains unverified.</p><span class="beta-link">Open research file</span></a>
       </div>
     </div>
-    <aside class="beta-evidence-panel" data-motion-evidence>
+    <div class="beta-evidence-panel" data-motion-evidence role="region" aria-label="How we evaluate evidence">
       <span class="beta-label">EVIDENCE, NOT HOT TAKES</span>
       <h3>Every conclusion should be traceable.</h3>
       <div class="beta-evidence-list">
@@ -69,7 +69,7 @@ hide:
         <div data-evidence-step><strong>Unresolved</strong><span>Questions stay visibly open when the evidence is not enough</span></div>
       </div>
       <a class="beta-text-link" href="constitution-first/">Read the Constitution First method</a>
-    </aside>
+    </div>
   </section>
 
   <section class="beta-section beta-motion-section beta-records" data-motion-section="records">
