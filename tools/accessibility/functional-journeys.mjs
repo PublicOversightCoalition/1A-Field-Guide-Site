@@ -33,7 +33,15 @@ async function test(name, width, journey, { route = '', reducedMotion = 'reduce'
       list: document.querySelector('.md-search-result__list')?.textContent?.slice(0, 350),
       searchResults: document.querySelectorAll('.md-search-result__link').length,
       formVisible: !!document.querySelector('.md-search__form')?.getBoundingClientRect().width,
-      html: document.querySelector('.md-search__output')?.innerHTML.slice(0, 500)
+      html: document.querySelector('.md-search__output')?.innerHTML.slice(0, 500),
+      stack: ['.md-header','.md-search','.md-search__inner','.md-search__output','.md-search__scrollwrap','.md-search-result__link','.beta-newswire']
+        .map(sel=>{const el=document.querySelector(sel);const css=el&&getComputedStyle(el);
+          return {sel,rect:el?.getBoundingClientRect()?.toJSON(),z:css?.zIndex,position:css?.position,overflow:css?.overflow};}),
+      hit: (()=>{const r=document.querySelector('.md-search-result__link')?.getBoundingClientRect();
+        if(!r)return null;
+        const e=document.elementFromPoint(r.left+r.width/2,r.top+r.height/2);
+        return {hit:e?.outerHTML.slice(0,280),rect:r.toJSON()};
+      })()
     })) : undefined;
     results.push({ name, width, route, outcome: 'fail', error, diagnostics, issues });
     if (diagnostics) console.error('SEARCH DIAGNOSTICS ' + JSON.stringify({ diagnostics, issues }));
