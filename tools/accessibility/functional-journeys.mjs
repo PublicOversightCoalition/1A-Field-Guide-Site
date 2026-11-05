@@ -305,6 +305,80 @@ await test('Desktop sticky heading treatment remains unchanged', 1440, async pag
     'Desktop editorial sticky headings changed: ' + JSON.stringify(headings));
 }, { reducedMotion: 'no-preference' });
 
+// Keyboard-first search, drawer and sign-in checks. These exercise keyboard
+// events, accessible names and focus behavior without relying on pointer clicks.
+for (const width of [390, 1440]) {
+  await test('Search result activates using keyboard Enter', width, async page => {
+    const opener = page.locator('label.md-header__button[for="__search"]');
+    if (await opener.isVisible()) await opener.click();
+    const input = page.locator('.md-search__input');
+    await input.fill('public records');
+    const result = page.locator('.md-search-result__link').first();
+    await result.waitFor({ state: 'visible', timeout: 12000 });
+    await result.focus();
+    assert(await result.evaluate(el => document.activeElement === el),
+      'Search result cannot receive keyboard focus');
+    await page.keyboard.press('Enter');
+    await page.waitForURL(url => !url.pathname.endsWith('/1A-Field-Guide-Site/'),
+      { timeout: 7000 });
+  });
+
+  await test('Search supports Escape to close', width, async page => {
+    const opener = page.locator('label.md-header__button[for="__search"]');
+    if (await opener.isVisible()) await opener.click();
+    const input = page.locator('.md-search__input');
+    await input.focus();
+    await input.fill('public records');
+    await page.keyboard.press('Escape');
+    const state = await page.evaluate(() => ({
+      searchChecked: document.querySelector('#__search')?.checked,
+      inputValue: document.querySelector('.md-search__input')?.value,
+      focused: document.activeElement?.className
+    }));
+    assert(!state.searchChecked || !state.inputValue,
+      'Escape neither closed search nor cleared its query: ' + JSON.stringify(state));
+  });
+
+  await test('Member sign-in inputs have labels and visible keyboard focus', width, async page => {
+    const email = page.locator('#signin-email');
+    const password = page.locator('#signin-password');
+    const labels = await page.locator('form#signin').evaluate(form =>
+      [...form.querySelectorAll('input')].map(input => ({
+        id: input.id,
+        labeled: Boolean(input.labels?.length || input.getAttribute('aria-label')),
+        required: input.required
+      })));
+    assert(labels.length === 2 && labels.every(x => x.labeled && x.required),
+      'Member sign-in inputs have missing labels or required state: ' + JSON.stringify(labels));
+    await email.focus();
+    await page.keyboard.press('Tab');
+    assert(await password.evaluate(el => document.activeElement === el),
+      'Tab from email did not reach password field');
+    const outline = await password.evaluate(el => ({
+      style: getComputedStyle(el).outlineStyle,
+      width: parseFloat(getComputedStyle(el).outlineWidth)
+    }));
+    assert(outline.style !== 'none' && outline.width >= 2,
+      'Password field lacks visible keyboard focus: ' + JSON.stringify(outline));
+    await page.keyboard.press('Enter');
+    assert(await page.locator('form#signin').evaluate(form => !form.checkValidity()),
+      'Submitting incomplete sign-in via keyboard bypassed validation');
+  }, { route: 'member-pilot.html' });
+}
+
+for (const width of [320, 390]) {
+  await test('Mobile drawer links are keyboard reachable', width, async page => {
+    await page.locator('label.md-header__button[for="__drawer"]').click();
+    await page.waitForFunction(() => document.querySelector('#__drawer')?.checked);
+    const link = page.locator('.md-sidebar--primary a.md-nav__link[href*="jurisdictions/"]').first();
+    await link.focus();
+    assert(await link.evaluate(el => document.activeElement === el),
+      'Open drawer navigation link is not keyboard focusable');
+    await page.keyboard.press('Enter');
+    await page.waitForURL('**/jurisdictions/', { timeout: 7000 });
+  });
+}
+
 // Nonphysical zoom and focus checks. A 320px viewport is already covered in
 // audit.mjs as a 400%-zoom reflow proxy; these exercise 200% text enlargement.
 for (const route of ['', 'california/', 'california/police-encounters/']) {
