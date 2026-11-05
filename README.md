@@ -10,6 +10,14 @@ This project is under active development. It is intended to become a public, sou
 
 The guide is **not legal advice** and does not promise that an officer, employee, prosecutor, or court will agree with a particular legal interpretation. Statutes, regulations, policies, and case law change. Every substantive entry should identify its source and the date it was verified.
 
+## How we use AI
+
+The 1A Field Guide is a founder-directed project built with substantial assistance from artificial intelligence. AI tools help us organize research, draft and edit explanations, develop software, and check our work. We do not pretend that AI-assisted material was written entirely by hand.
+
+AI can make mistakes, including inaccurate legal explanations and unreliable citations. Its output is not evidence or legal authority. We aim to support substantive claims with traceable sources, distinguish verified findings from open questions, and correct errors when we find them. Those are standards we work toward, not a guarantee that every passage is error-free or independently verified.
+
+The founder directs the project's priorities and approves publication decisions. Readers can examine our sources and revision history, question our conclusions, and [report corrections or concerns](https://github.com/PublicOversightCoalition/1A-Field-Guide-Site/issues). We believe responsible AI use should be open to scrutiny, not disguised.
+
 ## Accessibility status and reporting
 
 Our accessibility testing, its current coverage, and its limits are documented in [ACCESSIBILITY.md](ACCESSIBILITY.md). This is a progress record, not a claim of full WCAG conformance. Visitors can report barriers using the [accessibility issue form](https://github.com/PublicOversightCoalition/1A-Field-Guide-Site/issues/new?template=accessibility-report.yml). GitHub issues are public; do not include sensitive information.
