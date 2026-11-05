@@ -399,7 +399,7 @@ for (const width of [390, 1440]) {
   await test('Member sign-in controls have browser-exposed accessible names', width, async page => {
     const form = page.locator('form#signin');
     const email = form.getByRole('textbox', { name: 'Email' });
-    const password = form.getByRole('textbox', { name: 'Password' });
+    const password = form.getByLabel('Password', { exact: true });
     const submit = form.getByRole('button', { name: 'Sign in' });
     assert(await email.count() === 1 && await password.count() === 1 &&
       await submit.count() === 1,
