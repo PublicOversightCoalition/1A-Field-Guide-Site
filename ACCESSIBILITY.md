@@ -8,15 +8,13 @@ We want the Field Guide to be usable by people with a wide range of disabilities
 
 ## What has been checked
 
-As of the last completed baseline (PR #66):
+As of the latest completed automated test run for PR #67:
 
-- **213 of 213 functional browser journeys passed**, across Chromium, Firefox, and WebKit (71 in each engine).
+- **243 of 243 functional browser journeys passed**, across Chromium, Firefox, and WebKit (81 in each engine).
 - The automated Chromium axe-core WCAG screening reported **zero flagged checks** in its configured scope.
-- Playwright tests cover mobile navigation, search, member sign-in forms, keyboard activation, accessible focus indication, the moving research reel and reduced-motion behavior, text spacing, text enlargement, and narrow-viewport reflow.
+- Playwright tests cover mobile navigation, search, member sign-in forms, keyboard activation, accessible focus indication, the moving research reel and reduced-motion behavior, text spacing, text enlargement, narrow-viewport reflow, browser-exposed page landmarks, accessible heading names, sign-in control names, and the named research-update region.
 - All three browser engines run functional checks on pull requests to `main`. The Chromium job additionally runs axe-core screening over selected rendered pages.
 - These results describe **the tested pages, engines, interactions, and versions**. A passing score is not proof that untested content or interactions are accessible.
-
-A later automated review is extending this coverage to browser-exposed landmarks, accessible names, and control roles. See the pull-request checks for its outcome before treating that additional coverage as complete.
 
 ## What automated testing cannot determine
 
