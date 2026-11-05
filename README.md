@@ -10,6 +10,10 @@ This project is under active development. It is intended to become a public, sou
 
 The guide is **not legal advice** and does not promise that an officer, employee, prosecutor, or court will agree with a particular legal interpretation. Statutes, regulations, policies, and case law change. Every substantive entry should identify its source and the date it was verified.
 
+## Accessibility status and reporting
+
+Our accessibility testing, its current coverage, and its limits are documented in [ACCESSIBILITY.md](ACCESSIBILITY.md). This is a progress record, not a claim of full WCAG conformance. Visitors can report barriers using the [accessibility issue form](https://github.com/PublicOversightCoalition/1A-Field-Guide-Site/issues/new?template=accessibility-report.yml). GitHub issues are public; do not include sensitive information.
+
 ## Standing audit conditions
 
 The canonical jurisdiction-neutral baseline is maintained in [docs/national-core/standing-scenario.md](docs/national-core/standing-scenario.md); [docs/california/standing-scenario.md](docs/california/standing-scenario.md) is the California overlay/crosswalk.
