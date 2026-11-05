@@ -1,0 +1,75 @@
+name: Accessibility barrier report
+description: Report trouble using the Field Guide with a browser, keyboard, screen reader, magnifier, or other assistive technology.
+title: "[Accessibility] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping make the Field Guide more usable. This is a public GitHub issue. Do not include passwords, personal medical information, private records, or sensitive screenshots. You do not need to identify a disability or diagnosis.
+  - type: input
+    id: page
+    attributes:
+      label: Affected page or feature
+      description: Link to the page, or describe the section or control.
+      placeholder: https://publicoversightcoalition.github.io/1A-Field-Guide-Site/...
+    validations:
+      required: true
+  - type: textarea
+    id: barrier
+    attributes:
+      label: What was difficult or inaccessible?
+      description: Describe the barrier in your own words.
+      placeholder: I could not reach the search results using the keyboard...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we reproduce it?
+      description: Short steps help us investigate. Write "Not sure" if you cannot reproduce it consistently.
+    validations:
+      required: false
+  - type: input
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: false
+  - type: dropdown
+    id: interaction
+    attributes:
+      label: Affected interaction
+      options:
+        - Keyboard or focus
+        - Screen reader or spoken announcements
+        - Zoom, magnification, or reflow
+        - Contrast or readability
+        - Motion or animation
+        - Form or sign-in
+        - Touch or mobile navigation
+        - Something else / not sure
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version (optional)
+      placeholder: Firefox on Windows, Safari on iPhone, etc.
+    validations:
+      required: false
+  - type: input
+    id: assistive_technology
+    attributes:
+      label: Assistive technology, if relevant (optional)
+      description: Product and version only. Do not disclose diagnoses or other private health details.
+      placeholder: NVDA, VoiceOver, TalkBack, keyboard only, magnification, etc.
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context (optional)
+      description: You may include safe, non-sensitive details. Please redact personal information from screenshots.
+    validations:
+      required: false
