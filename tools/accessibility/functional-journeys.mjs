@@ -379,6 +379,46 @@ for (const width of [320, 390]) {
   });
 }
 
+// Screen-reader-adjacent semantic checks. These inspect the browser-exposed
+// roles, accessible names, labeling and focus behavior; they do not simulate
+// spoken output or replace NVDA, VoiceOver or TalkBack user testing.
+for (const width of [390, 1440]) {
+  for (const route of ['', 'california/', 'california/police-encounters/']) {
+    await test('Page exposes navigable main landmark and named primary heading', width, async page => {
+      const main = page.getByRole('main');
+      const heading = page.getByRole('heading', { level: 1 });
+      assert(await main.count() === 1,
+        'Expected exactly one browser-exposed main landmark');
+      assert(await heading.count() >= 1,
+        'Page has no accessible level-one heading');
+      const name = (await heading.first().innerText()).trim();
+      assert(name.length > 3, 'Primary heading lacks a meaningful name');
+    }, { route });
+  }
+
+  await test('Member sign-in controls have browser-exposed accessible names', width, async page => {
+    const form = page.locator('form#signin');
+    const email = form.getByRole('textbox', { name: 'Email' });
+    const password = form.getByRole('textbox', { name: 'Password' });
+    const submit = form.getByRole('button', { name: 'Sign in' });
+    assert(await email.count() === 1 && await password.count() === 1 &&
+      await submit.count() === 1,
+      'Sign-in input or action is missing its accessible role/name');
+    assert(await email.getAttribute('type') === 'email',
+      'Email input lacks its expected input type');
+  }, { route: 'member-pilot.html' });
+
+  await test('Research reel is a named region with an accessible pause control', width, async page => {
+    const region = page.getByRole('region', { name: 'Current 1A Field Guide research and project updates' });
+    await region.waitFor({ state: 'visible', timeout: 8000 });
+    const button = region.getByRole('button', { name: 'Resume updates' });
+    assert(await button.count() === 1,
+      'Reel pause/play control lacks an accessible name');
+    assert(await region.locator('.beta-newswire__duplicate a[tabindex="-1"]').count() >= 1,
+      'Decorative duplicated reel links are not excluded from keyboard focus');
+  }, { reducedMotion: 'reduce' });
+}
+
 // Nonphysical zoom and focus checks. A 320px viewport is already covered in
 // audit.mjs as a 400%-zoom reflow proxy; these exercise 200% text enlargement.
 for (const route of ['', 'california/', 'california/police-encounters/']) {
