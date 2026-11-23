@@ -46,7 +46,7 @@ def main() -> None:
             "<meta charset=\"utf-8\">\n"
             "<meta name=\"robots\" content=\"noindex\">\n"
             "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n"
-            f"<meta http-equiv=\"refresh\" content=\"0;url={target_html}\">\n"
+            f"<noscript><meta http-equiv=\"refresh\" content=\"0;url={target_html}\"></noscript>\n"
             "<title>Page moved | The Public Oversight Coalition</title>\n"
             "</head>\n<body>\n"
             "<script>\n"
