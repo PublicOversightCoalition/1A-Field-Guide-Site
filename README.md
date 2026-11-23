@@ -1,6 +1,8 @@
-# 1A Field Guide
+# The Public Oversight Coalition
 
-I aim to make field guides for all American states and territories with the goal of empowering citizens to understand and exercise their First Amendment rights without unnecessarily putting themselves at legal risk.
+The Public Oversight Coalition is an independent public-interest investigation and research project. We publish source-traceable accounts, public records, constitutional field guides, and open investigative questions so readers can examine evidence and participate in responsible oversight.
+
+The Public Oversight Field Guide is a core educational resource. It covers constitutional rights and relevant statutory, regulatory, and agency authority, including First and Fourth Amendment issues.
 
 The first formally activated state handbook is the **California 1A Auditor's Field Guide**, activated September 30, 2026.
 
@@ -12,7 +14,7 @@ The guide is **not legal advice** and does not promise that an officer, employee
 
 ## How we use AI
 
-The 1A Field Guide is a founder-directed project built with substantial assistance from artificial intelligence. AI tools help us organize research, draft and edit explanations, develop software, and check our work. We do not pretend that AI-assisted material was written entirely by hand.
+The Public Oversight Coalition is a founder-directed project built with substantial assistance from artificial intelligence. AI tools help us organize research, draft and edit explanations, develop software, and check our work. We do not pretend that AI-assisted material was written entirely by hand.
 
 AI can make mistakes, including inaccurate legal explanations and unreliable citations. Its output is not evidence or legal authority. We aim to support substantive claims with traceable sources, distinguish verified findings from open questions, and correct errors when we find them. Those are standards we work toward, not a guarantee that every passage is error-free or independently verified.
 
@@ -48,7 +50,7 @@ These assumptions keep the guide focused on the government's actual authority in
 
 ## Repository architecture
 
-This repository is the **canonical public-source repository** for the 1A Field Guide under the **Public Oversight Coalition** organization.
+This repository is the **canonical public-source repository** for the Public Oversight Coalition under the **Public Oversight Coalition** organization.
 
 Canonical source: https://github.com/PublicOversightCoalition/1A-Field-Guide-Site  
 Public site: https://publicoversightcoalition.github.io/1A-Field-Guide-Site/
