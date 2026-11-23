@@ -78,9 +78,8 @@ await test('Legacy member link preserves callback query and fragment', 390, asyn
   await page.waitForURL(url => url.pathname === '/member-pilot.html'
     && url.searchParams.get('migration_probe') === '1'
     && url.hash === '#type=preview', { timeout: 7000 });
-  const asset = await page.evaluate(async () =>
-    (await fetch('/1A-Field-Guide-Site/stylesheets/member-research.css')).ok);
-  assert(asset, 'Legacy asset path did not remain available');
+  const asset = await page.request.get(new URL('/1A-Field-Guide-Site/stylesheets/member-research.css', base).href);
+  assert(asset.ok(), 'Legacy asset path did not remain available');
 }, { route: 'member-pilot.html' });
 
 for (const width of [320, 390, 768]) {
