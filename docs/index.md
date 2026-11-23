@@ -1,5 +1,5 @@
 ---
-title: 1A Field Guide
+title: The Public Oversight Coalition
 hide:
   - toc
   - navigation
@@ -10,12 +10,12 @@ hide:
 
   <section class="beta-hero beta-motion-section" data-motion-section="hero">
     <div class="beta-hero__content">
-      <p class="beta-kicker">PUBLIC BETA · CALIFORNIA ACTIVE</p>
-      <h1>Know the rules. See the evidence. Hold public power accountable.</h1>
-      <p class="beta-lede">Understand your rights, see what public agencies actually say, and follow the records behind real investigations. Start with a question and explore the evidence for yourself.</p>
+      <p class="beta-kicker">THE PUBLIC OVERSIGHT COALITION · PUBLIC BETA</p>
+      <h1>Accountability begins with evidence.</h1>
+      <p class="beta-lede">We investigate government conduct, publish traceable records behind our reporting, and invite the public to examine the facts. Explore documented findings, disputed accounts, unanswered questions, and the legal principles that shape public oversight.</p>
       <div class="beta-actions">
-        <a class="beta-button beta-button--primary" href="california/">Explore the California Field Guide</a>
-        <a class="beta-button beta-button--secondary" href="investigations/">Browse research & investigations</a>
+        <a class="beta-button beta-button--primary" href="california/">Explore the field guide</a>
+        <a class="beta-button beta-button--secondary" href="investigations/">Browse investigations</a>
       </div>
       <div class="beta-statusline">
         <span><strong>1 Active</strong></span>
@@ -87,7 +87,7 @@ hide:
   </section>
 
   <section class="beta-section beta-contribute beta-motion-section" data-motion-section="contribute">
-    <div><span class="beta-label">BUILD THE GUIDE WITH US</span><h2>Help us find the facts.</h2><p>Found a policy we should check, a document we should preserve, or a story worth investigating? You can help us make this guide more useful.</p></div>
+    <div><span class="beta-label">PARTICIPATE IN PUBLIC OVERSIGHT</span><h2>Help us find the facts.</h2><p>Found a policy we should check, a document we should preserve, or a story worth investigating? You can help us investigate responsibly, verify claims, and make public-interest research more useful.</p></div>
     <a class="beta-button beta-button--primary" href="contribute/">See how to contribute</a>
   </section>
 
