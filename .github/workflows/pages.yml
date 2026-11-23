@@ -1,4 +1,4 @@
-name: Build and publish Field Guide site
+name: Build and publish Public Oversight site
 
 on:
   pull_request:
@@ -126,7 +126,7 @@ jobs:
 
           git fetch origin gh-pages:gh-pages
 
-          PUBLISH_DIR="$RUNNER_TEMP/1A-Field-Guide-gh-pages"
+          PUBLISH_DIR="$RUNNER_TEMP/PublicOversight-gh-pages"
           rm -rf "$PUBLISH_DIR"
           git worktree add "$PUBLISH_DIR" gh-pages
 
