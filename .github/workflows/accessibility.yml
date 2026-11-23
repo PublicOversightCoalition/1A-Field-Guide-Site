@@ -28,6 +28,7 @@ jobs:
           python tools/member_portal/inject_workspace_theme.py
           python -m mkdocs build --clean
           COALITION_SUPABASE_URL=https://exampleproject.supabase.co COALITION_SUPABASE_PUBLISHABLE_KEY=sb_publishable__example_not_a_real_key_12345 python tools/member_portal/render_config.py render site-preview
+          python tools/public_state/generate_legacy_redirects.py site-preview
       - name: Install accessibility test dependencies
         run: |
           npm install --prefix tools/accessibility --no-audit --no-fund
@@ -75,6 +76,7 @@ jobs:
           python tools/member_portal/inject_workspace_theme.py
           python -m mkdocs build --clean
           COALITION_SUPABASE_URL=https://exampleproject.supabase.co COALITION_SUPABASE_PUBLISHABLE_KEY=sb_publishable__example_not_a_real_key_12345 python tools/member_portal/render_config.py render site-preview
+          python tools/public_state/generate_legacy_redirects.py site-preview
       - name: Install browser dependencies
         run: |
           npm install --prefix tools/accessibility --no-audit --no-fund
