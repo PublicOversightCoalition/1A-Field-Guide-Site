@@ -1,5 +1,5 @@
-site_name: 1A Field Guide
-site_description: Practical field guides, investigations, public records, and policy research for understanding public photography, recording, access, and government accountability
+site_name: The Public Oversight Coalition
+site_description: Independent public-interest investigations, transparent evidence, public records research, and constitutional field guides
 site_url: https://publicoversightcoalition.github.io/1A-Field-Guide-Site/
 docs_dir: docs
 site_dir: site-preview
@@ -64,6 +64,9 @@ exclude_docs: |
 
 nav:
   - Home: index.md
+  - Investigations:
+      - Browse investigations: investigations/index.md
+      - Evidence library: evidence/index.md
   - Explore:
       - Start here: jurisdictions/index.md
       - 'California: Active': california/README.md
