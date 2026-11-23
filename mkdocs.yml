@@ -64,9 +64,6 @@ exclude_docs: |
 
 nav:
   - Home: index.md
-  - Investigations:
-      - Browse investigations: investigations/index.md
-      - Evidence library: evidence/index.md
   - Explore:
       - Start here: jurisdictions/index.md
       - 'California: Active': california/README.md
