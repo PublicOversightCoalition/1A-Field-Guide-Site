@@ -1,6 +1,6 @@
 site_name: The Public Oversight Coalition
 site_description: Independent public-interest investigations, transparent evidence, public records research, and constitutional field guides
-site_url: https://publicoversightcoalition.github.io/1A-Field-Guide-Site/
+site_url: https://publicoversightcoalition.github.io/
 docs_dir: docs
 site_dir: site-preview
 use_directory_urls: true
