@@ -35,8 +35,7 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Audit generated pages in Chromium
         run: |
-          ln -s site-preview 1A-Field-Guide-Site
-          python -m http.server 8765 --bind 127.0.0.1 --directory . > /tmp/field-guide-audit-http.log 2>&1 &
+          python -m http.server 8765 --bind 127.0.0.1 --directory site-preview > /tmp/field-guide-audit-http.log 2>&1 &
           SERVER_PID=$!
           trap 'kill $SERVER_PID 2>/dev/null || true' EXIT
           sleep 2
@@ -85,8 +84,7 @@ jobs:
         env:
           PLAYWRIGHT_BROWSER: ${{ matrix.browser }}
         run: |
-          ln -s site-preview 1A-Field-Guide-Site
-          python -m http.server 8765 --bind 127.0.0.1 --directory . > /tmp/field-guide-cross-browser.log 2>&1 &
+          python -m http.server 8765 --bind 127.0.0.1 --directory site-preview > /tmp/field-guide-cross-browser.log 2>&1 &
           SERVER_PID=$!
           trap 'kill $SERVER_PID 2>/dev/null || true' EXIT
           sleep 2
