@@ -71,6 +71,18 @@ async function drawer(page, targetHref, finalPath) {
   await page.waitForURL(url => url.pathname.endsWith(finalPath), { timeout: 5500 });
 }
 
+// After the root cutover, keep bookmarked project URLs and auth callback fragments usable.
+await test('Legacy member link preserves callback query and fragment', 390, async page => {
+  const old = new URL('/1A-Field-Guide-Site/member-pilot.html?migration_probe=1#type=preview', base);
+  await page.goto(old.href, { waitUntil: 'networkidle', timeout: 25000 });
+  await page.waitForURL(url => url.pathname === '/member-pilot.html'
+    && url.searchParams.get('migration_probe') === '1'
+    && url.hash === '#type=preview', { timeout: 7000 });
+  const asset = await page.evaluate(async () =>
+    (await fetch('/1A-Field-Guide-Site/stylesheets/member-research.css')).ok);
+  assert(asset, 'Legacy asset path did not remain available');
+}, { route: 'member-pilot.html' });
+
 for (const width of [320, 390, 768]) {
   await test('Home mobile menu opens and navigates', width, async page => {
     await drawer(page, 'jurisdictions/', '/jurisdictions/');
