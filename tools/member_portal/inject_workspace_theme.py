@@ -3,7 +3,7 @@ import re
 
 ROOT = Path(__file__).resolve().parents[2]
 DOCS = ROOT / "docs"
-STYLESHEET = "/1A-Field-Guide-Site/stylesheets/member-workspace.css"
+STYLESHEET = "./stylesheets/member-workspace.css"
 TARGETS = [DOCS / "member-pilot.html", DOCS / "member-community.html"]
 
 
