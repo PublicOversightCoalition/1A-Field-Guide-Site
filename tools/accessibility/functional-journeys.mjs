@@ -99,7 +99,7 @@ for (const width of [390, 1440]) {
     const url = await result.getAttribute('href');
     assert(url && url.length > 1, 'Search result has no URL');
     await result.click();
-    await page.waitForURL(url => !url.pathname === new URL(base).pathname, { timeout: 7000 });
+    await page.waitForURL(url => url.pathname !== new URL(base).pathname, { timeout: 7000 });
   });
   await test('Dynamic investigation cards lead to research', width, async page => {
     await page.locator('#investigations-live .investigation-card').first().waitFor({ state: 'visible', timeout: 8000 });
@@ -319,7 +319,7 @@ for (const width of [390, 1440]) {
     assert(await result.evaluate(el => document.activeElement === el),
       'Search result cannot receive keyboard focus');
     await page.keyboard.press('Enter');
-    await page.waitForURL(url => !url.pathname === new URL(base).pathname,
+    await page.waitForURL(url => url.pathname !== new URL(base).pathname,
       { timeout: 7000 });
   });
 
