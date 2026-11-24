@@ -1,0 +1,76 @@
+/* Public navigation to the existing member portal. This is a presentation aid,
+   never an authentication or authorization decision. */
+(() => {
+  const HOME = new URL('/', location.origin);
+  const memberURL = (fragment = '') =>
+    new URL('member-pilot.html' + fragment, HOME).href;
+  const sessionKey = 'coalition-membership-session-v1';
+
+  const readSessionHint = () => {
+    // A cached token is only a hint for which navigation links to display.
+    // Every protected operation remains verified by the existing member backend.
+    try {
+      const raw = localStorage.getItem(sessionKey) ||
+        sessionStorage.getItem(sessionKey);
+      const session = JSON.parse(raw || 'null');
+      if (!session?.access_token || !session?.refresh_token) return false;
+      return Number(session.expires_at || 0) > Date.now() / 1000 + 30;
+    } catch {
+      return false;
+    }
+  };
+
+  const setup = () => {
+    const header = document.querySelector('.md-header__inner');
+    if (!header || header.querySelector('.coalition-account-nav')) return;
+    const nav = document.createElement('nav');
+    nav.className = 'coalition-account-nav';
+    nav.setAttribute('aria-label', 'Member account');
+    header.append(nav);
+
+    const update = () => {
+      if (!readSessionHint()) {
+        nav.innerHTML = `<a class="coalition-account-login" href="${memberURL('#signin')}">Log in</a><a class="coalition-account-signup" href="${memberURL('#signup')}">Sign up</a>`;
+        return;
+      }
+      nav.innerHTML = `<details class="coalition-account-menu">
+        <summary aria-label="Account menu" title="Account menu">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="7.5" r="3.5"></circle>
+            <path d="M4.5 20c.2-4 3.1-6.5 7.5-6.5s7.3 2.5 7.5 6.5"></path>
+          </svg>
+        </summary>
+        <div class="coalition-account-dropdown">
+          <a href="${memberURL('#member-area')}">Member workspace</a>
+          <a href="${memberURL('#account')}">My account</a>
+          <a href="${new URL('member-community.html', HOME).href}">Community</a>
+          <a href="${new URL('member-research.html', HOME).href}">Research contributions</a>
+          <a href="${memberURL('#account')}">Account &amp; sign out</a>
+        </div>
+      </details>`;
+    };
+
+    update();
+    window.addEventListener('storage', e => {
+      if (e.key === sessionKey || e.key === null) update();
+    });
+    document.addEventListener('click', e => {
+      const menu = nav.querySelector('details[open]');
+      if (menu && !menu.contains(e.target)) menu.open = false;
+    });
+    document.addEventListener('keydown', e => {
+      const menu = nav.querySelector('details[open]');
+      if (menu && e.key === 'Escape') {
+        menu.open = false;
+        menu.querySelector('summary')?.focus();
+      }
+    });
+    window.addEventListener('pageshow', update);
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setup, { once: true });
+  } else {
+    setup();
+  }
+})();
