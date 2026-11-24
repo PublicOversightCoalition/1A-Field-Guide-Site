@@ -47,7 +47,7 @@
     },
     {
       "id": "edmond-police",
-      "title": "Edmond Police Department: Arrest for alleged reckless driving",
+      "title": "Edmond Police Department: Arrested, jailed, and vehicle impounded for alleged reckless driving in apparent violation of Oklahoma's sign-and-release statute",
       "status": "ACTIVE",
       "phase": "RECORDS PENDING",
       "jurisdiction": "Oklahoma",
@@ -55,8 +55,8 @@
       "href": "oklahoma/investigations/edmond-police/",
       "lead": false,
       "last_updated": "2026-11-24",
-      "question": "What justified custodial arrest and vehicle impoundment, and why did the officer mark the defendant's signature line Jailed?",
-      "summary": "We're examining the arrest for alleged reckless driving, the citation signature entry, the timing of the tow decision, and the role of additional witness information.",
+      "question": "Why did the officer mark the defendant's signature line Jailed rather than obtain a promise to appear, and did the statutory release requirement apply?",
+      "summary": "We're examining apparent noncompliance with Oklahoma's mandatory release procedure for qualifying traffic offenses, the citation signature entry, vehicle impoundment, and the timing of witness information.",
       "wire": "Incident-specific investigation; evidence privacy review and additional records pending"
     }
   ],
