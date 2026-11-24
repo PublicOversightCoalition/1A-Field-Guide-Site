@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-Fs0lTb/pmbOp1XDDnNJjuGNuv2OiY35ojomYMfpMFOE='; style-src 'self'; connect-src https://bpmvkdblgpnpooxadhjc.supabase.co; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-zCmh0LPvRWBA6KTPbqNZJ6FU+nUDQAZieDfOHX5T+VI='; style-src 'self'; connect-src https://bpmvkdblgpnpooxadhjc.supabase.co; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
 <meta name="referrer" content="no-referrer">
 <title>Research library · Public Oversight Coalition</title>
 <link rel="stylesheet" href="./stylesheets/member-research.css">
@@ -53,7 +53,7 @@ function requestPeerSession(timeout=450){
     try{authChannel.postMessage({type:'session-request'})}catch{finish(null)}
   })
 }
-function handleRemoteSignout(){if(!loggedOut())noteSignedOut();else clearLocalSession();if(location.pathname.endsWith('/member-pilot.html')||location.pathname.endsWith('/member-research.html')||location.pathname.endsWith('/member-research-submit.html')||location.pathname.endsWith('/member-research-import.html')||location.pathname.endsWith('/member-forum-maps.html'))location.reload()}
+function handleRemoteSignout(){if(!loggedOut())noteSignedOut();else clearLocalSession();if(location.pathname.endsWith('/member-pilot.html')||location.pathname.endsWith('/member-research.html')||location.pathname.endsWith('/member-research-submit.html')||location.pathname.endsWith('/member-research-import.html')||location.pathname.endsWith('/member-forum-maps.html'))location.replace(new URL('/',location.origin).href)}
 if(authChannel){authChannel.addEventListener('message',e=>{
   if(e.data?.type==='session-signed-out'){handleRemoteSignout();return}
   if(e.data?.type!=='session-request'||loggedOut())return;

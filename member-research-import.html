@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src https://cdn.jsdelivr.net 'sha256-sX+TjkkTctoF2c2jxQ3Mu17/mL7IX6cWbVk9INudmGE='; style-src 'self'; connect-src https://bpmvkdblgpnpooxadhjc.supabase.co; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src https://cdn.jsdelivr.net 'sha256-Vxfj6uNmBXgjHZZBB0zsRpjBuKG2pn1hcHY/ReBs+zs='; style-src 'self'; connect-src https://bpmvkdblgpnpooxadhjc.supabase.co; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
 <meta name="referrer" content="no-referrer">
 <title>Import research · Public Oversight Coalition</title>
 <link rel="stylesheet" href="./stylesheets/member-research.css">
@@ -75,7 +75,7 @@ function requestPeerSession(timeout=450){
     try{authChannel.postMessage({type:'session-request'})}catch{finish(null)}
   })
 }
-function handleRemoteSignout(){if(!loggedOut())noteSignedOut();else clearLocalSession();if(location.pathname.endsWith('/member-pilot.html')||location.pathname.endsWith('/member-research.html')||location.pathname.endsWith('/member-research-submit.html')||location.pathname.endsWith('/member-research-import.html')||location.pathname.endsWith('/member-forum-maps.html'))location.reload()}
+function handleRemoteSignout(){if(!loggedOut())noteSignedOut();else clearLocalSession();if(location.pathname.endsWith('/member-pilot.html')||location.pathname.endsWith('/member-research.html')||location.pathname.endsWith('/member-research-submit.html')||location.pathname.endsWith('/member-research-import.html')||location.pathname.endsWith('/member-forum-maps.html'))location.replace(new URL('/',location.origin).href)}
 if(authChannel){authChannel.addEventListener('message',e=>{
   if(e.data?.type==='session-signed-out'){handleRemoteSignout();return}
   if(e.data?.type!=='session-request'||loggedOut())return;

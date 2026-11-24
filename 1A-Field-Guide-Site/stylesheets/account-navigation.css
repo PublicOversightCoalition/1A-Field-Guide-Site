@@ -87,6 +87,32 @@
   font-size: .7rem;
 }
 
+.coalition-account-dropdown button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 2.55rem;
+  padding: .5rem .65rem;
+  font-size: .7rem;
+  font-weight: 700;
+  color: #f6f8fc;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-radius: .45rem;
+  cursor: pointer;
+}
+.coalition-account-dropdown button:hover,
+.coalition-account-dropdown button:focus-visible {
+  color: #a6ff6f;
+  background: rgba(166,255,111,.10);
+}
+.coalition-logout-notice {
+  margin: .3rem 1rem;
+  font-size: .75rem;
+  color: #f6f8fc;
+}
+
 .coalition-account-dropdown a:hover,
 .coalition-account-dropdown a:focus-visible {
   background: rgba(166,255,111,.10);
