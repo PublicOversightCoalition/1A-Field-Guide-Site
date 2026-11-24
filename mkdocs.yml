@@ -58,6 +58,7 @@ extra_javascript:
   - javascripts/public-beta-editorial.js
   - javascripts/investigations-index.js
   - javascripts/accessibility-support.js
+  - javascripts/account-navigation.js
 
 exclude_docs: |
   templates/**
@@ -116,4 +117,3 @@ nav:
               - What can I do in each forum?: california/forum-activity-guide.md
               - Disorderly conduct: california/disorderly-conduct.md
               - Assemblies and emergency scenes: california/assembly-emergency-scenes.md
-  - Contribute: contribute.md
