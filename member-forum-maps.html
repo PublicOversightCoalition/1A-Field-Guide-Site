@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-lhc5khNsm3BxCxOfglk4VKziWLKL715bPEA9DtXh2yI='; style-src 'self'; connect-src https://bpmvkdblgpnpooxadhjc.supabase.co; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-vHSsKiSDdxNNtn9VMSQDZyCcuij4Tncb06x3nUp+jRU='; style-src 'self'; connect-src https://bpmvkdblgpnpooxadhjc.supabase.co; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
 <meta name="referrer" content="no-referrer">
 <title>Facility forum maps · Public Oversight Coalition</title>
 <link rel="stylesheet" href="./stylesheets/member-research.css">
@@ -80,27 +80,41 @@
 <script type="module">const SUPABASE_URL='https://bpmvkdblgpnpooxadhjc.supabase.co';
 const KEY='sb_publishable__mZKy1dcx8OjzF1Q2nl0qg_t6I6bkys';const SESSION_KEY='coalition-membership-session-v1';
 const AUTH_CHANNEL_NAME='coalition-membership-auth-v1';
+const LOGOUT_KEY='coalition-membership-signed-out-v1';
 let authChannel=null;
 try{authChannel=new BroadcastChannel(AUTH_CHANNEL_NAME)}catch{}
 function storageRead(kind){try{return window[kind].getItem(SESSION_KEY)}catch{return null}}
 function storageWrite(kind,value){try{window[kind].setItem(SESSION_KEY,value)}catch{}}
 function storageRemove(kind){try{window[kind].removeItem(SESSION_KEY)}catch{}}
+function loggedOut(){try{return !!localStorage.getItem(LOGOUT_KEY)}catch{return false}}
+function clearLogoutFlag(){try{localStorage.removeItem(LOGOUT_KEY)}catch{}}
+function clearLocalSession(){storageRemove('localStorage');storageRemove('sessionStorage')}
+function noteSignedOut(){try{localStorage.setItem(LOGOUT_KEY,String(Date.now()))}catch{}clearLocalSession()}
+function signOutEverywhere(){noteSignedOut();try{authChannel?.postMessage({type:'session-signed-out'})}catch{}}
 function validSession(s){return !!(s?.access_token&&s?.refresh_token)}
-function persistSession(s){if(!validSession(s))return null;const raw=JSON.stringify(s);storageWrite('localStorage',raw);storageWrite('sessionStorage',raw);return s}
-function loadSharedSession(){try{const s=JSON.parse(storageRead('localStorage')||storageRead('sessionStorage')||'null');return validSession(s)?persistSession(s):null}catch{return null}}
+function persistSession(s){if(loggedOut()||!validSession(s))return null;const raw=JSON.stringify(s);storageWrite('localStorage',raw);storageWrite('sessionStorage',raw);return s}
+function loadSharedSession(){if(loggedOut()){clearLocalSession();return null}try{const s=JSON.parse(storageRead('localStorage')||storageRead('sessionStorage')||'null');return validSession(s)?persistSession(s):null}catch{return null}}
 function requestPeerSession(timeout=450){
+  if(loggedOut())return Promise.resolve(null);
   const local=loadSharedSession();if(local)return Promise.resolve(local);
   if(!authChannel)return Promise.resolve(null);
   return new Promise(resolve=>{
     let done=false;
-    const finish=s=>{if(done)return;done=true;clearTimeout(timer);authChannel.removeEventListener('message',onMessage);resolve(s?persistSession(s):null)};
+    const finish=s=>{if(done)return;done=true;clearTimeout(timer);authChannel.removeEventListener('message',onMessage);resolve(!loggedOut()&&s?persistSession(s):null)};
     const onMessage=e=>{if(e.data?.type==='session-response'&&validSession(e.data.session))finish(e.data.session)};
     const timer=setTimeout(()=>finish(null),timeout);
     authChannel.addEventListener('message',onMessage);
     try{authChannel.postMessage({type:'session-request'})}catch{finish(null)}
   })
 }
-if(authChannel){authChannel.addEventListener('message',e=>{if(e.data?.type!=='session-request')return;const s=loadSharedSession();if(s){try{authChannel.postMessage({type:'session-response',session:s})}catch{}}})}const $=id=>document.getElementById(id);let session=null;
+function handleRemoteSignout(){if(!loggedOut())noteSignedOut();else clearLocalSession();if(location.pathname.endsWith('/member-pilot.html')||location.pathname.endsWith('/member-research.html')||location.pathname.endsWith('/member-research-submit.html')||location.pathname.endsWith('/member-research-import.html')||location.pathname.endsWith('/member-forum-maps.html'))location.reload()}
+if(authChannel){authChannel.addEventListener('message',e=>{
+  if(e.data?.type==='session-signed-out'){handleRemoteSignout();return}
+  if(e.data?.type!=='session-request'||loggedOut())return;
+  const s=loadSharedSession();if(s){try{authChannel.postMessage({type:'session-response',session:s})}catch{}}
+})}
+window.addEventListener('storage',e=>{if(e.key===LOGOUT_KEY&&e.newValue)handleRemoteSignout()});
+window.addEventListener('pageshow',e=>{if(e.persisted&&loggedOut())handleRemoteSignout()});const $=id=>document.getElementById(id);let session=null;
 const zones={
 S001:{name:'North Broadway / Lincoln ordinary municipal sidewalks',forum:'TPF',confidence:'HIGH',boundary:'HIGH',basis:'Ordinary municipal sidewalk doctrine applies. Current map/street imagery also confirms the sidewalks and their site relationship.',authority:'United States v. Grace, 461 U.S. 171 (1983)',agency:'No contrary facility-specific classification controls the current record.',activity:'Protected expressive activity receives traditional-public-forum protection, subject to lawful content-neutral time/place/manner rules.'},
 S002:{name:'Continuous library perimeter pedestrian passage / entrance approaches',forum:'TPF',confidence:'HIGH',boundary:'MEDIUM',basis:'Current street-level imagery supports continuous unrestricted public foot passage around the library perimeter, linking the Broadway sidewalk, north/Civic Park side, east entrance and ADA approach, and the south cafe/Lincoln approach. Exact legal edges still require site/ROW records.',authority:'Prigmore v. City of Redding, 211 Cal.App.4th 1322 (2012)',agency:'Current signs remain a verification item.',activity:'Treat the open public perimeter passage and entrance approaches as TPF unless materially contrary ownership/control or site-purpose facts are established.'},
