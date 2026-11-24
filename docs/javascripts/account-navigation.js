@@ -6,15 +6,24 @@
     new URL('member-pilot.html' + fragment, HOME).href;
   const sessionKey = 'coalition-membership-session-v1';
   const logoutKey = 'coalition-membership-signed-out-v1';
+  // The project URL and public publishable key are injected at deployment.
+  const authURL = '__COALITION_SUPABASE_URL__';
+  const publicKey = '__COALITION_SUPABASE_PUBLISHABLE_KEY__';
+  const channelName = 'coalition-membership-auth-v1';
 
+  const readStoredSession = () => {
+    try {
+      if (localStorage.getItem(logoutKey)) return null;
+      const session = JSON.parse(localStorage.getItem(sessionKey) ||
+        sessionStorage.getItem(sessionKey) || 'null');
+      return session?.access_token && session?.refresh_token ? session : null;
+    } catch { return null; }
+  };
   const readSessionHint = () => {
     // A cached token is only a hint for which navigation links to display.
     // Every protected operation remains verified by the existing member backend.
     try {
-      if (localStorage.getItem(logoutKey)) return false;
-      const raw = localStorage.getItem(sessionKey) ||
-        sessionStorage.getItem(sessionKey);
-      const session = JSON.parse(raw || 'null');
+      const session = readStoredSession();
       if (!session?.access_token || !session?.refresh_token) return false;
       return Number(session.expires_at || 0) > Date.now() / 1000 + 30;
     } catch {
@@ -46,10 +55,49 @@
           <a href="${memberURL('#member-area')}">Member workspace</a>
           <a href="${memberURL('#account')}">My account</a>
           <a href="${new URL('member-research.html', HOME).href}">Research contributions</a>
-          <a href="${memberURL('#signout')}">Sign out</a>
+          <button type="button" class="coalition-account-signout">Sign out</button>
         </div>
       </details>`;
     };
+
+    const signOut = async () => {
+      const active = readStoredSession();
+      // Clear the browser session first; don't leave a stale profile while
+      // requesting revocation from Supabase.
+      try { localStorage.setItem(logoutKey, String(Date.now())); } catch {}
+      try { localStorage.removeItem(sessionKey); } catch {}
+      try { sessionStorage.removeItem(sessionKey); } catch {}
+      try {
+        const channel = new BroadcastChannel(channelName);
+        channel.postMessage({ type: 'session-signed-out' });
+        channel.close();
+      } catch {}
+      update();
+      if (!active?.access_token) return;
+      try {
+        const response = await fetch(authURL + '/auth/v1/logout', {
+          method: 'POST',
+          headers: { apikey: publicKey, Authorization: 'Bearer ' + active.access_token }
+        });
+        if (!response.ok) {
+          const data = await response.json().catch(() => ({}));
+          const alreadyInactive = response.status === 403 &&
+            (data.code === 'session_not_found' || data.error_code === 'session_not_found');
+          if (!alreadyInactive) throw new Error('Server logout not confirmed');
+        }
+      } catch {
+        // Do not claim server revocation when only local state is cleared.
+        const note = document.createElement('p');
+        note.setAttribute('role', 'status');
+        note.className = 'coalition-logout-notice';
+        note.textContent = 'Signed out of this browser. Server revocation could not be confirmed.';
+        header.after(note);
+      }
+    };
+
+    nav.addEventListener('click', event => {
+      if (event.target.closest('.coalition-account-signout')) void signOut();
+    });
 
     update();
     window.addEventListener('storage', e => {

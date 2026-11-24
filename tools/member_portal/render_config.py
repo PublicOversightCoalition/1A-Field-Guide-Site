@@ -48,6 +48,16 @@ def check_template(root: Path) -> None:
             fail(f"{path}: live Supabase project URL must not be committed")
         if re.search(r"sb_publishable__[A-Za-z0-9_-]+", text):
             fail(f"{path}: live Supabase publishable key must not be committed")
+    public_script = root / "javascripts" / "account-navigation.js"
+    if not public_script.is_file():
+        fail(f"Missing public account script: {public_script}")
+    source = public_script.read_text(encoding="utf-8")
+    if source.count(URL_PLACEHOLDER) != 1 or source.count(KEY_PLACEHOLDER) != 1:
+        fail(f"{public_script}: expected exactly one of each public auth placeholder")
+    if re.search(r"https://[a-z0-9]+\.supabase\.co", source):
+        fail(f"{public_script}: live project URL must not be committed")
+    if re.search(r"sb_publishable__[A-Za-z0-9_-]+", source):
+        fail(f"{public_script}: live publishable key must not be committed")
     print("Member portal source is safely templated.")
 
 
@@ -80,7 +90,7 @@ function requestPeerSession(timeout=450){
     try{authChannel.postMessage({type:'session-request'})}catch{finish(null)}
   })
 }
-function handleRemoteSignout(){if(!loggedOut())noteSignedOut();else clearLocalSession();if(location.pathname.endsWith('/member-pilot.html')||location.pathname.endsWith('/member-research.html')||location.pathname.endsWith('/member-research-submit.html')||location.pathname.endsWith('/member-research-import.html')||location.pathname.endsWith('/member-forum-maps.html'))location.reload()}
+function handleRemoteSignout(){if(!loggedOut())noteSignedOut();else clearLocalSession();if(location.pathname.endsWith('/member-pilot.html')||location.pathname.endsWith('/member-research.html')||location.pathname.endsWith('/member-research-submit.html')||location.pathname.endsWith('/member-research-import.html')||location.pathname.endsWith('/member-forum-maps.html'))location.replace(new URL('/',location.origin).href)}
 if(authChannel){authChannel.addEventListener('message',e=>{
   if(e.data?.type==='session-signed-out'){handleRemoteSignout();return}
   if(e.data?.type!=='session-request'||loggedOut())return;
@@ -269,6 +279,13 @@ def render(root: Path) -> None:
             fail(f"{path}: unresolved member backend placeholder after render")
         path.write_text(rendered, encoding="utf-8")
         print(f"Rendered {path} with deploy-only member backend configuration.")
+    public_script = root / "javascripts" / "account-navigation.js"
+    source = public_script.read_text(encoding="utf-8")
+    if source.count(URL_PLACEHOLDER) != 1 or source.count(KEY_PLACEHOLDER) != 1:
+        fail(f"{public_script}: public auth placeholders missing")
+    public_script.write_text(source.replace(URL_PLACEHOLDER, url).replace(KEY_PLACEHOLDER, key), encoding="utf-8")
+    print("Rendered public navigation with deploy-only publishable auth configuration.")
+
 
 
 def main() -> None:

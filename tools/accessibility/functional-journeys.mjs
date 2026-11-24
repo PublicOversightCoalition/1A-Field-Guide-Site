@@ -126,48 +126,86 @@ for (const width of [320, 390, 1440]) {
   });
 }
 
-// A profile-menu sign-out must be one click and revoke the existing session.
-await test('One-click profile sign-out clears shared session', 390, async page => {
-  const nav = page.getByRole('navigation', { name: 'Member account' });
+// Public-page logout is one click with no navigation; member-page logout goes home.
+await test('Public page signs out without a redirect across tabs', 390, async page => {
   await page.evaluate(() => {
+    localStorage.removeItem('coalition-membership-signed-out-v1');
     localStorage.setItem('coalition-membership-session-v1', JSON.stringify({
-      access_token: 'test-signout-token',
-      refresh_token: 'test-signout-refresh',
+      access_token: 'test-public-signout',
+      refresh_token: 'test-public-refresh',
       expires_at: Math.floor(Date.now() / 1000) + 600
     }));
   });
   await page.reload({ waitUntil: 'networkidle' });
-  await nav.locator('summary').click();
-  const signOut = nav.getByRole('link', { name: 'Sign out', exact: true });
-  assert(await signOut.count() === 1, 'Profile menu requires a direct Sign out action');
-  assert((await signOut.getAttribute('href')).endsWith('/member-pilot.html#signout'),
-    'Sign out should invoke the member portal existing logout');
-  await page.route('https://exampleproject.supabase.co/auth/v1/logout', async route => {
-    await route.fulfill({ status: 204, body: '' });
-  });
   const otherTab = await page.context().newPage();
   await otherTab.goto(base, { waitUntil: 'networkidle' });
   assert(await otherTab.locator('.coalition-account-menu').count() === 1,
-    'Second tab did not start with the cached session');
-  await signOut.click();
-  await page.waitForURL(url => url.pathname === '/member-pilot.html' && url.hash === '', { timeout: 7000 });
-  await page.getByText('Signed out.', { exact: true }).waitFor({ state: 'visible', timeout: 7000 });
-  const retained = await page.evaluate(() =>
-    localStorage.getItem('coalition-membership-session-v1') ||
-    sessionStorage.getItem('coalition-membership-session-v1'));
-  assert(retained === null, 'Sign out did not remove shared browser session');
+    'Second tab did not start with shared account navigation');
+  await page.route('https://exampleproject.supabase.co/auth/v1/logout', route =>
+    route.fulfill({ status: 204, body: '' }));
+  const nav = page.getByRole('navigation', { name: 'Member account' });
+  await nav.locator('summary').click();
+  assert(await nav.getByRole('button', { name: 'Sign out' }).count() === 1,
+    'Public profile menu must have a direct logout button');
+  const before = page.url();
+  await nav.getByRole('button', { name: 'Sign out' }).click();
+  assert(page.url() === before, 'Public logout must not navigate to another page');
+  await nav.getByRole('link', { name: 'Log in' }).waitFor({ state: 'visible', timeout: 7000 });
   await otherTab.getByRole('navigation', { name: 'Member account' })
     .getByRole('link', { name: 'Log in' }).waitFor({ state: 'visible', timeout: 7000 });
-  assert(await otherTab.locator('.coalition-account-menu').count() === 0,
-    'Another tab still shows an authenticated profile after sign out');
-  await page.goBack({ waitUntil: 'networkidle' });
-  await page.getByRole('navigation', { name: 'Member account' })
-    .getByRole('link', { name: 'Log in' }).waitFor({ state: 'visible', timeout: 7000 });
-  const resurrected = await page.evaluate(() =>
-    localStorage.getItem('coalition-membership-session-v1') ||
-    sessionStorage.getItem('coalition-membership-session-v1'));
-  assert(!resurrected, 'Browser Back resurrected a signed-out session');
+  const stored = await page.evaluate(() => ({
+    local: localStorage.getItem('coalition-membership-session-v1'),
+    tab: sessionStorage.getItem('coalition-membership-session-v1'),
+    loggedOut: !!localStorage.getItem('coalition-membership-signed-out-v1')
+  }));
+  assert(!stored.local && !stored.tab && stored.loggedOut,
+    'Logout must invalidate shared credentials and set a logout marker');
+  await page.reload({ waitUntil: 'networkidle' });
+  assert(await nav.getByRole('link', { name: 'Log in' }).count() === 1,
+    'Reload resurrected the signed-in header');
   await otherTab.close();
+});
+
+await test('Member workspace logout redirects to coalition homepage', 390, async page => {
+  await page.evaluate(() => {
+    localStorage.removeItem('coalition-membership-signed-out-v1');
+    localStorage.setItem('coalition-membership-session-v1', JSON.stringify({
+      access_token: 'test-member-signout',
+      refresh_token: 'test-member-refresh',
+      expires_at: Math.floor(Date.now() / 1000) + 600
+    }));
+  });
+  await page.route('https://exampleproject.supabase.co/auth/v1/logout', route =>
+    route.fulfill({ status: 204, body: '' }));
+  await page.goto(new URL('member-pilot.html#signout',base).href, {waitUntil:'networkidle'});
+  await page.waitForURL(url => url.pathname === '/' && url.hash === '', { timeout: 7000 });
+  const nav = page.getByRole('navigation', { name: 'Member account' });
+  await nav.getByRole('link', { name: 'Log in' }).waitFor({ state: 'visible' });
+  await page.goBack({ waitUntil: 'networkidle' });
+  assert(await nav.getByRole('link', { name: 'Log in' }).count() === 1,
+    'Back navigation restored an authenticated header');
+});
+
+await test('Already-inactive Supabase session still allows public logout', 390, async page => {
+  await page.evaluate(() => {
+    localStorage.removeItem('coalition-membership-signed-out-v1');
+    localStorage.setItem('coalition-membership-session-v1', JSON.stringify({
+      access_token: 'stale-logout-token', refresh_token: 'stale-logout-refresh',
+      expires_at: Math.floor(Date.now() / 1000) + 600
+    }));
+  });
+  await page.reload({ waitUntil:'networkidle' });
+  await page.route('https://exampleproject.supabase.co/auth/v1/logout', route =>
+    route.fulfill({status:403,contentType:'application/json',
+      body:JSON.stringify({code:'session_not_found',message:'Session not found'})}));
+  const nav = page.getByRole('navigation', {name:'Member account'});
+  await nav.locator('summary').click();
+  const before = page.url();
+  await nav.getByRole('button',{name:'Sign out'}).click();
+  assert(page.url() === before, 'Already-inactive session redirected unexpectedly');
+  await nav.getByRole('link',{name:'Log in'}).waitFor({state:'visible'});
+  assert(await page.evaluate(() => !localStorage.getItem('coalition-membership-session-v1')),
+    'Already-inactive session left browser credentials');
 });
 
 await test('Retired member forum is not deployed', 390, async page => {
