@@ -89,6 +89,8 @@ nav:
           - Concord Library facility record: registry/concord-library.md
           - Concord Police Department: registry/concord-police.md
           - Healdsburg Police Department: registry/healdsburg-police.md
+      - Oklahoma:
+          - Edmond Police Department: oklahoma/investigations/edmond-police.md
       - Facility research: registry/index.md
   - Public Records:
       - Start here: open-government/public-records.md
