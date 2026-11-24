@@ -14,7 +14,6 @@ URL_PLACEHOLDER = "__COALITION_SUPABASE_URL__"
 KEY_PLACEHOLDER = "__COALITION_SUPABASE_PUBLISHABLE_KEY__"
 TARGETS = (
     "member-pilot.html",
-    "member-community.html",
     "member-research.html",
     "member-research-submit.html",
     "member-research-import.html",
