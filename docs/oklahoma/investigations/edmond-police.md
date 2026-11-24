@@ -69,6 +69,26 @@ The apparent violation identified in the headline is the Coalition's preliminary
 
 The review also covers Edmond municipal traffic ordinances, Oklahoma arrest procedures, constitutional protections, and departmental arrest and impoundment policies.
 
+## Serious Fourth Amendment concerns
+
+The Fourth Amendment protects people against unreasonable seizures of their persons and property. The arrest and impoundment raise independent constitutional concerns that extend beyond the apparent failure to follow Oklahoma's sign-and-release statute.
+
+### Seizure of the person
+
+The central question is whether the facts known to officers when they arrested the motorist objectively established probable cause for an offense. Later witness information cannot retroactively supply facts that were unknown when the arrest occurred. The Coalition is examining the officer's observations, the timing of witness contact, and the recorded statements against the written account. Continued detention also warrants review as the factual basis for custody develops.
+
+Under [Devenpeck v. Alford, 543 U.S. 146 (2004)](https://www.law.cornell.edu/supremecourt/text/03-710), the objective probable-cause inquiry is not limited to the offense named by the officer. Under [Virginia v. Moore, 553 U.S. 164 (2008)](https://www.law.cornell.edu/supct/html/06-1082.ZO.html), an arrest supported by probable cause does not become unconstitutional merely because state law required citation and release. Accordingly, the statutory and constitutional questions must be tested separately.
+
+### Seizure of the vehicle
+
+Impoundment is a separate seizure of property. The motorist reports that the vehicle was parked curbside on a residential street. The investigation will determine whether it presented an obstruction or safety risk, whether a lawful alternative was available, and whether the tow was supported by a legitimate caretaking or other lawful justification rather than simply assumed to follow from the arrest.
+
+In [United States v. Sanders, 796 F.3d 1241 (10th Cir. 2015)](https://law.justia.com/cases/federal/appellate-courts/ca10/14-1296/14-1296-2015-08-07.html), the Tenth Circuit examined the need for standardized policy and a non-pretextual caretaking justification for impoundment from private property. The court's factors include the location, available alternatives, connection to a crime, and consent. [United States v. Venezia, 995 F.3d 1170 (10th Cir. 2021)](https://law.justia.com/cases/federal/appellate-courts/ca10/19-1432/19-1432-2021-05-03.html) further illustrates that compliance with a policy does not necessarily establish a reasonable caretaking rationale. These private-property decisions inform the inquiry but do not automatically resolve a seizure from a public street.
+
+The reported 13-second interval between custody and the tow request warrants examination of the actual basis for the seizure and any alternatives considered. It does not establish unconstitutionality on its own.
+
+The Coalition considers these serious potential Fourth Amendment violations. Whether either seizure was unconstitutional remains a preliminary legal question pending full evidence review and the department's response.
+
 ## Evidence inventory
 
 | Record category | Collection status | Public access |
