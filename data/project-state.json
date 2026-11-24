@@ -49,7 +49,7 @@
       "id": "edmond-police",
       "title": "Edmond Police Department: Arrested, jailed, and vehicle impounded for alleged reckless driving in apparent violation of Oklahoma's sign-and-release statute",
       "status": "ACTIVE",
-      "phase": "RECORDS PENDING",
+      "phase": "EVIDENCE PUBLISHED · RECORDS PENDING",
       "jurisdiction": "Oklahoma",
       "region": "EDMOND",
       "href": "oklahoma/investigations/edmond-police/",
@@ -57,7 +57,8 @@
       "last_updated": "2026-11-24",
       "question": "Why did the officer mark the defendant's signature line Jailed rather than obtain a promise to appear, and did the statutory release requirement apply?",
       "summary": "We're examining apparent noncompliance with Oklahoma's mandatory release procedure and serious potential Fourth Amendment violations involving the arrest, detention, and vehicle seizure.",
-      "wire": "Incident-specific investigation; evidence privacy review and additional records pending"
+      "wire": "First citation exhibit published; additional records pending",
+      "evidence_href": "evidence/oklahoma/edmond-police/"
     }
   ],
   "public_records": {
