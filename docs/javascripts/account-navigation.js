@@ -5,11 +5,13 @@
   const memberURL = (fragment = '') =>
     new URL('member-pilot.html' + fragment, HOME).href;
   const sessionKey = 'coalition-membership-session-v1';
+  const logoutKey = 'coalition-membership-signed-out-v1';
 
   const readSessionHint = () => {
     // A cached token is only a hint for which navigation links to display.
     // Every protected operation remains verified by the existing member backend.
     try {
+      if (localStorage.getItem(logoutKey)) return false;
       const raw = localStorage.getItem(sessionKey) ||
         sessionStorage.getItem(sessionKey);
       const session = JSON.parse(raw || 'null');
@@ -51,7 +53,7 @@
 
     update();
     window.addEventListener('storage', e => {
-      if (e.key === sessionKey || e.key === null) update();
+      if (e.key === sessionKey || e.key === logoutKey || e.key === null) update();
     });
     document.addEventListener('click', e => {
       const menu = nav.querySelector('details[open]');
