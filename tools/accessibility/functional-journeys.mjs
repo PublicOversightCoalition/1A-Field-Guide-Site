@@ -3,7 +3,7 @@ import { chromium, firefox, webkit } from 'playwright';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-const base = process.env.AUDIT_URL || 'http://127.0.0.1:8765/1A-Field-Guide-Site/';
+const base = process.env.AUDIT_URL || 'http://127.0.0.1:8765/';
 const output = process.env.AUDIT_OUTPUT || 'audit-results';
 mkdirSync(output, { recursive: true });
 const engine = process.env.PLAYWRIGHT_BROWSER || 'chromium';
@@ -71,6 +71,17 @@ async function drawer(page, targetHref, finalPath) {
   await page.waitForURL(url => url.pathname.endsWith(finalPath), { timeout: 5500 });
 }
 
+// After the root cutover, keep bookmarked project URLs and auth callback fragments usable.
+await test('Legacy member link preserves callback query and fragment', 390, async page => {
+  const old = new URL('/1A-Field-Guide-Site/member-pilot.html?migration_probe=1#type=preview', base);
+  await page.goto(old.href, { waitUntil: 'networkidle', timeout: 25000 });
+  await page.waitForURL(url => url.pathname === '/member-pilot.html'
+    && url.searchParams.get('migration_probe') === '1'
+    && url.hash === '#type=preview', { timeout: 7000 });
+  const asset = await page.request.get(new URL('/1A-Field-Guide-Site/stylesheets/member-research.css', base).href);
+  assert(asset.ok(), 'Legacy asset path did not remain available');
+}, { route: 'member-pilot.html' });
+
 for (const width of [320, 390, 768]) {
   await test('Home mobile menu opens and navigates', width, async page => {
     await drawer(page, 'jurisdictions/', '/jurisdictions/');
@@ -99,7 +110,7 @@ for (const width of [390, 1440]) {
     const url = await result.getAttribute('href');
     assert(url && url.length > 1, 'Search result has no URL');
     await result.click();
-    await page.waitForURL(url => !url.pathname.endsWith('/1A-Field-Guide-Site/'), { timeout: 7000 });
+    await page.waitForURL(url => url.pathname !== new URL(base).pathname, { timeout: 7000 });
   });
   await test('Dynamic investigation cards lead to research', width, async page => {
     await page.locator('#investigations-live .investigation-card').first().waitFor({ state: 'visible', timeout: 8000 });
@@ -319,7 +330,7 @@ for (const width of [390, 1440]) {
     assert(await result.evaluate(el => document.activeElement === el),
       'Search result cannot receive keyboard focus');
     await page.keyboard.press('Enter');
-    await page.waitForURL(url => !url.pathname.endsWith('/1A-Field-Guide-Site/'),
+    await page.waitForURL(url => url.pathname !== new URL(base).pathname,
       { timeout: 7000 });
   });
 

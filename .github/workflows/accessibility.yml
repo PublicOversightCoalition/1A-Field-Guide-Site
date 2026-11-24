@@ -28,6 +28,7 @@ jobs:
           python tools/member_portal/inject_workspace_theme.py
           python -m mkdocs build --clean
           COALITION_SUPABASE_URL=https://exampleproject.supabase.co COALITION_SUPABASE_PUBLISHABLE_KEY=sb_publishable__example_not_a_real_key_12345 python tools/member_portal/render_config.py render site-preview
+          python tools/public_state/generate_legacy_redirects.py site-preview
       - name: Install accessibility test dependencies
         run: |
           npm install --prefix tools/accessibility --no-audit --no-fund
@@ -35,8 +36,7 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Audit generated pages in Chromium
         run: |
-          ln -s site-preview 1A-Field-Guide-Site
-          python -m http.server 8765 --bind 127.0.0.1 --directory . > /tmp/field-guide-audit-http.log 2>&1 &
+          python -m http.server 8765 --bind 127.0.0.1 --directory site-preview > /tmp/field-guide-audit-http.log 2>&1 &
           SERVER_PID=$!
           trap 'kill $SERVER_PID 2>/dev/null || true' EXIT
           sleep 2
@@ -76,6 +76,7 @@ jobs:
           python tools/member_portal/inject_workspace_theme.py
           python -m mkdocs build --clean
           COALITION_SUPABASE_URL=https://exampleproject.supabase.co COALITION_SUPABASE_PUBLISHABLE_KEY=sb_publishable__example_not_a_real_key_12345 python tools/member_portal/render_config.py render site-preview
+          python tools/public_state/generate_legacy_redirects.py site-preview
       - name: Install browser dependencies
         run: |
           npm install --prefix tools/accessibility --no-audit --no-fund
@@ -85,8 +86,7 @@ jobs:
         env:
           PLAYWRIGHT_BROWSER: ${{ matrix.browser }}
         run: |
-          ln -s site-preview 1A-Field-Guide-Site
-          python -m http.server 8765 --bind 127.0.0.1 --directory . > /tmp/field-guide-cross-browser.log 2>&1 &
+          python -m http.server 8765 --bind 127.0.0.1 --directory site-preview > /tmp/field-guide-cross-browser.log 2>&1 &
           SERVER_PID=$!
           trap 'kill $SERVER_PID 2>/dev/null || true' EXIT
           sleep 2

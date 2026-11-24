@@ -7,23 +7,23 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-PLACEHOLDER'; style-src 'self'; connect-src __COALITION_SUPABASE_URL__; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
 <meta name="referrer" content="no-referrer">
 <title>Submit research · Public Oversight Coalition</title>
-<link rel="stylesheet" href="/1A-Field-Guide-Site/stylesheets/member-research.css">
+<link rel="stylesheet" href="./stylesheets/member-research.css">
 </head>
 <body>
 <header class="site-header">
   <div><strong>Public Oversight Coalition</strong><small>Member research · controlled pilot</small></div>
   <nav class="toplinks" aria-label="Member navigation">
-    <a href="/1A-Field-Guide-Site/member-pilot.html">Workspace</a>
-    <a href="/1A-Field-Guide-Site/member-community.html">Community</a>
-    <a href="/1A-Field-Guide-Site/member-research.html">Research</a>
+    <a href="./member-pilot.html">Workspace</a>
+    <a href="./member-community.html">Community</a>
+    <a href="./member-research.html">Research</a>
   </nav>
 </header>
 <main class="narrow-main">
-<a class="back-link" href="/1A-Field-Guide-Site/member-research.html">← Back to research library</a>
+<a class="back-link" href="./member-research.html">← Back to research library</a>
 <div id="page-eyebrow" class="eyebrow">Submit research</div>
 <h1 id="page-title">Healdsburg Police Department source check</h1>
 <p id="page-subtitle" class="subtitle">Submit one official HTTPS source at a time. Your entry remains internal until reviewed.</p>
-<section id="gate" class="panel" hidden><h2>Member sign-in required</h2><p id="gate-copy">Sign in from the member workspace before submitting research.</p><p><a href="/1A-Field-Guide-Site/member-pilot.html">Return to member workspace →</a></p></section>
+<section id="gate" class="panel" hidden><h2>Member sign-in required</h2><p id="gate-copy">Sign in from the member workspace before submitting research.</p><p><a href="./member-pilot.html">Return to member workspace →</a></p></section>
 <div id="workspace" hidden>
 <section class="panel task-detail" aria-labelledby="task-title">
   <span id="task-badge" class="badge">Available source check</span>
@@ -37,7 +37,7 @@
     <label>Source title <small>Required</small><input id="source-title" maxlength="300" required></label>
     <label>Date checked <small>Required</small><input id="checked-on" type="date" required></label>
     <label>Source notes <small>Optional · 2,000 characters maximum</small><textarea id="notes" maxlength="2000" placeholder="What does this official source contain or help verify?"></textarea></label>
-    <div class="form-actions"><a class="button-link secondary-link" href="/1A-Field-Guide-Site/member-research.html">Cancel</a><button id="submit-button" type="submit">Submit for review</button></div>
+    <div class="form-actions"><a class="button-link secondary-link" href="./member-research.html">Cancel</a><button id="submit-button" type="submit">Submit for review</button></div>
   </form>
 </section>
 <p id="message" role="status" aria-live="polite"></p>
@@ -63,7 +63,7 @@ function localDate(){const d=new Date(),off=d.getTimezoneOffset();return new Dat
 function renderRevision(row){revisionRow=row;$('page-eyebrow').textContent='Revise research';$('page-title').textContent='Revise Healdsburg Police Department source check';$('page-subtitle').textContent='An Administrator requested changes. Your prior revision remains preserved; submitting this form creates a new revision for re-review.';$('task-badge').textContent=`Revision ${row.revision_number||1} · changes requested`;$('source-url').value=row.source_url||'';$('source-title').value=row.source_title||'';$('checked-on').value=row.checked_on||localDate();$('notes').value=row.notes||'';$('submit-button').textContent='Submit revised source';const feedback=$('review-feedback');feedback.textContent='';const strong=document.createElement('strong');strong.textContent='Reviewer requested changes';feedback.append(strong,document.createElement('br'),document.createTextNode(row.last_review_reason||'Please revise this source check and submit it again for review.'));feedback.hidden=false}
 async function loadRevision(){const d=await req('/functions/v1/manage-research-submissions',{method:'POST',token:session.access_token,body:{action:'list'}});const row=(d?.submissions||[]).find(r=>r.submission_id===requestedSubmission);if(!row)throw new Error('This research submission is not available to this Member account.');if(row.status!=='changes_requested')throw new Error('This research submission is not currently awaiting changes.');if(row.task_code!=='healdsburg_policy_source_check')throw new Error('This research submission cannot be revised through this form.');renderRevision(row)}
 async function init(){$('checked-on').value=localDate();$('checked-on').max=localDate();session=await current();if(!session?.user){$('gate').hidden=false;$('workspace').hidden=true;return}try{const rows=await req('/rest/v1/rpc/coalition_self_membership_status',{method:'POST',token:session.access_token,body:{}}),m=rows?.[0],roles=m?.role_codes||[];if(m?.membership_status!=='approved'||!roles.includes('member')){$('gate').hidden=false;$('workspace').hidden=true;$('gate-copy').textContent='Active Member access is required to submit research.';return}if(requestedSubmission&&!revisionMode)throw new Error('The revision link is invalid.');if(revisionMode)await loadRevision();$('gate').hidden=true;$('workspace').hidden=false}catch(e){$('gate').hidden=false;$('workspace').hidden=true;$('gate-copy').textContent=e?.message||'Membership or submission status is temporarily unavailable.'}}
-$('submission-form').addEventListener('submit',async e=>{e.preventDefault();if(!session?.access_token)return say('Sign in again from the member workspace.');const button=$('submit-button');button.disabled=true;try{const body={action:revisionMode?'revise':'submit',source_url:$('source-url').value.trim(),source_title:$('source-title').value.trim(),checked_on:$('checked-on').value,notes:$('notes').value.trim(),...(revisionMode?{submission_id:requestedSubmission}:{})};await req('/functions/v1/manage-research-submissions',{method:'POST',token:session.access_token,body});say(revisionMode?'Revised source submitted for re-review. Returning to the research library…':'Source verification submitted for review. Returning to the research library…');setTimeout(()=>location.href='/1A-Field-Guide-Site/member-research.html',700)}catch(e){say(e?.data?.error||e?.message||(revisionMode?'The revised source check could not be submitted.':'The source check could not be submitted.'))}finally{button.disabled=false}});
+$('submission-form').addEventListener('submit',async e=>{e.preventDefault();if(!session?.access_token)return say('Sign in again from the member workspace.');const button=$('submit-button');button.disabled=true;try{const body={action:revisionMode?'revise':'submit',source_url:$('source-url').value.trim(),source_title:$('source-title').value.trim(),checked_on:$('checked-on').value,notes:$('notes').value.trim(),...(revisionMode?{submission_id:requestedSubmission}:{})};await req('/functions/v1/manage-research-submissions',{method:'POST',token:session.access_token,body});say(revisionMode?'Revised source submitted for re-review. Returning to the research library…':'Source verification submitted for review. Returning to the research library…');setTimeout(()=>location.href='./member-research.html',700)}catch(e){say(e?.data?.error||e?.message||(revisionMode?'The revised source check could not be submitted.':'The source check could not be submitted.'))}finally{button.disabled=false}});
 await init();</script>
 </body>
 </html>

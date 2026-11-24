@@ -10,7 +10,7 @@ hide:
   <p>Found an agency policy, a public record, a posted rule, or an incident we should look into? You can help us check the facts. We review sources and corrections before publishing them.</p>
   <div class="contribute-actions">
     <a class="beta-button beta-button--primary" href="../member-pilot.html">Join or sign in</a>
-    <a class="beta-button beta-button--secondary" href="https://github.com/PublicOversightCoalition/1A-Field-Guide-Site/blob/main/CONTRIBUTING.md">Code & documentation on GitHub</a>
+    <a class="beta-button beta-button--secondary" href="https://github.com/PublicOversightCoalition/publicoversightcoalition.github.io/blob/main/CONTRIBUTING.md">Code & documentation on GitHub</a>
   </div>
 </div>
 
@@ -54,4 +54,4 @@ You can apply to contribute through the private member workspace. We use your em
 
 Developers and documentation contributors can still work directly through the public repository. GitHub is a secondary contribution route for people who specifically want to work on the site's code, documentation, schemas, or repository-maintained research files.
 
-[Read the GitHub contribution guide](https://github.com/PublicOversightCoalition/1A-Field-Guide-Site/blob/main/CONTRIBUTING.md)
+[Read the GitHub contribution guide](https://github.com/PublicOversightCoalition/publicoversightcoalition.github.io/blob/main/CONTRIBUTING.md)

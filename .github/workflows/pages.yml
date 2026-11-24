@@ -1,4 +1,4 @@
-name: Build and publish Field Guide site
+name: Build and publish Public Oversight site
 
 on:
   pull_request:
@@ -84,6 +84,9 @@ jobs:
           COALITION_SUPABASE_PUBLISHABLE_KEY: sb_publishable__example_not_a_real_key_12345
         run: python tools/member_portal/render_config.py render site-preview
 
+      - name: Preserve legacy GitHub Pages routes
+        run: python tools/public_state/generate_legacy_redirects.py site-preview
+
   deploy:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: build
@@ -119,6 +122,9 @@ jobs:
           COALITION_SUPABASE_PUBLISHABLE_KEY: ${{ vars.COALITION_SUPABASE_PUBLISHABLE_KEY }}
         run: python tools/member_portal/render_config.py render site-preview
 
+      - name: Preserve legacy GitHub Pages routes
+        run: python tools/public_state/generate_legacy_redirects.py site-preview
+
       - name: Publish generated site to gh-pages
         run: |
           git config user.name "github-actions[bot]"
@@ -126,7 +132,7 @@ jobs:
 
           git fetch origin gh-pages:gh-pages
 
-          PUBLISH_DIR="$RUNNER_TEMP/1A-Field-Guide-gh-pages"
+          PUBLISH_DIR="$RUNNER_TEMP/PublicOversight-gh-pages"
           rm -rf "$PUBLISH_DIR"
           git worktree add "$PUBLISH_DIR" gh-pages
 
