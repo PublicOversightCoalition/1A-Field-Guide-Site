@@ -102,6 +102,32 @@
   }
 }
 
+/* When space is constrained, keep both account actions readable on a
+   dedicated header row instead of squeezing the search and site identity. */
+@media (max-width: 28em) {
+  .md-header {
+    height: auto;
+  }
+
+  .md-header__inner {
+    height: auto;
+    min-height: 2.4rem;
+    flex-wrap: wrap;
+  }
+
+  .coalition-account-nav {
+    flex-basis: 100%;
+    justify-content: flex-end;
+    padding: .12rem .45rem .4rem;
+    margin: 0;
+    min-width: 0;
+  }
+
+  .coalition-account-nav a {
+    min-height: 1.75rem;
+  }
+}
+
 @media (max-width: 40em) {
   .coalition-account-nav {
     gap: .2rem;
