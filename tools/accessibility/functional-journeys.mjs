@@ -82,6 +82,50 @@ await test('Legacy member link preserves callback query and fragment', 390, asyn
   assert(asset.ok(), 'Legacy asset path did not remain available');
 }, { route: 'member-pilot.html' });
 
+// Public account navigation must use existing member sign-in, not a new auth flow.
+for (const width of [320, 390, 1440]) {
+  await test('Public header offers log in and sign up', width, async page => {
+    const nav = page.getByRole('navigation', { name: 'Member account' });
+    const logIn = nav.getByRole('link', { name: 'Log in' });
+    const signUp = nav.getByRole('link', { name: 'Sign up' });
+    assert(await logIn.count() === 1 && await signUp.count() === 1,
+      'Public header is missing standard account links');
+    assert((await logIn.getAttribute('href')).endsWith('/member-pilot.html#signin'),
+      'Log in must point to the existing sign-in form');
+    assert((await signUp.getAttribute('href')).endsWith('/member-pilot.html#signup'),
+      'Sign up must point to the existing registration form');
+    const overflow = await page.evaluate(() => ({
+      width: document.documentElement.scrollWidth,
+      viewport: document.documentElement.clientWidth
+    }));
+    assert(overflow.width <= overflow.viewport + 2,
+      'Account header causes horizontal overflow: ' + JSON.stringify(overflow));
+  });
+
+  await test('Session hint reveals accessible account menu', width, async page => {
+    await page.evaluate(() => {
+      localStorage.setItem('coalition-membership-session-v1', JSON.stringify({
+        access_token: 'test-only-unusable-token',
+        refresh_token: 'test-only-unusable-refresh',
+        expires_at: Math.floor(Date.now() / 1000) + 600
+      }));
+    });
+    await page.reload({ waitUntil: 'networkidle' });
+    const nav = page.getByRole('navigation', { name: 'Member account' });
+    const summary = nav.getByText('Account menu', { exact: true });
+    const menu = nav.locator('details.coalition-account-menu');
+    assert(await menu.count() === 1, 'Account menu missing with session hint');
+    await menu.locator('summary').click();
+    assert(await nav.getByRole('link', { name: 'My account' }).count() === 1,
+      'Profile menu has no account destination');
+    assert(await nav.getByRole('link', { name: 'Member workspace' }).count() === 1,
+      'Profile menu has no workspace destination');
+    await page.keyboard.press('Escape');
+    assert(!await menu.evaluate(el => el.open),
+      'Profile menu did not close with Escape');
+  });
+}
+
 for (const width of [320, 390, 768]) {
   await test('Home mobile menu opens and navigates', width, async page => {
     await drawer(page, 'jurisdictions/', '/jurisdictions/');
