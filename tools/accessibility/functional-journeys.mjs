@@ -170,6 +170,30 @@ await test('One-click profile sign-out clears shared session', 390, async page =
   await otherTab.close();
 });
 
+// Supabase Auth can reject revocation when the token's session is already absent.
+// That is distinct from a network failure: no live refresh session remains to revoke.
+await test('Already-revoked Supabase session is reported accurately', 390, async page => {
+  await page.evaluate(() => {
+    localStorage.removeItem('coalition-membership-signed-out-v1');
+    localStorage.setItem('coalition-membership-session-v1', JSON.stringify({
+      access_token: 'stale-logout-token',
+      refresh_token: 'stale-logout-refresh',
+      expires_at: Math.floor(Date.now() / 1000) + 600
+    }));
+  });
+  await page.reload({ waitUntil: 'networkidle' });
+  await page.route('https://exampleproject.supabase.co/auth/v1/logout', route =>
+    route.fulfill({status: 403, contentType:'application/json',
+      body: JSON.stringify({code:'session_not_found', message:'Session not found'})}));
+  const nav = page.getByRole('navigation', { name: 'Member account' });
+  await nav.locator('summary').click();
+  await nav.getByRole('link', {name:'Sign out', exact:true}).click();
+  await page.getByText('Signed out. Supabase reports the previous session was already inactive.', {exact:true})
+    .waitFor({state:'visible',timeout:7000});
+  assert(await page.evaluate(() => !localStorage.getItem('coalition-membership-session-v1')),
+    'Absent server session still left stored credentials');
+});
+
 await test('Retired member forum is not deployed', 390, async page => {
   const response = await page.request.get(new URL('member-community.html', base).href);
   assert(response.status() === 404, 'On-site community forum must not be published');
