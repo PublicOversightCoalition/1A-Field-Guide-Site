@@ -126,6 +126,42 @@ for (const width of [320, 390, 1440]) {
   });
 }
 
+// A profile-menu sign-out must be one click and revoke the existing session.
+await test('One-click profile sign-out clears shared session', 390, async page => {
+  const nav = page.getByRole('navigation', { name: 'Member account' });
+  await page.evaluate(() => {
+    localStorage.setItem('coalition-membership-session-v1', JSON.stringify({
+      access_token: 'test-signout-token',
+      refresh_token: 'test-signout-refresh',
+      expires_at: Math.floor(Date.now() / 1000) + 600
+    }));
+  });
+  await page.reload({ waitUntil: 'networkidle' });
+  await nav.locator('summary').click();
+  const signOut = nav.getByRole('link', { name: 'Sign out', exact: true });
+  assert(await signOut.count() === 1, 'Profile menu requires a direct Sign out action');
+  assert((await signOut.getAttribute('href')).endsWith('/member-pilot.html#signout'),
+    'Sign out should invoke the member portal existing logout');
+  await page.route('https://exampleproject.supabase.co/auth/v1/logout', async route => {
+    await route.fulfill({ status: 204, body: '' });
+  });
+  await signOut.click();
+  await page.waitForURL(url => url.pathname === '/member-pilot.html' && url.hash === '', { timeout: 7000 });
+  await page.getByText('Signed out.', { exact: true }).waitFor({ state: 'visible', timeout: 7000 });
+  const retained = await page.evaluate(() =>
+    localStorage.getItem('coalition-membership-session-v1') ||
+    sessionStorage.getItem('coalition-membership-session-v1'));
+  assert(retained === null, 'Sign out did not remove shared browser session');
+});
+
+await test('Retired member forum is not deployed', 390, async page => {
+  const response = await page.request.get(new URL('member-community.html', base).href);
+  assert(response.status() === 404, 'On-site community forum must not be published');
+  assert(await page.getByRole('navigation', { name: 'Member account' })
+    .getByRole('link', { name: 'Community' }).count() === 0,
+    'Profile menu still advertises the retired forum');
+});
+
 for (const width of [320, 390, 768]) {
   await test('Home mobile menu opens and navigates', width, async page => {
     await drawer(page, 'jurisdictions/', '/jurisdictions/');
