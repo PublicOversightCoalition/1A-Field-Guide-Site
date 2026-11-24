@@ -53,27 +53,41 @@ def check_template(root: Path) -> None:
 
 SESSION_BRIDGE = r"""
 const AUTH_CHANNEL_NAME='coalition-membership-auth-v1';
+const LOGOUT_KEY='coalition-membership-signed-out-v1';
 let authChannel=null;
 try{authChannel=new BroadcastChannel(AUTH_CHANNEL_NAME)}catch{}
 function storageRead(kind){try{return window[kind].getItem(SESSION_KEY)}catch{return null}}
 function storageWrite(kind,value){try{window[kind].setItem(SESSION_KEY,value)}catch{}}
 function storageRemove(kind){try{window[kind].removeItem(SESSION_KEY)}catch{}}
+function loggedOut(){try{return !!localStorage.getItem(LOGOUT_KEY)}catch{return false}}
+function clearLogoutFlag(){try{localStorage.removeItem(LOGOUT_KEY)}catch{}}
+function clearLocalSession(){storageRemove('localStorage');storageRemove('sessionStorage')}
+function noteSignedOut(){try{localStorage.setItem(LOGOUT_KEY,String(Date.now()))}catch{}clearLocalSession()}
+function signOutEverywhere(){noteSignedOut();try{authChannel?.postMessage({type:'session-signed-out'})}catch{}}
 function validSession(s){return !!(s?.access_token&&s?.refresh_token)}
-function persistSession(s){if(!validSession(s))return null;const raw=JSON.stringify(s);storageWrite('localStorage',raw);storageWrite('sessionStorage',raw);return s}
-function loadSharedSession(){try{const s=JSON.parse(storageRead('localStorage')||storageRead('sessionStorage')||'null');return validSession(s)?persistSession(s):null}catch{return null}}
+function persistSession(s){if(loggedOut()||!validSession(s))return null;const raw=JSON.stringify(s);storageWrite('localStorage',raw);storageWrite('sessionStorage',raw);return s}
+function loadSharedSession(){if(loggedOut()){clearLocalSession();return null}try{const s=JSON.parse(storageRead('localStorage')||storageRead('sessionStorage')||'null');return validSession(s)?persistSession(s):null}catch{return null}}
 function requestPeerSession(timeout=450){
+  if(loggedOut())return Promise.resolve(null);
   const local=loadSharedSession();if(local)return Promise.resolve(local);
   if(!authChannel)return Promise.resolve(null);
   return new Promise(resolve=>{
     let done=false;
-    const finish=s=>{if(done)return;done=true;clearTimeout(timer);authChannel.removeEventListener('message',onMessage);resolve(s?persistSession(s):null)};
+    const finish=s=>{if(done)return;done=true;clearTimeout(timer);authChannel.removeEventListener('message',onMessage);resolve(!loggedOut()&&s?persistSession(s):null)};
     const onMessage=e=>{if(e.data?.type==='session-response'&&validSession(e.data.session))finish(e.data.session)};
     const timer=setTimeout(()=>finish(null),timeout);
     authChannel.addEventListener('message',onMessage);
     try{authChannel.postMessage({type:'session-request'})}catch{finish(null)}
   })
 }
-if(authChannel){authChannel.addEventListener('message',e=>{if(e.data?.type!=='session-request')return;const s=loadSharedSession();if(s){try{authChannel.postMessage({type:'session-response',session:s})}catch{}}})}
+function handleRemoteSignout(){noteSignedOut();if(location.pathname.endsWith('/member-pilot.html')||location.pathname.endsWith('/member-research.html')||location.pathname.endsWith('/member-research-submit.html')||location.pathname.endsWith('/member-research-import.html')||location.pathname.endsWith('/member-forum-maps.html'))location.reload()}
+if(authChannel){authChannel.addEventListener('message',e=>{
+  if(e.data?.type==='session-signed-out'){handleRemoteSignout();return}
+  if(e.data?.type!=='session-request'||loggedOut())return;
+  const s=loadSharedSession();if(s){try{authChannel.postMessage({type:'session-response',session:s})}catch{}}
+})}
+window.addEventListener('storage',e=>{if(e.key===LOGOUT_KEY&&e.newValue)handleRemoteSignout()});
+window.addEventListener('pageshow',e=>{if(e.persisted&&loggedOut())handleRemoteSignout()});
 """.strip()
 
 FORUM_DIAGNOSTIC_HTML = r"""
@@ -188,6 +202,8 @@ def normalize_member_session(rendered: str) -> str:
     for old, new in replacements.items():
         rendered = rendered.replace(old, new)
 
+    rendered = rendered.replace("const rs=returned();if(rs){save(rs);", "const rs=returned();if(rs){clearLogoutFlag();save(rs);")
+    rendered = rendered.replace("save({...s,expires_at:Math.floor(Date.now()/1000)+Number(s.expires_in||3600)});recoveryMode=false;", "clearLogoutFlag();save({...s,expires_at:Math.floor(Date.now()/1000)+Number(s.expires_in||3600)});recoveryMode=false;")
     rendered = rendered.replace("let s=load();if(!s)return null;", "let s=load();if(!s)s=await requestPeerSession();if(!s)return null;")
     rendered = rendered.replace("let s=loadSession();if(!s)return null;", "let s=loadSession();if(!s)s=await requestPeerSession();if(!s)return null;")
     return rendered
