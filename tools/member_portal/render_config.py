@@ -54,7 +54,7 @@ def check_template(root: Path) -> None:
     source = public_script.read_text(encoding="utf-8")
     if source.count(URL_PLACEHOLDER) != 1 or source.count(KEY_PLACEHOLDER) != 1:
         fail(f"{public_script}: expected exactly one of each public auth placeholder")
-    if re.search(r"https://[a-z0-9]+\\.supabase\\.co", source):
+    if re.search(r"https://[a-z0-9]+\.supabase\.co", source):
         fail(f"{public_script}: live project URL must not be committed")
     if re.search(r"sb_publishable__[A-Za-z0-9_-]+", source):
         fail(f"{public_script}: live publishable key must not be committed")
