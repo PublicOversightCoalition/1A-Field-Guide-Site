@@ -93,7 +93,7 @@ The Coalition considers these serious potential Fourth Amendment violations. Whe
 
 | Record category | Collection status | Public access |
 | --- | --- | --- |
-| Citation | Obtained | Publication copy pending privacy review |
+| Citation | Obtained | [EPD-001: Redacted citation photograph](../../evidence/oklahoma/edmond-police/index.md) |
 | Police narrative | Obtained | Not published |
 | CAD records | Obtained | Not published |
 | Police video | Obtained | Not published |
