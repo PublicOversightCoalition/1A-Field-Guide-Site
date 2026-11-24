@@ -29,6 +29,13 @@ This library organizes the documents and data behind our investigations. Each pr
   <span class="evidence-collection__meta">16 source records · received 2026-10-19</span>
 </a>
 
+<a class="evidence-collection" href="oklahoma/edmond-police/">
+  <span class="evidence-collection__eyebrow">OKLAHOMA · EDMOND</span>
+  <h2>Edmond Police Department</h2>
+  <p>Redacted municipal traffic citation showing the handwritten Jailed entry on the defendant's signature line.</p>
+  <span class="evidence-collection__meta">1 exhibit · EPD-001</span>
+</a>
+
 </div>
 
 ## Publication states

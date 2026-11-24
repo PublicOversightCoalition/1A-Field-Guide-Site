@@ -1,0 +1,18 @@
+{
+  "collection": "edmond-police",
+  "records": [
+    {
+      "id": "EPD-001",
+      "title": "Municipal traffic citation marked Jailed",
+      "incident_date": "2026-10-05",
+      "source_type": "Photograph supplied by motorist's representative; already redacted and annotated when supplied",
+      "supplied_copy_sha256": "751b75645895053c66879eb968bb1a8fdfb54113ab3877498d444dd8d43bd94a",
+      "publication_copy": {
+        "path": "epd-001-public.jpg",
+        "sha256": "b416dd5445d080a5f1190b38ec90cd10c19a3452e60bca5029df41964f3631a6",
+        "treatment": "Redacted and annotated photograph; EXIF and XMP metadata segments removed without re-encoding image data"
+      },
+      "unredacted_original_sha256": null
+    }
+  ]
+}
