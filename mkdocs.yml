@@ -91,6 +91,7 @@ nav:
           - Healdsburg Police Department: registry/healdsburg-police.md
       - Oklahoma:
           - Edmond Police Department: oklahoma/investigations/edmond-police.md
+          - Edmond evidence: evidence/oklahoma/edmond-police/index.md
       - Facility research: registry/index.md
   - Public Records:
       - Start here: open-government/public-records.md
