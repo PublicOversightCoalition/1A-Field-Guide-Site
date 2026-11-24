@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-31",
+  "updated": "2026-11-24",
   "jurisdictions": {
     "active": 1,
     "development": 1,
@@ -44,6 +44,20 @@
       "question": "What does the department require when someone asks an officer for their name or badge number?",
       "summary": "We're reviewing the department's identification policy and reported encounters. The facts and policy questions are being checked separately.",
       "wire": "policy and identification-rule research"
+    },
+    {
+      "id": "edmond-police",
+      "title": "Edmond Police Department: Arrest for alleged reckless driving",
+      "status": "ACTIVE",
+      "phase": "RECORDS PENDING",
+      "jurisdiction": "Oklahoma",
+      "region": "EDMOND",
+      "href": "oklahoma/investigations/edmond-police/",
+      "lead": false,
+      "last_updated": "2026-11-24",
+      "question": "What justified custodial arrest and vehicle impoundment, and why did the officer mark the defendant's signature line Jailed?",
+      "summary": "We're examining the arrest for alleged reckless driving, the citation signature entry, the timing of the tow decision, and the role of additional witness information.",
+      "wire": "Incident-specific investigation; evidence privacy review and additional records pending"
     }
   ],
   "public_records": {
