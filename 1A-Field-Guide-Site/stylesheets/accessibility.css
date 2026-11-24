@@ -1,0 +1,405 @@
+/* Accessibility refinements: preserve the editorial identity while improving legibility and interaction. */
+
+:root {
+  --a11y-focus: #85ff97;
+}
+
+/* Updated accent palette selected during the accessibility/design review. */
+body:has([data-motion-home]) {
+  --editorial-green: #85ff97;
+  --editorial-violet: #6a00f5;
+}
+
+.beta-home {
+  --beta-green: #85ff97;
+  --beta-violet: #6a00f5;
+  --beta-green-soft: rgba(133, 255, 151, .12);
+  --beta-violet-soft: rgba(106, 0, 245, .13);
+}
+
+/* Keep the display voice, but reduce unusually tight tracking. */
+.beta-hero h1,
+.beta-manifesto__headline {
+  letter-spacing: -.025em;
+}
+
+.beta-section__heading h2,
+.beta-california h2,
+.beta-contribute h2,
+.beta-research .beta-case-card:first-child h3,
+.beta-records .beta-feature-card:first-child h3 {
+  letter-spacing: -.015em;
+}
+
+.md-content__inner h1,
+.md-content__inner h2,
+.md-content__inner h3,
+.md-content__inner h4 {
+  letter-spacing: -.01em;
+}
+
+/* Preserve uppercase labels without excessive character spacing. */
+.beta-kicker,
+.beta-label,
+.beta-feature-card__eyebrow,
+.beta-case-card__meta,
+.beta-newswire__label,
+.beta-newswire__item strong,
+.beta-manifesto__stat span {
+  letter-spacing: .08em;
+}
+
+/* Strong, consistent keyboard focus on the public site. */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--a11y-focus) !important;
+  outline-offset: 3px !important;
+  border-radius: .2rem;
+}
+
+/* Links in prose should not rely on color alone. */
+.md-typeset p a,
+.md-typeset li a,
+.md-typeset blockquote a,
+.beta-lede a,
+.beta-section__heading p a,
+.beta-california p a,
+.beta-contribute p a {
+  text-decoration: underline;
+  text-decoration-thickness: .09em;
+  text-underline-offset: .16em;
+}
+
+/* Interactive card/button affordances stay visually distinct. */
+.beta-button,
+.beta-topic-card,
+.beta-feature-card,
+.beta-case-card,
+.jurisdiction-card {
+  text-decoration: none !important;
+}
+
+/* Avoid hover-only motion when users request less movement. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+
+  .beta-topic-card:hover,
+  .beta-feature-card:hover,
+  .beta-case-card:hover,
+  .beta-button:hover {
+    transform: none !important;
+  }
+}
+
+/* Make the scrolling research ticker pause for keyboard users as well as mouse users. */
+.beta-newswire:focus-within .beta-newswire__track {
+  animation-play-state: paused;
+}
+
+/* Allow WCAG text-spacing overrides to grow without forced clipping. */
+.beta-home,
+.beta-section,
+.beta-topic-card,
+.beta-feature-card,
+.beta-case-card,
+.beta-california,
+.beta-contribute,
+.md-content__inner {
+  overflow-wrap: break-word;
+}
+
+.beta-hero,
+.beta-manifesto {
+  min-width: 0;
+}
+
+@media (max-width: 48em) {
+  .beta-hero h1,
+  .beta-manifesto__headline {
+    line-height: 1;
+  }
+}
+
+
+/* Mobile hero recovery: the later motion stylesheet restores a two-column
+   desktop grid. Force a single fluid column before it can squeeze the title. */
+.beta-hero__content,
+.beta-hero__question {
+  min-width: 0;
+}
+
+@media (max-width: 76em) {
+  .beta-home .beta-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 52em) {
+  .beta-home .beta-hero {
+    gap: 1.5rem;
+    padding: clamp(1.25rem, 5vw, 1.75rem);
+  }
+
+  .beta-home .beta-hero h1 {
+    max-width: 100%;
+    font-size: clamp(2.2rem, 10vw, 3.5rem);
+    line-height: 1.08;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
+  }
+}
+
+
+/* Research updates: WCAG 2.2.2 pause/stop/hide and usable static alternative. */
+.beta-newswire__originals,
+.beta-newswire__duplicate {
+  display: flex;
+  flex: none;
+  align-items: center;
+}
+.beta-newswire__pause {
+  position: relative;
+  z-index: 3;
+  flex: none;
+  min-height: 2.35rem;
+  padding: .3rem .75rem;
+  border: 0;
+  border-left: 1px solid rgba(133, 255, 151, .28);
+  border-radius: 0;
+  background: #0d1618;
+  color: #eaf4ee;
+  font: 700 .75rem/1.25 system-ui, sans-serif;
+  cursor: pointer;
+}
+.beta-newswire__pause:hover {
+  background: #1b2c28;
+}
+.beta-newswire__pause {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  padding: 0;
+}
+.beta-newswire__playback-symbol {
+  display: block;
+  font-size: 1.15rem;
+  line-height: 1;
+}
+.beta-newswire.is-paused .beta-newswire__track {
+  animation: none !important;
+  transform: none !important;
+}
+.beta-newswire.is-paused .beta-newswire__viewport {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.beta-newswire.is-paused .beta-newswire__duplicate {
+  display: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .beta-newswire__track { animation: none !important; }
+}
+
+/* Don't let dimmed scroll effects hide actionable items from keyboard users. */
+.beta-topic-card:focus-visible,
+.beta-feature-card:focus-visible,
+.beta-case-card:focus-visible,
+.evidence-collection:focus-visible,
+.jurisdiction-card:focus-visible {
+  opacity: 1 !important;
+  filter: none !important;
+  transform: none !important;
+}
+/* Clear prose links in dynamic investigation and evidence explanations. */
+.investigation-card__actions a,
+.investigation-card h2 a,
+.evidence-principles a {
+  text-decoration: underline;
+  text-underline-offset: .16em;
+}
+@media (max-width: 48em) {
+  .beta-newswire__pause {
+    font-size: .7rem;
+    padding-inline: .5rem;
+  }
+}
+
+
+/* Small footer/legal text failed 4.5:1 on the homepage charcoal surface
+   (#69778a on #090b10 measured ~4.32:1). */
+.beta-home__footer p {
+  color: #a6b2c1;
+}
+/* Prevent low-contrast accent purple being used as a text color. */
+.beta-home {
+  --beta-violet-text: #c6a7ff;
+}
+
+
+/* Mobile Material navigation must stack above the sticky research ticker.
+   Material drawer and scrim use z-index 5; ticker previously used 40. */
+@media (max-width: 76em) {
+  body:has([data-motion-home]) .beta-newswire {
+    z-index: 2;
+  }
+  body:has([data-motion-home]) .md-header {
+    z-index: 4;
+  }
+  body:has([data-motion-home]) .md-sidebar--primary,
+  body:has([data-motion-home]) .md-overlay {
+    z-index: 5;
+  }
+}
+
+
+/* The interior page .md-main uses isolation:isolate, trapping the mobile
+   sidebar below Material's global screen overlay. Restore the drawer's
+   normal stacking context and place it above the overlay. */
+@media (max-width: 76em) {
+  body:not(:has([data-motion-home])) .md-main {
+    isolation: auto;
+  }
+  .md-sidebar--primary {
+    z-index: 8 !important;
+  }
+  .md-overlay {
+    z-index: 5 !important;
+  }
+}
+
+
+/* Material's dimming overlay can win the hit test over the open
+   sidebar even when the sidebar has a higher computed z-index.
+   Exclude the open drawer's own width from the overlay's hit region,
+   while keeping outside-tap-to-close working. */
+@media (max-width: 76em) {
+  body:has(#__drawer:checked) .md-overlay {
+    clip-path: inset(0 0 0 12.1rem);
+  }
+}
+
+
+/* Search must remain interactive above the homepage research ticker.
+   Keeping the ticker below Material's header/search layer prevents
+   research-update links from intercepting search result clicks. */
+body:has([data-motion-home]) .beta-newswire {
+  z-index: 2;
+}
+
+
+/* Material mobile search must open as a usable viewport-height panel.
+   In the current sticky header context, its percentage height resolves
+   to the 48px header, collapsing the result list to zero height. */
+@media (max-width: 59.984375em) {
+  body:has(#__search:checked) .md-search__inner {
+    height: 100dvh !important;
+  }
+  body:has(#__search:checked) .md-search__output {
+    bottom: 0;
+  }
+}
+
+
+/* Small-screen reading mode: hold each readable card before advancing.
+   Updates remain swipeable and the visible playback control can pause them. */
+@media (max-width: 48em) {
+  body:has([data-motion-home]) .beta-newswire {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__label {
+    order: 1;
+    flex: 1 1 auto;
+    min-height: 2.35rem;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__pause {
+    order: 2;
+    margin-left: auto;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__viewport {
+    order: 3;
+    flex: 0 0 100%;
+    min-width: 0;
+    border-top: 1px solid rgba(133, 255, 151, .16);
+  }
+
+  body:has([data-motion-home]) .beta-newswire__track {
+    animation: none !important;
+    transform: none !important;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__duplicate {
+    display: none;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__viewport {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__item {
+    box-sizing: border-box;
+    flex: 0 0 calc(100vw - 1rem);
+    width: calc(100vw - 1rem);
+    min-height: 4.5rem;
+    padding: .65rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .25rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.4;
+    font-size: .8rem;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__item::after {
+    content: none;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__item strong {
+    font-size: .69rem;
+  }
+
+  body:has([data-motion-home]) .beta-newswire__item {
+    scroll-snap-align: start;
+  }
+}
+
+/* The desktop headings intentionally slide behind cards. On narrow screens
+   the small, tall card stack leaves gaps: don't pin those headings there.
+   Let them scroll out normally before the content rather than leak between cards. */
+@media (max-width: 76em) {
+  body:has([data-motion-home]) .beta-sticky-heading {
+    position: static;
+    top: auto;
+  }
+}
+
+
+/* The expanded two-row mobile ticker must not intercept links in the
+   Material navigation drawer. Suppress it while that drawer is open. */
+@media (max-width: 76em) {
+  body:has(#__drawer:checked) .beta-newswire {
+    visibility: hidden;
+    pointer-events: none;
+  }
+}

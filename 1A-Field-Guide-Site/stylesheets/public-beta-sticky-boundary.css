@@ -1,0 +1,8 @@
+/* Keep sticky headings constrained to the actual content region. */
+
+@media (min-width: 76.01em) {
+  body:has([data-motion-home]) .beta-situation,
+  body:has([data-motion-home]) .beta-research {
+    min-height: auto;
+  }
+}

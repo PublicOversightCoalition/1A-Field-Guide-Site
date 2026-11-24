@@ -12,11 +12,7 @@
     const base = document.querySelector('meta[name="site_url"]')?.content;
     if (base) return new URL(href, base).href;
 
-    const path = window.location.pathname;
-    const marker = "/1A-Field-Guide-Site/";
-    const markerIndex = path.indexOf(marker);
-    const root = markerIndex >= 0 ? path.slice(0, markerIndex + marker.length) : "/";
-    return `${root}${href}`.replace(/\/+/g, "/");
+    return new URL(href, window.location.origin + "/").href;
   };
 
   const render = (root, research) => {

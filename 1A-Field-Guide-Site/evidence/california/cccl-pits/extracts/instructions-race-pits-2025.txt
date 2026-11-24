@@ -1,0 +1,36 @@
+PUBLIC ACCESS TEXT EXTRACTION
+Source: Contra Costa County Library first PITS records production, completed 2026-10-19.
+Derivative: text extracted from agency-produced PDF for search/accessibility. Layout, screenshots, and image-only content may be incomplete.
+This derivative is not a substitute for the original source file; the source SHA-256 is recorded in the evidence manifest.
+
+Additional required field being added to PITS:
+After much discussion, the Antiracism Committee has recommended, and Leadership has
+decided to include racial descriptors in PITS. The following categories will be added as drop-
+down options to the “Race” field in the “Perpetrator Info” section of PITS:
+
+   •   Black/African American
+   •   Asian
+   •   Latina/o/x
+   •   Middle Eastern and North African (MENA)
+   •   Native American/Indigenous
+   •   Pacific Islander
+   •   South Asian
+   •   No person visible (Phone call/chat/email)
+   •   White
+
+Instructions:
+Staff reporting incidents must select the drop-down option based on their perception of the
+perpetrator’s race. The field may be later updated and/or corrected if additional information
+about how the person racially identifies becomes known. Staff should continue to use the free-
+text description field to add nuance and details about the perpetrator’s physical description.
+Why are we adding this field in now and how will we use this information?
+
+Collecting data about race in incident reports serves two purposes:
+   1. Help us to better identify people involved in incidents in our libraries
+   2. Helps identify and address potential patterns within our responses to incidents. (For
+      example, is Leadership and Management being consistent across racial groups in our
+      suspension lengths or if additional antibias training needed.)
+Data Use:
+   •   Information will be tracked using the reporting features in PITS
+   •   Data will not be used to draw conclusions about the criminality of any groups of library patrons
+   •   Data may be used to inform future updates to Library policies, procedures, and practices

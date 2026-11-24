@@ -1,0 +1,173 @@
+/* Deep-reading layer for non-homepage research pages.
+   The Public Beta homepage remains dark/editorial; research documents retain
+   a quieter reading treatment and reliable print behavior. */
+
+body:not(:has(.beta-home)) {
+  --fg-ink: #20252b;
+  --fg-muted: #66707a;
+  --fg-line: #d9dee3;
+  --fg-paper: #fbfaf7;
+  --fg-panel: #f2f4f5;
+  --fg-accent: #2d4f67;
+  --fg-accent-soft: #e9f0f4;
+  --md-default-bg-color: var(--fg-paper);
+  --md-default-fg-color: var(--fg-ink);
+  --md-default-fg-color--light: var(--fg-muted);
+  --md-default-fg-color--lighter: #89939c;
+  --md-typeset-a-color: #315d78;
+  --md-code-bg-color: #f0f2f3;
+  --md-code-fg-color: #28343c;
+
+  background: var(--fg-paper);
+  color: var(--fg-ink);
+}
+
+body:not(:has(.beta-home)) .md-content__inner {
+  max-width: 54rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.02rem;
+  line-height: 1.72;
+  color: var(--fg-ink);
+}
+
+body:not(:has(.beta-home)) .md-content__inner h1,
+body:not(:has(.beta-home)) .md-content__inner h2,
+body:not(:has(.beta-home)) .md-content__inner h3,
+body:not(:has(.beta-home)) .md-content__inner h4,
+body:not(:has(.beta-home)) .md-content__inner table,
+body:not(:has(.beta-home)) .md-content__inner code,
+body:not(:has(.beta-home)) .md-content__inner .admonition,
+body:not(:has(.beta-home)) .md-content__inner details {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body:not(:has(.beta-home)) .md-content__inner h1,
+body:not(:has(.beta-home)) .md-content__inner h2,
+body:not(:has(.beta-home)) .md-content__inner h3,
+body:not(:has(.beta-home)) .md-content__inner h4 {
+  color: var(--fg-ink);
+}
+
+body:not(:has(.beta-home)) .md-content__inner h1 {
+  font-size: 2.3rem;
+  line-height: 1.12;
+  letter-spacing: -.025em;
+}
+
+body:not(:has(.beta-home)) .md-content__inner h2 {
+  border-top-color: var(--fg-line);
+}
+
+body:not(:has(.beta-home)) .md-content__inner strong {
+  color: #172631;
+}
+
+body:not(:has(.beta-home)) .md-content__inner blockquote,
+body:not(:has(.beta-home)) .registry-bottom-line {
+  background: var(--fg-accent-soft);
+  border-left-color: var(--fg-accent);
+  color: var(--fg-ink);
+}
+
+body:not(:has(.beta-home)) .md-typeset table:not([class]) {
+  border-color: var(--fg-line);
+}
+
+body:not(:has(.beta-home)) .md-typeset table:not([class]) th {
+  background: var(--fg-panel);
+}
+
+body:not(:has(.beta-home)) .registry-hero,
+body:not(:has(.beta-home)) .registry-card,
+body:not(:has(.beta-home)) .registry-row,
+body:not(:has(.beta-home)) .jurisdiction-hero,
+body:not(:has(.beta-home)) .jurisdiction-card,
+body:not(:has(.beta-home)) .jurisdiction-status {
+  color: var(--fg-ink);
+  background: #fff;
+  border-color: var(--fg-line);
+  box-shadow: 0 .05rem .22rem rgba(20, 35, 45, .045);
+}
+
+body:not(:has(.beta-home)) .registry-hero,
+body:not(:has(.beta-home)) .jurisdiction-hero {
+  background: #f3f7f9;
+}
+
+body:not(:has(.beta-home)) .registry-card h3,
+body:not(:has(.beta-home)) .registry-row h3,
+body:not(:has(.beta-home)) .jurisdiction-card__name {
+  color: var(--fg-ink);
+}
+
+body:not(:has(.beta-home)) .registry-row__classification {
+  border-color: var(--fg-line);
+}
+
+body:not(:has(.beta-home)) .jurisdiction-card:hover,
+body:not(:has(.beta-home)) .registry-card:hover,
+body:not(:has(.beta-home)) .registry-row:hover {
+  border-color: #aebdc7;
+  box-shadow: 0 .12rem .35rem rgba(20, 35, 45, .08);
+}
+
+body:not(:has(.beta-home)) .md-sidebar--primary,
+body:not(:has(.beta-home)) .md-sidebar--secondary {
+  border-color: rgba(0,0,0,.06);
+}
+
+body:not(:has(.beta-home)) .md-nav__link--active {
+  color: #315d78;
+}
+
+@media (max-width: 59.984375em) {
+  body:not(:has(.beta-home)) .md-content__inner {
+    font-size: 1rem;
+    line-height: 1.66;
+  }
+}
+
+@media print {
+  body,
+  body:not(:has(.beta-home)) {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .md-content__inner,
+  .md-content__inner h1,
+  .md-content__inner h2,
+  .md-content__inner h3,
+  .md-content__inner h4,
+  .md-content__inner strong,
+  .beta-home,
+  .beta-home h1,
+  .beta-home h2,
+  .beta-home h3,
+  .beta-home strong {
+    color: #000 !important;
+  }
+
+  .beta-hero,
+  .beta-case-card,
+  .beta-feature-card,
+  .beta-topic-card,
+  .beta-evidence-panel,
+  .beta-california {
+    background: #fff !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    border-color: #bbb !important;
+  }
+
+  .beta-lede,
+  .beta-section__heading p,
+  .beta-california p,
+  .beta-contribute p,
+  .beta-case-card p,
+  .beta-feature-card p,
+  .beta-evidence-list span,
+  .beta-home__footer p {
+    color: #333 !important;
+  }
+}

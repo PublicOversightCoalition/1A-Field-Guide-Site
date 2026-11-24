@@ -1,0 +1,99 @@
+PUBLIC ACCESS TEXT EXTRACTION
+Source: Contra Costa County Library first PITS records production, completed 2026-10-19.
+Derivative: text extracted from agency-produced PDF for search/accessibility. Layout, screenshots, and image-only content may be incomplete.
+This derivative is not a substitute for the original source file; the source SHA-256 is recorded in the evidence manifest.
+
+Patron Incident Tracking System
+• Searchable interactive database that all staff can
+  access and search
+• Protocols for writing Incident Reports
+• When to write an incident report
+• PITS reports are automatically routed to community
+  library manager and leadership as well as office and
+  PIO. Staff can select branches when submitting to
+  share information if a problem patron is known to visit
+  multiple locations
+
+PITS Goals are:
+• To simplify the process of creating an Incident Report
+• To provide quick and easy access to existing Incident Reports
+• To provide an easy method of tracking suspended patrons
+• To store all patron information in a securely encrypted format
+  including photos (facilities, writing, graffiti—not patrons!)
+• To assist with the routing of incident information to the
+  proper library staff
+• Tracking length of suspension
+
+What goes in a PITS, or not..?
+Please do:
+• Note the facts as you saw or were reported to you
+• Focus on behavior
+• Note descriptions of individuals
+• Write everything that was said, including slurs and obscenities, or make the word identifiable if you aren’t comfortable
+• Stay factual
+
+Please do not:
+• Speculate
+• Use words like “seemed”, “obviously”
+• Use Patron Library Card Numbers
+
+Remember:
+PITS and all associated documents are part of public record and subject to the California Public Records Act.
+Consider your biases when writing PITS reports. For example: If you felt threatened—why?
+
+Common Questions and scenarios:
+
+Should I do a PITS for this? It wasn’t a big deal…
+
+I don’t care what they say to me, I know they don’t mean it
+
+This happened on the phone/chat/email/letter in the book drop?
+
+Our beloved Friends President violated the PCP
+
+They didn’t violate the PCP, but they seemed like they might do something when--I saw how they were dressed and they had a lot of belongings with them
+
+I didn’t see what happened, a patron told me…
+
+There was a fight across the street from the library!
+
+Someone said/did something really embarrassing to me, and I don’t want to do a PITS
+
+Demonstration of PITS
+• Take a look at: PITS Quick Guide and Writing Incident Report Guidelines on Staffnet
+• Who can write a PITS? All staff except for library aides are expected to be able to write up PITS reports
+
+Live Demo! Tips and hints:
+-Hit “save” to begin a PITS: remember to hit “save” often; in each section
+-It’s ok to write it in notepad and copy/paste
+-Just the facts; focus on behaviors
+-don’t add things like “he looked crazy” “She seemed threatening”
+-others can help you or add their input (volunteers and aides can offer narratives, and security guards might have information as well)
+
+More tips:
+• Edit date and time fields if you need to
+• Description Field: “Perceived as” is preferred i.e.: “perceived as female” “Perceived as Asian”
+• Don’t speculate on mental health conditions or intoxication
+• Ask your manager if you aren’t sure
+• Note tattoos, clothing, piercings--anything that would help ID a person
+• Please don’t add photos of patrons without Leadership guidance
+• Please don’t add in patron card numbers
+• Edit names if you find out an Unknown person’s name
+
+Follow up (after an incident)
+• Debriefing with fellow staff can be very helpful in resolving your own feelings about problems and situations
+• Take patron’s name and contact information; reassure them that someone will get back to them within next few business days
+• Get information to the supervisor or person in charge in absence of your Library Manager, know your LSM’s contact information
+• If you are not sure, it’s ok to have a supervisor help with your PITS report
+• Public Liability Forms for accidents
+• Always practice self care and ask for help if you need it
+
+Suspension of Library privileges
+• Suspension Policy
+• Working with local police
+• Library Leadership’s role
+• How suspension of privileges works
+• Organize current suspensions
+• Working with your security guards
+• Update PITS with documents and suspensions, suspend on SAM/Comprise
+• An All Staff email will be sent for any suspension more than a few days

@@ -1,0 +1,34 @@
+{
+  "source_evidence_id": "CCCL-PITS-001",
+  "source_filename": "PITS_ListIncidentsWCLandCON.xlsx",
+  "source_sha256": "22cd40a5731ffd589f812e779d20edb9d87cbd7cdb972a5743693b1cc5b2e3a0",
+  "profile_generated": "2026-10-31",
+  "rows": 1749,
+  "date_min": "2015-04-17",
+  "date_max": "2026-09-22",
+  "locations": {
+    "Walnut Creek Library": 930,
+    "Concord Library": 819
+  },
+  "status": {
+    "Submitted": 1700,
+    "Created": 49
+  },
+  "followup_non_none_rows": 225,
+  "top_level_category_occurrences": {
+    "Disruptive": 943,
+    "Hostile": 807,
+    "Safety issue": 775,
+    "Other": 422,
+    "No Infractions Set": 44,
+    "Personal Behavior": 17,
+    "Safe Environment": 17,
+    "null": 7,
+    "Misuse of Equipment and Facilities": 2
+  },
+  "notes": [
+    "Top-level category occurrences are not mutually exclusive; a row may contain multiple categories.",
+    "The production spans more than one infraction taxonomy, including older and later category schemes.",
+    "The first-production spreadsheet does not include the incident narrative description field needed to independently test many classifications."
+  ]
+}
