@@ -52,6 +52,7 @@ extra_css:
   - stylesheets/investigations.css
   - stylesheets/evidence-library.css
   - stylesheets/accessibility.css
+  - stylesheets/account-navigation.css
 
 extra_javascript:
   - javascripts/public-beta-motion.js
