@@ -43,9 +43,8 @@
         <div class="coalition-account-dropdown">
           <a href="${memberURL('#member-area')}">Member workspace</a>
           <a href="${memberURL('#account')}">My account</a>
-          <a href="${new URL('member-community.html', HOME).href}">Community</a>
           <a href="${new URL('member-research.html', HOME).href}">Research contributions</a>
-          <a href="${memberURL('#account')}">Account &amp; sign out</a>
+          <a href="${memberURL('#signout')}">Sign out</a>
         </div>
       </details>`;
     };
