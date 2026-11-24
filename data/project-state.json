@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-31",
+  "updated": "2026-11-24",
   "jurisdictions": {
     "active": 1,
     "development": 1,
@@ -44,6 +44,20 @@
       "question": "What does the department require when someone asks an officer for their name or badge number?",
       "summary": "We're reviewing the department's identification policy and reported encounters. The facts and policy questions are being checked separately.",
       "wire": "policy and identification-rule research"
+    },
+    {
+      "id": "edmond-police",
+      "title": "Edmond Police Department: Arrested, jailed, and vehicle impounded for alleged reckless driving in apparent violation of Oklahoma's sign-and-release statute",
+      "status": "ACTIVE",
+      "phase": "RECORDS PENDING",
+      "jurisdiction": "Oklahoma",
+      "region": "EDMOND",
+      "href": "oklahoma/investigations/edmond-police/",
+      "lead": false,
+      "last_updated": "2026-11-24",
+      "question": "Why did the officer mark the defendant's signature line Jailed rather than obtain a promise to appear, and did the statutory release requirement apply?",
+      "summary": "We're examining apparent noncompliance with Oklahoma's mandatory release procedure and serious potential Fourth Amendment violations involving the arrest, detention, and vehicle seizure.",
+      "wire": "Incident-specific investigation; evidence privacy review and additional records pending"
     }
   ],
   "public_records": {
