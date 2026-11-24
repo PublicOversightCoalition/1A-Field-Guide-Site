@@ -145,6 +145,10 @@ await test('One-click profile sign-out clears shared session', 390, async page =
   await page.route('https://exampleproject.supabase.co/auth/v1/logout', async route => {
     await route.fulfill({ status: 204, body: '' });
   });
+  const otherTab = await page.context().newPage();
+  await otherTab.goto(base, { waitUntil: 'networkidle' });
+  assert(await otherTab.locator('.coalition-account-menu').count() === 1,
+    'Second tab did not start with the cached session');
   await signOut.click();
   await page.waitForURL(url => url.pathname === '/member-pilot.html' && url.hash === '', { timeout: 7000 });
   await page.getByText('Signed out.', { exact: true }).waitFor({ state: 'visible', timeout: 7000 });
@@ -152,6 +156,18 @@ await test('One-click profile sign-out clears shared session', 390, async page =
     localStorage.getItem('coalition-membership-session-v1') ||
     sessionStorage.getItem('coalition-membership-session-v1'));
   assert(retained === null, 'Sign out did not remove shared browser session');
+  await otherTab.getByRole('navigation', { name: 'Member account' })
+    .getByRole('link', { name: 'Log in' }).waitFor({ state: 'visible', timeout: 7000 });
+  assert(await otherTab.locator('.coalition-account-menu').count() === 0,
+    'Another tab still shows an authenticated profile after sign out');
+  await page.goBack({ waitUntil: 'networkidle' });
+  await page.getByRole('navigation', { name: 'Member account' })
+    .getByRole('link', { name: 'Log in' }).waitFor({ state: 'visible', timeout: 7000 });
+  const resurrected = await page.evaluate(() =>
+    localStorage.getItem('coalition-membership-session-v1') ||
+    sessionStorage.getItem('coalition-membership-session-v1'));
+  assert(!resurrected, 'Browser Back resurrected a signed-out session');
+  await otherTab.close();
 });
 
 await test('Retired member forum is not deployed', 390, async page => {
