@@ -1,8 +1,8 @@
 ---
-title: "Edmond Police Department: Arrest for alleged reckless driving"
+title: "Edmond Police Department: Arrested, jailed, and vehicle impounded for alleged reckless driving in apparent violation of Oklahoma's sign-and-release statute"
 ---
 
-# Edmond Police Department: Arrest for alleged reckless driving and vehicle impoundment
+# Edmond Police Department: Arrested, jailed, and vehicle impounded for alleged reckless driving in apparent violation of Oklahoma's sign-and-release statute
 
 **Jurisdiction:** Edmond, Oklahoma  
 **Incident date:** October 5, 2026  
@@ -51,7 +51,23 @@ The CAD interval is relevant to the sequence of decisions, but does not by itsel
 
 ## Law and policy under review
 
-The research will examine Edmond municipal ordinances governing reckless driving and careless driving, Oklahoma traffic and arrest procedures, citation and release requirements, applicable constitutional protections, and departmental arrest and impoundment policies. No final legal conclusion is published at this stage.
+### Oklahoma's sign-and-release requirement
+
+[22 O.S. § 1115.1A(A)-(B)](https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=456492) requires an officer to release a person on personal recognizance when arrested solely for a qualifying misdemeanor traffic offense and the statutory conditions are met. Release is mandatory under those conditions, not merely a discretionary alternative to jail.
+
+The conditions include a valid license from a qualifying jurisdiction, satisfactory identification and officer certification of the violation details, and an electronically signed promise to appear (subject to the statute's medical exception).
+
+The exclusions include felony offenses, negligent homicide, impaired driving or actual physical control while impaired (subject to the specified medical exception), eluding, unlicensed or invalid-license driving, outstanding warrants, and traffic violations coupled with those excluded offenses. Reckless driving alone is not listed as an exclusion.
+
+Subsection B requires the officer to complete the citation, record the eligible person's electronic acknowledgment and service information, and release the person. Signing the promise to appear is not an admission of guilt.
+
+### Why the signature line matters
+
+The citation reportedly identifies alleged reckless driving as the charge and contains the officer's entry "Jailed" on the defendant's signature line. The motorist reports that the officer never offered an opportunity to sign. A refusal to sign and the absence of an opportunity to sign are materially different circumstances. The entry itself does not establish refusal or statutory ineligibility.
+
+The apparent violation identified in the headline is the Coalition's preliminary assessment of the reported failure to provide the statutory release procedure, not a judicial finding. We are checking license eligibility, identification, any applicable exclusion, and the full citation and video record. The release requirement does not itself prohibit every initial traffic arrest or independently resolve the legality of impoundment.
+
+The review also covers Edmond municipal traffic ordinances, Oklahoma arrest procedures, constitutional protections, and departmental arrest and impoundment policies.
 
 ## Evidence inventory
 
