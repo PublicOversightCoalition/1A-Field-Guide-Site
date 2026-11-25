@@ -9,7 +9,7 @@ hide:
   <h1>Help people find the facts.</h1>
   <p>Found an agency policy, a public record, a posted rule, or an incident we should look into? You can help us check the facts. We review sources and corrections before publishing them.</p>
   <div class="contribute-actions">
-    <a class="beta-button beta-button--primary" href="../member-pilot.html">Join or sign in</a>
+    <a class="beta-button beta-button--primary" href="../member.html">Join or sign in</a>
     <a class="beta-button beta-button--secondary" href="https://github.com/PublicOversightCoalition/publicoversightcoalition.github.io/blob/main/CONTRIBUTING.md">Code & documentation on GitHub</a>
   </div>
 </div>
@@ -47,7 +47,7 @@ You can apply to contribute through the private member workspace. We use your em
     <h2>Contribute under a screen name.</h2>
     <p>Your sign-in email stays separate from the name members see. You can choose a research task that interests you, and we review work before it becomes public.</p>
   </div>
-  <a class="beta-button beta-button--primary" href="../member-pilot.html">Open member workspace</a>
+  <a class="beta-button beta-button--primary" href="../member.html">Open member workspace</a>
 </div>
 
 ## Prefer GitHub?
