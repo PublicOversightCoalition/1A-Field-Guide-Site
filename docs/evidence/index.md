@@ -32,8 +32,8 @@ This library organizes the documents and data behind our investigations. Each pr
 <a class="evidence-collection" href="oklahoma/edmond-police/">
   <span class="evidence-collection__eyebrow">OKLAHOMA · EDMOND</span>
   <h2>Edmond Police Department</h2>
-  <p>Redacted municipal traffic citation showing the handwritten Jailed entry on the defendant's signature line.</p>
-  <span class="evidence-collection__meta">1 exhibit · EPD-001</span>
+  <p>Redacted municipal citation and dispatch report documenting the custody and impound-request timeline.</p>
+  <span class="evidence-collection__meta">2 exhibits · EPD-001 and EPD-002</span>
 </a>
 
 </div>
