@@ -89,6 +89,9 @@ nav:
           - Concord Library facility record: registry/concord-library.md
           - Concord Police Department: registry/concord-police.md
           - Healdsburg Police Department: registry/healdsburg-police.md
+      - Federal:
+          - Iowa Army Ammunition Plant: federal/investigations/iowa-army-ammunition-plant.md
+          - Federal FOIA accessibility: federal/investigations/federal-foia-accessibility.md
       - Oklahoma:
           - Edmond Police Department: oklahoma/investigations/edmond-police.md
           - Edmond evidence: evidence/oklahoma/edmond-police/index.md
