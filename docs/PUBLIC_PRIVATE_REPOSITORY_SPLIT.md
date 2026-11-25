@@ -1,5 +1,8 @@
 # Public/Private Repository Split
 
+> **Historical architecture note (November 2026):** This document records decisions made while the project was named the 1A Field Guide and while the public source used earlier GitHub repository names. The current public organization is the **Public Oversight Coalition**; canonical public source is [PublicOversightCoalition/publicoversightcoalition.github.io](https://github.com/PublicOversightCoalition/publicoversightcoalition.github.io), and the public website is [publicoversightcoalition.github.io](https://publicoversightcoalition.github.io/). Original repository identifiers below are preserved as historical context rather than current navigation instructions.
+
+
 This document records the repository architecture selected for the 1A Field Guide publication system.
 
 ## Decision
