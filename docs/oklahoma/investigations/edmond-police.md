@@ -30,8 +30,8 @@ The Coalition has obtained police narrative records, a citation, computer-aided 
 | Date or time | Event or record |
 | --- | --- |
 | October 5, 2026 | Traffic encounter, arrest and vehicle impoundment |
-| 6:56:29 PM local time | Reported CAD entry indicating custody |
-| 6:56:42 PM local time | Reported CAD entry requesting a wrecker, 13 seconds later |
+| 6:56:29 PM local time | CAD entry: Unit 382 In Custody |
+| 6:56:42 PM local time | CAD entry: WRECKER FOR IMPOUND, 13 seconds later |
 | October 9, 2026 | Initial public records request submitted |
 | October 29, 2026 | Initial narrative production; video access remained outstanding |
 | November 2026 | Police video obtained; follow-up records sought |
@@ -95,7 +95,7 @@ The Coalition considers these serious potential Fourth Amendment violations. Whe
 | --- | --- | --- |
 | Citation | Obtained | [EPD-001: Redacted citation photograph](../../evidence/oklahoma/edmond-police/index.md) |
 | Police narrative | Obtained | Not published |
-| CAD records | Obtained | Not published |
+| CAD records | Obtained | [EPD-002: Redacted CAD report](../../evidence/oklahoma/edmond-police/index.md#epd-002-call-for-service-detail-report-cfs-948) |
 | Police video | Obtained | Not published |
 | Additional dispatch, witness-contact and policy records | Requested or under review | Not published |
 
