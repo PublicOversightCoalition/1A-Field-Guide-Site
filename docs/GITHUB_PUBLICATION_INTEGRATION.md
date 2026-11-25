@@ -1,5 +1,8 @@
 # Controlled GitHub Publication Integration
 
+> **Historical architecture note (November 2026):** This document records decisions made while the project was named the 1A Field Guide and while the public source used earlier GitHub repository names. The current public organization is the **Public Oversight Coalition**; canonical public source is [PublicOversightCoalition/publicoversightcoalition.github.io](https://github.com/PublicOversightCoalition/publicoversightcoalition.github.io), and the public website is [publicoversightcoalition.github.io](https://publicoversightcoalition.github.io/). Original repository identifiers below are preserved as historical context rather than current navigation instructions.
+
+
 Issue: #45
 
 This document defines the initial GitHub export boundary for the 1A Field Guide Coalition. It turns an approved, immutable `PublicationCandidateRevision` into a controlled repository-preparation action without giving ordinary Coalition members repository access and without allowing the integration itself to make the final publication/merge decision.

@@ -75,12 +75,22 @@ async function drawer(page, targetHref, finalPath) {
 await test('Legacy member link preserves callback query and fragment', 390, async page => {
   const old = new URL('/1A-Field-Guide-Site/member-pilot.html?migration_probe=1#type=preview', base);
   await page.goto(old.href, { waitUntil: 'networkidle', timeout: 25000 });
-  await page.waitForURL(url => url.pathname === '/member-pilot.html'
+  await page.waitForURL(url => url.pathname === '/member.html'
     && url.searchParams.get('migration_probe') === '1'
     && url.hash === '#type=preview', { timeout: 7000 });
   const asset = await page.request.get(new URL('/1A-Field-Guide-Site/stylesheets/member-research.css', base).href);
   assert(asset.ok(), 'Legacy asset path did not remain available');
-}, { route: 'member-pilot.html' });
+}, { route: 'member.html' });
+
+// Old root links, including links in earlier Facebook posts and email callbacks,
+// must preserve both their search parameters and fragments.
+await test('Previous member URL redirects without losing callback data', 390, async page => {
+  const old = new URL('/member-pilot.html?migration_probe=1#type=preview', base);
+  await page.goto(old.href, {waitUntil:'networkidle'});
+  await page.waitForURL(url => url.pathname === '/member.html' &&
+    url.searchParams.get('migration_probe') === '1' &&
+    url.hash === '#type=preview', {timeout:7000});
+});
 
 // Public account navigation must use existing member sign-in, not a new auth flow.
 for (const width of [320, 390, 1440]) {
@@ -90,9 +100,9 @@ for (const width of [320, 390, 1440]) {
     const signUp = nav.getByRole('link', { name: 'Sign up' });
     assert(await logIn.count() === 1 && await signUp.count() === 1,
       'Public header is missing standard account links');
-    assert((await logIn.getAttribute('href')).endsWith('/member-pilot.html#signin'),
+    assert((await logIn.getAttribute('href')).endsWith('/member.html#signin'),
       'Log in must point to the existing sign-in form');
-    assert((await signUp.getAttribute('href')).endsWith('/member-pilot.html#signup'),
+    assert((await signUp.getAttribute('href')).endsWith('/member.html#signup'),
       'Sign up must point to the existing registration form');
     const overflow = await page.evaluate(() => ({
       width: document.documentElement.scrollWidth,
@@ -177,7 +187,7 @@ await test('Member workspace logout redirects to coalition homepage', 390, async
   });
   await page.route('https://exampleproject.supabase.co/auth/v1/logout', route =>
     route.fulfill({ status: 204, body: '' }));
-  await page.goto(new URL('member-pilot.html#signout',base).href, {waitUntil:'networkidle'});
+  await page.goto(new URL('member.html#signout',base).href, {waitUntil:'networkidle'});
   await page.waitForURL(url => url.pathname === '/' && url.hash === '', { timeout: 7000 });
   const nav = page.getByRole('navigation', { name: 'Member account' });
   await nav.getByRole('link', { name: 'Log in' }).waitFor({ state: 'visible' });
@@ -260,8 +270,8 @@ for (const width of [390, 1440]) {
     assert(await page.locator('h1').count() > 0, 'Evidence page has no heading');
   }, { route: 'evidence/' });
   await test('Contribution link reaches member sign-in', width, async page => {
-    await page.locator('a[href="../member-pilot.html"]').first().click();
-    await page.waitForURL('**/member-pilot.html');
+    await page.locator('a[href="../member.html"]').first().click();
+    await page.waitForURL('**/member.html');
     assert(await page.locator('form#signin').isVisible(), 'Sign-in form not visible');
   }, { route: 'contribute/' });
   await test('Member forms reject empty and malformed input locally', width, async page => {
@@ -272,7 +282,7 @@ for (const width of [390, 1440]) {
     await page.locator('#signin-email').fill('invalid-email');
     await page.locator('#signin-password').fill('testpassword123');
     assert(!(await page.locator('#signin-email').evaluate(el => el.checkValidity())), 'Malformed email accepted');
-  }, { route: 'member-pilot.html' });
+  }, { route: 'member.html' });
 }
 
 for (const width of [390, 1440]) {
@@ -508,7 +518,7 @@ for (const width of [390, 1440]) {
     await page.keyboard.press('Enter');
     assert(await page.locator('form#signin').evaluate(form => !form.checkValidity()),
       'Submitting incomplete sign-in via keyboard bypassed validation');
-  }, { route: 'member-pilot.html' });
+  }, { route: 'member.html' });
 }
 
 for (const width of [320, 390]) {
@@ -551,10 +561,10 @@ for (const width of [390, 1440]) {
       'Sign-in input or action is missing its accessible role/name');
     assert(await email.getAttribute('type') === 'email',
       'Email input lacks its expected input type');
-  }, { route: 'member-pilot.html' });
+  }, { route: 'member.html' });
 
   await test('Research reel is a named region with an accessible pause control', width, async page => {
-    const region = page.getByRole('region', { name: 'Current 1A Field Guide research and project updates' });
+    const region = page.getByRole('region', { name: 'Current Public Oversight Coalition investigations and research updates' });
     await region.waitFor({ state: 'visible', timeout: 8000 });
     const button = region.getByRole('button', { name: 'Resume updates' });
     assert(await button.count() === 1,
