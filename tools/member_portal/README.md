@@ -1,8 +1,8 @@
 # Member portal backend configuration
 
-The public source tree intentionally contains **no active Supabase project URL or publishable key** for the member dashboard/community pages.
+The public source tree intentionally contains **no active Supabase project URL or publishable key** for the member dashboard/research pages.
 
-`docs/member-pilot.html` and `docs/member-community.html` contain inert placeholders:
+`docs/member.html` and the other member research pages contain inert placeholders:
 
 - `__COALITION_SUPABASE_URL__`
 - `__COALITION_SUPABASE_PUBLISHABLE_KEY__`
