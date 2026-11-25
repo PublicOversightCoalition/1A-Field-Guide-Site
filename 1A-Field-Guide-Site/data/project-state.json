@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "jurisdictions": {
     "active": 1,
     "development": 1,
@@ -59,6 +59,34 @@
       "summary": "We're examining apparent noncompliance with Oklahoma's mandatory release procedure and serious potential Fourth Amendment violations involving the arrest, detention, and vehicle seizure.",
       "wire": "First citation exhibit published; additional records pending",
       "evidence_href": "evidence/oklahoma/edmond-police/"
+    },
+    {
+      "id": "iowa-army-ammunition-plant",
+      "title": "Iowa Army Ammunition Plant: Historical Storage and Regulatory Oversight",
+      "status": "ACTIVE",
+      "phase": "INITIAL RESEARCH",
+      "jurisdiction": "Federal",
+      "region": "IOWA",
+      "href": "federal/investigations/iowa-army-ammunition-plant/",
+      "lead": false,
+      "last_updated": "2026-11-25",
+      "question": "Could earlier inspection, storage controls or regulatory intervention have prevented the emergency?",
+      "summary": "We're examining historical inspections, storage conditions and corrective actions, separately from the emergency disposal decision.",
+      "wire": "Investigation opened; source and records request preparation"
+    },
+    {
+      "id": "federal-foia-accessibility",
+      "title": "Federal FOIA Accessibility and Requester Privacy",
+      "status": "ACTIVE",
+      "phase": "INITIAL RESEARCH",
+      "jurisdiction": "Federal",
+      "region": "NATIONWIDE",
+      "href": "federal/investigations/federal-foia-accessibility/",
+      "lead": false,
+      "last_updated": "2026-11-25",
+      "question": "Can a person without a mailing address, phone or identification meaningfully request nonpersonal federal records?",
+      "summary": "We're comparing agency submission procedures, personal information requirements and accessibility accommodations.",
+      "wire": "Investigation opened; source and records request preparation"
     }
   ],
   "public_records": {
