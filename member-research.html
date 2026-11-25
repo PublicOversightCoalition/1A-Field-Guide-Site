@@ -4,17 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-zCmh0LPvRWBA6KTPbqNZJ6FU+nUDQAZieDfOHX5T+VI='; style-src 'self'; connect-src https://bpmvkdblgpnpooxadhjc.supabase.co; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-rdH0IGQq+f7oWWx3PrvtX4RjBvi2tG5ofXupZjWnNAE='; style-src 'self'; connect-src https://bpmvkdblgpnpooxadhjc.supabase.co; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
 <meta name="referrer" content="no-referrer">
 <title>Research library · Public Oversight Coalition</title>
 <link rel="stylesheet" href="./stylesheets/member-research.css">
 </head>
 <body>
-<header class="site-header"><div><strong>Public Oversight Coalition</strong><small>Member research · controlled pilot</small></div><nav class="toplinks" aria-label="Member navigation"><a href="./member-pilot.html">Workspace</a><a aria-current="page" href="./member-research.html">Research</a></nav></header>
+<header class="site-header"><div><strong>Public Oversight Coalition</strong><small>Member research</small></div><nav class="toplinks" aria-label="Member navigation"><a href="./member.html">Workspace</a><a aria-current="page" href="./member-research.html">Research</a></nav></header>
 <main>
 <div class="eyebrow">Optional member contribution</div>
 <div class="page-heading"><div><h1>Research library</h1><p class="subtitle">Browse reviewed research separately from open research opportunities. Filter records by ownership, place, source type, origin, status, or keyword.</p></div><a class="button-link" href="./member-research-submit.html?task=healdsburg-pd">Submit research</a></div>
-<section id="gate" class="panel" hidden><h2>Member sign-in required</h2><p id="gate-copy">Sign in from the member workspace before opening the research library.</p><p><a href="./member-pilot.html">Return to member workspace →</a></p></section>
+<section id="gate" class="panel" hidden><h2>Member sign-in required</h2><p id="gate-copy">Sign in from the member workspace before opening the research library.</p><p><a href="./member.html">Return to member workspace →</a></p></section>
 <div id="workspace" hidden>
 <section id="admin-review-panel" class="panel admin-panel" hidden aria-labelledby="admin-review-title"><div class="section-heading"><div><div class="eyebrow">Administrator</div><h2 id="admin-review-title">Review queue</h2><p class="muted">Member submissions and imported records waiting for review appear here.</p></div><div class="actions"><a class="button-link secondary-link" href="./member-research-import.html">Import research</a><button id="refresh-admin-queue" class="secondary" type="button">Refresh queue</button></div></div><div id="admin-queue" class="card-grid" aria-live="polite"></div></section>
 <section class="panel" aria-labelledby="opportunities-title"><div class="section-heading"><div><h2 id="opportunities-title">Research opportunities</h2><p class="muted">Optional source-check tasks for members who want to contribute additional research.</p></div></div><div id="opportunity-cards" class="card-grid"></div></section>
@@ -53,7 +53,7 @@ function requestPeerSession(timeout=450){
     try{authChannel.postMessage({type:'session-request'})}catch{finish(null)}
   })
 }
-function handleRemoteSignout(){if(!loggedOut())noteSignedOut();else clearLocalSession();if(location.pathname.endsWith('/member-pilot.html')||location.pathname.endsWith('/member-research.html')||location.pathname.endsWith('/member-research-submit.html')||location.pathname.endsWith('/member-research-import.html')||location.pathname.endsWith('/member-forum-maps.html'))location.replace(new URL('/',location.origin).href)}
+function handleRemoteSignout(){if(!loggedOut())noteSignedOut();else clearLocalSession();if(location.pathname.endsWith('/member.html')||location.pathname.endsWith('/member-research.html')||location.pathname.endsWith('/member-research-submit.html')||location.pathname.endsWith('/member-research-import.html')||location.pathname.endsWith('/member-forum-maps.html'))location.replace(new URL('/',location.origin).href)}
 if(authChannel){authChannel.addEventListener('message',e=>{
   if(e.data?.type==='session-signed-out'){handleRemoteSignout();return}
   if(e.data?.type!=='session-request'||loggedOut())return;

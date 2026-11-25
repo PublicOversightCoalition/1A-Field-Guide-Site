@@ -21,7 +21,7 @@
     const wire = document.createElement('div');
     wire.className = 'beta-newswire';
     wire.setAttribute('role', 'region');
-    wire.setAttribute('aria-label', 'Current 1A Field Guide research and project updates');
+    wire.setAttribute('aria-label', 'Current Public Oversight Coalition investigations and research updates');
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const compactViewport = window.matchMedia('(max-width: 48em)');
     // Mobile advances one readable update at a time. Reduced-motion starts paused.

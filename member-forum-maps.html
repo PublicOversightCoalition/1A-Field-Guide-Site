@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-lleIsjrMJl5v87CEduhZ+dbA/+44cEZ1YoDQ7qXSmPQ='; style-src 'self'; connect-src https://bpmvkdblgpnpooxadhjc.supabase.co; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-7TQOjm2qdQDph9Vnpwq9OMlJOCqVAh2Vt2WkC0EyI3Q='; style-src 'self'; connect-src https://bpmvkdblgpnpooxadhjc.supabase.co; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
 <meta name="referrer" content="no-referrer">
 <title>Facility forum maps · Public Oversight Coalition</title>
 <link rel="stylesheet" href="./stylesheets/member-research.css">
 <link rel="stylesheet" href="./stylesheets/forum-map.css">
 </head>
 <body>
-<header class="site-header"><div><strong>Public Oversight Coalition</strong><small>Member research · forum map pilot</small></div><nav class="toplinks" aria-label="Member navigation"><a href="./member-pilot.html">Workspace</a><a href="./member-research.html">Research</a><a aria-current="page" href="./member-forum-maps.html">Forum maps</a></nav></header>
+<header class="site-header"><div><strong>Public Oversight Coalition</strong><small>Member research · facility forum maps</small></div><nav class="toplinks" aria-label="Member navigation"><a href="./member.html">Workspace</a><a href="./member-research.html">Research</a><a aria-current="page" href="./member-forum-maps.html">Forum maps</a></nav></header>
 <main>
 <div class="eyebrow">Facility intelligence</div>
 <div class="page-heading"><div><h1>Facility forum maps</h1><p class="subtitle">Area-by-area First Amendment forum classifications tied to the evidence that supports them. The legal label and the geometric boundary are tracked separately so an uncertain edge does not erase a supported forum determination.</p></div><a class="button-link secondary-link" href="./member-research.html">Research library</a></div>
-<section id="gate" class="panel" hidden><h2>Member sign-in required</h2><p id="gate-copy">Sign in from the member workspace before opening facility forum maps.</p><p><a href="./member-pilot.html">Return to member workspace →</a></p></section>
+<section id="gate" class="panel" hidden><h2>Member sign-in required</h2><p id="gate-copy">Sign in from the member workspace before opening facility forum maps.</p><p><a href="./member.html">Return to member workspace →</a></p></section>
 <section id="auth-diagnostics" class="panel" aria-labelledby="auth-diagnostics-title">
   <div class="section-heading"><div>
     <div class="eyebrow">Temporary troubleshooting</div>
@@ -107,7 +107,7 @@ function requestPeerSession(timeout=450){
     try{authChannel.postMessage({type:'session-request'})}catch{finish(null)}
   })
 }
-function handleRemoteSignout(){if(!loggedOut())noteSignedOut();else clearLocalSession();if(location.pathname.endsWith('/member-pilot.html')||location.pathname.endsWith('/member-research.html')||location.pathname.endsWith('/member-research-submit.html')||location.pathname.endsWith('/member-research-import.html')||location.pathname.endsWith('/member-forum-maps.html'))location.replace(new URL('/',location.origin).href)}
+function handleRemoteSignout(){if(!loggedOut())noteSignedOut();else clearLocalSession();if(location.pathname.endsWith('/member.html')||location.pathname.endsWith('/member-research.html')||location.pathname.endsWith('/member-research-submit.html')||location.pathname.endsWith('/member-research-import.html')||location.pathname.endsWith('/member-forum-maps.html'))location.replace(new URL('/',location.origin).href)}
 if(authChannel){authChannel.addEventListener('message',e=>{
   if(e.data?.type==='session-signed-out'){handleRemoteSignout();return}
   if(e.data?.type!=='session-request'||loggedOut())return;
