@@ -3,7 +3,7 @@
 (() => {
   const HOME = new URL('/', location.origin);
   const memberURL = (fragment = '') =>
-    new URL('member-pilot.html' + fragment, HOME).href;
+    new URL('member.html' + fragment, HOME).href;
   const sessionKey = 'coalition-membership-session-v1';
   const logoutKey = 'coalition-membership-signed-out-v1';
   // The project URL and public publishable key are injected at deployment.
