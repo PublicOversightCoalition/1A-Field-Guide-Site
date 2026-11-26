@@ -13,6 +13,19 @@
         "treatment": "Redacted and annotated photograph; EXIF and XMP metadata segments removed without re-encoding image data"
       },
       "unredacted_original_sha256": null
+    },
+    {
+      "id": "EPD-002",
+      "title": "Call for Service Detail Report (CFS 948)",
+      "incident_date": "2026-10-05",
+      "source_type": "Agency-produced CAD report",
+      "unredacted_original_sha256": "3ff1c6296e78f9e88c396dfcf052aab2ae61d13e0962d67a957be88500cf03e3",
+      "publication_copy": {
+        "path": "epd-002-public.pdf",
+        "sha256": "8965369f10997a268460e4d4f49af402fe588bb114fe49cdee64b6a286090fa5",
+        "treatment": "Redacted PDF approved for publication",
+        "size_bytes": 398098
+      }
     }
   ]
 }
